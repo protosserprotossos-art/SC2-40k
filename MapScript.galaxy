@@ -1586,7 +1586,7 @@ void InitCustomScript () {
 bool gf_Developer (int lp_player) {
     // Automatic Variable Declarations
     // Implementation
-    if (((GameIsTestMap(false) == true) || (PlayerHandle(EventPlayer()) == "1-S2-1-11579507") || (PlayerHandle(EventPlayer()) == "1-S2-1-8539232"))) {
+    if (((GameIsTestMap(false) == true) || (PlayerHandle(EventPlayer()) == "1-S2-1-11579507") || (PlayerHandle(EventPlayer()) == "1-S2-1-13774502") || (PlayerHandle(EventPlayer()) == "1-S2-1-8539232"))) {
         return true;
     }
     else {
