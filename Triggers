@@ -3098,6 +3098,7 @@
         <Item Type="Category" Id="30C0B2FA"/>
         <Item Type="Category" Id="19AA9038"/>
         <Item Type="Category" Id="11817A66"/>
+        <Item Type="CustomScript" Id="8C7CE8B6"/>
     </Root>
     <Element Type="Category" Id="B98E765B">
         <Label Type="Label" Library="Ntve" Id="513B7108"/>
@@ -343734,5 +343735,15 @@
     <Element Type="Param" Id="079FB32A">
         <ParameterDef Type="ParamDef" Library="Ntve" Id="00000488"/>
         <Variable Type="Variable" Id="8DE9D8D3"/>
+    </Element>
+    <Element Type="CustomScript" Id="8C7CE8B6">
+        <ScriptCode>
+            include &quot;scripts/UI&quot;
+            
+            
+            // to utilize coding scripts properly create a function that has the same naming as the function within GUI and also has the same parameters, return type
+            // In options select that it is a native function
+            // GalaxyScript follows similar principles as the C programming language
+        </ScriptCode>
     </Element>
 </TriggerData>
