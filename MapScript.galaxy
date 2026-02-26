@@ -1565,6 +1565,22 @@ trigger gt_TrazynBlink;
 trigger gt_GenestealerBroodmotherAura;
 
 //--------------------------------------------------------------------------------------------------
+// Custom Script: imports
+//--------------------------------------------------------------------------------------------------
+include "scripts/UI"
+
+
+// to utilize coding scripts properly create a function that has the same naming as the function within GUI and also has the same parameters, return type
+// In options select that it is a native function
+// GalaxyScript follows similar principles as the C programming language
+
+//--------------------------------------------------------------------------------------------------
+// Custom Script Initialization
+//--------------------------------------------------------------------------------------------------
+void InitCustomScript () {
+}
+
+//--------------------------------------------------------------------------------------------------
 // Global Functions
 //--------------------------------------------------------------------------------------------------
 bool gf_Developer (int lp_player) {
@@ -31827,5 +31843,6 @@ void InitTriggers () {
 void InitMap () {
     InitLibs();
     InitGlobals();
+    InitCustomScript();
     InitTriggers();
 }
