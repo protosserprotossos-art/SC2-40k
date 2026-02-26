@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CRequirement id="ButtonChoiceSaturnRequirement">
+        <NodeArray index="Show" Link="AndNotCountUpgradeOrdoHereticusQueuedOrBetterNotCountUpgradeOrdoXenosQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="DawnBlade">
+        <NodeArray index="Show" Link="CountUpgradeVampireSwordFarsightLifeLeechCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="ScuttlingofJormungandr">
+        <NodeArray index="Show" Link="AndNotCountUpgradeScuttlingofJormungandrCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="OrdoHereticus">
+        <NodeArray index="Use" Link="NotCountUpgradeOrdoXenosQueuedOrBetter"/>
+        <NodeArray index="Show" Link="AndLTCountUpgradeOrdoHereticusQueuedOrBetter1"/>
+    </CRequirement>
+    <CRequirement id="OrdoXenos">
+        <NodeArray index="Use" Link="NotCountUpgradeOrdoHereticusQueuedOrBetter"/>
+        <NodeArray index="Show" Link="AndLTCountUpgradeOrdoXenosQueuedOrBetter1"/>
+    </CRequirement>
+    <CRequirement id="SinkingOfTheKraken">
+        <NodeArray index="Show" Link="AndNotCountUpgradeSinkingOfTheKrakenCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="SaturnXUpgradeSpawn">
+        <NodeArray index="Show" Link="AndLTCountUpgradeSaturnXUpgradeSpawnQueuedOrBetter4CountUpgradeOrdoXenosCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="DirectivePrecisionAbsolute">
+        <NodeArray index="Show" Link="AndLTCountUpgradeDirectivePrecisionAbsoluteQueuedOrBetter1"/>
+    </CRequirement>
+    <CRequirement id="ArmInterceptorVoid2">
+        <EditorCategories value="Race:Protoss,TechType:Unit"/>
+        <NodeArray index="Use" Link="LT4222898448CountUnitInterceptorQueuedOrBetterAtUnit12"/>
+    </CRequirement>
+    <CRequirement id="BileLauncherRequirements">
+        <NodeArray index="Use" Link="AndLTCountUnitKorhalSporeCannonQueuedOrBetter2"/>
+    </CRequirement>
+    <CRequirement id="CreepTowerRequirements">
+        <NodeArray index="Use" Link="AndLTCountUnitNydusCanalCreeperQueuedOrBetter20"/>
+    </CRequirement>
+    <CRequirement id="EnclaveCivilWar">
+        <NodeArray index="Show" Link="AndCountUpgradeTauIdentiferCompleteOnlyCountUpgradeFarsightEnclavesFormedCompleteOnlyNotCountUpgradeTauEnclaveCivilWarCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="GenestealerRisingAthonos">
+        <NodeArray index="Show" Link="AndNotCountUpgradeGenestealerRisingAthonosCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="GuardsmanUpgrade">
+        <NodeArray index="Show" Link="NotCountUpgradeGuardsmanUpgradeCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="GuardsmanSwitchWeapon">
+        <NodeArray index="Show" Link="NotCountUpgradeGuardsmanSwitchWeaponCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="HarmonicSurge">
+        <NodeArray index="Show" Link="AndLTCountUpgradeHarmonicSurgeQueuedOrBetter1"/>
+    </CRequirement>
+    <CRequirement id="HarmonicOverdrive">
+        <NodeArray index="Show" Link="AndLTCountUpgradeHarmonicOverdriveQueuedOrBetter1"/>
+    </CRequirement>
+    <CRequirement id="HaveGuardsmanSwitchWeapon">
+        <NodeArray index="Use" Link="AndCountUpgradeGuardsmanSwitchWeaponCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="HavePrimarisMarines">
+        <NodeArray index="Use" Link="AndCountUpgradeHavePrimarisMarinesCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="HaveVoidZealotCharge">
+        <NodeArray index="Use" Link="CountUpgradeFeralChargeCompleteOnly"/>
+        <NodeArray index="Show" Link=""/>
+    </CRequirement>
+    <CRequirement id="AegisoftheAdmiral">
+        <NodeArray index="Show" Link="AndLTCountUpgradeAegisoftheAdmiralQueuedOrBetter1"/>
+    </CRequirement>
+    <CRequirement id="DarkKing">
+        <NodeArray index="Show" Link="AndNotCountUpgradeDarkKingCompleteOnlyGTECountUpgradeUnityStacksCompleteOnly10GTECountUpgradeTerraUpgradeSpawnCompleteOnly8"/>
+    </CRequirement>
+    <CRequirement id="SaturnHUpgradeSpawn">
+        <NodeArray index="Show" Link="AndLTCountUpgradeSaturnHUpgradeSpawnQueuedOrBetter4CountUpgradeOrdoHereticusCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="DrowningoftheLeviathan">
+        <NodeArray index="Show" Link="AndNotCountUpgradeDrowningoftheLeviathanCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="TacticalRedeployment">
+        <NodeArray index="Use" Link="AndCountUnitSJHyperionCompleteOnly1"/>
+        <NodeArray index="Show" Link="AndNotCountUpgradeBattleshipSpawnerCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="RobouteAuraDevastatingOnslaught">
+        <NodeArray index="Use" Link="AndNotCountUpgradeRobouteAuraCooldown5minutesCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="RobouteAuraDevastatingOnslaughtPassive">
+        <NodeArray index="Show" Link="CountUpgradeRobouteAuraDevastatingOnslaughtPassiveCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="RobouteAuraFocusedBarrage2">
+        <NodeArray index="Use" Link="AndNotCountUpgradeRobouteAuraCooldown5minutesCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="RobouteAuraRelentlessAdvancePassive">
+        <NodeArray index="Show" Link="CountUpgradeRobouteAuraRelentlessAdvancePassiveCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="RobouteAuraUnyieldingDefense">
+        <NodeArray index="Use" Link="AndNotCountUpgradeRobouteAuraCooldown5minutesCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="RobouteAuraUnyieldingDefensePassive">
+        <NodeArray index="Show" Link="CountUpgradeRobouteAuraUnyieldingDefensePassiveCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="RobouteAuraFocusedBarrage">
+        <NodeArray index="Use" Link="AndNotCountUpgradeRobouteAuraCooldown5minutesCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="RobouteAuraFocusedBarragePassive">
+        <NodeArray index="Show" Link="CountUpgradeRobouteAuraFocusedBarragePassiveCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="StartAdvancedAIResearch">
+        <NodeArray index="Show" Link="AndNotCountUpgradeAIResearchStartedCompleteOnlyGTCountUpgradeTauTechnlogyStacksCompleteOnly1"/>
+    </CRequirement>
+    <CRequirement id="Stasis">
+        <NodeArray index="Use" Link="CountUpgradeUtilizeStasisFieldsCompleteOnly"/>
+        <NodeArray index="Show" Link="CountUpgradeUtilizeStasisFieldsCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="TauImperiumTemoraryWar">
+        <NodeArray index="Show" Link="AndNotCountUpgradeUnknownUpgradeCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="InviteHumanRefugees">
+        <NodeArray index="Show" Link="AndNotCountUpgradeInviteHumanRefugeesCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="PurificationProtocol">
+        <NodeArray index="Show" Link="AndNotCountUpgradePurificationProtocolCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="NecronsAscendant">
+        <NodeArray index="Show" Link="AndNotCountUpgradeNecronsAscendantCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="UnknownRequirement">
+        <NodeArray index="Show" Link="CountUpgradeOrdoXenosQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="OrdoHereticusButtonRequirement">
+        <NodeArray index="Show" Link="CountUpgradeOrdoHereticusQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="UtilizeStasisFields">
+        <NodeArray index="Show" Link="AndNotCountUpgradeUtilizeStasisFieldsCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="TrazynIdentifer">
+        <NodeArray index="Show" Link="AndAndCountUnitTrazynTheInfiniteCompleteOnly1CountUpgradeTrazynCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="Trazyn">
+        <NodeArray index="Show" Link="AndNotCountUpgradeTrazynCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="KnightPaladinAbility">
+        <NodeArray index="Use" Link="CountBehaviorEnableMechCompleteOnlyAtUnit"/>
+    </CRequirement>
+    <CRequirement id="LongshotSurge">
+        <NodeArray index="Show" Link="AndLTCountUpgradeLongshotSurgeQueuedOrBetter1"/>
+    </CRequirement>
+    <CRequirement id="LongshotOverdrive">
+        <NodeArray index="Show" Link="AndLTCountUpgradeLongshotOverdriveQueuedOrBetter1"/>
+    </CRequirement>
+    <CRequirement id="FeralCharge">
+        <NodeArray index="Show" Link="AndLTCountUpgradeFeralChargeQueuedOrBetter1"/>
+    </CRequirement>
+    <CRequirement id="BoundlessGuidance">
+        <NodeArray index="Show" Link="AndLTCountUpgradeBoundlessGuidanceQueuedOrBetter1"/>
+    </CRequirement>
+    <CRequirement id="EtherealAuthority">
+        <NodeArray index="Show" Link="AndLTCountUpgradeEtherealAuthorityQueuedOrBetter1"/>
+    </CRequirement>
+    <CRequirement id="FarsightEnclavesFormed">
+        <NodeArray index="Show" Link="AndCountUpgradeTauIdentiferCompleteOnlyCountUpgradeFarsightEnclavesFormedCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="SzarekhIdentifer">
+        <NodeArray index="Show" Link="AndCountUpgradeNecronIdentiferCompleteOnlyNotCountUpgradeImotekhCompleteOnlyNotCountUpgradeTrazynCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="NegotiateWithTheEldar">
+        <NodeArray index="Use" Link="AndGTECountUpgradeMacraggeUpgradeSpawnCompleteOnly4"/>
+        <NodeArray index="Show" Link="AndNotCountUpgradeNegotiateWithTheEldarCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="InviteRobouteToTerra">
+        <NodeArray index="Show" Link="AndNotCountUpgradeInviteRobouteToTerraCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="GenestealerRisingOgrys">
+        <NodeArray index="Show" Link="AndNotCountUpgradeGenestealerRisingOgrysCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="RetreatAthonos">
+        <NodeArray index="Show" Link="AndGTECountUpgradeAthonosUpgradeSpawnCompleteOnly1NotCountUpgradeRetreatAthonosQueuedOrBetterCountUpgradeLionIdentiferCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="RetreatKrieg">
+        <NodeArray index="Show" Link="AndGTECountUpgradeVraksUpgradeSpawnCompleteOnly1NotCountUpgradeRetreatKriegQueuedOrBetterCountUpgradeLionIdentiferCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="RetreatBellusPrime">
+        <NodeArray index="Show" Link="AndGTECountUpgradeBellusPrimeUpgradeSpawnCompleteOnly1NotCountUpgradeRetreatBellusPrimeQueuedOrBetterCountUpgradeLionIdentiferCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="RetreatTigrus">
+        <NodeArray index="Show" Link="AndGTECountUpgradeTigrusUpgradeSpawnCompleteOnly1NotCountUpgradeRetreatTigrusQueuedOrBetterCountUpgradeLionIdentiferCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="RetreatMacharia">
+        <NodeArray index="Show" Link="AndGTECountUpgradeMachariaUpgradeSpawnCompleteOnly1NotCountUpgradeRetreatMachariaQueuedOrBetterCountUpgradeLionIdentiferCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="RetreatGehennaPrime">
+        <NodeArray index="Show" Link="AndGTECountUpgradeGehennaPrimeUpgradeSpawnCompleteOnly1NotCountUpgradeRetreatGehennaPrimeQueuedOrBetterCountUpgradeLionIdentiferCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="SabotageTheImperium">
+        <NodeArray index="Show" Link="AndNotCountUpgradeSabotageTheImperiumCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="TheDynasticCall">
+        <NodeArray index="Show" Link="AndNotCountUpgradeTheDynasticCallCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="SilentKingUpgradeSpawn">
+        <NodeArray index="Use" Link="NotCountUpgradeMainTombWorldEstablishedCompleteOnly"/>
+        <NodeArray index="Show" Link="AndLTCountUpgradeSilentKingUpgradeSpawnQueuedOrBetter3NotCountUpgradeMainTombWorldEstablishedCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="SzarekhturnoffRanged">
+        <NodeArray index="Use" Link="NotCountBehaviorSJCloakedMineQueuedOnly"/>
+    </CRequirement>
+    <CRequirement id="Imotekh">
+        <NodeArray index="Show" Link="AndNotCountUpgradeImotekhCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="TombWorldCantaUpgradeSpawn">
+        <NodeArray index="Show" Link="AndLTCountUpgradeTombWorldCantaUpgradeSpawnQueuedOrBetter3"/>
+    </CRequirement>
+    <CRequirement id="TombWorldAthonosUpgradeSpawn">
+        <NodeArray index="Show" Link="AndLTCountUpgradeTombWorldAthonosUpgradeSpawnQueuedOrBetter3"/>
+    </CRequirement>
+    <CRequirement id="TombWorldFalShiaUpgradeSpawn">
+        <NodeArray index="Show" Link="AndLTCountUpgradeTombWorldFalShiaUpgradeSpawnQueuedOrBetter3"/>
+    </CRequirement>
+    <CRequirement id="ImotekhIdentifer">
+        <NodeArray index="Show" Link="AndCountUpgradeImotekhCompleteOnlyAnd1CountUnitImotekhTheStomlordCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="UsePersonalCloaking">
+        <NodeArray index="Use" Link=""/>
+    </CRequirement>
+    <CRequirement id="VoidborneTransit">
+        <NodeArray index="Show" Link="AndLTCountUpgradeVoidborneTransitQueuedOrBetter1"/>
+    </CRequirement>
+    <CRequirement id="StealTechnology">
+        <NodeArray index="Show" Link="AndNotCountUpgradeStealTechnologyCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="ShapersMight">
+        <NodeArray index="Show" Link="AndLTCountUpgradeShapersMightQueuedOrBetter1"/>
+    </CRequirement>
+    <CRequirement id="ShapersReflex">
+        <NodeArray index="Show" Link="AndLTCountUpgradeShapersReflexQueuedOrBetter1"/>
+    </CRequirement>
+    <CRequirement id="ShapersGuard">
+        <NodeArray index="Show" Link="AndLTCountUpgradeShapersGuardQueuedOrBetter1"/>
+    </CRequirement>
+    <CRequirement id="StreamlinedMunitioning">
+        <NodeArray index="Show" Link="AndLTCountUpgradeStreamlinedMunitioningQueuedOrBetter1"/>
+    </CRequirement>
+    <CRequirement id="TauResearchTier1completed">
+        <NodeArray index="Use" Link="AndGTECountUpgradeTauTechnlogyStacksCompleteOnly1"/>
+        <NodeArray index="Show" Link="CountUpgradeTauIdentiferCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="TauResearchTier2completed">
+        <NodeArray index="Use" Link="AndGTECountUpgradeTauTechnlogyStacksCompleteOnly2"/>
+        <NodeArray index="Show" Link="CountUpgradeTauIdentiferCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="WideReachOrdinance">
+        <NodeArray index="Show" Link="AndLTCountUpgradeWideReachOrdinanceQueuedOrBetter1"/>
+    </CRequirement>
+    <CRequirement id="WaterCasteDominion">
+        <NodeArray index="Show" Link="AndLTCountUpgradeWaterCasteDominionQueuedOrBetter1"/>
+    </CRequirement>
+    <CRequirement id="WaterCasteConnections">
+        <NodeArray index="Show" Link="AndLTCountUpgradeWaterCasteConnectionsQueuedOrBetter1"/>
+    </CRequirement>
+    <CRequirement id="HaveArtanisInspire">
+        <NodeArray index="Show" Link=""/>
+    </CRequirement>
+    <CRequirement id="HaveGuardsmanUpgrade">
+        <NodeArray index="Use" Link="AndCountUpgradeGuardsmanUpgradeCompleteOnlyNotCountUpgradeGuardsmanSwitchWeaponCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="HaveK5Fury">
+        <NodeArray index="Show" Link=""/>
+    </CRequirement>
+    <CRequirement id="HaveNovaWeaponPlasmaRifle">
+        <NodeArray index="Show" Link=""/>
+    </CRequirement>
+    <CRequirement id="JorgumandrIdentifer">
+        <NodeArray index="Show" Link="CountUpgradeJorgumandrIdentiferCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="LeviathanIdentifer">
+        <NodeArray index="Show" Link="CountUpgradeLeviathanIdentiferCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="HarmonicCalibration">
+        <NodeArray index="Show" Link="AndLTCountUpgradeHarmonicCalibrationQueuedOrBetter1"/>
+    </CRequirement>
+    <CRequirement id="TyranidIdentifer">
+        <NodeArray index="Show" Link="CountUpgradeTyranidIdentiferCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="LurkerHoldingFire2">
+        <EditorCategories value="Race:Zerg,TechType:Ability"/>
+        <NodeArray index="Show" Link="CountBehaviorLurkerHoldFireB2CompleteOnlyAtUnit"/>
+    </CRequirement>
+    <CRequirement id="LurkerNotHoldingFire2">
+        <EditorCategories value="Race:Zerg,TechType:Ability"/>
+        <NodeArray index="Show" Link="NotCountBehaviorLurkerHoldFireB2CompleteOnlyAtUnit"/>
+    </CRequirement>
+    <CRequirement id="MawlocRequirements">
+        <NodeArray index="Use" Link="AndLTCountUnitAshWormQueuedOrBetter5"/>
+    </CRequirement>
+    <CRequirement id="LionIdentifer">
+        <NodeArray index="Show" Link="CountUpgradeLionIdentiferCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="JudgmentofTerra">
+        <NodeArray index="Show" Link="AndNotCountUpgradeJudgmentofTerraCompleteOnlyCountUpgradeLionIdentiferCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="PropagandaAgainstTheNecrons2">
+        <NodeArray index="Show" Link="AndNotCountUpgradePropagandaAgainstTheNecronsCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="TheLionsFall">
+        <NodeArray index="Show" Link="AndNotCountUpgradeTheLionsFallCompleteOnlyCountUpgradeHighlordsIdentiferCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="TheAvengingSonsWrath">
+        <NodeArray index="Show" Link="AndNotCountUpgradeTheAvengingSonsWrathCompleteOnlyCountUpgradeRobotueIdentiferCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="RobouteIdentifer">
+        <NodeArray index="Show" Link="CountUpgradeRobotueIdentiferCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="LongshotCalibration">
+        <NodeArray index="Show" Link="AndLTCountUpgradeLongshotCalibrationQueuedOrBetter1"/>
+    </CRequirement>
+    <CRequirement id="PropagandaAgainstTheTau">
+        <NodeArray index="Show" Link="AndNotCountUpgradePropagandaAgainstTheTauCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="NecronIdentifer">
+        <NodeArray index="Show" Link="CountUpgradeNecronIdentiferCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="TauIdentifer">
+        <NodeArray index="Show" Link="CountUpgradeTauIdentiferCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="HolyTerraUpgradeSpawn">
+        <NodeArray index="Show" Link="AndLTCountUpgradeTerraUpgradeSpawnQueuedOrBetter8"/>
+    </CRequirement>
+    <CRequirement id="ImperiumIdentifer">
+        <NodeArray index="Show" Link="CountUpgradeImperiumIdentiferCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="HighlordIdentifer">
+        <NodeArray index="Show" Link="CountUpgradeHighlordsIdentiferCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="ChallengeofthePrimarchs">
+        <NodeArray index="Show" Link="AndNotCountUpgradeChallengeofthePrimarchsCompleteOnlyCountUpgradeRobotueIdentiferCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="PurgeoftheAvengingSon">
+        <NodeArray index="Show" Link="AndNotCountUpgradePurgeoftheAvengingSonCompleteOnlyCountUpgradeHighlordsIdentiferCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="LionsPride">
+        <NodeArray index="Show" Link="AndNotCountUpgradeLionsPrideCompleteOnlyCountUpgradeLionIdentiferCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="KrakenIdentifer">
+        <NodeArray index="Show" Link="CountUpgradeKrakenIdentiferCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="VigilantQuadrexUpgradeSpawn">
+        <NodeArray index="Show" Link="AndLTCountUpgradeVigilantQuadrexUpgradeSpawnQueuedOrBetter4"/>
+    </CRequirement>
+    <CRequirement id="QuistoRolUpgradeSpawn">
+        <NodeArray index="Show" Link="AndLTCountUpgradeQuistoRolUpgradeSpawnQueuedOrBetter4"/>
+    </CRequirement>
+    <CRequirement id="VordrastUpgradeSpawn">
+        <NodeArray index="Show" Link="AndLTCountUpgradeVordrastUpgradeSpawnQueuedOrBetter4"/>
+    </CRequirement>
+    <CRequirement id="ChironUpgradeSpawn">
+        <NodeArray index="Show" Link="AndLTCountUpgradeChironUpgradeSpawnQueuedOrBetter4"/>
+    </CRequirement>
+    <CRequirement id="AthonosUpgradeSpawn">
+        <NodeArray index="Show" Link="AndLTCountUpgradeAthonosUpgradeSpawnQueuedOrBetter4"/>
+    </CRequirement>
+    <CRequirement id="GehennaPrimeUpgradeSpawn">
+        <NodeArray index="Show" Link="AndLTCountUpgradeGehennaPrimeUpgradeSpawnQueuedOrBetter4"/>
+    </CRequirement>
+    <CRequirement id="MachariaUpgradeSpawn">
+        <NodeArray index="Show" Link="AndLTCountUpgradeMachariaUpgradeSpawnQueuedOrBetter3"/>
+    </CRequirement>
+    <CRequirement id="InwitUpgradeSpawn">
+        <NodeArray index="Show" Link="AndLTCountUpgradeInwitUpgradeSpawnQueuedOrBetter5"/>
+    </CRequirement>
+    <CRequirement id="VraksUpgradeSpawn">
+        <NodeArray index="Show" Link="AndLTCountUpgradeVraksUpgradeSpawnQueuedOrBetter4"/>
+    </CRequirement>
+    <CRequirement id="DevlanUpgradeSpawn">
+        <NodeArray index="Show" Link="AndLTCountUpgradeDevlanUpgradeSpawnQueuedOrBetter4"/>
+    </CRequirement>
+    <CRequirement id="GhosarQuintusUpgradeSpawn">
+        <NodeArray index="Show" Link="AndLTCountUpgradeGhosarQuintusUpgradeSpawnQueuedOrBetter4"/>
+    </CRequirement>
+    <CRequirement id="OgrysUpgradeSpawn">
+        <NodeArray index="Show" Link="AndLTCountUpgradeOgrysUpgradeSpawnQueuedOrBetter4"/>
+    </CRequirement>
+    <CRequirement id="EyriePrimeUpgradeSpawn">
+        <NodeArray index="Show" Link="AndLTCountUpgradeEyriePrimeUpgradeSpawnQueuedOrBetter3"/>
+    </CRequirement>
+    <CRequirement id="EstabanUpgradeSpawn">
+        <NodeArray index="Show" Link="AndLTCountUpgradeEstabanUpgradeSpawnQueuedOrBetter4"/>
+    </CRequirement>
+    <CRequirement id="BetaGarmonIVUpgradeSpawn">
+        <NodeArray index="Show" Link="AndLTCountUpgradeBetaGarmonIVUpgradeSpawnQueuedOrBetter3"/>
+    </CRequirement>
+    <CRequirement id="FortressUpgradeSpawn">
+        <NodeArray index="Show" Link="AndLTCountUpgradeFortressUpgradeSpawnQueuedOrBetter4"/>
+    </CRequirement>
+    <CRequirement id="EspandorUpgradeSpawn">
+        <NodeArray index="Show" Link="AndLTCountUpgradeEspandorUpgradeSpawnQueuedOrBetter4"/>
+    </CRequirement>
+    <CRequirement id="BellusPrimeUpgradeSpawn">
+        <NodeArray index="Show" Link="AndLTCountUpgradeBellusPrimeUpgradeSpawnQueuedOrBetter4"/>
+    </CRequirement>
+    <CRequirement id="FalShiaUpgradeSpawn">
+        <NodeArray index="Show" Link="AndLTCountUpgradeFalShiaUpgradeSpawnQueuedOrBetter4"/>
+    </CRequirement>
+    <CRequirement id="MolochUpgradeSpawn">
+        <NodeArray index="Show" Link="AndLTCountUpgradeMolochUpgradeSpawnQueuedOrBetter4"/>
+    </CRequirement>
+    <CRequirement id="TigrusUpgradeSpawn">
+        <NodeArray index="Show" Link="AndLTCountUpgradeTigrusUpgradeSpawnQueuedOrBetter4"/>
+    </CRequirement>
+    <CRequirement id="TauUpgradeSpawn">
+        <NodeArray index="Show" Link="AndLTCountUpgradeTauUpgradeSpawnQueuedOrBetter5"/>
+    </CRequirement>
+    <CRequirement id="BorkanUpgradeSpawn">
+        <NodeArray index="Show" Link="AndLTCountUpgradeBorkanUpgradeSpawnQueuedOrBetter4"/>
+    </CRequirement>
+    <CRequirement id="CantaIXUpgradeSpawn">
+        <NodeArray index="Show" Link="AndLTCountUpgradeCantaIXUpgradeSpawnQueuedOrBetter4"/>
+    </CRequirement>
+    <CRequirement id="MortendarUpgradeSpawn">
+        <NodeArray index="Show" Link="AndLTCountUpgradeMortendarUpgradeSpawnQueuedOrBetter4"/>
+    </CRequirement>
+    <CRequirement id="MacraggeUpgradeSpawn">
+        <NodeArray index="Show" Link="AndLTCountUpgradeMacraggeUpgradeSpawnQueuedOrBetter5"/>
+    </CRequirement>
+    <CRequirement id="ArdiumUpgradeSpawn">
+        <NodeArray index="Show" Link="AndLTCountUpgradeArdiumUpgradeSpawnQueuedOrBetter4"/>
+    </CRequirement>
+    <CRequirement id="ThuliumUpgradeSpawn">
+        <NodeArray index="Show" Link="AndLTCountUpgradeThuliumUpgradeSpawnQueuedOrBetter4"/>
+    </CRequirement>
+    <CRequirement id="RhaeusUpgradeSpawn">
+        <NodeArray index="Show" Link="AndLTCountUpgradeRhaeusUpgradeSpawnQueuedOrBetter4"/>
+    </CRequirement>
+    <CRequirement id="TarvanUpgradeSpawn">
+        <NodeArray index="Show" Link="AndLTCountUpgradeTarvanUpgradeSpawnQueuedOrBetter5"/>
+    </CRequirement>
+    <CRequirement id="DrohlIVUpgradeSpawn">
+        <NodeArray index="Show" Link="AndLTCountUpgradeDrohlIVUpgradeSpawnQueuedOrBetter4"/>
+    </CRequirement>
+    <CRequirement id="ICharIVUpgradeSpawn">
+        <NodeArray index="Show" Link="AndLTCountUpgradeICharIVUpgradeSpawnQueuedOrBetter4"/>
+    </CRequirement>
+    <CRequirement id="VorranoxUpgradeSpawn">
+        <NodeArray index="Show" Link="AndLTCountUpgradeVorranoxUpgradeSpawnQueuedOrBetter4"/>
+    </CRequirement>
+    <CRequirement id="TombWorldUpgradeSpawn">
+        <NodeArray index="Show" Link="AndLTCountUpgradeTombWorldUpgradeSpawnQueuedOrBetter8"/>
+    </CRequirement>
+    <CRequirement id="WaterCasteAlliances">
+        <NodeArray index="Show" Link="AndLTCountUpgradeWaterCasteAlliancesQueuedOrBetter1"/>
+    </CRequirement>
+    <CRequirement id="XylocisUpgradeSpawn">
+        <NodeArray index="Show" Link="AndLTCountUpgradeXylocisUpgradeSpawnQueuedOrBetter4"/>
+    </CRequirement>
+    <CRequirement id="PraetoriaVUpgradeSpawn">
+        <NodeArray index="Show" Link="AndLTCountUpgradePraetoriaVUpgradeSpawnQueuedOrBetter4"/>
+    </CRequirement>
+    <CRequirement id="TombWorldIceUpgradeSpawn">
+        <NodeArray index="Show" Link="AndLTCountUpgradeTombWorldIceUpgradeSpawnQueuedOrBetter3"/>
+    </CRequirement>
+    <CRequirement id="RetreatOgrys">
+        <NodeArray index="Show" Link="AndGTECountUpgradeOgrysUpgradeSpawnCompleteOnly1NotCountUpgradeRetreatOgrysQueuedOrBetterCountUpgradeLionIdentiferCompleteOnly"/>
+    </CRequirement>
+</Catalog>

@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CBehaviorBuff id="AegisofTerra">
+        <InfoIcon value="Assets\Icons\Dow2\Eldar\BTNrunes_of_war.dds"/>
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Modification AttackSpeedMultiplier="1.2">
+            <VitalMaxArray index="Life" value="350"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="DisablingCloud">
+        <Modification MoveSpeedMultiplier="0.75"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="AeternaJudicalumDamageResistance">
+        <Alignment value="Positive"/>
+        <InfoIcon value="Assets\Textures\btn-ability-terran-selfixarmor.dds"/>
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
+        <DamageResponse ModifyFraction="0.9">
+            <Chance value="1"/>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="RazorLungeDamageReady">
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Duration value="2"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="RazorLungeCharging">
+        <Alignment value="Positive"/>
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-charge.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <RemoveValidatorArray value="ChargeMinDistance"/>
+        <BuffFlags index="Channeling" value="1"/>
+        <Duration value="3.5"/>
+        <InitialEffect value="RazorLungeDamageReadyApply"/>
+        <FinalEffect value="RazorLungeFinalSet"/>
+        <Modification MoveSpeedMultiplier="6.8">
+            <ModifyFlags index="SuppressTurning" value="1"/>
+            <StateFlags index="SuppressCollision" value="1"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="BladeRushCasterToken">
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Modification>
+            <ModifyFlags index="SuppressTurning" value="1"/>
+            <StateFlags index="SuppressCloak" value="1"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="TankCommanderSiegedDamageResistance">
+        <Alignment value="Positive"/>
+        <InfoIcon value="Assets\Textures\btn-ability-terran-selfixarmor.dds"/>
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
+        <DamageResponse ModifyFraction="0.8">
+            <Chance value="1"/>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="VoidSentryBlackHole2">
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-blackhole.dds"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Duration value="0.125"/>
+        <Modification Height="0.5" MoveSpeedMultiplier="3">
+            <StateFlags index="Stun" value="1"/>
+            <StateFlags index="SuppressCollision" value="1"/>
+            <HeightTime index="Start" value="0.25"/>
+            <HeightTime index="Stop" value="0.25"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="VoxCastAuraApply">
+        <Alignment value="Positive"/>
+        <InfoIcon value="Assets\Icons\Dow2\Imperium\BTNservo_skull.dds"/>
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
+        <Duration value="3.25"/>
+        <Modification>
+            <DamageDealtFraction index="Melee" value="0.1"/>
+            <DamageDealtFraction index="Ranged" value="0.1"/>
+            <DamageDealtFraction index="Splash" value="0.1"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="VoxCastAuraAura">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Icons\Dow2\Imperium\BTNservo_skull.dds"/>
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
+        <Period value="3"/>
+        <PeriodicEffect value="NuncioAquilaSearch"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ChampionOfDevlan">
+        <InfoIcon value="Assets\Icons\Dow2\Eldar\BTNrunes_of_vigor.dds"/>
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Modification MoveSpeedMultiplier="1.15" AttackSpeedMultiplier="1.1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="Avenger">
+        <InfoIcon value="Assets\Icons\Dow2\Eldar\BTNrunes_of_warding.dds"/>
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Modification>
+            <VitalMaxArray index="Life" value="500"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="AIAuraApply">
+        <Alignment value="Positive"/>
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-ability-zerg-transfusion.dds"/>
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
+        <Duration value="1.25"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="FireballTargetFind">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Period value="0.0625"/>
+        <PeriodicEffect value="FireballSearch"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="PinpointParalysisStunned">
+        <Alignment value="Negative"/>
+        <InfoIcon value="Assets\Textures\btn-ability-terran-ultrasonicpulse.dds"/>
+        <BehaviorCategories index="Stun" value="1"/>
+        <EditorCategories value="Race:Terran,AbilityorEffectType:Units"/>
+        <Duration value="1.5"/>
+        <Modification>
+            <ModifyFlags index="Reveal" value="1"/>
+            <ModifyFlags index="Detected" value="1"/>
+            <StateFlags index="Stun" value="1"/>
+            <StateFlags index="SuppressAttack" value="1"/>
+            <AbilClassDisableArray index="CAbilAttack" value="1"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="PlaceholderBehaviour">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Duration value="3"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="PointDefenseDroneTimedLife">
+        <Duration value="30"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="PsiStrikeSpeed">
+        <Modification>
+            <StateFlags index="SuppressCollision" value="1"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="SkillshotTargetfind">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Duration value="0.0625"/>
+        <PeriodicEffect value="SkillshotSuicideSearch"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="SpawnerCount">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <BuffFlags index="RefreshStack" value="1"/>
+        <MaxStackCount value="10"/>
+        <Modification>
+            <AttributeChangeArray Attribute="Durability"/>
+            <AttributeChangeArray Attribute="Durability" Points="1"/>
+            <AttributeChangeArray Attribute="Durability" Points="2"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="DarkKingAuraAura">
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
+        <Period value="1"/>
+        <PeriodicEffect value="DarkKingSearch"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="DarkKingAuraApply">
+        <Alignment value="Positive"/>
+        <InfoIcon value="Assets\Textures\btn-ability-zerg-transfusion.dds"/>
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
+        <Duration value="1.25"/>
+        <Modification>
+            <DamageTotalMultiplier index="Melee" value="0.2"/>
+            <DamageTotalMultiplier index="Ranged" value="0.2"/>
+            <DamageTotalMultiplier index="Splash" value="0.2"/>
+        </Modification>
+        <DamageResponse ModifyFraction="0.75">
+            <Chance value="1"/>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="AIAuraAura">
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
+        <Period value="1"/>
+        <PeriodicEffect value="AITarget"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="AIAurasearchBehindApply">
+        <Alignment value="Positive"/>
+        <InfoIcon value="Assets\Textures\btn-ability-zerg-transfusion.dds"/>
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
+        <Duration value="1.25"/>
+        <Modification AttackSpeedMultiplier="1.15"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="AIAurasearchBehind">
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
+        <Period value="1"/>
+        <PeriodicEffect value="AIAurasearchBehindTarget"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="KerriganEpilogueDamageAuraTarget">
+        <Modification MoveSpeedMultiplier="1.15" AttackSpeedMultiplier="1.15"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="PukePuddleSlow">
+        <Modification MoveSpeedMultiplier="0.8"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="AcceleratedUpgrades">
+        <Alignment value="Positive"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-chronoboost.dds"/>
+        <BehaviorCategories index="Fast" value="1"/>
+        <EditorCategories value="AbilityorEffectType:Units,Race:Protoss"/>
+        <BuffFlags index="Countdown" value="0"/>
+        <TimeScaleSource Value="Global"/>
+        <Modification TimeScale="1.33">
+            <WeaponArray Link="MothershipCoreWeaponSurgeSwitch" Turret="Nexus"/>
+            <WeaponEnableArray value="MothershipCoreWeaponSurgeSwitch"/>
+            <WeaponDisableArray value="MothershipCoreWeapon"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="SmokeBomb">
+        <Alignment value="Positive"/>
+        <InfoIcon value="Assets\Textures\btn-ability-tychus-tychus-shreddergrenade.dds"/>
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
+        <Duration value="0.3125"/>
+        <Modification RangedWeaponRange="-2"/>
+        <DamageResponse Handled="DarkSwarmImpactDummy2" ModifyFraction="0.5" ModifyMinimumDamage="1">
+            <Kind index="Spell" value="0"/>
+            <Kind index="Melee" value="0"/>
+            <Chance value="1"/>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="InsubordinatePopulation">
+        <InfoIcon value="Assets\Icons\Dow2\Orks\BTNnow_i_am_angry.dds"/>
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Modification>
+            <LifeArmorBonus value="-5"/>
+            <VitalMaxArray index="Life" value="-500"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="Invulnerabledisabledweapon">
+        <InfoFlags index="Hidden" value="1"/>
+        <Duration value="5"/>
+        <Modification>
+            <ModifyFlags index="DisableWeapons" value="1"/>
+            <StateFlags index="Invulnerable" value="1"/>
+            <StateFlags index="SuppressAttack" value="1"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="Lessthen60Hero">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
+        <DisableValidatorArray value="Life60"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="GodEmperorDamageResistance">
+        <Alignment value="Positive"/>
+        <InfoIcon value="Assets\Textures\btn-ability-terran-selfixarmor.dds"/>
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
+        <DamageResponse ModifyFraction="0.7">
+            <Chance value="1"/>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="Morethan90Hero">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
+        <DisableValidatorArray value="Life90"/>
+    </CBehaviorBuff>
+    <CBehaviorAttribute id="Durability">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <PointDisplayFlags index="CollapseBuffed" value="0"/>
+    </CBehaviorAttribute>
+    <CBehaviorBuff id="UncrownedMonarchDamageResistance">
+        <Alignment value="Positive"/>
+        <InfoIcon value="Assets\Textures\btn-ability-terran-selfixarmor.dds"/>
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
+        <DamageResponse ModifyFraction="0.8">
+            <Chance value="1"/>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="RobouteGuillimanFocusedBarrageAuraApply">
+        <Alignment value="Positive"/>
+        <InfoIcon value="Assets\Icons\Dow2\icon_traits_xp2\fire_aoe.dds"/>
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
+        <Duration value="1.25"/>
+        <Modification AttackSpeedMultiplier="0.8" WeaponRange="0.5">
+            <DamageTotalMultiplier index="Melee" value="0.1"/>
+            <DamageTotalMultiplier index="Ranged" value="0.1"/>
+            <DamageTotalMultiplier index="Splash" value="0.1"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="RobouteGuillimanRelentlessAdvanceAuraApply">
+        <Alignment value="Positive"/>
+        <InfoIcon value="Assets\Icons\Dow2\icon_traits_xp2\melee_paralyzes.dds"/>
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
+        <Duration value="1.25"/>
+        <Modification RangedWeaponRange="-1">
+            <DamageTotalMultiplier index="Melee" value="0.15"/>
+            <DamageTotalMultiplier index="Ranged" value="0.15"/>
+            <DamageTotalMultiplier index="Splash" value="0.15"/>
+            <LifeArmorBonus value="2"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="RobouteGuillimanFocusedBarrageAuraAura">
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
+        <Period value="1"/>
+        <PeriodicEffect value="RobouteGuillimanFocusedBarrageAuraSearch"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="RobouteGuillimanDevastatingOnslaughtAuraApply">
+        <Alignment value="Positive"/>
+        <InfoIcon value="Assets\Icons\Dow2\icon_traits_xp2\damage_resistance.dds"/>
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
+        <Duration value="1.25"/>
+        <Modification MoveSpeedMultiplier="1.1">
+            <DamageTotalMultiplier index="Melee" value="0.1"/>
+            <DamageTotalMultiplier index="Ranged" value="0.1"/>
+            <DamageTotalMultiplier index="Splash" value="0.1"/>
+        </Modification>
+        <DamageResponse ModifyFraction="1.05">
+            <Chance value="1"/>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="RobouteGuillimanDevastatingOnslaughtAuraAura">
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
+        <Period value="1"/>
+        <PeriodicEffect value="RobouteGuillimanDevastatingOnslaughtAuraSearch"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="RobouteGuillimanRelentlessAdvanceAuraAura">
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
+        <Period value="1"/>
+        <PeriodicEffect value="RobouteGuillimanRelentlessAdvanceAuraSearch"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="TheEmperorsShield">
+        <InfoIcon value="Assets\Icons\Dow2\Eldar\BTNrunes_of_wrath.dds"/>
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Modification AttackSpeedMultiplier="1.2">
+            <LifeArmorBonus value="3"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="AggressiveMutation">
+        <Modification>
+            <DamageDealtUnscaled index="Melee" value="0"/>
+            <DamageDealtUnscaled index="Ranged" value="0"/>
+            <DamageDealtUnscaled index="Splash" value="0"/>
+            <DamageTotalMultiplier index="Melee" value="0.15"/>
+            <DamageTotalMultiplier index="Ranged" value="0.15"/>
+            <DamageTotalMultiplier index="Splash" value="0.15"/>
+            <VitalMaxArray index="Shields" value="100"/>
+            <VitalRegenArray index="Shields" value="5"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ArbiterMPRecalling">
+        <Duration value="2"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ArtanisInspire2">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Duration value="15"/>
+        <Modification MoveSpeedMultiplier="1.2">
+            <DamageTotalMultiplier index="Melee" value="0.15"/>
+            <DamageTotalMultiplier index="Ranged" value="0.15"/>
+            <DamageTotalMultiplier index="Splash" value="0.15"/>
+            <VitalMaxArray index="Shields" value="100"/>
+            <VitalRegenMultiplier index="Shields" value="2"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ArtanisStasisField">
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-phaseshift2.dds"/>
+        <Duration value="10"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="AutoTurretTimedLife">
+        <Modification>
+            <VitalMaxAdditiveMultiplierArray index="Life" value="-0.5"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="BroodmotherGenestealerAuraApply">
+        <Alignment value="Positive"/>
+        <InfoIcon value="Assets\Textures\btn-ability-zerg-transfusion.dds"/>
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
+        <Duration value="1.25"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="BroodmotherGenestealerAuraAura">
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
+        <Period value="1"/>
+        <PeriodicEffect value="EtheralAuraSearch2"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="DehakaHealBig2">
+        <InfoIcon value="Assets\Textures\btn-ability-zerg-transfusion-color.dds"/>
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Duration value="15"/>
+        <Modification>
+            <VitalRegenArray index="Life" value="5"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="DehakaHealSmall2">
+        <InfoIcon value="Assets\Textures\btn-ability-zerg-transfusion-color.dds"/>
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Duration value="15"/>
+        <Modification>
+            <VitalRegenArray index="Life" value="6.6601"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="DisableMech">
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="Race:Terran,AbilityorEffectType:Units"/>
+        <Modification>
+            <ModifyFlags index="SuppressMoving" value="1"/>
+            <WeaponDisableArray value="WarHound"/>
+            <WeaponDisableArray value="WarHoundMelee"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="EnableWeapon">
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="Race:Terran,AbilityorEffectType:Units"/>
+        <Modification>
+            <WeaponArray Link="B24HighCalLasrifle"/>
+            <WeaponArray Link="C10CanisterRifle3"/>
+            <WeaponEnableArray value="B24HighCalLasrifle"/>
+            <WeaponDisableArray value="C10CanisterRifle3"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="EnableWeapon2">
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="Race:Terran,AbilityorEffectType:Units"/>
+        <Modification>
+            <WeaponArray Link="B2HighCalLMG"/>
+            <WeaponArray Link="Separatist"/>
+            <WeaponEnableArray value="Separatist"/>
+            <WeaponDisableArray value="B2HighCalLMG"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="EnableMech">
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="Race:Terran,AbilityorEffectType:Units"/>
+        <Modification>
+            <WeaponEnableArray value="WarHoundMelee"/>
+            <WeaponEnableArray value="WarHound"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="FortifyChiron">
+        <InfoIcon value="Assets\Icons\Dow2\icon_technology\tyr_armor.dds"/>
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Modification WeaponRange="0.5">
+            <LifeArmorBonus value="2"/>
+            <VitalMaxArray index="Life" value="500"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="GuardianShield">
+        <DamageResponse>
+            <ModifyAmount value="-4"/>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="HeroOfTheFarSightEnclaves">
+        <InfoIcon value="Assets\Icons\Dow2\icon_traits_xp2\deadly_proficiency.dds"/>
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Modification MoveSpeedMultiplier="1.1" WeaponRange="0.5">
+            <DamageTotalMultiplier index="Melee" value="0.2"/>
+            <DamageTotalMultiplier index="Ranged" value="0.2"/>
+            <DamageTotalMultiplier index="Splash" value="0.2"/>
+            <VitalMaxArray index="Life" value="100"/>
+            <VitalMaxArray index="Shields" value="100"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ChosenOfTheGodEmperor">
+        <InfoIcon value="Assets\Icons\Dow2\icon_wargear\eliteoken.dds"/>
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Modification>
+            <DamageTotalMultiplier index="Melee" value="0.2"/>
+            <DamageTotalMultiplier index="Ranged" value="0.2"/>
+            <DamageTotalMultiplier index="Splash" value="0.2"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="SOAChronoBeam">
+        <Modification TimeScale="2"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="SOAChronoBeam2">
+        <Alignment value="Positive"/>
+        <InfoIcon value="Assets\Textures\btn-ability-protoss-chronoboost.dds"/>
+        <BehaviorCategories index="Fast" value="1"/>
+        <EditorCategories value="AbilityorEffectType:Units,Race:Protoss"/>
+        <DisplayDuration index="Self" value="1"/>
+        <DisplayDuration index="Ally" value="1"/>
+        <DisplayDuration index="Neutral" value="1"/>
+        <DisplayDuration index="Enemy" value="1"/>
+        <TimeScaleSource Value="Global"/>
+        <Duration value="40"/>
+        <Modification TimeScale="1.5">
+            <VitalRegenArray index="Energy" value="-0.1992"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="SOASuperTimeWarp">
+        <Duration value="8"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="VanguardsMight">
+        <InfoIcon value="Assets\Icons\Dow2\Eldar\BTNrunes_of_warding.dds"/>
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Modification AttackSpeedMultiplier="1.2">
+            <DamageTotalMultiplier index="Melee" value="0.2"/>
+            <DamageTotalMultiplier index="Ranged" value="0.2"/>
+            <DamageTotalMultiplier index="Splash" value="0.2"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="TheInfiniteDamageResistance">
+        <Alignment value="Positive"/>
+        <InfoIcon value="Assets\Textures\btn-ability-terran-selfixarmor.dds"/>
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
+        <DamageResponse ModifyFraction="0.75">
+            <Chance value="1"/>
+            <Cost>
+                <Charge Link="Behavior/SilentKingDamageResistance"/>
+                <Cooldown Link="Behavior/SilentKingDamageResistance"/>
+            </Cost>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="TheStormlordDamageResistance">
+        <Alignment value="Positive"/>
+        <InfoIcon value="Assets\Textures\btn-ability-terran-selfixarmor.dds"/>
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
+        <DamageResponse ModifyFraction="0.75">
+            <Chance value="1"/>
+            <Cost>
+                <Charge Link="Behavior/SilentKingDamageResistance"/>
+                <Cooldown Link="Behavior/SilentKingDamageResistance"/>
+            </Cost>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="TrazynAuraApply">
+        <Alignment value="Positive"/>
+        <InfoIcon value="Assets\Icons\Dow2\icon_traits_xp2\ressurect_green.dds"/>
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
+        <Duration value="1.25"/>
+        <Modification MoveSpeedMultiplier="0.9" AttackSpeedMultiplier="0.9"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="TrazynAuraAura">
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
+        <Period value="1"/>
+        <PeriodicEffect value="TrazynSearch"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="TitanDamageResistance">
+        <Alignment value="Positive"/>
+        <InfoIcon value="Assets\Textures\btn-ability-terran-selfixarmor.dds"/>
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
+        <DamageResponse ModifyFraction="0.7">
+            <Chance value="1"/>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="KahruunKrootShapertier1">
+        <InfoIcon value="Assets\Icons\Dow2\icon_traits_xp2\deadly_proficiency.dds"/>
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DisableValidatorArray value="HasKills25"/>
+        <Modification>
+            <VitalMaxArray index="Life" value="250"/>
+            <VitalMaxArray index="Shields" value="250"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="FounderOfTheFarSightEnclaves">
+        <InfoIcon value="Assets\Icons\Dow2\icon_traits_xp2\deadly_proficiency.dds"/>
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Modification AttackSpeedMultiplier="1.2" WeaponRange="0.25">
+            <VitalMaxArray index="Life" value="100"/>
+            <VitalMaxArray index="Shields" value="100"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="KahruunKrootShapertier3">
+        <InfoIcon value="Assets\Icons\Dow2\icon_traits_xp2\deadly_proficiency.dds"/>
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DisableValidatorArray value="HasKills100"/>
+        <Modification AttackSpeedMultiplier="1.2"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="KahruunKrootShapertier2">
+        <InfoIcon value="Assets\Icons\Dow2\icon_traits_xp2\deadly_proficiency.dds"/>
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DisableValidatorArray value="HasKills50"/>
+        <DamageResponse ModifyFraction="0.9">
+            <Chance value="1"/>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="MedivacSpeedBoost">
+        <Duration value="3"/>
+        <Modification MoveSpeedMultiplier="1.4"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="PrologueVoidArmor">
+        <Duration value="20"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="LionElJonsonAuraApply">
+        <Alignment value="Positive"/>
+        <InfoIcon value="Assets\Icons\Dow2\icon_traits_xp2\energy.dds"/>
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
+        <Duration value="1.25"/>
+        <Modification AttackSpeedMultiplier="1.1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="LionElJonsonAuraAura">
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
+        <Period value="1"/>
+        <PeriodicEffect value="LionElJonsonSearch"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="SOASuperChrono">
+        <Duration value="500"/>
+        <!--VitalRegenArray index="Energy" value="-0.1992"/-->
+    </CBehaviorBuff>
+    <CBehaviorBuff id="SisterMedicSeraphinaVossAuraApply">
+        <Alignment value="Positive"/>
+        <InfoIcon value="Assets\Icons\Dow2\icon_traits_xp2\health_aoe.dds"/>
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
+        <Duration value="1.25"/>
+        <Modification>
+            <VitalRegenArray index="Life" value="3"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="SisterMedicSeraphinaVossAuraAura">
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
+        <Period value="1"/>
+        <PeriodicEffect value="SisterMedicSeraphinaVossSearch"/>
+        <Modification>
+            <VitalRegenMultiplier index="Life" value="2"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="SnowStormAuraApply">
+        <Alignment value="Positive"/>
+        <InfoIcon value="Assets\Icons\Dow2\icon_traits_xp2\stun.dds"/>
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
+        <Duration value="1.25"/>
+        <Modification MoveSpeedMultiplier="0.75" AttackSpeedMultiplier="0.75"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="SnowStormAuraAura">
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
+        <Period value="1"/>
+        <PeriodicEffect value="SnowStomSearch"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="SilentKingDamageResistance">
+        <Alignment value="Positive"/>
+        <InfoIcon value="Assets\Textures\btn-ability-terran-selfixarmor.dds"/>
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
+        <DamageResponse ModifyFraction="0.75">
+            <Chance value="1"/>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="Range1">
+        <InfoIcon value="Assets\Textures\btn-ability-kerrigan-fury.dds"/>
+        <Duration value="5"/>
+        <Modification WeaponRange="0.5"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="Range2">
+        <InfoIcon value="Assets\Textures\btn-ability-kerrigan-fury.dds"/>
+        <Duration value="5"/>
+        <Modification WeaponRange="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="KerriganPrimalRage32">
+        <InfoIcon value="Assets\Textures\btn-ability-kerrigan-fury.dds"/>
+        <Duration value="5"/>
+        <Modification WeaponRange="1.5"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="KerriganPrimalRage42">
+        <InfoIcon value="Assets\Textures\btn-ability-kerrigan-fury.dds"/>
+        <Duration value="5"/>
+        <Modification WeaponRange="2"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="Range5">
+        <InfoIcon value="Assets\Textures\btn-ability-kerrigan-fury.dds"/>
+        <Duration value="5"/>
+        <Modification WeaponRange="2.5"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="MeleeUnitDamageResistance">
+        <Alignment value="Positive"/>
+        <InfoIcon value="Assets\Textures\btn-ability-terran-selfixarmor.dds"/>
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
+        <DamageResponse ModifyFraction="0.8">
+            <Chance value="1"/>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="DefilerMPDarkSwarm">
+        <DamageResponse ModifyFraction="0.5"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="DehakaHealSmall">
+        <Modification>
+            <VitalRegenArray index="Life" value="6.6601"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="DevastatingShotExtraDamage">
+        <DamageResponse ModifyFraction="1.1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="FungalGrowthMovement">
+        <Modification MoveSpeedMultiplier="0.5">
+            <ModifyFlags index="SuppressMoving" value="0"/>
+            <StateFlags index="SuppressPassenger" value="0"/>
+            <AbilClassDisableArray index="CAbilMove" value="0"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="HierophantBioTitanDamageResistance">
+        <Alignment value="Positive"/>
+        <InfoIcon value="Assets\Textures\btn-ability-terran-selfixarmor.dds"/>
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
+        <DamageResponse ModifyFraction="0.7">
+            <Chance value="1"/>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="CapitialShipDamageResistance">
+        <Alignment value="Positive"/>
+        <InfoIcon value="Assets\Textures\btn-ability-terran-selfixarmor.dds"/>
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
+        <DamageResponse ModifyFraction="0.7">
+            <Chance value="1"/>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="HiveShipHoldFire">
+        <InfoIcon value="Assets\Textures\btn-ability-terran-holdfire.dds"/>
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
+        <Duration value="0.07"/>
+        <ExpireEffect value="LurkerHoldFireB2"/>
+        <Modification>
+            <WeaponDisableArray value="InterceptorLaunch"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="LurkerHoldFireB2">
+        <InfoIcon value="Assets\Textures\btn-ability-terran-holdfire.dds"/>
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
+        <Modification>
+            <StateFlags index="Passive" value="1"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="RobouteGuillimanUnyieldingFortressAuraApply">
+        <Alignment value="Positive"/>
+        <InfoIcon value="Assets\Icons\Dow2\icon_traits_xp2\damage_resistance.dds"/>
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
+        <Duration value="1.25"/>
+        <Modification MoveSpeedMultiplier="0.95">
+            <DamageTotalMultiplier index="Melee" value="-0.05"/>
+            <DamageTotalMultiplier index="Ranged" value="-0.05"/>
+            <DamageTotalMultiplier index="Splash" value="-0.05"/>
+        </Modification>
+        <DamageResponse ModifyFraction="0.85">
+            <Chance value="1"/>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="LionElJonssonDamageResistance">
+        <Alignment value="Positive"/>
+        <InfoIcon value="Assets\Textures\btn-ability-terran-selfixarmor.dds"/>
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
+        <DamageResponse ModifyFraction="0.8">
+            <Chance value="1"/>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="HiveLordAuraApply">
+        <Alignment value="Positive"/>
+        <InfoIcon value="Assets\Textures\btn-ability-zerg-transfusion.dds"/>
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
+        <Duration value="1.25"/>
+        <Modification AttackSpeedMultiplier="1.1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="AdmiralSpireAuraApply">
+        <Alignment value="Positive"/>
+        <InfoIcon value="Assets\Textures\btn-ability-zerg-transfusion.dds"/>
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
+        <Duration value="1.25"/>
+        <Modification>
+            <DamageTotalMultiplier index="Spell" value="0.1"/>
+            <DamageTotalMultiplier index="Melee" value="0.1"/>
+            <DamageTotalMultiplier index="Ranged" value="0.1"/>
+            <DamageTotalMultiplier index="Splash" value="0.1"/>
+            <DamageTotalMultiplier index="NoProc" value="0.1"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ImotekhAuraApply">
+        <Alignment value="Positive"/>
+        <InfoIcon value="Assets\Textures\btn-ability-zerg-transfusion.dds"/>
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
+        <Duration value="1.25"/>
+        <DamageResponse ModifyFraction="0.8">
+            <Chance value="1"/>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="FarsightsCommand">
+        <Alignment value="Positive"/>
+        <InfoIcon value="Assets\Textures\btn-ability-zerg-transfusion.dds"/>
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
+        <Duration value="1.25"/>
+        <Modification>
+            <DamageTotalMultiplier index="Melee" value="0.05"/>
+            <DamageTotalMultiplier index="Ranged" value="0.05"/>
+            <DamageTotalMultiplier index="Splash" value="0.05"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="RobouteGuillimanUnyieldingFortressAuraAura">
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
+        <Period value="1"/>
+        <PeriodicEffect value="RobouteGuillimanSearch"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="Lessthen5Spawner">
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level1.dds"/>
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
+        <DisableValidatorArray value="Life5"/>
+        <Modification>
+            <BehaviorCategoriesEnable index="Invulnerable" value="1"/>
+        </Modification>
+        <DamageResponse>
+            <Chance value="1"/>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <!--CBehaviorBuff id="BurrowChargeRevE">-->
+    <!--        <InfoFlags index="Hidden" value="1"/>-->
+    <!--        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>-->
+    <!--        <Modification MoveSpeedBonus="-0.5">-->
+    <!--            <ModifyFlags index="OrdersUninterruptible" value="1"/>-->
+    <!--            <StateFlags index="Bury" value="1"/>-->
+    <!--            <StateFlags index="Cloak" value="1"/>-->
+    <!--            <StateFlags index="SuppressCollision" value="1"/>-->
+    <!--        </Modification>-->
+    <!--        <FinalEffect value="BurrowChargeTargetSearchRevD"/>-->
+    <!--        <RemoveValidatorArray value="BurrowChargeRevEMinDistance"/>-->
+    <!--    </CBehaviorBuff-->
+    <!--CBehaviorBuff id="HardenedShield">-->
+    <!--        <DamageResponse Minimum="11">-->
+    <!--            <Kind index="Spell" value="1"/>-->
+    <!--        </DamageResponse>-->
+    <!--    </CBehaviorBuff-->
+    <CBehaviorBuff id="ReaperRegen">
+        <InfoFlags index="Hidden" value="0"/>
+        <InfoIcon value="Assets\Textures\btn-upgrade-terran-nova-healingmastery.dds"/>
+        <!--DisableValidatorArray value="HaveCombatDrugs"/-->
+        <Modification>
+            <VitalRegenArray index="Life" value="18"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="HiveLordAuraAura">
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
+        <Period value="1"/>
+        <PeriodicEffect value="HiveLordSearch"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="AdmiralSpireAuraAura">
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
+        <Period value="1"/>
+        <PeriodicEffect value="AdmiralSpireSearch"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="ImotekhAuraAura">
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
+        <Period value="1"/>
+        <PeriodicEffect value="ImotekhSearch"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="FarsightAuraAura">
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
+        <Period value="1"/>
+        <PeriodicEffect value="RobouteGuillimanSearch2"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="AcceleratedDevelopment">
+        <InfoIcon value="Assets\Icons\Dow2\icon_traits_xp2\cool_down.dds"/>
+        <BehaviorCategories index="Fast" value="1"/>
+        <EditorCategories value="AbilityorEffectType:Units,Race:Protoss"/>
+        <TimeScaleSource Value="Global"/>
+        <Duration value="120"/>
+        <Modification TimeScale="2">
+            <WeaponArray Link="MothershipCoreWeaponSurgeSwitch" Turret="Nexus"/>
+            <WeaponEnableArray value="MothershipCoreWeaponSurgeSwitch"/>
+            <WeaponDisableArray value="MothershipCoreWeapon"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="SpawnerArmorAndHP">
+        <Alignment value="Positive"/>
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-armor-zerg-building.dds"/>
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Modification>
+            <LifeArmorBonus value="10"/>
+            <VitalMaxArray index="Life" value="8750"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="EtheralAuraAura">
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
+        <Period value="1"/>
+        <PeriodicEffect value="EtheralAuraSearch"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="EtheralAuraApply">
+        <Alignment value="Positive"/>
+        <InfoIcon value="Assets\Textures\btn-ability-zerg-transfusion.dds"/>
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
+        <Duration value="1.25"/>
+        <Modification AttackSpeedMultiplier="1.1" WeaponRange="0.5">
+            <LifeArmorBonus value="1"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="Rangedturnedoff">
+        <InfoIcon value="Icons\Necron Icons (placeholder)\generic_03.dds"/>
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Modification ShieldArmorBonus="4">
+            <LifeArmorBonus value="4"/>
+            <WeaponDisableArray value="DisruptionBeam"/>
+        </Modification>
+        <DamageResponse ModifyFraction="0.8">
+            <Chance value="1"/>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="TurnOffMelee">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Modification>
+            <WeaponDisableArray value="ZeratulVoidAiur01"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="UncommandableSuper">
+        <InfoFlags index="Hidden" value="1"/>
+        <Modification>
+            <StateFlags index="Invulnerable" value="1"/>
+            <StateFlags index="SuppressAttack" value="1"/>
+            <StateFlags index="Uncommandable" value="1"/>
+            <StateFlags index="Unselectable" value="1"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="GoldenLionsMantle">
+        <InfoIcon value="Assets\Icons\Dow2\Eldar\BTNrunes_of_warding.dds"/>
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DamageResponse ModifyFraction="0.85">
+            <Chance value="1"/>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="VanceStubbsPoison">
+        <Alignment value="Negative"/>
+        <InfoIcon value="Assets\Textures\btn-ability-zerg-poisonnova.dds"/>
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Duration value="10"/>
+        <Modification>
+            <VitalRegenArray index="Life" value="-5"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="VoidShade">
+        <Modification RangedWeaponRange="1">
+            <DamageTotalMultiplier index="Melee" value="1"/>
+            <DamageTotalMultiplier index="Ranged" value="1"/>
+            <DamageTotalMultiplier index="Splash" value="1"/>
+        </Modification>
+        <DamageResponse ModifyFraction="0.35">
+            <Chance value="1"/>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="VoidZealotWhirlwind">
+        <Duration value="4"/>
+    </CBehaviorBuff>
+</Catalog>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocInfo>
+    <ModType>
+        <Value>Interface</Value>
+    </ModType>
+    <Icon>
+        <Value>40ksmall.tga</Value>
+    </Icon>
+    <Tutorial>
+        <Type>
+            <Value>Other</Value>
+        </Type>
+        <File>
+            <Value>bnet:Lotr Tutorial/1.1/0</Value>
+        </File>
+    </Tutorial>
+    <Dependencies>
+        <Value>bnet:Void (Campaign)/0.0/999,file:Campaigns/Void.SC2Campaign</Value>
+        <Value>bnet:Void Story (Campaign)/0.0/999,file:Campaigns/VoidStory.SC2Campaign</Value>
+        <Value>bnet:Nova Campaign Triggers/0.0/334508,file:Mods\missionpacks/novacampaign.sc2mod</Value>
+        <Value>bnet:Warhammer 40k Music Dependancy/0.3/463026,file:Mods\MusicDependancy.SC2Mod</Value>
+        <Value>bnet:Necron race (assets)/0.4/463498</Value>
+        <Value>bnet:Warhammer Assets (1)/0.4/461372,file:Mods\40k Assets (1).SC2Mod</Value>
+    </Dependencies>
+    <ScreenshotHowToPlay>
+        <File>
+            <Value>Tyranid.tga</Value>
+        </File>
+        <CaptionId>
+            <Value>1</Value>
+        </CaptionId>
+        <Flags>
+            <Value> </Value>
+        </Flags>
+    </ScreenshotHowToPlay>
+    <PatchNote>
+        <Version>
+            <Value>1.0</Value>
+        </Version>
+        <Date>
+            <Value>4/2/2025</Value>
+        </Date>
+        <Notes>
+            <Value>1</Value>
+        </Notes>
+    </PatchNote>
+    <Preload>
+        <Value>GameLink:Model;NecronDestroyer</Value>
+        <Value>GameLink:Model;ZeratulVoidAiur01</Value>
+        <Value>GameLink:Model;NecronWraith</Value>
+        <Value>GameLink:Model;NecronWarrior</Value>
+        <Value>GameLink:Model;NecronFlayedOne</Value>
+        <Value>GameLink:Soundtrack;ImperiumSoundtrack2</Value>
+        <Value>GameLink:Sound;Loading40k</Value>
+        <Value>AssetFile;40k IMPERIUM FLEET CINEMATIC.ogg</Value>
+        <Value>Bank;WarhammerBank</Value>
+    </Preload>
+</DocInfo>

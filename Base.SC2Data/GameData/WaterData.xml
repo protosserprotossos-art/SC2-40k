@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CWater id="Default">
+        <State index="0">
+            <Height value="9.350000"/>
+            <Color value="0.239216,0.521569,0.000000,0.060000"/>
+            <UvRate value="-0.000000,-0.001000,0.000000,0.000000"/>
+            <RefractionDistortion value="0.020000"/>
+        </State>
+    </CWater>
+</Catalog>

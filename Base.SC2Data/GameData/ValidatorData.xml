@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CValidatorLocationArc id="AIauralocationarc">
+        <Arc value="119.9926"/>
+    </CValidatorLocationArc>
+    <CValidatorLocationEnumArea id="AIauravalidator">
+        <AreaArray Compare="LT" Radius="6"/>
+        <Count value="9"/>
+        <SearchFilters value="-;Player,Ally,Neutral,Missile,Item,Invulnerable"/>
+    </CValidatorLocationEnumArea>
+    <CValidatorLocationEnumArea id="AIauravalidatorsearchbehind">
+        <AreaArray>
+            <Arc value="90"/>
+            <Compare value="LT"/>
+            <Radius value="20"/>
+            <Validator value="AIauralocationarc"/>
+        </AreaArray>
+        <Count value="10"/>
+        <SearchFilters value="-;Player,Ally,Neutral,Missile,Item,Invulnerable"/>
+    </CValidatorLocationEnumArea>
+    <CValidatorUnitCompareBehaviorCount id="BladeRushcasterhastoken">
+        <WhichUnit Value="Caster"/>
+        <Compare value="GT"/>
+        <Behavior value="BladeRushCasterToken"/>
+    </CValidatorUnitCompareBehaviorCount>
+    <CValidatorLocationCompareRange id="RazorLungeChargeMaxDistance">
+        <ResultFailed value="TargetIsOutOfRange"/>
+        <WhichLocation Value="SourceUnit"/>
+        <Compare value="LT"/>
+        <Range value="4"/>
+        <Pathing value="1"/>
+        <Value Value="TargetUnit"/>
+    </CValidatorLocationCompareRange>
+    <CValidatorUnitCompareOrderTargetRange id="RazorLungeChargeMinimumTriggerDistance">
+        <ResultFailed value="TargetIsTooClose"/>
+        <WhichUnit Value="Caster"/>
+        <OtherUnit Value="Target"/>
+        <Compare value="GT"/>
+        <AbilLink value="attack"/>
+        <Value value="0.6"/>
+    </CValidatorUnitCompareOrderTargetRange>
+    <CValidatorUnitCompareBehaviorCount id="DoesNotHavePlaceholderBehaviour">
+        <Compare value="NE"/>
+        <Value value="1"/>
+        <Behavior value="PlaceholderBehaviour"/>
+    </CValidatorUnitCompareBehaviorCount>
+    <CValidatorUnitCompareOrderCount id="HangarQueueEmptyVoid2">
+        <AbilLink value="CarrierHangarVoid2"/>
+    </CValidatorUnitCompareOrderCount>
+    <CValidatorUnitCompareKillCount id="HasKills100">
+        <Compare value="GT"/>
+        <Value value="99"/>
+    </CValidatorUnitCompareKillCount>
+    <CValidatorUnitCompareKillCount id="HasKills25">
+        <Compare value="GT"/>
+        <Value value="24"/>
+    </CValidatorUnitCompareKillCount>
+    <CValidatorUnitCompareKillCount id="HasKills50">
+        <Compare value="GT"/>
+        <Value value="49"/>
+    </CValidatorUnitCompareKillCount>
+    <CValidatorPlayerRequirement id="HavePrimarisMarines">
+        <Find value="1"/>
+        <Value value="HavePrimarisMarines"/>
+    </CValidatorPlayerRequirement>
+    <CValidatorPlayerRequirement id="HaveGuardsmanupgrade">
+        <Find value="1"/>
+        <Value value="HaveGuardsmanUpgrade"/>
+    </CValidatorPlayerRequirement>
+    <CValidatorPlayerRequirement id="HaveGuardsmanSwitchWeapon">
+        <Find value="1"/>
+        <Value value="HaveGuardsmanSwitchWeapon"/>
+    </CValidatorPlayerRequirement>
+    <CValidatorPlayerRequirement id="HaveHotSRoachShield">
+        <Find value="0"/>
+        <Value value=""/>
+    </CValidatorPlayerRequirement>
+    <CValidatorUnitCompareBehaviorCount id="HaveKerriganPrimalRage12">
+        <WhichUnit Value="Caster"/>
+        <Value value="1"/>
+        <Behavior value="Range1"/>
+    </CValidatorUnitCompareBehaviorCount>
+    <CValidatorUnitCompareBehaviorCount id="HaveKerriganPrimalRage22">
+        <WhichUnit Value="Caster"/>
+        <Value value="1"/>
+        <Behavior value="Range2"/>
+    </CValidatorUnitCompareBehaviorCount>
+    <CValidatorUnitCompareBehaviorCount id="HaveKerriganPrimalRage32">
+        <WhichUnit Value="Caster"/>
+        <Value value="1"/>
+        <Behavior value="KerriganPrimalRage32"/>
+    </CValidatorUnitCompareBehaviorCount>
+    <CValidatorUnitCompareBehaviorCount id="HaveKerriganPrimalRage42">
+        <WhichUnit Value="Caster"/>
+        <Value value="1"/>
+        <Behavior value="KerriganPrimalRage42"/>
+    </CValidatorUnitCompareBehaviorCount>
+    <CValidatorUnitCompareBehaviorCount id="HaveKerriganPrimalRage52">
+        <WhichUnit Value="Caster"/>
+        <Value value="1"/>
+        <Behavior value="Range5"/>
+    </CValidatorUnitCompareBehaviorCount>
+    <CValidatorPlayerRequirement id="HaveKerriganPrimalRage6">
+        <WhichPlayer Value="Caster"/>
+        <Find value="1"/>
+        <Value value="HaveK5Fury"/>
+    </CValidatorPlayerRequirement>
+    <CValidatorUnitCompareBehaviorCount id="IsNotRecalling">
+        <Behavior value="ArbiterMPRecalling"/>
+    </CValidatorUnitCompareBehaviorCount>
+    <CValidatorUnitCompareVital id="Life5">
+        <ResultFailed value="TooMuchLife"/>
+        <Compare value="LT"/>
+        <Type value="Fraction"/>
+        <Value value="0.5"/>
+    </CValidatorUnitCompareVital>
+    <CValidatorUnitCompareVital id="Life60">
+        <ResultFailed value="TooMuchLife"/>
+        <Compare value="LT"/>
+        <Type value="Fraction"/>
+        <Value value="0.6"/>
+    </CValidatorUnitCompareVital>
+    <CValidatorUnitCompareVital id="Life90">
+        <ResultFailed value="TooMuchLife"/>
+        <Compare value="GT"/>
+        <Type value="Fraction"/>
+        <Value value="0.9"/>
+    </CValidatorUnitCompareVital>
+    <CValidatorUnitType id="MissileFromDefense">
+        <Value value="PhotonCannonWeapon"/>
+        <Find value="0"/>
+    </CValidatorUnitType>
+    <CValidatorUnitCompareDamageTakenTime id="ReaperOutOfCombat">
+        <Value value="5"/>
+    </CValidatorUnitCompareDamageTakenTime>
+    <CValidatorCombine id="RequiresCivilianAll">
+        <CombineArray value="RequiresPilot"/>
+    </CValidatorCombine>
+    <CValidatorUnitType id="RequiresPilot">
+        <Value value="Swann"/>
+    </CValidatorUnitType>
+    <CValidatorUnitFilters id="TornadoMissileFilters">
+        <Filters value="Ground,Visible;Self,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+    </CValidatorUnitFilters>
+</Catalog>

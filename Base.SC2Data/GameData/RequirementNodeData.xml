@@ -1,0 +1,1455 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CRequirementConst id="20"/>
+    <CRequirementAnd id="And1CountUnitImotekhTheStomlordCompleteOnly">
+        <OperandArray value="1"/>
+        <OperandArray value="CountUnitImotekhTheStomlordCompleteOnly"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndAndCountUnitTrazynTheInfiniteCompleteOnly1CountUpgradeTrazynCompleteOnly">
+        <OperandArray value="AndCountUnitTrazynTheInfiniteCompleteOnly1"/>
+        <OperandArray value="CountUpgradeTrazynCompleteOnly"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndCountUnitSJHyperionCompleteOnly1">
+        <OperandArray value="CountUnitSJHyperionCompleteOnly"/>
+        <OperandArray value="1"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndCountUnitTrazynTheInfiniteCompleteOnly1">
+        <OperandArray value="CountUnitTrazynTheInfiniteCompleteOnly"/>
+        <OperandArray value="1"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndCountUpgradeGuardsmanSwitchWeaponCompleteOnly">
+        <OperandArray value="CountUpgradeGuardsmanSwitchWeaponCompleteOnly"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndCountUpgradeGuardsmanUpgradeCompleteOnlyNotCountUpgradeGuardsmanSwitchWeaponCompleteOnly">
+        <OperandArray value="CountUpgradeGuardsmanUpgradeCompleteOnly"/>
+        <OperandArray value="NotCountUpgradeGuardsmanSwitchWeaponCompleteOnly"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndCountUpgradeHavePrimarisMarinesCompleteOnly">
+        <OperandArray value="CountUpgradeHavePrimarisMarinesCompleteOnly"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndCountUpgradeImotekhCompleteOnlyAnd1CountUnitImotekhTheStomlordCompleteOnly">
+        <OperandArray value="CountUpgradeImotekhCompleteOnly"/>
+        <OperandArray value="And1CountUnitImotekhTheStomlordCompleteOnly"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndCountUpgradeNecronIdentiferCompleteOnlyNotCountUpgradeImotekhCompleteOnlyNotCountUpgradeTrazynCompleteOnly">
+        <OperandArray value="CountUpgradeNecronIdentiferCompleteOnly"/>
+        <OperandArray value="NotCountUpgradeImotekhCompleteOnly"/>
+        <OperandArray value="NotCountUpgradeTrazynCompleteOnly"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndCountUpgradeTauIdentiferCompleteOnlyCountUpgradeFarsightEnclavesFormedCompleteOnly">
+        <OperandArray value="CountUpgradeTauIdentiferCompleteOnly"/>
+        <OperandArray value="CountUpgradeFarsightEnclavesFormedCompleteOnly"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndCountUpgradeTauIdentiferCompleteOnlyCountUpgradeFarsightEnclavesFormedCompleteOnlyNotCountUpgradeTauEnclaveCivilWarCompleteOnly">
+        <OperandArray value="CountUpgradeTauIdentiferCompleteOnly"/>
+        <OperandArray value="CountUpgradeFarsightEnclavesFormedCompleteOnly"/>
+        <OperandArray value="NotCountUpgradeTauEnclaveCivilWarCompleteOnly"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndGTECountUpgradeAthonosUpgradeSpawnCompleteOnly1NotCountUpgradeRetreatAthonosQueuedOrBetterCountUpgradeLionIdentiferCompleteOnly">
+        <OperandArray value="GTECountUpgradeAthonosUpgradeSpawnCompleteOnly1"/>
+        <OperandArray value="NotCountUpgradeRetreatAthonosQueuedOrBetter"/>
+        <OperandArray value="CountUpgradeLionIdentiferCompleteOnly"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndGTECountUpgradeBellusPrimeUpgradeSpawnCompleteOnly1NotCountUpgradeRetreatBellusPrimeQueuedOrBetterCountUpgradeLionIdentiferCompleteOnly">
+        <OperandArray value="GTECountUpgradeBellusPrimeUpgradeSpawnCompleteOnly1"/>
+        <OperandArray value="NotCountUpgradeRetreatBellusPrimeQueuedOrBetter"/>
+        <OperandArray value="CountUpgradeLionIdentiferCompleteOnly"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndGTECountUpgradeGehennaPrimeUpgradeSpawnCompleteOnly1NotCountUpgradeRetreatGehennaPrimeQueuedOrBetterCountUpgradeLionIdentiferCompleteOnly">
+        <OperandArray value="GTECountUpgradeGehennaPrimeUpgradeSpawnCompleteOnly1"/>
+        <OperandArray value="NotCountUpgradeRetreatGehennaPrimeQueuedOrBetter"/>
+        <OperandArray value="CountUpgradeLionIdentiferCompleteOnly"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndGTECountUpgradeMachariaUpgradeSpawnCompleteOnly1NotCountUpgradeRetreatMachariaQueuedOrBetterCountUpgradeLionIdentiferCompleteOnly">
+        <OperandArray value="GTECountUpgradeMachariaUpgradeSpawnCompleteOnly1"/>
+        <OperandArray value="NotCountUpgradeRetreatMachariaQueuedOrBetter"/>
+        <OperandArray value="CountUpgradeLionIdentiferCompleteOnly"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndGTECountUpgradeMacraggeUpgradeSpawnCompleteOnly4">
+        <OperandArray value="GTECountUpgradeMacraggeUpgradeSpawnCompleteOnly4"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndGTECountUpgradeOgrysUpgradeSpawnCompleteOnly1NotCountUpgradeRetreatOgrysQueuedOrBetterCountUpgradeLionIdentiferCompleteOnly">
+        <OperandArray value="GTECountUpgradeOgrysUpgradeSpawnCompleteOnly1"/>
+        <OperandArray value="NotCountUpgradeRetreatOgrysQueuedOrBetter"/>
+        <OperandArray value="CountUpgradeLionIdentiferCompleteOnly"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndGTECountUpgradeTauTechnlogyStacksCompleteOnly1">
+        <OperandArray value="GTECountUpgradeTauTechnlogyStacksCompleteOnly1"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndGTECountUpgradeTauTechnlogyStacksCompleteOnly2">
+        <OperandArray value="GTECountUpgradeTauTechnlogyStacksCompleteOnly2"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndGTECountUpgradeTigrusUpgradeSpawnCompleteOnly1NotCountUpgradeRetreatTigrusQueuedOrBetterCountUpgradeLionIdentiferCompleteOnly">
+        <OperandArray value="GTECountUpgradeTigrusUpgradeSpawnCompleteOnly1"/>
+        <OperandArray value="NotCountUpgradeRetreatTigrusQueuedOrBetter"/>
+        <OperandArray value="CountUpgradeLionIdentiferCompleteOnly"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndGTECountUpgradeVraksUpgradeSpawnCompleteOnly1NotCountUpgradeRetreatKriegQueuedOrBetterCountUpgradeLionIdentiferCompleteOnly">
+        <OperandArray value="GTECountUpgradeVraksUpgradeSpawnCompleteOnly1"/>
+        <OperandArray value="NotCountUpgradeRetreatKriegQueuedOrBetter"/>
+        <OperandArray value="CountUpgradeLionIdentiferCompleteOnly"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndLTCountUnitAshWormQueuedOrBetter5">
+        <OperandArray value="LTCountUnitAshWormQueuedOrBetter5"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndLTCountUnitKorhalSporeCannonQueuedOrBetter2">
+        <OperandArray value="LTCountUnitKorhalSporeCannonQueuedOrBetter2"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndLTCountUnitNydusCanalCreeperQueuedOrBetter20">
+        <OperandArray value="LTCountUnitNydusCanalCreeperQueuedOrBetter20"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndLTCountUpgradeAegisoftheAdmiralQueuedOrBetter1">
+        <OperandArray value="LTCountUpgradeAegisoftheAdmiralQueuedOrBetter1"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndLTCountUpgradeArdiumUpgradeSpawnQueuedOrBetter4">
+        <OperandArray value="LTCountUpgradeArdiumUpgradeSpawnQueuedOrBetter4"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndLTCountUpgradeAthonosUpgradeSpawnQueuedOrBetter4">
+        <OperandArray value="LTCountUpgradeAthonosUpgradeSpawnQueuedOrBetter4"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndLTCountUpgradeBellusPrimeUpgradeSpawnQueuedOrBetter4">
+        <OperandArray value="LTCountUpgradeBellusPrimeUpgradeSpawnQueuedOrBetter4"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndLTCountUpgradeBetaGarmonIVUpgradeSpawnQueuedOrBetter3">
+        <OperandArray value="LTCountUpgradeBetaGarmonIVUpgradeSpawnQueuedOrBetter3"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndLTCountUpgradeBorkanUpgradeSpawnQueuedOrBetter4">
+        <OperandArray value="LTCountUpgradeBorkanUpgradeSpawnQueuedOrBetter4"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndLTCountUpgradeBoundlessGuidanceQueuedOrBetter1">
+        <OperandArray value="LTCountUpgradeBoundlessGuidanceQueuedOrBetter1"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndLTCountUpgradeCantaIXUpgradeSpawnQueuedOrBetter4">
+        <OperandArray value="LTCountUpgradeCantaIXUpgradeSpawnQueuedOrBetter4"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndLTCountUpgradeChironUpgradeSpawnQueuedOrBetter4">
+        <OperandArray value="LTCountUpgradeChironUpgradeSpawnQueuedOrBetter4"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndLTCountUpgradeDevlanUpgradeSpawnQueuedOrBetter4">
+        <OperandArray value="LTCountUpgradeDevlanUpgradeSpawnQueuedOrBetter4"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndLTCountUpgradeDirectivePrecisionAbsoluteQueuedOrBetter1">
+        <OperandArray value="LTCountUpgradeDirectivePrecisionAbsoluteQueuedOrBetter1"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndLTCountUpgradeDrohlIVUpgradeSpawnQueuedOrBetter4">
+        <OperandArray value="LTCountUpgradeDrohlIVUpgradeSpawnQueuedOrBetter4"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndLTCountUpgradeEspandorUpgradeSpawnQueuedOrBetter4">
+        <OperandArray value="LTCountUpgradeEspandorUpgradeSpawnQueuedOrBetter4"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndLTCountUpgradeEstabanUpgradeSpawnQueuedOrBetter4">
+        <OperandArray value="LTCountUpgradeEstabanUpgradeSpawnQueuedOrBetter4"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndLTCountUpgradeEtherealAuthorityQueuedOrBetter1">
+        <OperandArray value="LTCountUpgradeEtherealAuthorityQueuedOrBetter1"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndLTCountUpgradeEyriePrimeUpgradeSpawnQueuedOrBetter3">
+        <OperandArray value="LTCountUpgradeEyriePrimeUpgradeSpawnQueuedOrBetter3"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndLTCountUpgradeFalShiaUpgradeSpawnQueuedOrBetter4">
+        <OperandArray value="LTCountUpgradeFalShiaUpgradeSpawnQueuedOrBetter4"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndLTCountUpgradeFeralChargeQueuedOrBetter1">
+        <OperandArray value="LTCountUpgradeFeralChargeQueuedOrBetter1"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndLTCountUpgradeFortressUpgradeSpawnQueuedOrBetter4">
+        <OperandArray value="LTCountUpgradeFortressUpgradeSpawnQueuedOrBetter4"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndLTCountUpgradeGehennaPrimeUpgradeSpawnQueuedOrBetter4">
+        <OperandArray value="LTCountUpgradeGehennaPrimeUpgradeSpawnQueuedOrBetter4"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndLTCountUpgradeGhosarQuintusUpgradeSpawnQueuedOrBetter4">
+        <OperandArray value="LTCountUpgradeGhosarQuintusUpgradeSpawnQueuedOrBetter4"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndLTCountUpgradeHarmonicCalibrationQueuedOrBetter1">
+        <OperandArray value="LTCountUpgradeHarmonicCalibrationQueuedOrBetter1"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndLTCountUpgradeHarmonicOverdriveQueuedOrBetter1">
+        <OperandArray value="LTCountUpgradeHarmonicOverdriveQueuedOrBetter1"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndLTCountUpgradeHarmonicSurgeQueuedOrBetter1">
+        <OperandArray value="LTCountUpgradeHarmonicSurgeQueuedOrBetter1"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndLTCountUpgradeICharIVUpgradeSpawnQueuedOrBetter4">
+        <OperandArray value="LTCountUpgradeICharIVUpgradeSpawnQueuedOrBetter4"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndLTCountUpgradeInwitUpgradeSpawnQueuedOrBetter5">
+        <OperandArray value="LTCountUpgradeInwitUpgradeSpawnQueuedOrBetter5"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndLTCountUpgradeLongshotCalibrationQueuedOrBetter1">
+        <OperandArray value="LTCountUpgradeLongshotCalibrationQueuedOrBetter1"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndLTCountUpgradeLongshotOverdriveQueuedOrBetter1">
+        <OperandArray value="LTCountUpgradeLongshotOverdriveQueuedOrBetter1"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndLTCountUpgradeLongshotSurgeQueuedOrBetter1">
+        <OperandArray value="LTCountUpgradeLongshotSurgeQueuedOrBetter1"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndLTCountUpgradeMachariaUpgradeSpawnQueuedOrBetter3">
+        <OperandArray value="LTCountUpgradeMachariaUpgradeSpawnQueuedOrBetter3"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndLTCountUpgradeMacraggeUpgradeSpawnQueuedOrBetter5">
+        <OperandArray value="LTCountUpgradeMacraggeUpgradeSpawnQueuedOrBetter5"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndLTCountUpgradeMolochUpgradeSpawnQueuedOrBetter4">
+        <OperandArray value="LTCountUpgradeMolochUpgradeSpawnQueuedOrBetter4"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndLTCountUpgradeMortendarUpgradeSpawnQueuedOrBetter4">
+        <OperandArray value="LTCountUpgradeMortendarUpgradeSpawnQueuedOrBetter4"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndLTCountUpgradeOgrysUpgradeSpawnQueuedOrBetter4">
+        <OperandArray value="LTCountUpgradeOgrysUpgradeSpawnQueuedOrBetter4"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndLTCountUpgradeOrdoHereticusQueuedOrBetter1">
+        <OperandArray value="LTCountUpgradeOrdoHereticusQueuedOrBetter1"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndLTCountUpgradeOrdoXenosQueuedOrBetter1">
+        <OperandArray value="LTCountUpgradeOrdoXenosQueuedOrBetter1"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndLTCountUpgradePraetoriaVUpgradeSpawnQueuedOrBetter4">
+        <OperandArray value="LTCountUpgradePraetoriaVUpgradeSpawnQueuedOrBetter4"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndLTCountUpgradeQuistoRolUpgradeSpawnQueuedOrBetter4">
+        <OperandArray value="LTCountUpgradeQuistoRolUpgradeSpawnQueuedOrBetter4"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndLTCountUpgradeRhaeusUpgradeSpawnQueuedOrBetter4">
+        <OperandArray value="LTCountUpgradeRhaeusUpgradeSpawnQueuedOrBetter4"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndLTCountUpgradeSaturnHUpgradeSpawnQueuedOrBetter4CountUpgradeOrdoHereticusCompleteOnly">
+        <OperandArray value="LTCountUpgradeSaturnHUpgradeSpawnQueuedOrBetter4"/>
+        <OperandArray value="CountUpgradeOrdoHereticusCompleteOnly"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndLTCountUpgradeSaturnXUpgradeSpawnQueuedOrBetter4CountUpgradeOrdoXenosCompleteOnly">
+        <OperandArray value="LTCountUpgradeSaturnXUpgradeSpawnQueuedOrBetter4"/>
+        <OperandArray value="CountUpgradeOrdoXenosCompleteOnly"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndLTCountUpgradeShapersGuardQueuedOrBetter1">
+        <OperandArray value="LTCountUpgradeShapersGuardQueuedOrBetter1"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndLTCountUpgradeShapersMightQueuedOrBetter1">
+        <OperandArray value="LTCountUpgradeShapersMightQueuedOrBetter1"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndLTCountUpgradeShapersReflexQueuedOrBetter1">
+        <OperandArray value="LTCountUpgradeShapersReflexQueuedOrBetter1"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndLTCountUpgradeSilentKingUpgradeSpawnQueuedOrBetter3NotCountUpgradeMainTombWorldEstablishedCompleteOnly">
+        <OperandArray value="LTCountUpgradeSilentKingUpgradeSpawnQueuedOrBetter3"/>
+        <OperandArray value="NotCountUpgradeMainTombWorldEstablishedCompleteOnly"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndLTCountUpgradeStreamlinedMunitioningQueuedOrBetter1">
+        <OperandArray value="LTCountUpgradeStreamlinedMunitioningQueuedOrBetter1"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndLTCountUpgradeTarvanUpgradeSpawnQueuedOrBetter5">
+        <OperandArray value="LTCountUpgradeTarvanUpgradeSpawnQueuedOrBetter5"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndLTCountUpgradeTauUpgradeSpawnQueuedOrBetter5">
+        <OperandArray value="LTCountUpgradeTauUpgradeSpawnQueuedOrBetter5"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndLTCountUpgradeTerraUpgradeSpawnQueuedOrBetter8">
+        <OperandArray value="LTCountUpgradeTerraUpgradeSpawnQueuedOrBetter8"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndLTCountUpgradeThuliumUpgradeSpawnQueuedOrBetter4">
+        <OperandArray value="LTCountUpgradeThuliumUpgradeSpawnQueuedOrBetter4"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndLTCountUpgradeTigrusUpgradeSpawnQueuedOrBetter4">
+        <OperandArray value="LTCountUpgradeTigrusUpgradeSpawnQueuedOrBetter4"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndLTCountUpgradeTombWorldAthonosUpgradeSpawnQueuedOrBetter3">
+        <OperandArray value="LTCountUpgradeTombWorldAthonosUpgradeSpawnQueuedOrBetter3"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndLTCountUpgradeTombWorldCantaUpgradeSpawnQueuedOrBetter3">
+        <OperandArray value="LTCountUpgradeTombWorldCantaUpgradeSpawnQueuedOrBetter3"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndLTCountUpgradeTombWorldFalShiaUpgradeSpawnQueuedOrBetter3">
+        <OperandArray value="LTCountUpgradeTombWorldFalShiaUpgradeSpawnQueuedOrBetter3"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndLTCountUpgradeTombWorldIceUpgradeSpawnQueuedOrBetter3">
+        <OperandArray value="LTCountUpgradeTombWorldIceUpgradeSpawnQueuedOrBetter3"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndLTCountUpgradeTombWorldUpgradeSpawnQueuedOrBetter8">
+        <OperandArray value="LTCountUpgradeTombWorldUpgradeSpawnQueuedOrBetter8"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndLTCountUpgradeVigilantQuadrexUpgradeSpawnQueuedOrBetter4">
+        <OperandArray value="LTCountUpgradeVigilantQuadrexUpgradeSpawnQueuedOrBetter4"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndLTCountUpgradeVoidborneTransitQueuedOrBetter1">
+        <OperandArray value="LTCountUpgradeVoidborneTransitQueuedOrBetter1"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndLTCountUpgradeVordrastUpgradeSpawnQueuedOrBetter4">
+        <OperandArray value="LTCountUpgradeVordrastUpgradeSpawnQueuedOrBetter4"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndLTCountUpgradeVorranoxUpgradeSpawnQueuedOrBetter4">
+        <OperandArray value="LTCountUpgradeVorranoxUpgradeSpawnQueuedOrBetter4"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndLTCountUpgradeVraksUpgradeSpawnQueuedOrBetter4">
+        <OperandArray value="LTCountUpgradeVraksUpgradeSpawnQueuedOrBetter4"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndLTCountUpgradeWaterCasteAlliancesQueuedOrBetter1">
+        <OperandArray value="LTCountUpgradeWaterCasteAlliancesQueuedOrBetter1"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndLTCountUpgradeWaterCasteConnectionsQueuedOrBetter1">
+        <OperandArray value="LTCountUpgradeWaterCasteConnectionsQueuedOrBetter1"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndLTCountUpgradeWaterCasteDominionQueuedOrBetter1">
+        <OperandArray value="LTCountUpgradeWaterCasteDominionQueuedOrBetter1"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndLTCountUpgradeWideReachOrdinanceQueuedOrBetter1">
+        <OperandArray value="LTCountUpgradeWideReachOrdinanceQueuedOrBetter1"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndLTCountUpgradeXylocisUpgradeSpawnQueuedOrBetter4">
+        <OperandArray value="LTCountUpgradeXylocisUpgradeSpawnQueuedOrBetter4"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndNotCountUpgradeAIResearchStartedCompleteOnlyGTCountUpgradeTauTechnlogyStacksCompleteOnly1">
+        <OperandArray value="NotCountUpgradeAIResearchStartedCompleteOnly"/>
+        <OperandArray value="GTCountUpgradeTauTechnlogyStacksCompleteOnly1"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndNotCountUpgradeBattleshipSpawnerCompleteOnly">
+        <Tooltip value="RequirementNode/Tooltip/##id##"/>
+        <OperandArray value="NotCountUpgradeBattleshipSpawnerCompleteOnly"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndNotCountUpgradeChallengeofthePrimarchsCompleteOnlyCountUpgradeRobotueIdentiferCompleteOnly">
+        <OperandArray value="NotCountUpgradeChallengeofthePrimarchsCompleteOnly"/>
+        <OperandArray value="CountUpgradeRobotueIdentiferCompleteOnly"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndNotCountUpgradeDarkKingCompleteOnlyGTECountUpgradeUnityStacksCompleteOnly10GTECountUpgradeTerraUpgradeSpawnCompleteOnly8">
+        <OperandArray value="NotCountUpgradeDarkKingCompleteOnly"/>
+        <OperandArray value="GTECountUpgradeUnityStacksCompleteOnly10"/>
+        <OperandArray value="GTECountUpgradeTerraUpgradeSpawnCompleteOnly8"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndNotCountUpgradeDrowningoftheLeviathanCompleteOnly">
+        <OperandArray value="NotCountUpgradeDrowningoftheLeviathanCompleteOnly"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndNotCountUpgradeGenestealerRisingAthonosCompleteOnly">
+        <OperandArray value="NotCountUpgradeGenestealerRisingAthonosCompleteOnly"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndNotCountUpgradeGenestealerRisingOgrysCompleteOnly">
+        <OperandArray value="NotCountUpgradeGenestealerRisingOgrysCompleteOnly"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndNotCountUpgradeImotekhCompleteOnly">
+        <OperandArray value="NotCountUpgradeImotekhCompleteOnly"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndNotCountUpgradeInviteHumanRefugeesCompleteOnly">
+        <OperandArray value="NotCountUpgradeInviteHumanRefugeesCompleteOnly"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndNotCountUpgradeInviteRobouteToTerraCompleteOnly">
+        <OperandArray value="NotCountUpgradeInviteRobouteToTerraCompleteOnly"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndNotCountUpgradeJudgmentofTerraCompleteOnlyCountUpgradeLionIdentiferCompleteOnly">
+        <OperandArray value="NotCountUpgradeJudgmentofTerraCompleteOnly"/>
+        <OperandArray value="CountUpgradeLionIdentiferCompleteOnly"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndNotCountUpgradeLionsPrideCompleteOnlyCountUpgradeLionIdentiferCompleteOnly">
+        <OperandArray value="NotCountUpgradeLionsPrideCompleteOnly"/>
+        <OperandArray value="CountUpgradeLionIdentiferCompleteOnly"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndNotCountUpgradeNecronsAscendantCompleteOnly">
+        <Tooltip value="RequirementNode/Tooltip/##id##"/>
+        <OperandArray value="NotCountUpgradeNecronsAscendantCompleteOnly"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndNotCountUpgradeNegotiateWithTheEldarCompleteOnly">
+        <OperandArray value="NotCountUpgradeNegotiateWithTheEldarCompleteOnly"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndNotCountUpgradeOrdoHereticusQueuedOrBetterNotCountUpgradeOrdoXenosQueuedOrBetter">
+        <OperandArray value="NotCountUpgradeOrdoHereticusQueuedOrBetter"/>
+        <OperandArray value="NotCountUpgradeOrdoXenosQueuedOrBetter"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndNotCountUpgradePropagandaAgainstTheNecronsCompleteOnly">
+        <OperandArray value="NotCountUpgradePropagandaAgainstTheNecronsCompleteOnly"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndNotCountUpgradePropagandaAgainstTheTauCompleteOnly">
+        <OperandArray value="NotCountUpgradePropagandaAgainstTheTauCompleteOnly"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndNotCountUpgradePurgeoftheAvengingSonCompleteOnlyCountUpgradeHighlordsIdentiferCompleteOnly">
+        <OperandArray value="NotCountUpgradePurgeoftheAvengingSonCompleteOnly"/>
+        <OperandArray value="CountUpgradeHighlordsIdentiferCompleteOnly"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndNotCountUpgradePurificationProtocolCompleteOnly">
+        <Tooltip value="RequirementNode/Tooltip/##id##"/>
+        <OperandArray value="NotCountUpgradePurificationProtocolCompleteOnly"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndNotCountUpgradeRobouteAuraCooldown5minutesCompleteOnly">
+        <OperandArray value="NotCountUpgradeRobouteAuraCooldown5minutesCompleteOnly"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndNotCountUpgradeSabotageTheImperiumCompleteOnly">
+        <OperandArray value="NotCountUpgradeSabotageTheImperiumCompleteOnly"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndNotCountUpgradeScuttlingofJormungandrCompleteOnly">
+        <OperandArray value="NotCountUpgradeScuttlingofJormungandrCompleteOnly"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndNotCountUpgradeSinkingOfTheKrakenCompleteOnly">
+        <OperandArray value="NotCountUpgradeSinkingOfTheKrakenCompleteOnly"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndNotCountUpgradeStealTechnologyCompleteOnly">
+        <OperandArray value="NotCountUpgradeStealTechnologyCompleteOnly"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndNotCountUpgradeTheAvengingSonsWrathCompleteOnlyCountUpgradeRobotueIdentiferCompleteOnly">
+        <OperandArray value="NotCountUpgradeTheAvengingSonsWrathCompleteOnly"/>
+        <OperandArray value="CountUpgradeRobotueIdentiferCompleteOnly"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndNotCountUpgradeTheDynasticCallCompleteOnly">
+        <OperandArray value="NotCountUpgradeTheDynasticCallCompleteOnly"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndNotCountUpgradeTheLionsFallCompleteOnlyCountUpgradeHighlordsIdentiferCompleteOnly">
+        <OperandArray value="NotCountUpgradeTheLionsFallCompleteOnly"/>
+        <OperandArray value="CountUpgradeHighlordsIdentiferCompleteOnly"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndNotCountUpgradeTrazynCompleteOnly">
+        <OperandArray value="NotCountUpgradeTrazynCompleteOnly"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndNotCountUpgradeUnknownUpgradeCompleteOnly">
+        <OperandArray value="NotCountUpgradeUnknownUpgradeCompleteOnly"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndNotCountUpgradeUtilizeStasisFieldsCompleteOnly">
+        <OperandArray value="NotCountUpgradeUtilizeStasisFieldsCompleteOnly"/>
+    </CRequirementAnd>
+    <CRequirementCountBehavior id="CountBehaviorEnableMechCompleteOnlyAtUnit">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="EnableMech" State="CompleteOnlyAtUnit"/>
+    </CRequirementCountBehavior>
+    <CRequirementCountBehavior id="CountBehaviorLurkerHoldFireB2CompleteOnlyAtUnit">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="LurkerHoldFireB2" State="CompleteOnlyAtUnit"/>
+    </CRequirementCountBehavior>
+    <CRequirementCountBehavior id="CountBehaviorSJCloakedMineQueuedOnly">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="SJCloakedMine"/>
+    </CRequirementCountBehavior>
+    <CRequirementCountUnit id="CountUnitAshWormQueuedOrBetter">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="AshWorm" State="QueuedOrBetter"/>
+    </CRequirementCountUnit>
+    <CRequirementCountUnit id="CountUnitImotekhTheStomlordCompleteOnly">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="ImotekhTheStomlord" State="CompleteOnly"/>
+    </CRequirementCountUnit>
+    <CRequirementCountUnit id="CountUnitKorhalSporeCannonQueuedOrBetter">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="KorhalSporeCannon" State="QueuedOrBetter"/>
+    </CRequirementCountUnit>
+    <CRequirementCountUnit id="CountUnitNydusCanalCreeperQueuedOrBetter">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="NydusCanalCreeper" State="QueuedOrBetter"/>
+    </CRequirementCountUnit>
+    <CRequirementCountUnit id="CountUnitSJHyperionCompleteOnly">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="SJHyperion" State="CompleteOnly"/>
+    </CRequirementCountUnit>
+    <CRequirementCountUnit id="CountUnitTrazynTheInfiniteCompleteOnly">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="TrazynTheInfinite" State="CompleteOnly"/>
+    </CRequirementCountUnit>
+    <CRequirementCountUpgrade id="CountUpgradeAIResearchStartedCompleteOnly">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="AIResearchStarted" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeAegisoftheAdmiralQueuedOrBetter">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="AegisoftheAdmiral" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeArdiumUpgradeSpawnQueuedOrBetter">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="ArdiumUpgradeSpawn" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeAthonosUpgradeSpawnCompleteOnly">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="AthonosUpgradeSpawn" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeAthonosUpgradeSpawnQueuedOrBetter">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="AthonosUpgradeSpawn" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeBattleshipSpawnerCompleteOnly">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Tooltip value="RequirementNode/Tooltip/##id##"/>
+        <Count Link="BattleshipSpawner" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeBellusPrimeUpgradeSpawnCompleteOnly">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="BellusPrimeUpgradeSpawn" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeBellusPrimeUpgradeSpawnQueuedOrBetter">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="BellusPrimeUpgradeSpawn" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeBetaGarmonIVUpgradeSpawnQueuedOrBetter">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="BetaGarmonIVUpgradeSpawn" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeBorkanUpgradeSpawnQueuedOrBetter">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="BorkanUpgradeSpawn" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeBoundlessGuidanceQueuedOrBetter">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="BoundlessGuidance" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeCantaIXUpgradeSpawnQueuedOrBetter">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="CantaIXUpgradeSpawn" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeChallengeofthePrimarchsCompleteOnly">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="ChallengeofthePrimarchs" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeChironUpgradeSpawnQueuedOrBetter">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="ChironUpgradeSpawn" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeDarkKingCompleteOnly">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="DarkKing" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeDevlanUpgradeSpawnQueuedOrBetter">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="DevlanUpgradeSpawn" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeDirectivePrecisionAbsoluteQueuedOrBetter">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="DirectivePrecisionAbsolute" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeDrohlIVUpgradeSpawnQueuedOrBetter">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="DrohlIVUpgradeSpawn" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeDrowningoftheLeviathanCompleteOnly">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="DrowningoftheLeviathan" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeEspandorUpgradeSpawnQueuedOrBetter">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="EspandorUpgradeSpawn" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeEstabanUpgradeSpawnQueuedOrBetter">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="EstabanUpgradeSpawn" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeEtherealAuthorityQueuedOrBetter">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="EtherealAuthority" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeEyriePrimeUpgradeSpawnQueuedOrBetter">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="EyriePrimeUpgradeSpawn" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeFalShiaUpgradeSpawnQueuedOrBetter">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="FalShiaUpgradeSpawn" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeFarsightEnclavesFormedCompleteOnly">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="FarsightEnclavesFormed" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeFeralChargeCompleteOnly">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="FeralCharge" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeFeralChargeQueuedOrBetter">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="FeralCharge" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeFortressUpgradeSpawnQueuedOrBetter">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="FortressUpgradeSpawn" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeGehennaPrimeUpgradeSpawnCompleteOnly">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="GehennaPrimeUpgradeSpawn" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeGehennaPrimeUpgradeSpawnQueuedOrBetter">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="GehennaPrimeUpgradeSpawn" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeGenestealerRisingAthonosCompleteOnly">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="GenestealerRisingAthonos" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeGenestealerRisingOgrysCompleteOnly">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="GenestealerRisingOgrys" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeGhosarQuintusUpgradeSpawnQueuedOrBetter">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="GhosarQuintusUpgradeSpawn" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeGuardsmanSwitchWeaponCompleteOnly">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="GuardsmanSwitchWeapon" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeGuardsmanUpgradeCompleteOnly">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="GuardsmanUpgrade" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeHarmonicCalibrationQueuedOrBetter">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="HarmonicCalibration" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeHarmonicOverdriveQueuedOrBetter">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="HarmonicOverdrive" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeHarmonicSurgeQueuedOrBetter">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="HarmonicSurge" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeHavePrimarisMarinesCompleteOnly">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="HavePrimarisMarines" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeHighlordsIdentiferCompleteOnly">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="HighlordsIdentifer" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeICharIVUpgradeSpawnQueuedOrBetter">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="ICharIVUpgradeSpawn" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeImotekhCompleteOnly">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="Imotekh" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeImperiumIdentiferCompleteOnly">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="ImperiumIdentifer" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeInviteHumanRefugeesCompleteOnly">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="InviteHumanRefugees" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeInviteRobouteToTerraCompleteOnly">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="InviteRobouteToTerra" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeInwitUpgradeSpawnQueuedOrBetter">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="InwitUpgradeSpawn" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeJorgumandrIdentiferCompleteOnly">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="JorgumandrIdentifer" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeJudgmentofTerraCompleteOnly">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="JudgmentofTerra" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeKrakenIdentiferCompleteOnly">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="KrakenIdentifer" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeLeviathanIdentiferCompleteOnly">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="LeviathanIdentifer" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeLionIdentiferCompleteOnly">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="LionIdentifer" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeLionsPrideCompleteOnly">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="LionsPride" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeLongshotCalibrationQueuedOrBetter">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="LongshotCalibration" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeLongshotOverdriveQueuedOrBetter">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="LongshotOverdrive" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeLongshotSurgeQueuedOrBetter">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="LongshotSurge" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeMachariaUpgradeSpawnCompleteOnly">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="MachariaUpgradeSpawn" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeMachariaUpgradeSpawnQueuedOrBetter">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="MachariaUpgradeSpawn" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeMacraggeUpgradeSpawnCompleteOnly">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="MacraggeUpgradeSpawn" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeMacraggeUpgradeSpawnQueuedOrBetter">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="MacraggeUpgradeSpawn" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeMainTombWorldEstablishedCompleteOnly">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="MainTombWorldEstablished" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeMolochUpgradeSpawnQueuedOrBetter">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="MolochUpgradeSpawn" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeMortendarUpgradeSpawnQueuedOrBetter">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="MortendarUpgradeSpawn" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeNecronIdentiferCompleteOnly">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="NecronIdentifer" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeNecronsAscendantCompleteOnly">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Tooltip value="RequirementNode/Tooltip/##id##"/>
+        <Count Link="NecronsAscendant" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeNegotiateWithTheEldarCompleteOnly">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="NegotiateWithTheEldar" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeOgrysUpgradeSpawnCompleteOnly">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="OgrysUpgradeSpawn" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeOgrysUpgradeSpawnQueuedOrBetter">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="OgrysUpgradeSpawn" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeOrdoHereticusCompleteOnly">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="OrdoHereticus" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeOrdoHereticusQueuedOrBetter">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="OrdoHereticus" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeOrdoXenosCompleteOnly">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="OrdoXenos" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeOrdoXenosQueuedOrBetter">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="OrdoXenos" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradePraetoriaVUpgradeSpawnQueuedOrBetter">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="PraetoriaVUpgradeSpawn" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradePropagandaAgainstTheNecronsCompleteOnly">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="PropagandaAgainstTheNecrons" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradePropagandaAgainstTheTauCompleteOnly">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="PropagandaAgainstTheTau" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradePurgeoftheAvengingSonCompleteOnly">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="PurgeoftheAvengingSon" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradePurificationProtocolCompleteOnly">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Tooltip value="RequirementNode/Tooltip/##id##"/>
+        <Count Link="PurificationProtocol" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeQuistoRolUpgradeSpawnQueuedOrBetter">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="QuistoRolUpgradeSpawn" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeRetreatAthonosQueuedOrBetter">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="RetreatAthonos" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeRetreatBellusPrimeQueuedOrBetter">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="RetreatBellusPrime" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeRetreatGehennaPrimeQueuedOrBetter">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="RetreatGehennaPrime" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeRetreatKriegQueuedOrBetter">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="RetreatKrieg" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeRetreatMachariaQueuedOrBetter">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="RetreatMacharia" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeRetreatOgrysQueuedOrBetter">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="RetreatOgrys" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeRetreatTigrusQueuedOrBetter">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="RetreatTigrus" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeRhaeusUpgradeSpawnQueuedOrBetter">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="RhaeusUpgradeSpawn" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeRobotueIdentiferCompleteOnly">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="RobotueIdentifer" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeRobouteAuraCooldown5minutesCompleteOnly">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="RobouteAuraCooldown5minutes" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeRobouteAuraDevastatingOnslaughtPassiveCompleteOnly">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="RobouteAuraDevastatingOnslaughtPassive" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeRobouteAuraFocusedBarragePassiveCompleteOnly">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="RobouteAuraFocusedBarragePassive" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeRobouteAuraRelentlessAdvancePassiveCompleteOnly">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="RobouteAuraRelentlessAdvancePassive" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeRobouteAuraUnyieldingDefensePassiveCompleteOnly">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="RobouteAuraUnyieldingDefensePassive" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeSabotageTheImperiumCompleteOnly">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="SabotageTheImperium" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeSaturnHUpgradeSpawnQueuedOrBetter">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="SaturnHUpgradeSpawn" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeSaturnXUpgradeSpawnQueuedOrBetter">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="SaturnXUpgradeSpawn" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeScuttlingofJormungandrCompleteOnly">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="ScuttlingofJormungandr" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeShapersGuardQueuedOrBetter">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="ShapersGuard" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeShapersMightQueuedOrBetter">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="ShapersMight" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeShapersReflexQueuedOrBetter">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="ShapersReflex" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeSilentKingUpgradeSpawnQueuedOrBetter">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="SilentKingUpgradeSpawn" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeSinkingOfTheKrakenCompleteOnly">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="SinkingOfTheKraken" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeStealTechnologyCompleteOnly">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="StealTechnology" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeStreamlinedMunitioningQueuedOrBetter">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="StreamlinedMunitioning" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeTarvanUpgradeSpawnQueuedOrBetter">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="TarvanUpgradeSpawn" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeTauEnclaveCivilWarCompleteOnly">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="TauEnclaveCivilWar" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeTauIdentiferCompleteOnly">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="TauIdentifer" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeTauTechnlogyStacksCompleteOnly">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="TauTechnlogyStacks" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeTauUpgradeSpawnQueuedOrBetter">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="TauUpgradeSpawn" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeTerraUpgradeSpawnCompleteOnly">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="TerraUpgradeSpawn" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeTerraUpgradeSpawnQueuedOrBetter">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="TerraUpgradeSpawn" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeTheAvengingSonsWrathCompleteOnly">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="TheAvengingSonsWrath" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeTheDynasticCallCompleteOnly">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="TheDynasticCall" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeTheLionsFallCompleteOnly">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="TheLionsFall" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeThuliumUpgradeSpawnQueuedOrBetter">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="ThuliumUpgradeSpawn" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeTigrusUpgradeSpawnCompleteOnly">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="TigrusUpgradeSpawn" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeTigrusUpgradeSpawnQueuedOrBetter">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="TigrusUpgradeSpawn" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeTombWorldAthonosUpgradeSpawnQueuedOrBetter">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="TombWorldAthonosUpgradeSpawn" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeTombWorldCantaUpgradeSpawnQueuedOrBetter">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="TombWorldCantaUpgradeSpawn" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeTombWorldFalShiaUpgradeSpawnQueuedOrBetter">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="TombWorldFalShiaUpgradeSpawn" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeTombWorldIceUpgradeSpawnQueuedOrBetter">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="TombWorldIceUpgradeSpawn" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeTombWorldUpgradeSpawnQueuedOrBetter">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="TombWorldUpgradeSpawn" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeTrazynCompleteOnly">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="Trazyn" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeTyranidIdentiferCompleteOnly">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="TyranidIdentifer" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeUnityStacksCompleteOnly">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="UnityStacks" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeUnknownUpgradeCompleteOnly">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="UnknownUpgrade" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeUtilizeStasisFieldsCompleteOnly">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="UtilizeStasisFields" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeVampireSwordFarsightLifeLeechCompleteOnly">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="VampireSwordFarsightLifeLeech" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeVigilantQuadrexUpgradeSpawnQueuedOrBetter">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="VigilantQuadrexUpgradeSpawn" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeVoidborneTransitQueuedOrBetter">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="VoidborneTransit" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeVordrastUpgradeSpawnQueuedOrBetter">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="VordrastUpgradeSpawn" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeVorranoxUpgradeSpawnQueuedOrBetter">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="VorranoxUpgradeSpawn" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeVraksUpgradeSpawnCompleteOnly">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="VraksUpgradeSpawn" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeVraksUpgradeSpawnQueuedOrBetter">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="VraksUpgradeSpawn" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeWaterCasteAlliancesQueuedOrBetter">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="WaterCasteAlliances" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeWaterCasteConnectionsQueuedOrBetter">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="WaterCasteConnections" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeWaterCasteDominionQueuedOrBetter">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="WaterCasteDominion" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeWideReachOrdinanceQueuedOrBetter">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="WideReachOrdinance" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeXylocisUpgradeSpawnQueuedOrBetter">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="XylocisUpgradeSpawn" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementGT id="GTCountUpgradeTauTechnlogyStacksCompleteOnly1">
+        <OperandArray index="0" value="CountUpgradeTauTechnlogyStacksCompleteOnly"/>
+        <OperandArray index="1" value="1"/>
+    </CRequirementGT>
+    <CRequirementGTE id="GTECountUpgradeAthonosUpgradeSpawnCompleteOnly1">
+        <OperandArray index="0" value="CountUpgradeAthonosUpgradeSpawnCompleteOnly"/>
+        <OperandArray index="1" value="1"/>
+    </CRequirementGTE>
+    <CRequirementGTE id="GTECountUpgradeBellusPrimeUpgradeSpawnCompleteOnly1">
+        <OperandArray index="0" value="CountUpgradeBellusPrimeUpgradeSpawnCompleteOnly"/>
+        <OperandArray index="1" value="1"/>
+    </CRequirementGTE>
+    <CRequirementGTE id="GTECountUpgradeGehennaPrimeUpgradeSpawnCompleteOnly1">
+        <OperandArray index="0" value="CountUpgradeGehennaPrimeUpgradeSpawnCompleteOnly"/>
+        <OperandArray index="1" value="1"/>
+    </CRequirementGTE>
+    <CRequirementGTE id="GTECountUpgradeMachariaUpgradeSpawnCompleteOnly1">
+        <OperandArray index="0" value="CountUpgradeMachariaUpgradeSpawnCompleteOnly"/>
+        <OperandArray index="1" value="1"/>
+    </CRequirementGTE>
+    <CRequirementGTE id="GTECountUpgradeMacraggeUpgradeSpawnCompleteOnly4">
+        <OperandArray index="0" value="CountUpgradeMacraggeUpgradeSpawnCompleteOnly"/>
+        <OperandArray index="1" value="4"/>
+    </CRequirementGTE>
+    <CRequirementGTE id="GTECountUpgradeOgrysUpgradeSpawnCompleteOnly1">
+        <OperandArray index="0" value="CountUpgradeOgrysUpgradeSpawnCompleteOnly"/>
+        <OperandArray index="1" value="1"/>
+    </CRequirementGTE>
+    <CRequirementGTE id="GTECountUpgradeTauTechnlogyStacksCompleteOnly1">
+        <OperandArray index="0" value="CountUpgradeTauTechnlogyStacksCompleteOnly"/>
+        <OperandArray index="1" value="1"/>
+    </CRequirementGTE>
+    <CRequirementGTE id="GTECountUpgradeTauTechnlogyStacksCompleteOnly2">
+        <OperandArray index="0" value="CountUpgradeTauTechnlogyStacksCompleteOnly"/>
+        <OperandArray index="1" value="2"/>
+    </CRequirementGTE>
+    <CRequirementGTE id="GTECountUpgradeTerraUpgradeSpawnCompleteOnly8">
+        <OperandArray index="0" value="CountUpgradeTerraUpgradeSpawnCompleteOnly"/>
+        <OperandArray index="1" value="8"/>
+    </CRequirementGTE>
+    <CRequirementGTE id="GTECountUpgradeTigrusUpgradeSpawnCompleteOnly1">
+        <OperandArray index="0" value="CountUpgradeTigrusUpgradeSpawnCompleteOnly"/>
+        <OperandArray index="1" value="1"/>
+    </CRequirementGTE>
+    <CRequirementGTE id="GTECountUpgradeUnityStacksCompleteOnly10">
+        <OperandArray index="0" value="CountUpgradeUnityStacksCompleteOnly"/>
+        <OperandArray index="1" value="10"/>
+    </CRequirementGTE>
+    <CRequirementGTE id="GTECountUpgradeVraksUpgradeSpawnCompleteOnly1">
+        <OperandArray index="0" value="CountUpgradeVraksUpgradeSpawnCompleteOnly"/>
+        <OperandArray index="1" value="1"/>
+    </CRequirementGTE>
+    <CRequirementLT id="LTCountUnitAshWormQueuedOrBetter5">
+        <OperandArray index="0" value="CountUnitAshWormQueuedOrBetter"/>
+        <OperandArray index="1" value="5"/>
+    </CRequirementLT>
+    <CRequirementLT id="LTCountUnitKorhalSporeCannonQueuedOrBetter2">
+        <OperandArray index="0" value="CountUnitKorhalSporeCannonQueuedOrBetter"/>
+        <OperandArray index="1" value="2"/>
+    </CRequirementLT>
+    <CRequirementLT id="LTCountUnitNydusCanalCreeperQueuedOrBetter20">
+        <OperandArray index="0" value="CountUnitNydusCanalCreeperQueuedOrBetter"/>
+        <OperandArray index="1" value="20"/>
+    </CRequirementLT>
+    <CRequirementLT id="LTCountUpgradeAegisoftheAdmiralQueuedOrBetter1">
+        <OperandArray index="0" value="CountUpgradeAegisoftheAdmiralQueuedOrBetter"/>
+        <OperandArray index="1" value="1"/>
+    </CRequirementLT>
+    <CRequirementLT id="LTCountUpgradeArdiumUpgradeSpawnQueuedOrBetter4">
+        <OperandArray index="0" value="CountUpgradeArdiumUpgradeSpawnQueuedOrBetter"/>
+        <OperandArray index="1" value="4"/>
+    </CRequirementLT>
+    <CRequirementLT id="LTCountUpgradeAthonosUpgradeSpawnQueuedOrBetter4">
+        <OperandArray index="0" value="CountUpgradeAthonosUpgradeSpawnQueuedOrBetter"/>
+        <OperandArray index="1" value="4"/>
+    </CRequirementLT>
+    <CRequirementLT id="LTCountUpgradeBellusPrimeUpgradeSpawnQueuedOrBetter4">
+        <OperandArray index="0" value="CountUpgradeBellusPrimeUpgradeSpawnQueuedOrBetter"/>
+        <OperandArray index="1" value="4"/>
+    </CRequirementLT>
+    <CRequirementLT id="LTCountUpgradeBetaGarmonIVUpgradeSpawnQueuedOrBetter3">
+        <OperandArray index="0" value="CountUpgradeBetaGarmonIVUpgradeSpawnQueuedOrBetter"/>
+        <OperandArray index="1" value="3"/>
+    </CRequirementLT>
+    <CRequirementLT id="LTCountUpgradeBorkanUpgradeSpawnQueuedOrBetter4">
+        <OperandArray index="0" value="CountUpgradeBorkanUpgradeSpawnQueuedOrBetter"/>
+        <OperandArray index="1" value="4"/>
+    </CRequirementLT>
+    <CRequirementLT id="LTCountUpgradeBoundlessGuidanceQueuedOrBetter1">
+        <OperandArray index="0" value="CountUpgradeBoundlessGuidanceQueuedOrBetter"/>
+        <OperandArray index="1" value="1"/>
+    </CRequirementLT>
+    <CRequirementLT id="LTCountUpgradeCantaIXUpgradeSpawnQueuedOrBetter4">
+        <OperandArray index="0" value="CountUpgradeCantaIXUpgradeSpawnQueuedOrBetter"/>
+        <OperandArray index="1" value="4"/>
+    </CRequirementLT>
+    <CRequirementLT id="LTCountUpgradeChironUpgradeSpawnQueuedOrBetter4">
+        <OperandArray index="0" value="CountUpgradeChironUpgradeSpawnQueuedOrBetter"/>
+        <OperandArray index="1" value="4"/>
+    </CRequirementLT>
+    <CRequirementLT id="LTCountUpgradeDevlanUpgradeSpawnQueuedOrBetter4">
+        <OperandArray index="0" value="CountUpgradeDevlanUpgradeSpawnQueuedOrBetter"/>
+        <OperandArray index="1" value="4"/>
+    </CRequirementLT>
+    <CRequirementLT id="LTCountUpgradeDirectivePrecisionAbsoluteQueuedOrBetter1">
+        <OperandArray index="0" value="CountUpgradeDirectivePrecisionAbsoluteQueuedOrBetter"/>
+        <OperandArray index="1" value="1"/>
+    </CRequirementLT>
+    <CRequirementLT id="LTCountUpgradeDrohlIVUpgradeSpawnQueuedOrBetter4">
+        <OperandArray index="0" value="CountUpgradeDrohlIVUpgradeSpawnQueuedOrBetter"/>
+        <OperandArray index="1" value="4"/>
+    </CRequirementLT>
+    <CRequirementLT id="LTCountUpgradeEspandorUpgradeSpawnQueuedOrBetter4">
+        <OperandArray index="0" value="CountUpgradeEspandorUpgradeSpawnQueuedOrBetter"/>
+        <OperandArray index="1" value="4"/>
+    </CRequirementLT>
+    <CRequirementLT id="LTCountUpgradeEstabanUpgradeSpawnQueuedOrBetter4">
+        <OperandArray index="0" value="CountUpgradeEstabanUpgradeSpawnQueuedOrBetter"/>
+        <OperandArray index="1" value="4"/>
+    </CRequirementLT>
+    <CRequirementLT id="LTCountUpgradeEtherealAuthorityQueuedOrBetter1">
+        <OperandArray index="0" value="CountUpgradeEtherealAuthorityQueuedOrBetter"/>
+        <OperandArray index="1" value="1"/>
+    </CRequirementLT>
+    <CRequirementLT id="LTCountUpgradeEyriePrimeUpgradeSpawnQueuedOrBetter3">
+        <OperandArray index="0" value="CountUpgradeEyriePrimeUpgradeSpawnQueuedOrBetter"/>
+        <OperandArray index="1" value="3"/>
+    </CRequirementLT>
+    <CRequirementLT id="LTCountUpgradeFalShiaUpgradeSpawnQueuedOrBetter4">
+        <OperandArray index="0" value="CountUpgradeFalShiaUpgradeSpawnQueuedOrBetter"/>
+        <OperandArray index="1" value="4"/>
+    </CRequirementLT>
+    <CRequirementLT id="LTCountUpgradeFeralChargeQueuedOrBetter1">
+        <OperandArray index="0" value="CountUpgradeFeralChargeQueuedOrBetter"/>
+        <OperandArray index="1" value="1"/>
+    </CRequirementLT>
+    <CRequirementLT id="LTCountUpgradeFortressUpgradeSpawnQueuedOrBetter4">
+        <OperandArray index="0" value="CountUpgradeFortressUpgradeSpawnQueuedOrBetter"/>
+        <OperandArray index="1" value="4"/>
+    </CRequirementLT>
+    <CRequirementLT id="LTCountUpgradeGehennaPrimeUpgradeSpawnQueuedOrBetter4">
+        <OperandArray index="0" value="CountUpgradeGehennaPrimeUpgradeSpawnQueuedOrBetter"/>
+        <OperandArray index="1" value="4"/>
+    </CRequirementLT>
+    <CRequirementLT id="LTCountUpgradeGhosarQuintusUpgradeSpawnQueuedOrBetter4">
+        <OperandArray index="0" value="CountUpgradeGhosarQuintusUpgradeSpawnQueuedOrBetter"/>
+        <OperandArray index="1" value="4"/>
+    </CRequirementLT>
+    <CRequirementLT id="LTCountUpgradeHarmonicCalibrationQueuedOrBetter1">
+        <OperandArray index="0" value="CountUpgradeHarmonicCalibrationQueuedOrBetter"/>
+        <OperandArray index="1" value="1"/>
+    </CRequirementLT>
+    <CRequirementLT id="LTCountUpgradeHarmonicOverdriveQueuedOrBetter1">
+        <OperandArray index="0" value="CountUpgradeHarmonicOverdriveQueuedOrBetter"/>
+        <OperandArray index="1" value="1"/>
+    </CRequirementLT>
+    <CRequirementLT id="LTCountUpgradeHarmonicSurgeQueuedOrBetter1">
+        <OperandArray index="0" value="CountUpgradeHarmonicSurgeQueuedOrBetter"/>
+        <OperandArray index="1" value="1"/>
+    </CRequirementLT>
+    <CRequirementLT id="LTCountUpgradeICharIVUpgradeSpawnQueuedOrBetter4">
+        <OperandArray index="0" value="CountUpgradeICharIVUpgradeSpawnQueuedOrBetter"/>
+        <OperandArray index="1" value="4"/>
+    </CRequirementLT>
+    <CRequirementLT id="LTCountUpgradeInwitUpgradeSpawnQueuedOrBetter5">
+        <OperandArray index="0" value="CountUpgradeInwitUpgradeSpawnQueuedOrBetter"/>
+        <OperandArray index="1" value="5"/>
+    </CRequirementLT>
+    <CRequirementLT id="LTCountUpgradeLongshotCalibrationQueuedOrBetter1">
+        <OperandArray index="0" value="CountUpgradeLongshotCalibrationQueuedOrBetter"/>
+        <OperandArray index="1" value="1"/>
+    </CRequirementLT>
+    <CRequirementLT id="LTCountUpgradeLongshotOverdriveQueuedOrBetter1">
+        <OperandArray index="0" value="CountUpgradeLongshotOverdriveQueuedOrBetter"/>
+        <OperandArray index="1" value="1"/>
+    </CRequirementLT>
+    <CRequirementLT id="LTCountUpgradeLongshotSurgeQueuedOrBetter1">
+        <OperandArray index="0" value="CountUpgradeLongshotSurgeQueuedOrBetter"/>
+        <OperandArray index="1" value="1"/>
+    </CRequirementLT>
+    <CRequirementLT id="LTCountUpgradeMachariaUpgradeSpawnQueuedOrBetter3">
+        <OperandArray index="0" value="CountUpgradeMachariaUpgradeSpawnQueuedOrBetter"/>
+        <OperandArray index="1" value="3"/>
+    </CRequirementLT>
+    <CRequirementLT id="LTCountUpgradeMacraggeUpgradeSpawnQueuedOrBetter5">
+        <OperandArray index="0" value="CountUpgradeMacraggeUpgradeSpawnQueuedOrBetter"/>
+        <OperandArray index="1" value="5"/>
+    </CRequirementLT>
+    <CRequirementLT id="LTCountUpgradeMolochUpgradeSpawnQueuedOrBetter4">
+        <OperandArray index="0" value="CountUpgradeMolochUpgradeSpawnQueuedOrBetter"/>
+        <OperandArray index="1" value="4"/>
+    </CRequirementLT>
+    <CRequirementLT id="LTCountUpgradeMortendarUpgradeSpawnQueuedOrBetter4">
+        <OperandArray index="0" value="CountUpgradeMortendarUpgradeSpawnQueuedOrBetter"/>
+        <OperandArray index="1" value="4"/>
+    </CRequirementLT>
+    <CRequirementLT id="LTCountUpgradeOgrysUpgradeSpawnQueuedOrBetter4">
+        <OperandArray index="0" value="CountUpgradeOgrysUpgradeSpawnQueuedOrBetter"/>
+        <OperandArray index="1" value="4"/>
+    </CRequirementLT>
+    <CRequirementLT id="LTCountUpgradeOrdoHereticusQueuedOrBetter1">
+        <OperandArray index="0" value="CountUpgradeOrdoHereticusQueuedOrBetter"/>
+        <OperandArray index="1" value="1"/>
+    </CRequirementLT>
+    <CRequirementLT id="LTCountUpgradeOrdoXenosQueuedOrBetter1">
+        <OperandArray index="0" value="CountUpgradeOrdoXenosQueuedOrBetter"/>
+        <OperandArray index="1" value="1"/>
+    </CRequirementLT>
+    <CRequirementLT id="LTCountUpgradePraetoriaVUpgradeSpawnQueuedOrBetter4">
+        <OperandArray index="0" value="CountUpgradePraetoriaVUpgradeSpawnQueuedOrBetter"/>
+        <OperandArray index="1" value="4"/>
+    </CRequirementLT>
+    <CRequirementLT id="LTCountUpgradeQuistoRolUpgradeSpawnQueuedOrBetter4">
+        <OperandArray index="0" value="CountUpgradeQuistoRolUpgradeSpawnQueuedOrBetter"/>
+        <OperandArray index="1" value="4"/>
+    </CRequirementLT>
+    <CRequirementLT id="LTCountUpgradeRhaeusUpgradeSpawnQueuedOrBetter4">
+        <OperandArray index="0" value="CountUpgradeRhaeusUpgradeSpawnQueuedOrBetter"/>
+        <OperandArray index="1" value="4"/>
+    </CRequirementLT>
+    <CRequirementLT id="LTCountUpgradeSaturnHUpgradeSpawnQueuedOrBetter4">
+        <OperandArray index="0" value="CountUpgradeSaturnHUpgradeSpawnQueuedOrBetter"/>
+        <OperandArray index="1" value="4"/>
+    </CRequirementLT>
+    <CRequirementLT id="LTCountUpgradeSaturnXUpgradeSpawnQueuedOrBetter4">
+        <OperandArray index="0" value="CountUpgradeSaturnXUpgradeSpawnQueuedOrBetter"/>
+        <OperandArray index="1" value="4"/>
+    </CRequirementLT>
+    <CRequirementLT id="LTCountUpgradeShapersGuardQueuedOrBetter1">
+        <OperandArray index="0" value="CountUpgradeShapersGuardQueuedOrBetter"/>
+        <OperandArray index="1" value="1"/>
+    </CRequirementLT>
+    <CRequirementLT id="LTCountUpgradeShapersMightQueuedOrBetter1">
+        <OperandArray index="0" value="CountUpgradeShapersMightQueuedOrBetter"/>
+        <OperandArray index="1" value="1"/>
+    </CRequirementLT>
+    <CRequirementLT id="LTCountUpgradeShapersReflexQueuedOrBetter1">
+        <OperandArray index="0" value="CountUpgradeShapersReflexQueuedOrBetter"/>
+        <OperandArray index="1" value="1"/>
+    </CRequirementLT>
+    <CRequirementLT id="LTCountUpgradeSilentKingUpgradeSpawnQueuedOrBetter3">
+        <OperandArray index="0" value="CountUpgradeSilentKingUpgradeSpawnQueuedOrBetter"/>
+        <OperandArray index="1" value="3"/>
+    </CRequirementLT>
+    <CRequirementLT id="LTCountUpgradeStreamlinedMunitioningQueuedOrBetter1">
+        <OperandArray index="0" value="CountUpgradeStreamlinedMunitioningQueuedOrBetter"/>
+        <OperandArray index="1" value="1"/>
+    </CRequirementLT>
+    <CRequirementLT id="LTCountUpgradeTarvanUpgradeSpawnQueuedOrBetter5">
+        <OperandArray index="0" value="CountUpgradeTarvanUpgradeSpawnQueuedOrBetter"/>
+        <OperandArray index="1" value="5"/>
+    </CRequirementLT>
+    <CRequirementLT id="LTCountUpgradeTauUpgradeSpawnQueuedOrBetter5">
+        <OperandArray index="0" value="CountUpgradeTauUpgradeSpawnQueuedOrBetter"/>
+        <OperandArray index="1" value="5"/>
+    </CRequirementLT>
+    <CRequirementLT id="LTCountUpgradeTerraUpgradeSpawnQueuedOrBetter8">
+        <OperandArray index="0" value="CountUpgradeTerraUpgradeSpawnQueuedOrBetter"/>
+        <OperandArray index="1" value="8"/>
+    </CRequirementLT>
+    <CRequirementLT id="LTCountUpgradeThuliumUpgradeSpawnQueuedOrBetter4">
+        <OperandArray index="0" value="CountUpgradeThuliumUpgradeSpawnQueuedOrBetter"/>
+        <OperandArray index="1" value="4"/>
+    </CRequirementLT>
+    <CRequirementLT id="LTCountUpgradeTigrusUpgradeSpawnQueuedOrBetter4">
+        <OperandArray index="0" value="CountUpgradeTigrusUpgradeSpawnQueuedOrBetter"/>
+        <OperandArray index="1" value="4"/>
+    </CRequirementLT>
+    <CRequirementLT id="LTCountUpgradeTombWorldAthonosUpgradeSpawnQueuedOrBetter3">
+        <OperandArray index="0" value="CountUpgradeTombWorldAthonosUpgradeSpawnQueuedOrBetter"/>
+        <OperandArray index="1" value="3"/>
+    </CRequirementLT>
+    <CRequirementLT id="LTCountUpgradeTombWorldCantaUpgradeSpawnQueuedOrBetter3">
+        <OperandArray index="0" value="CountUpgradeTombWorldCantaUpgradeSpawnQueuedOrBetter"/>
+        <OperandArray index="1" value="3"/>
+    </CRequirementLT>
+    <CRequirementLT id="LTCountUpgradeTombWorldFalShiaUpgradeSpawnQueuedOrBetter3">
+        <OperandArray index="0" value="CountUpgradeTombWorldFalShiaUpgradeSpawnQueuedOrBetter"/>
+        <OperandArray index="1" value="3"/>
+    </CRequirementLT>
+    <CRequirementLT id="LTCountUpgradeTombWorldIceUpgradeSpawnQueuedOrBetter3">
+        <OperandArray index="0" value="CountUpgradeTombWorldIceUpgradeSpawnQueuedOrBetter"/>
+        <OperandArray index="1" value="3"/>
+    </CRequirementLT>
+    <CRequirementLT id="LTCountUpgradeTombWorldUpgradeSpawnQueuedOrBetter8">
+        <OperandArray index="0" value="CountUpgradeTombWorldUpgradeSpawnQueuedOrBetter"/>
+        <OperandArray index="1" value="8"/>
+    </CRequirementLT>
+    <CRequirementLT id="LTCountUpgradeVigilantQuadrexUpgradeSpawnQueuedOrBetter4">
+        <OperandArray index="0" value="CountUpgradeVigilantQuadrexUpgradeSpawnQueuedOrBetter"/>
+        <OperandArray index="1" value="4"/>
+    </CRequirementLT>
+    <CRequirementLT id="LTCountUpgradeVoidborneTransitQueuedOrBetter1">
+        <OperandArray index="0" value="CountUpgradeVoidborneTransitQueuedOrBetter"/>
+        <OperandArray index="1" value="1"/>
+    </CRequirementLT>
+    <CRequirementLT id="LTCountUpgradeVordrastUpgradeSpawnQueuedOrBetter4">
+        <OperandArray index="0" value="CountUpgradeVordrastUpgradeSpawnQueuedOrBetter"/>
+        <OperandArray index="1" value="4"/>
+    </CRequirementLT>
+    <CRequirementLT id="LTCountUpgradeVorranoxUpgradeSpawnQueuedOrBetter4">
+        <OperandArray index="0" value="CountUpgradeVorranoxUpgradeSpawnQueuedOrBetter"/>
+        <OperandArray index="1" value="4"/>
+    </CRequirementLT>
+    <CRequirementLT id="LTCountUpgradeVraksUpgradeSpawnQueuedOrBetter4">
+        <OperandArray index="0" value="CountUpgradeVraksUpgradeSpawnQueuedOrBetter"/>
+        <OperandArray index="1" value="4"/>
+    </CRequirementLT>
+    <CRequirementLT id="LTCountUpgradeWaterCasteAlliancesQueuedOrBetter1">
+        <OperandArray index="0" value="CountUpgradeWaterCasteAlliancesQueuedOrBetter"/>
+        <OperandArray index="1" value="1"/>
+    </CRequirementLT>
+    <CRequirementLT id="LTCountUpgradeWaterCasteConnectionsQueuedOrBetter1">
+        <OperandArray index="0" value="CountUpgradeWaterCasteConnectionsQueuedOrBetter"/>
+        <OperandArray index="1" value="1"/>
+    </CRequirementLT>
+    <CRequirementLT id="LTCountUpgradeWaterCasteDominionQueuedOrBetter1">
+        <OperandArray index="0" value="CountUpgradeWaterCasteDominionQueuedOrBetter"/>
+        <OperandArray index="1" value="1"/>
+    </CRequirementLT>
+    <CRequirementLT id="LTCountUpgradeWideReachOrdinanceQueuedOrBetter1">
+        <OperandArray index="0" value="CountUpgradeWideReachOrdinanceQueuedOrBetter"/>
+        <OperandArray index="1" value="1"/>
+    </CRequirementLT>
+    <CRequirementLT id="LTCountUpgradeXylocisUpgradeSpawnQueuedOrBetter4">
+        <OperandArray index="0" value="CountUpgradeXylocisUpgradeSpawnQueuedOrBetter"/>
+        <OperandArray index="1" value="4"/>
+    </CRequirementLT>
+    <CRequirementNot id="NotCountBehaviorLurkerHoldFireB2CompleteOnlyAtUnit">
+        <OperandArray index="0" value="CountBehaviorLurkerHoldFireB2CompleteOnlyAtUnit"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountBehaviorSJCloakedMineQueuedOnly">
+        <OperandArray index="0" value="CountBehaviorSJCloakedMineQueuedOnly"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeAIResearchStartedCompleteOnly">
+        <OperandArray index="0" value="CountUpgradeAIResearchStartedCompleteOnly"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeBattleshipSpawnerCompleteOnly">
+        <Tooltip value="RequirementNode/Tooltip/##id##"/>
+        <OperandArray index="0" value="CountUpgradeBattleshipSpawnerCompleteOnly"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeChallengeofthePrimarchsCompleteOnly">
+        <OperandArray index="0" value="CountUpgradeChallengeofthePrimarchsCompleteOnly"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeDarkKingCompleteOnly">
+        <OperandArray index="0" value="CountUpgradeDarkKingCompleteOnly"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeDrowningoftheLeviathanCompleteOnly">
+        <OperandArray index="0" value="CountUpgradeDrowningoftheLeviathanCompleteOnly"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeGenestealerRisingAthonosCompleteOnly">
+        <OperandArray index="0" value="CountUpgradeGenestealerRisingAthonosCompleteOnly"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeGenestealerRisingOgrysCompleteOnly">
+        <OperandArray index="0" value="CountUpgradeGenestealerRisingOgrysCompleteOnly"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeGuardsmanSwitchWeaponCompleteOnly">
+        <OperandArray index="0" value="CountUpgradeGuardsmanSwitchWeaponCompleteOnly"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeGuardsmanUpgradeCompleteOnly">
+        <OperandArray index="0" value="CountUpgradeGuardsmanUpgradeCompleteOnly"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeImotekhCompleteOnly">
+        <OperandArray index="0" value="CountUpgradeImotekhCompleteOnly"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeInviteHumanRefugeesCompleteOnly">
+        <OperandArray index="0" value="CountUpgradeInviteHumanRefugeesCompleteOnly"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeInviteRobouteToTerraCompleteOnly">
+        <OperandArray index="0" value="CountUpgradeInviteRobouteToTerraCompleteOnly"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeJudgmentofTerraCompleteOnly">
+        <OperandArray index="0" value="CountUpgradeJudgmentofTerraCompleteOnly"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeLionsPrideCompleteOnly">
+        <OperandArray index="0" value="CountUpgradeLionsPrideCompleteOnly"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeMainTombWorldEstablishedCompleteOnly">
+        <OperandArray index="0" value="CountUpgradeMainTombWorldEstablishedCompleteOnly"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeNecronsAscendantCompleteOnly">
+        <Tooltip value="RequirementNode/Tooltip/##id##"/>
+        <OperandArray index="0" value="CountUpgradeNecronsAscendantCompleteOnly"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeNegotiateWithTheEldarCompleteOnly">
+        <OperandArray index="0" value="CountUpgradeNegotiateWithTheEldarCompleteOnly"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeOrdoHereticusQueuedOrBetter">
+        <OperandArray index="0" value="CountUpgradeOrdoHereticusQueuedOrBetter"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeOrdoXenosQueuedOrBetter">
+        <OperandArray index="0" value="CountUpgradeOrdoXenosQueuedOrBetter"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradePropagandaAgainstTheNecronsCompleteOnly">
+        <OperandArray index="0" value="CountUpgradePropagandaAgainstTheNecronsCompleteOnly"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradePropagandaAgainstTheTauCompleteOnly">
+        <OperandArray index="0" value="CountUpgradePropagandaAgainstTheTauCompleteOnly"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradePurgeoftheAvengingSonCompleteOnly">
+        <OperandArray index="0" value="CountUpgradePurgeoftheAvengingSonCompleteOnly"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradePurificationProtocolCompleteOnly">
+        <Tooltip value="RequirementNode/Tooltip/##id##"/>
+        <OperandArray index="0" value="CountUpgradePurificationProtocolCompleteOnly"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeRetreatAthonosQueuedOrBetter">
+        <OperandArray index="0" value="CountUpgradeRetreatAthonosQueuedOrBetter"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeRetreatBellusPrimeQueuedOrBetter">
+        <OperandArray index="0" value="CountUpgradeRetreatBellusPrimeQueuedOrBetter"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeRetreatGehennaPrimeQueuedOrBetter">
+        <OperandArray index="0" value="CountUpgradeRetreatGehennaPrimeQueuedOrBetter"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeRetreatKriegQueuedOrBetter">
+        <OperandArray index="0" value="CountUpgradeRetreatKriegQueuedOrBetter"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeRetreatMachariaQueuedOrBetter">
+        <OperandArray index="0" value="CountUpgradeRetreatMachariaQueuedOrBetter"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeRetreatOgrysQueuedOrBetter">
+        <OperandArray index="0" value="CountUpgradeRetreatOgrysQueuedOrBetter"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeRetreatTigrusQueuedOrBetter">
+        <OperandArray index="0" value="CountUpgradeRetreatTigrusQueuedOrBetter"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeRobouteAuraCooldown5minutesCompleteOnly">
+        <OperandArray index="0" value="CountUpgradeRobouteAuraCooldown5minutesCompleteOnly"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeSabotageTheImperiumCompleteOnly">
+        <OperandArray index="0" value="CountUpgradeSabotageTheImperiumCompleteOnly"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeScuttlingofJormungandrCompleteOnly">
+        <OperandArray index="0" value="CountUpgradeScuttlingofJormungandrCompleteOnly"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeSinkingOfTheKrakenCompleteOnly">
+        <OperandArray index="0" value="CountUpgradeSinkingOfTheKrakenCompleteOnly"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeStealTechnologyCompleteOnly">
+        <OperandArray index="0" value="CountUpgradeStealTechnologyCompleteOnly"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeTauEnclaveCivilWarCompleteOnly">
+        <OperandArray index="0" value="CountUpgradeTauEnclaveCivilWarCompleteOnly"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeTheAvengingSonsWrathCompleteOnly">
+        <OperandArray index="0" value="CountUpgradeTheAvengingSonsWrathCompleteOnly"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeTheDynasticCallCompleteOnly">
+        <OperandArray index="0" value="CountUpgradeTheDynasticCallCompleteOnly"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeTheLionsFallCompleteOnly">
+        <OperandArray index="0" value="CountUpgradeTheLionsFallCompleteOnly"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeTrazynCompleteOnly">
+        <OperandArray index="0" value="CountUpgradeTrazynCompleteOnly"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeUnknownUpgradeCompleteOnly">
+        <OperandArray index="0" value="CountUpgradeUnknownUpgradeCompleteOnly"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeUtilizeStasisFieldsCompleteOnly">
+        <OperandArray index="0" value="CountUpgradeUtilizeStasisFieldsCompleteOnly"/>
+    </CRequirementNot>
+</Catalog>

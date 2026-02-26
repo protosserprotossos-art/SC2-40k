@@ -1,0 +1,768 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Preload>
+<Asset path="assets\textures\ui_achievement_metaframe_zerg.dds" Type="Image"/>
+<Asset path="assets\textures\btn-tips-fallenheroes.dds" Type="Image"/>
+<Asset path="assets\textures\btn-upgrade-protoss-wrathwalker-chargetimeimproved.dds" Type="Image"/>
+<Asset path="assets\icons\dow2\imperium\dc_sm_icon.dds" Type="Image"/>
+<Asset path="achievement-animation-icon-shine-1.dds" Type="Image"/>
+<Asset path="assets\textures\btn-ability-protoss-shadowdashvorazun.dds" Type="Image"/>
+<Asset path="assets\textures\btn-ability-protoss-resurgence.dds" Type="Image"/>
+<Asset path="assets\textures\ui_achievement_metalframe.dds" Type="Image"/>
+<Asset path="assets\textures\btn-upgrade-protoss-alarak-empowermeslaves.dds" Type="Image"/>
+<Asset path="assets\textures\btn-ability-zeratul-combatmastery.dds" Type="Image"/>
+<Asset path="assets\textures\tip_kerriganascended.dds" Type="Image"/>
+<Asset path="achievement-animation-frame-shine-test-30.dds" Type="Image"/>
+<Asset path="assets\textures\btn-upgrade-protoss-fenix-fenixweapondamage.dds" Type="Image"/>
+<Asset path="assets\textures\btn-ability-mengsk-commandcenter-drafttroopers.dds" Type="Image"/>
+<Asset path="assets\textures\btn-upgrade-karax-fortificationbarrier.dds" Type="Image"/>
+<Asset path="assets\textures\btn-upgrade-protoss-alarak-supplicantsacrifice.dds" Type="Image"/>
+<Asset path="assets\textures\ui_research_frame_confirmationwindow.dds" Type="Image"/>
+<Asset path="achievement-animation-frame-dark-new-test.dds" Type="Image"/>
+<Asset path="assets\icons\dow2\icon_abilities\attack\tyr_call_genestealer.dds" Type="Image"/>
+<Asset path="assets\textures\btn-upgrade-terran-corvidreactor.dds" Type="Image"/>
+<Asset path="assets\textures\white32.dds" Type="Image"/>
+<Asset path="assets\textures\btn-ability-protoss-mindcontrol.dds" Type="Image"/>
+<Asset path="assets\textures\btn-progression-zeratul-04-newunitxelnagaabrogator.dds" Type="Image"/>
+<Asset path="achievement-animation-frame-shine-test-10.dds" Type="Image"/>
+<Asset path="assets\textures\btn-upgrade-protoss-resonatingglaives.dds" Type="Image"/>
+<Asset path="assets\textures\btn-ability-protoss-deadlycharge.dds" Type="Image"/>
+<Asset path="achievement-animation-frame-outline-new-frame.dds" Type="Image"/>
+<Asset path="assets\icons\dow2\icon_wargear\tyr_biomass_synaptic.dds" Type="Image"/>
+<Asset path="assets\textures\btn-research-zerg-perditionturret.dds" Type="Image"/>
+<Asset path="assets\icons\dow2\eldar\btnrunes_of_fleetness.dds" Type="Image"/>
+<Asset path="assets\textures\btn-unit-zerg-infestedcolonist.dds" Type="Image"/>
+<Asset path="assets\textures\btn-upgrade-terran-explosiveshrapnelshells.dds" Type="Image"/>
+<Asset path="assets\textures\btn-ability-protoss-amoncloud.dds" Type="Image"/>
+<Asset path="assets\icons\dow2\squad_tabs\tyr_tyrant_guard.dds" Type="Image"/>
+<Asset path="achievement-animation-frame-shine-test-20.dds" Type="Image"/>
+<Asset path="achievement-animation-point-shine-9.dds" Type="Image"/>
+<Asset path="assets\textures\btn-ability-spearofadun-massrecall.dds" Type="Image"/>
+<Asset path="braixenpissedoff.dds" Type="Image"/>
+<Asset path="assets\textures\btn-tips-credit.dds" Type="Image"/>
+<Asset path="assets\icons\dow2\eldar\btnrunes_of_warding.dds" Type="Image"/>
+<Asset path="assets\textures\talent-raynor-level03-firebatmedicrange.dds" Type="Image"/>
+<Asset path="assets\textures\btn-ability-terran-selfixarmor.dds" Type="Image"/>
+<Asset path="achievement-animation-frame-shine-test-15.dds" Type="Image"/>
+<Asset path="assets\textures\btn-ability-hornerhan-raven-radar.dds" Type="Image"/>
+<Asset path="achievement-animation-frame-shine-test-45.dds" Type="Image"/>
+<Asset path="assets\textures\btn-ability-protoss-psionictransfer.dds" Type="Image"/>
+<Asset path="assets\textures\btn-progression-hornerhan-14-nukefortelefrag.dds" Type="Image"/>
+<Asset path="assets\textures\btn-upgrade-zerg-stukov-bunkerformliferegenupgraded.dds" Type="Image"/>
+<Asset path="achievement-animation-frame-shine-test-50.dds" Type="Image"/>
+<Asset path="assets\textures\btn-upgrade-protoss-alarak-ascendantspermanentlybetter.dds" Type="Image"/>
+<Asset path="assets\textures\btn-progression-mengsk-15-promotiongranted.dds" Type="Image"/>
+<Asset path="achievement-animation-icon-shine-5.dds" Type="Image"/>
+<Asset path="achievement-animation-frame-shine-test-5.dds" Type="Image"/>
+<Asset path="assets\textures\btn-upgrade-mengsk-engineeringbay-orbitaldrop.dds" Type="Image"/>
+<Asset path="assets\textures\btn-ability-zeratul-avatarofform-entropicblast.dds" Type="Image"/>
+<Asset path="assets\icons\dow2\eldar\btnrunes_of_war.dds" Type="Image"/>
+<Asset path="icons\necron icons (placeholder)\necron_acc_glyph_05.dds" Type="Image"/>
+<Asset path="achievement-animation-frame-shine-test-55.dds" Type="Image"/>
+<Asset path="achievement-animation-point-shine-5.dds" Type="Image"/>
+<Asset path="assets\textures\ui_tipicon_campaign_hyb02-nullzone.dds" Type="Image"/>
+<Asset path="assets\textures\btn-progression-hornerhan-6-mirabuildtime.dds" Type="Image"/>
+<Asset path="assets\textures\btn-upgrade-mengsk-engineeringbay-dominionweaponslevel3.dds" Type="Image"/>
+<Asset path="assets\textures\ui_console_icon_chat.dds" Type="Image"/>
+<Asset path="assets\textures\btn-ability-mengsk-viking-freshperspective.dds" Type="Image"/>
+<Asset path="assets\textures\btn-progression-protoss-fenix-13-offlinesuitregen.dds" Type="Image"/>
+<Asset path="assets\textures\btn-progression-zeratul-01-powerofthexelnaga.dds" Type="Image"/>
+<Asset path="achievement-animation-frame-shine-test-40.dds" Type="Image"/>
+<Asset path="achievement-animation-icon-shine-9.dds" Type="Image"/>
+<Asset path="assets\textures\btn-upgrade-karax-unitybarrier.dds" Type="Image"/>
+<Asset path="achievement-animation-frame-shine-test-25.dds" Type="Image"/>
+<Asset path="achievement-animation-frame-shine-test-1.dds" Type="Image"/>
+<Asset path="assets\textures\ui_achievement_metaframe_protoss.dds" Type="Image"/>
+<Asset path="achievement-animation-frame-shine-test-35.dds" Type="Image"/>
+<Asset path="40k imperium fleet cinematic.ogg" Type="Sound"/>
+<Asset path="assets\textures\btn-building-terran-nukesilo.dds" Type="Image"/>
+<Asset path="assets\textures\btn-ability-protoss-prodigalengineer.dds" Type="Image"/>
+<Asset path="assets\textures\btn-progression-hornerhan-1-precisionchaos.dds" Type="Image"/>
+<Asset path="achievement-animation-frame-outiline-new.dds" Type="Image"/>
+<Asset path="assets\textures\fear_coop.dds" Type="Image"/>
+<Asset path="assets\textures\btn-upgrade-terran-nova-repairbeamcloak.dds" Type="Image"/>
+<Asset path="assets\icons\dow2\imperium\btnspell_librarian_teleport.dds" Type="Image"/>
+<Asset path="achievement-animation-point-shine-1.dds" Type="Image"/>
+<Asset path="assets\icons\dow2\imperium\btnbrothers_in_arms.dds" Type="Image"/>
+<Asset path="assets\textures\btn-ability-stukov-infestedcivilianstructurelv1.dds" Type="Image"/>
+<Actor id="SYSTEM_ActorConfig"/>
+<Actor id="Aiur_Temple_Archway" Variations="0"/>
+<Actor id="Aiur_Temple_Inlay" Variations="0"/>
+<Actor id="Aiur_Temple_OldWalls" Variations="0,2"/>
+<Actor id="Aiur_Temple_Pillars" Variations="1,2,3"/>
+<Actor id="Aiur_Temple_Ruins_Set" Variations="0"/>
+<Actor id="Aiur_Temple_Statue" Variations="0"/>
+<Actor id="Aiur_Zerg_Bridge" Variations="2"/>
+<Actor id="Aiur_Zerg_GlowingPods" Variations="0,1,2,4,5"/>
+<Actor id="Aiur_Zerg_Horn" Variations="2,3,4"/>
+<Actor id="Aiur_Zerg_Intestines" Variations="0,1,2"/>
+<Actor id="Aiur_Zerg_Ribs" Variations="0,1,2,3"/>
+<Actor id="Aiur_Zerg_Tower" Variations="1"/>
+<Actor id="AsteroidCliff" Variations="0,1,2"/>
+<Actor id="AsteroidCliffMetal" Variations="0,3,4,5"/>
+<Actor id="BattleStation_Buildings" Variations="3"/>
+<Actor id="BattleStation_CliffPlatform" Variations="0"/>
+<Actor id="BattleStation_ConstructionRobot_Anims"/>
+<Actor id="BattleStation_FloodLight" Variations="3,7"/>
+<Actor id="BattleStation_MissileStorage" Variations="0,2,3,4"/>
+<Actor id="BattleStation_Number_Decals" Variations="5,6"/>
+<Actor id="BattleStation_RefuelingPiping" Variations="12"/>
+<Actor id="BattleStation_RefuelingStation" Variations="0,1,2"/>
+<Actor id="BattleStation_Text_Decals" Variations="3"/>
+<Actor id="CharCliffStructureLarge" Variations="0,3"/>
+<Actor id="CharCliffStructureSmall" Variations="0"/>
+<Actor id="CharDuneRock" Variations="4"/>
+<Actor id="CharDuneRockGiant" Variations="11"/>
+<Actor id="CharDuneRockLarge" Variations="6"/>
+<Actor id="CharNuke"/>
+<Actor id="CliffSpikes" Variations="1"/>
+<Actor id="CompoundMansion_Ladder" Variations="1,2"/>
+<Actor id="CompoundMansion_Light" Variations="1"/>
+<Actor id="CompoundMansion_RobotVent"/>
+<Actor id="CompoundSewers_ExhaustPipes" Variations="2,3,5,6,7"/>
+<Actor id="CompoundSewers_FuelingPipes" Variations="0,5"/>
+<Actor id="CompoundSewers_FuelingStation" Variations="0,1,2"/>
+<Actor id="CompoundSewers_Grates" Variations="2"/>
+<Actor id="CompoundSewers_Ladder" Variations="2"/>
+<Actor id="CompoundSewers_Tank" Variations="4"/>
+<Actor id="CompoundSewers_Vent"/>
+<Actor id="DOM_Crate" Variations="0,1,2,3,4"/>
+<Actor id="DOM_Decals" Variations="18"/>
+<Actor id="DOM_GroundTrims" Variations="0,2,8,9"/>
+<Actor id="DOM_LabConsoles" Variations="0,2"/>
+<Actor id="DOM_WallCap" Variations="1"/>
+<Actor id="DecalSpace" Variations="0"/>
+<Actor id="DecalSpace_Baked" Variations="0,16,19,20,23"/>
+<Actor id="DefendersCity_Buildings_Industrial" Variations="1,2,5,7,8,9,10,11,12,13,14,16"/>
+<Actor id="DefendersCity_Buildings_Pipes_Tanks_Industrial" Variations="1"/>
+<Actor id="DefendersCity_GasStation" Variations="5"/>
+<Actor id="DefendersCity_StreetLight" Variations="1"/>
+<Actor id="DefendersCity_StreetProps" Variations="4"/>
+<Actor id="DominionLandingPad" Variations="4"/>
+<Actor id="ElectricConduitPathLarge" Variations="3"/>
+<Actor id="Elsecaro_Downtown_Building_Destroyed" Variations="5"/>
+<Actor id="Fog_Aiur_Thick"/>
+<Actor id="GenericBuildingRubble" Variations="2,3,4,5,7"/>
+<Actor id="GenericSpacePipes" Variations="2,8,10"/>
+<Actor id="GenericSpacePipesDiagonal" Variations="7,8"/>
+<Actor id="HybridLab_StasisTubeWall" Variations="2"/>
+<Actor id="InvisibleWalkablePlatform4x4"/>
+<Actor id="JarbanMinor_Antenne" Variations="0,1"/>
+<Actor id="JarbanMinor_Crate" Variations="1,2,5"/>
+<Actor id="JarbanMinor_Fence" Variations="0,2,6"/>
+<Actor id="JarbanMinor_Floodlight" Variations="2"/>
+<Actor id="JarbanMinor_LandingPad" Variations="3,4"/>
+<Actor id="JarbanMinor_MiningBot" Variations="0"/>
+<Actor id="JarbanMinor_Outpost" Variations="2,4"/>
+<Actor id="JarbanMinor_SecurityGate" Variations="0"/>
+<Actor id="JarbanMinor_Tank" Variations="1"/>
+<Actor id="KorhalBuildingsMedium" Variations="2"/>
+<Actor id="KorhalDestroyedBuilding" Variations="0,1"/>
+<Actor id="KorhalPlatform_Military_ModularCliff" Variations="3"/>
+<Actor id="KorhalSkyScrapers" Variations="0"/>
+<Actor id="KorhalWallDoodad" Variations="0,2"/>
+<Actor id="Korhal_AirportTower" Variations="0,1"/>
+<Actor id="Korhal_AirportTower_Destroyed" Variations="0"/>
+<Actor id="Korhal_Antenna" Variations="0,1"/>
+<Actor id="Korhal_ControlTower"/>
+<Actor id="Korhal_GuardTower"/>
+<Actor id="Korhal_MarineStatueRuined" Variations="1"/>
+<Actor id="Korhal_Mart_Destroyed" Variations="1"/>
+<Actor id="Korhal_Military_CliffStructure"/>
+<Actor id="Korhal_Platform_CliffTower" Variations="1"/>
+<Actor id="Korhal_Platform_Debris" Variations="2,3"/>
+<Actor id="Korhal_Platform_Pipes" Variations="0,1,4,5,6"/>
+<Actor id="Korhal_Platform_PlateWall" Variations="1"/>
+<Actor id="Korhal_Platform_Ramp"/>
+<Actor id="Korhal_Platform_Road_Corner_Diagonal" Variations="2"/>
+<Actor id="Korhal_Platform_Road_Straight" Variations="2"/>
+<Actor id="Korhal_Platform_SkyshieldEmblem" Variations="1"/>
+<Actor id="Korhal_Residential_Building" Variations="0,1,2"/>
+<Actor id="Korhal_Residential_Building_Destroyed" Variations="2"/>
+<Actor id="Korhal_SiegeTank_Destroyed"/>
+<Actor id="Korhal_Skyscrapers_Cliff" Variations="3"/>
+<Actor id="Korhal_SpacePort_Container" Variations="0,2"/>
+<Actor id="Korhal_SpacePort_Container_Destroyed" Variations="3"/>
+<Actor id="Korhal_SpacePort_Hose_Destroyed" Variations="1"/>
+<Actor id="MarineStatue"/>
+<Actor id="MekkaJunk"/>
+<Actor id="MilitaryFenceDiagonal" Variations="0"/>
+<Actor id="MilitarySupplies" Variations="1,2,3,5,7"/>
+<Actor id="MissileSiloDoodad"/>
+<Actor id="MoebiusLabBrokenHornet" Variations="2"/>
+<Actor id="MoebiusLabConsoles" Variations="2"/>
+<Actor id="MoebiusLabHornet"/>
+<Actor id="NukeTowerWarfield"/>
+<Actor id="OilPuddle" Variations="0,1,3"/>
+<Actor id="PortCity_Bridge" Variations="4,5"/>
+<Actor id="PortCity_BuildingRound" Variations="5"/>
+<Actor id="PortCity_Canal_Walls" Variations="10"/>
+<Actor id="PortCity_Cargo" Variations="0,3,4,8,9,10,11,13,14,15"/>
+<Actor id="PortCity_Downtown_Building" Variations="0"/>
+<Actor id="PortCity_Signage" Variations="2,3"/>
+<Actor id="PortCity_Statue" Variations="1"/>
+<Actor id="PortCity_Trims" Variations="13"/>
+<Actor id="PowerSupplyWarfield"/>
+<Actor id="ProtossTarmacSplat"/>
+<Actor id="ShadowCore_AsteroidBase_DockingBay" Variations="0"/>
+<Actor id="ShadowCore_AsteroidBase_LandingPlatform" Variations="0,1"/>
+<Actor id="ShadowCore_AsteroidBase_Windows" Variations="0,2"/>
+<Actor id="Shadow_Asteroids" Variations="0,1,2"/>
+<Actor id="Shadow_CliffEdges" Variations="0,1"/>
+<Actor id="Shadow_Cliffbuildings" Variations="4"/>
+<Actor id="Shadow_Platform_Equipment" Variations="17"/>
+<Actor id="Shadow_Platform_Junction" Variations="0"/>
+<Actor id="Shadow_Platform_Rail_Long" Variations="8"/>
+<Actor id="Shadow_Platform_Ramp" Variations="0,1"/>
+<Actor id="Shadow_Tarmac_Splat" Variations="6"/>
+<Actor id="Shadow_Tower_Buildings" Variations="0,3"/>
+<Actor id="Shakuras_Archway" Variations="4,6"/>
+<Actor id="Shakuras_Banners" Variations="0"/>
+<Actor id="Shakuras_CityBuilding_Cliff"/>
+<Actor id="Shakuras_CityBuilding_FloatingPlatform"/>
+<Actor id="Shakuras_CityBuilding_FloatingPlatform_Disk" Variations="3"/>
+<Actor id="Shakuras_CityBuilding_FloatingTemple" Variations="0"/>
+<Actor id="Shakuras_CityBuilding_Tower" Variations="1"/>
+<Actor id="Shakuras_City_Building_Cathedral" Variations="2"/>
+<Actor id="Shakuras_City_Debris_Splat"/>
+<Actor id="Shakuras_City_Light" Variations="0"/>
+<Actor id="Shakuras_City_Pillar" Variations="1"/>
+<Actor id="Shakuras_Cliff_Faces_Short" Variations="4"/>
+<Actor id="Shakuras_Column" Variations="1"/>
+<Actor id="Shakuras_Highway" Variations="0,1,2,3,6,7"/>
+<Actor id="Shakuras_Medium_Buildings" Variations="2"/>
+<Actor id="Shakuras_Pyramid_Tower_Large" Variations="0"/>
+<Actor id="Shakuras_Ramp_Splat" Variations="0"/>
+<Actor id="Shakuras_RockPillar" Variations="1"/>
+<Actor id="Shakuras_TempleArchway" Variations="1"/>
+<Actor id="Shakuras_Wall_Trims" Variations="1"/>
+<Actor id="ShearedRocks" Variations="0"/>
+<Actor id="ShipDock" Variations="1"/>
+<Actor id="ShipPiping" Variations="2,4,5"/>
+<Actor id="Slayn_Ramps" Variations="1"/>
+<Actor id="Slayn_Road" Variations="3"/>
+<Actor id="SnowBase_Steam_Thick_Sm"/>
+<Actor id="SnowBase_VentTower" Variations="0,1"/>
+<Actor id="SnowBlizzard"/>
+<Actor id="SnowDrifts" Variations="0,1,2"/>
+<Actor id="SnowDriftsLarge" Variations="1"/>
+<Actor id="SnowLight"/>
+<Actor id="SnowRefinery_FrozenWaterfalls" Variations="0,1"/>
+<Actor id="SnowRefinery_Mountain"/>
+<Actor id="SnowRefinery_Ridges" Variations="0,1,2"/>
+<Actor id="SnowRefinery_Rock" Variations="2,3,4,5,6"/>
+<Actor id="SnowRefinery_RockCliffs_Large" Variations="0,1,2"/>
+<Actor id="SnowRefinery_SnowDrift" Variations="0,1,3,4"/>
+<Actor id="SnowRefinery_SnowDrift_Large" Variations="1,2"/>
+<Actor id="SnowRefinery_TallRock" Variations="0,3,4,5"/>
+<Actor id="SnowRefinery_Terran_Antenna" Variations="0,1"/>
+<Actor id="SnowRefinery_Terran_Barrier" Variations="2,4,7"/>
+<Actor id="SnowRefinery_Terran_BaseSplats" Variations="2,3,4"/>
+<Actor id="SnowRefinery_Terran_CliffGarage" Variations="0,1,3"/>
+<Actor id="SnowRefinery_Terran_Crates" Variations="0,1,2,3"/>
+<Actor id="SnowRefinery_Terran_ModularCliff_Thin" Variations="0,6,7,11"/>
+<Actor id="SnowRefinery_Terran_Pipes" Variations="0,2,4,6"/>
+<Actor id="SnowRefinery_Terran_SnowSplats" Variations="1"/>
+<Actor id="SnowRefinery_Terran_WindSock" Variations="0,1"/>
+<Actor id="SnowRefinery_Terran_WireConduits" Variations="1,2,3,5,7,10"/>
+<Actor id="SpaceDockArch" Variations="0"/>
+<Actor id="SpaceGriffonDoodad"/>
+<Actor id="SpaceGunRack" Variations="1"/>
+<Actor id="SpaceMercAATowerDoodad"/>
+<Actor id="SpacePirateCapitalShipDoodad"/>
+<Actor id="SpacePlatformScaffold" Variations="0,2"/>
+<Actor id="SpacePlatform_Lantern_Blue" Variations="9"/>
+<Actor id="SpacePlatform_Lantern_Red" Variations="8"/>
+<Actor id="SpacePlatform_Lantern_Red_Blink" Variations="6,10"/>
+<Actor id="SpacePrisonPlatformScaffold" Variations="0,1"/>
+<Actor id="SpaceStationValerianDoodad"/>
+<Actor id="SpaceTurbine" Variations="0,1"/>
+<Actor id="SpaceValkyrieDoodad"/>
+<Actor id="Tarsonis_Bridge_DiagonalAlt"/>
+<Actor id="Tarsonis_Bridge_Horizontal"/>
+<Actor id="Tarsonis_Guardrail" Variations="1"/>
+<Actor id="TerranHalfWall"/>
+<Actor id="TheVoid_RubblePile" Variations="0,1,2,3"/>
+<Actor id="UmojanLabTramParkedEngineRightFront"/>
+<Actor id="UnbuildableRocks" Variations="1,4,5,6,7"/>
+<Actor id="Vespene_Crack"/>
+<Actor id="Vespene_Crack_Pick_UP"/>
+<Actor id="Vespene_Pump"/>
+<Actor id="Void_CrackSplat" Variations="4"/>
+<Actor id="Void_Crystals" Variations="4"/>
+<Actor id="WaterGenerator" Variations="3"/>
+<Actor id="WaterGeneratorLarge"/>
+<Actor id="XelNaga_Archpost"/>
+<Actor id="XelNaga_Base_Decals" Variations="3,8"/>
+<Actor id="XelNaga_Cavern_OlderWall"/>
+<Actor id="XelNaga_Cavern_Wall_Statue" Variations="1"/>
+<Actor id="XelNaga_Crates" Variations="1"/>
+<Actor id="XelNaga_Crates_Animating"/>
+<Actor id="XelNaga_Floating_Bridge"/>
+<Actor id="XelNaga_HugeWall_Column" Variations="3"/>
+<Actor id="XelNaga_Huge_Column" Variations="4"/>
+<Actor id="XelNaga_Pillarwall"/>
+<Actor id="XelNaga_Shrine_Long_Cliff" Variations="0,1"/>
+<Actor id="XelNaga_Wall_Statue" Variations="3"/>
+<Actor id="ZergBonePileLarge" Variations="2"/>
+<Actor id="ZergBuildingLarge" Variations="1"/>
+<Actor id="ZergCarcassesMedium" Variations="0"/>
+<Actor id="ZergCurbs" Variations="0,2,3,4,5,6"/>
+<Actor id="ZergRoots" Variations="1"/>
+<Actor id="ZergRootsCliff" Variations="0,1"/>
+<Actor id="ZergWallDecorTwoHigh" Variations="2,4,10,12"/>
+<Actor id="ZergWallDecorTwoHighSmall" Variations="1,2"/>
+<Actor id="Zerg_EggSackOneEggs" Variations="0,1"/>
+<Actor id="Zerg_EggSackThreeEggs"/>
+<Actor id="Zerg_EggSackTwoEggs" Variations="0,1"/>
+<Actor id="ZerusPoolSparkles"/>
+<Actor id="AlarmLight" Variations="0"/>
+<Actor id="Antenna" Variations="0"/>
+<Actor id="AsteroidsSky" Variations="0,1,2,4,5"/>
+<Actor id="AvernusBarrier" Variations="3,5"/>
+<Actor id="BarracksWrecked"/>
+<Actor id="BioDomeDoodad" Variations="4"/>
+<Actor id="BioDomeHalfBuiltDoodad" Variations="0"/>
+<Actor id="Brambles" Variations="3,5,7"/>
+<Actor id="BunkerWrecked"/>
+<Actor id="CarbonMarineBlock"/>
+<Actor id="ChainLinkFenceDiagonal" Variations="1,2"/>
+<Actor id="CharBlisterEgg"/>
+<Actor id="CharTendrils" Variations="0,1,2"/>
+<Actor id="CharTendrilsCliff" Variations="0"/>
+<Actor id="CharCrystal" Variations="0,1,2"/>
+<Actor id="CharCrystalHuge" Variations="1"/>
+<Actor id="CharCrystalLarge" Variations="0,1"/>
+<Actor id="CharFlowerSmall" Variations="0"/>
+<Actor id="CharGlowingPods" Variations="0,1,2"/>
+<Actor id="CharHorn" Variations="0,1,2"/>
+<Actor id="CharIntestines" Variations="0,1"/>
+<Actor id="CharRibs" Variations="0"/>
+<Actor id="CharTree" Variations="7"/>
+<Actor id="CharWeed" Variations="0,1,2,3"/>
+<Actor id="CharWorm" Variations="4,6"/>
+<Actor id="CliffSpires" Variations="2"/>
+<Actor id="ColonistShipAbandoned" Variations="0"/>
+<Actor id="ColonistShipAbandonedAngled" Variations="1"/>
+<Actor id="ColonistShipWrecked" Variations="3"/>
+<Actor id="CommandCenterWrecked"/>
+<Actor id="Crate" Variations="0,2,3"/>
+<Actor id="ExhaustPipes" Variations="0,2,3,4,5,7"/>
+<Actor id="FanVent" Variations="0,1"/>
+<Actor id="FanVentCliff" Variations="0,1"/>
+<Actor id="HavenDoodadsCrates" Variations="0,1,2,3,4"/>
+<Actor id="JunkPileSpaceShips" Variations="0,2"/>
+<Actor id="KorhalWraithSquadronStatue"/>
+<Actor id="LandingTower"/>
+<Actor id="LavaSplash"/>
+<Actor id="BridgeCardinalFootprint"/>
+<Actor id="MarSaraMineCart"/>
+<Actor id="MetalWallCorner" Variations="1"/>
+<Actor id="MineralCart" Variations="0"/>
+<Actor id="MiningBot"/>
+<Actor id="MiningBotWrecked" Variations="1"/>
+<Actor id="MonlythArchway" Variations="0"/>
+<Actor id="NewFolsomPrisonTower"/>
+<Actor id="NewFolsomSandbags" Variations="0,1,2,3,4,5,7"/>
+<Actor id="PipesCorner45" Variations="1"/>
+<Actor id="PipesLong45" Variations="0"/>
+<Actor id="PipesStack" Variations="0,1"/>
+<Actor id="PortZionBarrel" Variations="0,1"/>
+<Actor id="PortZionCompactor"/>
+<Actor id="PortZionCrane"/>
+<Actor id="PortZionDumpster"/>
+<Actor id="PortZionJunkPile" Variations="0,1"/>
+<Actor id="PortZionScrapConveyorBelt" Variations="0"/>
+<Actor id="PortZionTires" Variations="0,1"/>
+<Actor id="PortZionTower" Variations="0,2,3,5,6,7,8,9"/>
+<Actor id="PortZionTowerDestroyed" Variations="4,7"/>
+<Actor id="Rubble" Variations="1"/>
+<Actor id="RubbleWallCorner" Variations="1"/>
+<Actor id="Searchlight" Variations="2"/>
+<Actor id="SecurityFenceStraight"/>
+<Actor id="SpacePlatformArchwayLarge" Variations="1,2"/>
+<Actor id="SpacePlatformBarrier" Variations="0,2,3"/>
+<Actor id="SpacePlatformBillboard" Variations="1"/>
+<Actor id="SpacePlatformCablesLarge" Variations="9"/>
+<Actor id="SpacePlatformCliffDoodadMedium" Variations="13"/>
+<Actor id="SpacePlatformExhaust" Variations="0,1,2,3"/>
+<Actor id="SpacePlatformGenerator" Variations="0,1"/>
+<Actor id="SpacePlatformRadar" Variations="0,1"/>
+<Actor id="SpacePlatformRockFormation" Variations="0,1,2,3"/>
+<Actor id="SpacePlatformRockFormationLarge" Variations="0,1,2"/>
+<Actor id="SpacePlatformSatellite"/>
+<Actor id="SpacePlatformSignLarge" Variations="6"/>
+<Actor id="SpacePlatformSignTowerLarge" Variations="0,1"/>
+<Actor id="SpacePlatformTower" Variations="0,1,2,3"/>
+<Actor id="SpacePlatformVents" Variations="0,1"/>
+<Actor id="Spires" Variations="0,1,2,3,4,5,6,7,8"/>
+<Actor id="SpiresLarge" Variations="0,1,2,3"/>
+<Actor id="SuperCrane"/>
+<Actor id="SupplyTanks"/>
+<Actor id="TrafficSignalBroken" Variations="1"/>
+<Actor id="TRaynor02Crane" Variations="1"/>
+<Actor id="TRaynor02CranePart2x2" Variations="2"/>
+<Actor id="TRaynor02CranePart3x3" Variations="0"/>
+<Actor id="VespeneTank" Variations="0,1"/>
+<Actor id="WallDockingBay"/>
+<Actor id="WaterTank" Variations="1,2"/>
+<Actor id="WaterTankTall" Variations="0,1"/>
+<Actor id="WreckedBattlecruiser"/>
+<Actor id="WreckedMule" Variations="1"/>
+<Actor id="WreckedNomad"/>
+<Actor id="ZergCliffWeb" Variations="0,1"/>
+<Actor id="ZergSpire" Variations="0,2,3"/>
+<Actor id="ZergSpireDead" Variations="0,2"/>
+<Actor id="ZergSpireLarge" Variations="3"/>
+<Actor id="ZergThornSpire" Variations="3"/>
+<Actor id="CargoTruck" Variations="0"/>
+<Actor id="CargoTruckCreep" Variations="0,1,2"/>
+<Actor id="WreckedCargoTruck" Variations="0"/>
+<Actor id="ElectricalArcs"/>
+<Actor id="ValhallaGenerator" Variations="0"/>
+<Actor id="XelNagaEngine"/>
+<Actor id="XelNagaHullGirderBack"/>
+<Actor id="XelNagaHullWalls" Variations="1"/>
+<Actor id="CoolantTowerDoodad"/>
+<Actor id="CliffScaffolding" Variations="1"/>
+<Actor id="ColonistHutBurntOut" Variations="2,4"/>
+<Actor id="DestroyedNydusWorm" Variations="1"/>
+<Actor id="QueenChamberSpire" Variations="1,2,3,4"/>
+<Actor id="TerrainObjectXelNagaPrisonDoodad"/>
+<Actor id="InfestedHomeLarge" Variations="1"/>
+<Actor id="InfestedHomeSmall" Variations="0,1"/>
+<Actor id="BillboardPropaganda" Variations="0,9"/>
+<Actor id="CreepWebbing" Variations="0,1,2,4"/>
+<Actor id="DeadTendrils" Variations="2"/>
+<Actor id="PipeGroundBig" Variations="3,4"/>
+<Actor id="SpacePlatformCablesLargeZerged" Variations="8,9"/>
+<Actor id="SpacePlatformRadarZerged" Variations="0,1"/>
+<Actor id="SpacePlatformSignTowerLargeZerged" Variations="0,1"/>
+<Actor id="SpacePlatformSignLargeZerged"/>
+<Actor id="SpacePlatformVentsZerged" Variations="0,1"/>
+<Actor id="TerrainObjectBraxisAlphaBridgeArrowDoodad"/>
+<Actor id="TerrainObjectCastanarPowerGeneratorDoodad"/>
+<Actor id="TRaynor01RadarDish"/>
+<Actor id="ValhallaTable"/>
+<Actor id="ZergedCliff" Variations="0,1,2,4,6,8"/>
+<Actor id="ZergInfestedCliff" Variations="1"/>
+<Actor id="CocoonedColonists" Variations="0,1,2,3"/>
+<Actor id="TruckTanker"/>
+<Actor id="TruckDump"/>
+<Actor id="TruckFlatbed"/>
+<Behavior id="ColonyInfestation"/>
+<Behavior id="InfestedProtossBiomass"/>
+<Behavior id="VoidShade"/>
+<Behavior id="ArtanisStasisField"/>
+<Behavior id="SOASuperChrono"/>
+<Behavior id="AegisofTerra"/>
+<Behavior id="ChampionOfDevlan"/>
+<Behavior id="Avenger"/>
+<Behavior id="Durability"/>
+<Behavior id="AcceleratedUpgrades"/>
+<Behavior id="InsubordinatePopulation"/>
+<Behavior id="Invulnerabledisabledweapon"/>
+<Behavior id="RobouteGuillimanFocusedBarrageAuraAura"/>
+<Behavior id="RobouteGuillimanDevastatingOnslaughtAuraAura"/>
+<Behavior id="RobouteGuillimanRelentlessAdvanceAuraAura"/>
+<Behavior id="TheEmperorsShield"/>
+<Behavior id="EnableWeapon"/>
+<Behavior id="FortifyChiron"/>
+<Behavior id="HeroOfTheFarSightEnclaves"/>
+<Behavior id="ChosenOfTheGodEmperor"/>
+<Behavior id="VanguardsMight"/>
+<Behavior id="TheInfiniteDamageResistance"/>
+<Behavior id="TheStormlordDamageResistance"/>
+<Behavior id="FounderOfTheFarSightEnclaves"/>
+<Behavior id="LionElJonsonAuraAura"/>
+<Behavior id="SnowStormAuraAura"/>
+<Behavior id="SilentKingDamageResistance"/>
+<Behavior id="LionElJonssonDamageResistance"/>
+<Behavior id="RobouteGuillimanUnyieldingFortressAuraAura"/>
+<Behavior id="Lessthen5Spawner"/>
+<Behavior id="AcceleratedDevelopment"/>
+<Behavior id="UncommandableSuper"/>
+<Behavior id="GoldenLionsMantle"/>
+<Light id="CLight"/>
+<Model id="ZeratulVoidAiur01"/>
+<Model id="NecronWarrior"/>
+<Model id="NecronDestroyer"/>
+<Model id="NecronWraith"/>
+<Model id="NecronFlayedOne"/>
+<Race id="Terr"/>
+<Race id="Zerg"/>
+<Race id="Prot"/>
+<Sound id="AbathurA_BuildError"/>
+<Sound id="UI_BNet_Achievement"/>
+<Sound id="pCutscene_RohanaUlnar03_Amon_028"/>
+<Sound id="pCutscene_RohanaUlnar03_Preserver_030"/>
+<Sound id="Greyfax_Birth"/>
+<Sound id="Sammael_Birth"/>
+<Sound id="VanceStubbs_Birth"/>
+<Sound id="Inquisitor_Birth"/>
+<Sound id="Aeterna_Birth"/>
+<Sound id="Basilisk_Birth"/>
+<Sound id="MarineCaptain_Birth"/>
+<Sound id="Roboute_Birth"/>
+<Sound id="Belisarius_Birth"/>
+<Sound id="Psyker_Birth"/>
+<Sound id="Celestine_Birth"/>
+<Sound id="Fanatic_Birth"/>
+<Sound id="Titan_Birth"/>
+<Sound id="Baneblade_Birth"/>
+<Sound id="Vindicator_Birth"/>
+<Sound id="ImperiumVictory"/>
+<Sound id="TauVictory"/>
+<Sound id="Loading40k"/>
+<Sound id="NecronVictory"/>
+<Sound id="TyranidVictory"/>
+<Soundtrack id="MagnusInvasionSoundtrack"/>
+<Soundtrack id="UncrownedMonarchSoundtrack"/>
+<Soundtrack id="ImperiumSoundtrack"/>
+<Soundtrack id="ImperiumSoundtrack2"/>
+<Soundtrack id="DarkKingSoundtrack"/>
+<Soundtrack id="RockNRollSoundtrack"/>
+<Soundtrack id="TyranidSoundtrack"/>
+<Soundtrack id="NecronSoundtrack"/>
+<Soundtrack id="TauSoundtrack"/>
+<Terrain id="TheVoid"/>
+<Unit id="TechLab"/>
+<Unit id="Reactor"/>
+<Unit id="InfestorTerran"/>
+<Unit id="Refinery"/>
+<Unit id="Barracks"/>
+<Unit id="EngineeringBay"/>
+<Unit id="MissileTurret"/>
+<Unit id="GhostAcademy"/>
+<Unit id="Starport"/>
+<Unit id="MercCompound"/>
+<Unit id="Armory"/>
+<Unit id="FusionCore"/>
+<Unit id="AutoTurret"/>
+<Unit id="SiegeTankSieged"/>
+<Unit id="SiegeTank"/>
+<Unit id="VikingAssault"/>
+<Unit id="Marine"/>
+<Unit id="Raven"/>
+<Unit id="Battlecruiser"/>
+<Unit id="Forge"/>
+<Unit id="PhotonCannon"/>
+<Unit id="Zealot"/>
+<Unit id="DarkTemplar"/>
+<Unit id="Observer"/>
+<Unit id="Immortal"/>
+<Unit id="Hatchery"/>
+<Unit id="SpawningPool"/>
+<Unit id="EvolutionChamber"/>
+<Unit id="Spire"/>
+<Unit id="InfestationPit"/>
+<Unit id="BanelingNest"/>
+<Unit id="RoachWarren"/>
+<Unit id="SpineCrawler"/>
+<Unit id="SporeCrawler"/>
+<Unit id="Drone"/>
+<Unit id="Zergling"/>
+<Unit id="Overlord"/>
+<Unit id="Hydralisk"/>
+<Unit id="Mutalisk"/>
+<Unit id="Ultralisk"/>
+<Unit id="Infestor"/>
+<Unit id="Corruptor"/>
+<Unit id="BroodLord"/>
+<Unit id="Queen"/>
+<Unit id="CreepTumorBurrowed"/>
+<Unit id="LurkerMP"/>
+<Unit id="Tempest"/>
+<Unit id="Adept"/>
+<Unit id="Viper"/>
+<Unit id="InfestedCivilian" Variations="1"/>
+<Unit id="SiegeBreaker"/>
+<Unit id="PerditionTurret"/>
+<Unit id="WarPig"/>
+<Unit id="SpartanCompany"/>
+<Unit id="KerriganChar"/>
+<Unit id="Urun"/>
+<Unit id="Selendis"/>
+<Unit id="Omegalisk"/>
+<Unit id="HunterKiller"/>
+<Unit id="NukeSiloNova"/>
+<Unit id="Odin"/>
+<Unit id="Wraith"/>
+<Unit id="Firebat"/>
+<Unit id="Obelisk"/>
+<Unit id="Blocker8x8"/>
+<Unit id="Blimp"/>
+<Unit id="Goliath"/>
+<Unit id="ScienceFacility"/>
+<Unit id="ScienceVessel"/>
+<Unit id="Stetmann"/>
+<Unit id="Swann"/>
+<Unit id="VoidSeeker"/>
+<Unit id="MercenaryFortress"/>
+<Unit id="Tosh"/>
+<Unit id="AbandonedBuilding" Variations="1"/>
+<Unit id="PsiIndoctrinator"/>
+<Unit id="JoriumStockpile"/>
+<Unit id="LocustMP"/>
+<Unit id="NydusCanalCreeper"/>
+<Unit id="WarHound"/>
+<Unit id="ZaGara"/>
+<Unit id="SwarmHostSplitB"/>
+<Unit id="DehakaMirrorImage"/>
+<Unit id="RaynorLab"/>
+<Unit id="ImpalerDen"/>
+<Unit id="HotSRaptor"/>
+<Unit id="Devourer"/>
+<Unit id="MutaliskViper"/>
+<Unit id="Ravasaur"/>
+<Unit id="SJValkyrie"/>
+<Unit id="MercMedic"/>
+<Unit id="MengskSiegeTank"/>
+<Unit id="MengskFirebat"/>
+<Unit id="MengskHellion"/>
+<Unit id="MengskBanshee"/>
+<Unit id="InfestedSiegeBreakerSieged"/>
+<Unit id="HotSLeviathan"/>
+<Unit id="SJPirateCapitalShip"/>
+<Unit id="InfestedStukov"/>
+<Unit id="KerriganGhostLab"/>
+<Unit id="KerriganGhostLabUnarmed"/>
+<Unit id="KorhalPalaceTurret"/>
+<Unit id="PrimalLocustFlying"/>
+<Unit id="SJHyperion"/>
+<Unit id="PrimalSunkenColony"/>
+<Unit id="Guardian"/>
+<Unit id="WarfieldFortress"/>
+<Unit id="SJMercAATower"/>
+<Unit id="InfestedDominionHousing3"/>
+<Unit id="CarrionNest"/>
+<Unit id="DefilerMP"/>
+<Unit id="ArbiterMP"/>
+<Unit id="Beacon_NovaSmall"/>
+<Unit id="SentryPurifier"/>
+<Unit id="Reaver"/>
+<Unit id="VoidPylon"/>
+<Unit id="KhaydarinMonolith"/>
+<Unit id="ZealotPurifier"/>
+<Unit id="PhoenixPurifier"/>
+<Unit id="ImmortalTaldarim"/>
+<Unit id="ColossusPurifier"/>
+<Unit id="VorazunChampion"/>
+<Unit id="AlarakChampion"/>
+<Unit id="KaraxChampion"/>
+<Unit id="StalkerPurifier"/>
+<Unit id="ZeratulVoidAiur01"/>
+<Unit id="HybridDominatorVoid"/>
+<Unit id="Blightbringer"/>
+<Unit id="WarpConduitShakuras01"/>
+<Unit id="ShadowScrambler"/>
+<Unit id="KerriganEpilogue03"/>
+<Unit id="PylonContainmentUnit"/>
+<Unit id="HERCCompound"/>
+<Unit id="Separatist"/>
+<Unit id="GunTurret"/>
+<Unit id="MannedTurret"/>
+<Unit id="NovaMothership"/>
+<Unit id="Dawnblade"/>
+<Unit id="InquisitorGreyfax"/>
+<Unit id="TheFallenAngels"/>
+<Unit id="CtanShard"/>
+<Unit id="ConstructWeaponB24HighCalLasrifle"/>
+<Unit id="ChironFortify"/>
+<Unit id="RobouteGuilliman"/>
+<Unit id="SubvertThePopulationOfTigrus"/>
+<Unit id="StandardizeB24HighCalLasRifle"/>
+<Unit id="OutfitVanceStubbsWithCarapaceArmor"/>
+<Unit id="PrimarisMarines"/>
+<Unit id="EstablishSaturn"/>
+<Unit id="VanceStubbs"/>
+<Unit id="SuperchargeBaneblade"/>
+<Unit id="ConstantinValdorClue"/>
+<Unit id="ImproveGuardsmanEquipment"/>
+<Unit id="AudienceWithTheEmperor"/>
+<Unit id="GreaterGood"/>
+<Unit id="ScavengeNecronTechnology"/>
+<Unit id="GenestealerInsurrection"/>
+<Unit id="VindicatorAssasin"/>
+<Unit id="GuardsmanRocketVariant"/>
+<Unit id="Skittari"/>
+<Unit id="SpaceMarineTerminator"/>
+<Unit id="TauResearch2"/>
+<Unit id="TauResearch22"/>
+<Unit id="FormTheEnclaves"/>
+<Unit id="TombWorld2"/>
+<Unit id="LionElJonsson"/>
+<Unit id="NecronWarrior"/>
+<Unit id="Destroyer"/>
+<Unit id="NecronWraith"/>
+<Unit id="PlaceholderSpawner"/>
+<Unit id="SJHyperion2"/>
+<Unit id="Thulium"/>
+<Unit id="TombWorld"/>
+<Unit id="NecronBeacon"/>
+<Unit id="NecronFortificaiton"/>
+<Unit id="TauResearch"/>
+<Unit id="TombWorld3"/>
+<Unit id="TombWorld4"/>
+<Unit id="TombWorld42"/>
+<Unit id="VoidPylon2"/>
+<Unit id="VoidPylon22"/>
+<Unit id="VoidPylon3"/>
+<Unit id="Azrael"/>
+<Unit id="FlayedOne"/>
+<Unit id="ConstantinValdor"/>
+<Unit id="Zealothero"/>
+<Unit id="TrazynTheInfinite"/>
+<Unit id="ImotekhTheStomlord"/>
+<Upgrade id="HarmonicSurge"/>
+<Upgrade id="LongshotSurge"/>
+<Upgrade id="StreamlinedMunitioning"/>
+<Upgrade id="ShapersGuard"/>
+<Upgrade id="EtherealAuthority"/>
+<Upgrade id="HarmonicOverdrive"/>
+<Upgrade id="WaterCasteDominion"/>
+<Upgrade id="LongshotOverdrive"/>
+<Upgrade id="ShapersMight"/>
+<Upgrade id="WideReachOrdinance"/>
+<Upgrade id="DirectivePrecisionAbsolute"/>
+<Upgrade id="LongshotCalibration"/>
+<Upgrade id="HarmonicCalibration"/>
+<Upgrade id="FeralCharge"/>
+<Upgrade id="ShapersReflex"/>
+<Upgrade id="AegisoftheAdmiral"/>
+<Upgrade id="VigilantQuadrexUpgradeSpawn"/>
+<Upgrade id="QuistoRolUpgradeSpawn"/>
+<Upgrade id="VordrastUpgradeSpawn"/>
+<Upgrade id="ChironUpgradeSpawn"/>
+<Upgrade id="GehennaPrimeUpgradeSpawn"/>
+<Upgrade id="AthonosUpgradeSpawn"/>
+<Upgrade id="InwitUpgradeSpawn"/>
+<Upgrade id="TerraUpgradeSpawn"/>
+<Upgrade id="GhosarQuintusUpgradeSpawn"/>
+<Upgrade id="DevlanUpgradeSpawn"/>
+<Upgrade id="OgrysUpgradeSpawn"/>
+<Upgrade id="EyriePrimeUpgradeSpawn"/>
+<Upgrade id="EstabanUpgradeSpawn"/>
+<Upgrade id="BetaGarmonIVUpgradeSpawn"/>
+<Upgrade id="MolochUpgradeSpawn"/>
+<Upgrade id="FortressUpgradeSpawn"/>
+<Upgrade id="EspandorUpgradeSpawn"/>
+<Upgrade id="BellusPrimeUpgradeSpawn"/>
+<Upgrade id="TigrusUpgradeSpawn"/>
+<Upgrade id="FalShiaUpgradeSpawn"/>
+<Upgrade id="TauUpgradeSpawn"/>
+<Upgrade id="BorkanUpgradeSpawn"/>
+<Upgrade id="CantaIXUpgradeSpawn"/>
+<Upgrade id="ICharIVUpgradeSpawn"/>
+<Upgrade id="ThuliumUpgradeSpawn"/>
+<Upgrade id="MortendarUpgradeSpawn"/>
+<Upgrade id="MacraggeUpgradeSpawn"/>
+<Upgrade id="TarvanUpgradeSpawn"/>
+<Upgrade id="RhaeusUpgradeSpawn"/>
+<Upgrade id="PraetoriaVUpgradeSpawn"/>
+<Upgrade id="VorranoxUpgradeSpawn"/>
+<Upgrade id="TombWorldUpgradeSpawn"/>
+<Upgrade id="VraksUpgradeSpawn"/>
+<Upgrade id="XylocisUpgradeSpawn"/>
+<Upgrade id="DrohlIVUpgradeSpawn"/>
+<Upgrade id="AIresearch"/>
+</Preload>

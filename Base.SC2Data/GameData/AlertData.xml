@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CAlert id="AttackTown_Terr">
+        <Sound value="Alert_ImperiumForcesUnderAttack"/>
+    </CAlert>
+    <CAlert id="AttackUnit_Terr">
+        <Sound value="Alert_ImperiumForcesUnderAttack"/>
+    </CAlert>
+</Catalog>

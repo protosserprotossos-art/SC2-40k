@@ -1,0 +1,865 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CButton id="AdmiralSpireAura">
+        <Icon value="Assets\Textures\btn-upgrade-tychus-weapons-level5.dds"/>
+    </CButton>
+    <CButton id="HybridDominatorPlasmaBlast">
+        <Icon value="Icons\Necron Icons (placeholder)\phase_shifter.dds"/>
+    </CButton>
+    <CButton id="SaturnHeroesX">
+        <Icon value="Assets\Icons\Dow2\icon_wargear\expendable_xp_epic.dds"/>
+        <HotkeyAlias value="HolyTerraHeroes"/>
+    </CButton>
+    <CButton id="Shrapstorm">
+        <Icon value="Assets\Icons\Dow2\Eldar\BTNhaywire_grenade.dds"/>
+        <HotkeyAlias value="AdrenalOverrun"/>
+    </CButton>
+    <CButton id="RazorLunge">
+        <Icon value="Assets\Icons\Dow2\Imperium\BTNcharge.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-deadlycharge.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CButton>
+    <CButton id="BuildPointDefenseDrone">
+        <Icon value="Assets\Icons\Dow2\Imperium\BTNservo_skull.dds"/>
+    </CButton>
+    <CButton id="InquisitionPath">
+        <Icon value="Assets\Icons\Dow2\Eldar\BTNwarp_improved_targeters.dds"/>
+    </CButton>
+    <CButton id="AdrenalOverrun">
+        <Icon value="Assets\Icons\Dow2\icon_abilities\attack\tyr_charge.dds"/>
+    </CButton>
+    <CButton id="Dash">
+        <Icon value="Assets\Icons\Dow2\Eldar\BTNfleet_of_foot.dds"/>
+    </CButton>
+    <CButton id="Dash2">
+        <Icon value="Assets\Icons\Dow2\icon_traits_xp2\charge.dds"/>
+    </CButton>
+    <CButton id="DawnBlade">
+        <Tooltip value="Button/Tooltip/DawnBladeText"/>
+        <Icon value="Assets\Icons\Dow2\Eldar\BTNethereal_slash.dds"/>
+    </CButton>
+    <CButton id="PlasmaBall">
+        <Icon value="Assets\Icons\Dow2\Eldar\BTNwarp_shimmer_orb.dds"/>
+    </CButton>
+    <CButton id="PointDefenseDrone">
+        <Icon value="Assets\Icons\Dow2\Eldar\BTNfortune.dds"/>
+    </CButton>
+    <CButton id="Poisoner">
+        <Icon value="Assets\Icons\Dow2\icon_wargear\tyr_acc_explosive_decomposition.dds"/>
+    </CButton>
+    <CButton id="PraetoriaHeroes">
+        <Icon value="Assets\Textures\btn-ability-zerg-overlord-oversight.dds"/>
+        <HotkeyAlias value="HolyTerraHeroes"/>
+    </CButton>
+    <CButton id="PsiStrike">
+        <Icon value="Assets\Icons\Dow2\Eldar\BTNethereal_slash.dds"/>
+    </CButton>
+    <CButton id="SOALaserAttack">
+        <Icon value="Assets\Icons\Dow2\Eldar\BTNgroup_teleport.dds"/>
+    </CButton>
+    <CButton id="Skillshot"/>
+    <CButton id="PinpointParalysis">
+        <Icon value="Assets\Icons\Dow2\Imperium\BTNinquisitor_targeted_crossbow_shot.dds"/>
+    </CButton>
+    <CButton id="Flameshot">
+        <Icon value="Assets\Icons\Dow2\Imperium\BTNassault_jump.dds"/>
+    </CButton>
+    <CButton id="SmokeBomb">
+        <Icon value="Assets\Textures\btn-ability-tychus-tychus-shreddergrenade.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-zerg-darkswarm.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="DesignateTarget">
+        <Icon value="Assets\Textures\btn-upgrade-terran-nova-bombingrun.dds"/>
+    </CButton>
+    <CButton id="ScuttlingofJorgumandr">
+        <Icon value="Assets\Icons\Dow2\icon_abilities\buff\tyr_reclamation.dds"/>
+        <HotkeyAlias value="ImperialActions"/>
+    </CButton>
+    <CButton id="OrdoHereticus">
+        <Icon value="Assets\Icons\Dow2\Imperium\BTNblessing_01.dds"/>
+        <HotkeyAlias value="RhaeusUpgradeSpawn"/>
+    </CButton>
+    <CButton id="OrdoXenos">
+        <Icon value="Assets\Icons\Dow2\Imperium\BTNblessing_02.dds"/>
+        <HotkeyAlias value="RhaeusUpgradeSpawn"/>
+    </CButton>
+    <CButton id="SinkingOfTheKraken">
+        <Icon value="Assets\Icons\Dow2\icon_abilities\buff\tyr_reformation.dds"/>
+        <HotkeyAlias value="ImperialActions"/>
+    </CButton>
+    <CButton id="SaturnXUpgradeSpawn">
+        <Icon value="Assets\Icons\Dow2\icon_traits_xp2\reinforce.dds"/>
+        <HotkeyAlias value="RhaeusUpgradeSpawn"/>
+    </CButton>
+    <CButton id="SaturnHUpgradeSpawn">
+        <Icon value="Assets\Icons\Dow2\icon_traits_xp2\reinforce.dds"/>
+        <HotkeyAlias value="RhaeusUpgradeSpawn"/>
+    </CButton>
+    <CButton id="DrowningoftheLeviathan">
+        <Icon value="Assets\Icons\Dow2\icon_abilities\attack\tyr_burrow_strike.dds"/>
+        <HotkeyAlias value="ImperialActions"/>
+    </CButton>
+    <CButton id="TacticalRedeployment">
+        <Icon value="Assets\Icons\Dow2\Eldar\BTNsynergy.dds"/>
+        <HotkeyAlias value="ImperialActions"/>
+    </CButton>
+    <CButton id="PurificationProtocol">
+        <Icon value="Icons\Necron Icons (placeholder)\necron_nightmare_shroud_icon.dds"/>
+        <HotkeyAlias value="ImperialActions"/>
+    </CButton>
+    <CButton id="NecronsAscendant">
+        <Icon value="Icons\Necron Icons (placeholder)\necron_generic_07.dds"/>
+        <HotkeyAlias value="ImperialActions"/>
+    </CButton>
+    <CButton id="TombWorldHeroes4">
+        <Icon value="Assets\Icons\Dow2\icon_wargear\expendable_xp_epic.dds"/>
+        <HotkeyAlias value="HolyTerraHeroes"/>
+    </CButton>
+    <CButton id="UncrownedMonarch">
+        <Icon value="Assets\Icons\Dow2\icon_traits_xp2\knockback_def.dds"/>
+        <HotkeyAlias value="AscendantPrimarch"/>
+    </CButton>
+    <CButton id="DirectivePrecisionAbsolute">
+        <Icon value="Assets\Icons\Dow2\Eldar\BTNdispersed_beam.dds"/>
+        <HotkeyAlias value="LongshotCalibration"/>
+    </CButton>
+    <CButton id="BanelingNest">
+        <Tooltip value="Button/Tooltip/Mawloc"/>
+        <Icon value="Assets\Textures\btn-unit-zerg-nydusdestroyer.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-zerg-nydusdestroyer.dds"/>
+    </CButton>
+    <CButton id="BorkAnHeroes">
+        <Icon value="Assets\Icons\Dow2\icon_wargear\expendable_xp_epic.dds"/>
+        <HotkeyAlias value="HolyTerraHeroes"/>
+    </CButton>
+    <CButton id="BuildKorhalSporeCannon">
+        <Icon value="Assets\Textures\btn-building-zerg-virophage.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-zerg-virophage.dds"/>
+    </CButton>
+    <CButton id="ChainAmplification">
+        <Icon value="Icons\Necron Icons (placeholder)\generic_02.dds"/>
+    </CButton>
+    <CButton id="ChainReaction">
+        <Icon value="Assets\Icons\Dow2\Eldar\BTNfarsight.dds"/>
+    </CButton>
+    <CButton id="Charge">
+        <Icon value="Assets\Icons\Dow2\icon_traits_xp2\energy.dds"/>
+    </CButton>
+    <CButton id="ConstantinValdorability1">
+        <Icon value="Assets\Icons\Dow2\icon_traits_xp2\energy.dds"/>
+    </CButton>
+    <CButton id="DeepTunnel">
+        <Icon value="Assets\Icons\Dow2\icon_abilities\buff\tyr_burrow.dds"/>
+    </CButton>
+    <CButton id="DehakaHeal2">
+        <Icon value="Icons\Necron Icons (placeholder)\generic_health_increase.dds"/>
+        <AlertIcon value="Assets\Textures\btn-missing-kaeo.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="FarsightEnclavesFormed">
+        <Icon value="Assets\Icons\Dow2\icon_traits_xp2\pop_cap.dds"/>
+    </CButton>
+    <CButton id="AscendantPrimarch">
+        <Icon value="Assets\Icons\Dow2\icon_traits_xp2\pop_cap.dds"/>
+    </CButton>
+    <CButton id="RelentlessAdvance">
+        <Icon value="Assets\Icons\Dow2\icon_traits_xp2\melee_paralyzes.dds"/>
+        <HotkeyAlias value="FarsightsCommand"/>
+    </CButton>
+    <CButton id="GenestealerRisingAthonos">
+        <Icon value="Assets\Icons\Dow2\icon_wargear\summon_genestealer.dds"/>
+        <HotkeyAlias value="ImperialActions"/>
+    </CButton>
+    <CButton id="GiantYetiLeap">
+        <Icon value="Assets\Icons\Dow2\Eldar\BTNskyleap.dds"/>
+    </CButton>
+    <CButton id="GuardianShield">
+        <Icon value="Assets\Icons\Dow2\icon_traits_xp2\refractor_field.dds"/>
+    </CButton>
+    <CButton id="AegisoftheAdmiral">
+        <Icon value="Assets\Icons\Dow2\Eldar\BTNplasma_grenade.dds"/>
+        <HotkeyAlias value="LongshotCalibration"/>
+    </CButton>
+    <CButton id="DarkKing">
+        <Icon value="Assets\Icons\Dow2\Eldar\BTNwarlock_warp_throw.dds"/>
+        <HotkeyAlias value="ImperialActions"/>
+    </CButton>
+    <CButton id="RobouteAura">
+        <Icon value="Assets\Icons\Dow2\icon_traits_xp2\fortune.dds"/>
+    </CButton>
+    <CButton id="RobouteAuraDamageresistance">
+        <Icon value="Assets\Textures\btn-ability-mengsk-blimp-propagandamode.dds"/>
+        <HotkeyAlias value="ImperialActions"/>
+    </CButton>
+    <CButton id="RiseOfImotekhTheStormLord">
+        <Icon value="Icons\Necron Icons (placeholder)\necron_generic_022.dds"/>
+        <HotkeyAlias value="ImperialActions"/>
+    </CButton>
+    <CButton id="GreatRelicHunterTrazynTheInfinite">
+        <Icon value="Icons\Necron Icons (placeholder)\necron_overlord_tachyon_mantle1.dds"/>
+        <HotkeyAlias value="ImperialActions"/>
+    </CButton>
+    <CButton id="DarkKingAura">
+        <Icon value="Assets\Icons\Dow2\Eldar\BTNwarlock_warp_throw.dds"/>
+    </CButton>
+    <CButton id="StartAdvancedAIResearch">
+        <Icon value="Icons\Necron Icons (placeholder)\generic_04.dds"/>
+        <HotkeyAlias value="ImperialActions"/>
+    </CButton>
+    <CButton id="TauImperiumTemoraryWar">
+        <Icon value="Assets\Icons\Dow2\icon_traits_xp2\damage_recharge.dds"/>
+        <HotkeyAlias value="ImperialActions"/>
+    </CButton>
+    <CButton id="InviteHumanRefugees">
+        <Icon value="Assets\Icons\Dow2\icon_traits_xp2\damage_resistance.dds"/>
+        <HotkeyAlias value="ImperialActions"/>
+    </CButton>
+    <CButton id="UtilizeStasisFields">
+        <Icon value="Assets\Icons\Dow2\icon_traits_xp2\refractor_field.dds"/>
+        <HotkeyAlias value="ImperialActions"/>
+    </CButton>
+    <CButton id="TheStormlord">
+        <Icon value="Icons\Necron Icons (placeholder)\necron_mass_resurrection_icon.dds"/>
+    </CButton>
+    <CButton id="NecronsActions">
+        <Icon value="Icons\Necron Icons (placeholder)\necron_acc_glyph_05.dds"/>
+        <HotkeyAlias value="ImperialActions"/>
+    </CButton>
+    <CButton id="GenestealerRisingOgrys">
+        <Icon value="Assets\Icons\Dow2\icon_wargear\summon_genestealer.dds"/>
+        <HotkeyAlias value="ImperialActions"/>
+    </CButton>
+    <CButton id="OdinBarrage">
+        <Icon value="Assets\Icons\Dow2\Orks\BTNkommando_ambush.dds"/>
+    </CButton>
+    <CButton id="RetreatAthonos">
+        <Icon value="Assets\Icons\Dow2\icon_movement\retreat.dds"/>
+        <HotkeyAlias value="RhaeusUpgradeSpawn"/>
+    </CButton>
+    <CButton id="RetreatKrieg">
+        <Icon value="Assets\Icons\Dow2\icon_movement\retreat.dds"/>
+        <HotkeyAlias value="RhaeusUpgradeSpawn"/>
+    </CButton>
+    <CButton id="RetreatBellusPrime">
+        <Icon value="Assets\Icons\Dow2\icon_movement\retreat.dds"/>
+        <HotkeyAlias value="RhaeusUpgradeSpawn"/>
+    </CButton>
+    <CButton id="RetreatTigrus">
+        <Icon value="Assets\Icons\Dow2\icon_movement\retreat.dds"/>
+        <HotkeyAlias value="RhaeusUpgradeSpawn"/>
+    </CButton>
+    <CButton id="RetreatMacharia">
+        <Icon value="Assets\Icons\Dow2\icon_movement\retreat.dds"/>
+        <HotkeyAlias value="RhaeusUpgradeSpawn"/>
+    </CButton>
+    <CButton id="RetreatGehennaPrime">
+        <Icon value="Assets\Icons\Dow2\icon_movement\retreat.dds"/>
+        <HotkeyAlias value="RhaeusUpgradeSpawn"/>
+    </CButton>
+    <CButton id="SOAChronoBeam2">
+        <Icon value="Assets\Icons\Dow2\icon_movement\melee_over.dds"/>
+    </CButton>
+    <CButton id="SOATimeWarp">
+        <Icon value="Icons\Necron Icons (placeholder)\necron_sphere.dds"/>
+    </CButton>
+    <CButton id="TimeTear">
+        <Icon value="Assets\Icons\Dow2\icon_traits_xp2\ressurect_green.dds"/>
+    </CButton>
+    <CButton id="TombWorldHeroes2">
+        <Icon value="Assets\Icons\Dow2\icon_wargear\expendable_xp_epic.dds"/>
+        <HotkeyAlias value="HolyTerraHeroes"/>
+    </CButton>
+    <CButton id="TombWorldHeroes3">
+        <Icon value="Assets\Icons\Dow2\icon_wargear\expendable_xp_epic.dds"/>
+        <HotkeyAlias value="HolyTerraHeroes"/>
+    </CButton>
+    <CButton id="TornadoMissile">
+        <Icon value="Assets\Icons\Dow2\Orks\BTNaiming_wotz_dat.dds"/>
+    </CButton>
+    <CButton id="TyranidActions">
+        <Icon value="Assets\Icons\Dow2\icon_wargear\tyr_biomass_synaptic.dds"/>
+        <HotkeyAlias value="ImperialActions"/>
+    </CButton>
+    <CButton id="PrologueVoidArmor">
+        <Icon value="Assets\Icons\Dow2\icon_traits_xp2\force_shield.dds"/>
+    </CButton>
+    <CButton id="NegotiateWithTheEldar">
+        <Icon value="Assets\Icons\Dow2\Eldar\BTNprovidence.dds"/>
+        <HotkeyAlias value="ImperialActions"/>
+    </CButton>
+    <CButton id="InviteRobouteToTerra">
+        <Icon value="Assets\Icons\Dow2\icon_wargear\eliteoken_cmd.dds"/>
+        <HotkeyAlias value="ImperialActions"/>
+    </CButton>
+    <CButton id="PsionicLift">
+        <Icon value="Assets\Icons\Dow2\Eldar\BTNlevitation_field.dds"/>
+    </CButton>
+    <CButton id="SabotageTheImperium">
+        <Icon value="Assets\Icons\Dow2\icon_traits_xp2\doom.dds"/>
+        <HotkeyAlias value="ImperialActions"/>
+    </CButton>
+    <CButton id="SisterMedicSeraphinaVossAura">
+        <Icon value="Assets\Icons\Dow2\icon_traits_xp2\health_aoe.dds"/>
+    </CButton>
+    <CButton id="TheDynasticCall">
+        <Icon value="Icons\Necron Icons (placeholder)\necron_mass_resurrection_icon.dds"/>
+        <HotkeyAlias value="ImperialActions"/>
+    </CButton>
+    <CButton id="ShadowBlade">
+        <Icon value="Icons\Necron Icons (placeholder)\necrotic_wall.dds"/>
+    </CButton>
+    <CButton id="NullentropyCascade">
+        <Icon value="Icons\Necron Icons (placeholder)\aoe_melee_attack.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="TombWorldHeroes">
+        <Icon value="Assets\Icons\Dow2\icon_wargear\expendable_xp_epic.dds"/>
+        <HotkeyAlias value="HolyTerraHeroes"/>
+    </CButton>
+    <CButton id="OgrysHeroes2">
+        <Icon value="Assets\Textures\btn-ability-zerg-overlord-oversight.dds"/>
+        <HotkeyAlias value="HolyTerraHeroes"/>
+    </CButton>
+    <CButton id="MortendarHeroesLeviathan">
+        <Icon value="Assets\Textures\btn-ability-zerg-overlord-oversight.dds"/>
+        <HotkeyAlias value="HolyTerraHeroes"/>
+    </CButton>
+    <CButton id="FeralCharge">
+        <Icon value="Assets\Icons\Dow2\icon_traits_xp2\energy.dds"/>
+    </CButton>
+    <CButton id="HarmonicCalibration">
+        <Icon value="Assets\Icons\Dow2\icon_traits_xp2\health_regeneration.dds"/>
+        <HotkeyAlias value="LongshotCalibration"/>
+    </CButton>
+    <CButton id="HarmonicSurge">
+        <Icon value="Assets\Icons\Dow2\icon_traits_xp2\health_regeneration.dds"/>
+        <HotkeyAlias value="LongshotCalibration"/>
+    </CButton>
+    <CButton id="HarmonicOverdrive">
+        <Icon value="Assets\Icons\Dow2\icon_traits_xp2\health_regeneration.dds"/>
+        <HotkeyAlias value="LongshotCalibration"/>
+    </CButton>
+    <CButton id="BoundlessGuidance">
+        <Icon value="Assets\Icons\Dow2\icon_traits_xp2\bonuses_blue.dds"/>
+        <HotkeyAlias value="LongshotCalibration"/>
+    </CButton>
+    <CButton id="EtherealAuthority">
+        <Icon value="Assets\Icons\Dow2\icon_traits_xp2\knockback_def.dds"/>
+        <HotkeyAlias value="LongshotCalibration"/>
+    </CButton>
+    <CButton id="DevlanHeroesLeviathan">
+        <Icon value="Assets\Textures\btn-ability-zerg-overlord-oversight.dds"/>
+        <HotkeyAlias value="HolyTerraHeroes"/>
+    </CButton>
+    <CButton id="EnclaveCivilWar">
+        <Icon value="Assets\Icons\Dow2\icon_traits_xp2\reactive_armor.dds"/>
+        <HotkeyAlias value="ImperialActions"/>
+    </CButton>
+    <CButton id="SilentKingUpgradeHero">
+        <Icon value="Icons\Necron Icons (placeholder)\necron_overlord.dds"/>
+        <HotkeyAlias value="RhaeusUpgradeSpawn"/>
+    </CButton>
+    <CButton id="SzarekhDisableRanged">
+        <Icon value="Icons\Necron Icons (placeholder)\generic_03.dds"/>
+    </CButton>
+    <CButton id="SzarekhEnableRanged">
+        <Icon value="Icons\Necron Icons (placeholder)\staff_of_light_unique.dds"/>
+        <HotkeyAlias value="SzarekhDisableRanged"/>
+    </CButton>
+    <CButton id="TombWorldCantaUpgradeSpawn">
+        <Icon value="Assets\Icons\Dow2\icon_traits_xp2\reinforce.dds"/>
+        <HotkeyAlias value="RhaeusUpgradeSpawn"/>
+    </CButton>
+    <CButton id="TombWorldAthonosUpgradeSpawn">
+        <Icon value="Assets\Icons\Dow2\icon_traits_xp2\reinforce.dds"/>
+        <HotkeyAlias value="RhaeusUpgradeSpawn"/>
+    </CButton>
+    <CButton id="TombWorldFalShiaUpgradeSpawn">
+        <Icon value="Assets\Icons\Dow2\icon_traits_xp2\reinforce.dds"/>
+        <HotkeyAlias value="RhaeusUpgradeSpawn"/>
+    </CButton>
+    <CButton id="DevastatingOnslaught">
+        <Icon value="Assets\Icons\Dow2\icon_traits_xp2\damage_suppressed.dds"/>
+        <HotkeyAlias value="FarsightsCommand"/>
+    </CButton>
+    <CButton id="FocusedBarrage">
+        <Icon value="Assets\Icons\Dow2\icon_traits_xp2\fire_aoe.dds"/>
+        <HotkeyAlias value="FarsightsCommand"/>
+    </CButton>
+    <CButton id="VoidSentryBlackHole">
+        <Icon value="Icons\Necron Icons (placeholder)\necron_wailing_doom_icon.dds"/>
+    </CButton>
+    <CButton id="VoidSentryBlackHole2">
+        <Icon value="Assets\Textures\btn-ability-protoss-blackhole-redcolor.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CButton>
+    <CButton id="VoidSentryChronoBeam"/>
+    <CButton id="VoidZealotWhirlwind">
+        <Icon value="Assets\Icons\Dow2\Orks\BTNnob_frenzy.dds"/>
+    </CButton>
+    <CButton id="VoidborneTransit">
+        <Icon value="Assets\Icons\Dow2\icon_traits_xp2\power.dds"/>
+        <HotkeyAlias value="LongshotCalibration"/>
+    </CButton>
+    <CButton id="PreysLegacy">
+        <Icon value="Assets\Icons\Dow2\icon_traits_xp2\deadly_proficiency.dds"/>
+    </CButton>
+    <CButton id="StealTechnology">
+        <Icon value="Assets\Icons\Dow2\icon_traits_xp2\power.dds"/>
+        <HotkeyAlias value="ImperialActions"/>
+    </CButton>
+    <CButton id="TauEmpireActions">
+        <Icon value="Assets\Textures\btn-ability-mengsk-marauder-selfabsorbshield.dds"/>
+        <HotkeyAlias value="ImperialActions"/>
+    </CButton>
+    <CButton id="LongshotSurge">
+        <Icon value="Assets\Icons\Dow2\icon_traits_xp2\ranged_def.dds"/>
+        <HotkeyAlias value="LongshotCalibration"/>
+    </CButton>
+    <CButton id="LongshotOverdrive">
+        <Icon value="Assets\Icons\Dow2\icon_traits_xp2\ranged_def.dds"/>
+        <HotkeyAlias value="LongshotCalibration"/>
+    </CButton>
+    <CButton id="ShapersMight">
+        <Icon value="Assets\Icons\Dow2\icon_traits_xp2\doom.dds"/>
+        <HotkeyAlias value="LongshotCalibration"/>
+    </CButton>
+    <CButton id="ShapersReflex">
+        <Icon value="Assets\Icons\Dow2\icon_traits_xp2\doom.dds"/>
+        <HotkeyAlias value="LongshotCalibration"/>
+    </CButton>
+    <CButton id="ShapersGuard">
+        <Icon value="Assets\Icons\Dow2\icon_traits_xp2\doom.dds"/>
+        <HotkeyAlias value="LongshotCalibration"/>
+    </CButton>
+    <CButton id="StreamlinedMunitioning">
+        <Icon value="Assets\Icons\Dow2\icon_traits_xp2\rate_of_fire.dds"/>
+        <HotkeyAlias value="LongshotCalibration"/>
+    </CButton>
+    <CButton id="ReaverScarabs">
+        <Icon value="Assets\Icons\Dow2\icon_traits_xp2\rate_of_fire.dds"/>
+    </CButton>
+    <CButton id="EspandorHeroes">
+        <Icon value="Assets\Textures\btn-ability-zerg-overlord-oversight.dds"/>
+        <HotkeyAlias value="HolyTerraHeroes"/>
+    </CButton>
+    <CButton id="VorazunBlink">
+        <Icon value="Assets\Icons\Dow2\Eldar\BTNconceal.dds"/>
+    </CButton>
+    <CButton id="WideReachOrdinance">
+        <Icon value="Assets\Icons\Dow2\icon_traits_xp2\heavy_weapons_specialist.dds"/>
+        <HotkeyAlias value="LongshotCalibration"/>
+    </CButton>
+    <CButton id="WaterCasteDominion">
+        <Icon value="Assets\Icons\Dow2\icon_traits\reactive_armor_large.dds"/>
+        <HotkeyAlias value="LongshotCalibration"/>
+    </CButton>
+    <CButton id="WaterCasteConnections">
+        <Icon value="Assets\Icons\Dow2\icon_traits\reactive_armor_large.dds"/>
+        <HotkeyAlias value="LongshotCalibration"/>
+    </CButton>
+    <CButton id="TauHeroes">
+        <Icon value="Assets\Icons\Dow2\icon_wargear\expendable_xp_epic.dds"/>
+        <HotkeyAlias value="HolyTerraHeroes"/>
+    </CButton>
+    <CButton id="FarsightsCommand">
+        <Icon value="Icons\Necron Icons (placeholder)\generic_damage_increase.dds"/>
+    </CButton>
+    <CButton id="UnyieldingDefense">
+        <Icon value="Assets\Icons\Dow2\icon_traits_xp2\damage_resistance.dds"/>
+        <HotkeyAlias value="FarsightsCommand"/>
+    </CButton>
+    <CButton id="MortendarHeroes">
+        <Icon value="Assets\Icons\Dow2\icon_wargear\expendable_xp_epic.dds"/>
+        <HotkeyAlias value="HolyTerraHeroes"/>
+    </CButton>
+    <CButton id="AthonosHeroes">
+        <Icon value="Assets\Icons\Dow2\icon_wargear\expendable_xp_epic.dds"/>
+        <HotkeyAlias value="HolyTerraHeroes"/>
+    </CButton>
+    <CButton id="BetaGarmonHeroes">
+        <Icon value="Assets\Icons\Dow2\icon_wargear\expendable_xp_epic.dds"/>
+        <HotkeyAlias value="HolyTerraHeroes"/>
+    </CButton>
+    <CButton id="ArdiumHeroes">
+        <Icon value="Assets\Icons\Dow2\icon_wargear\expendable_xp_epic.dds"/>
+        <HotkeyAlias value="HolyTerraHeroes"/>
+    </CButton>
+    <CButton id="CantaHeroes">
+        <Icon value="Assets\Icons\Dow2\icon_wargear\expendable_xp_epic.dds"/>
+        <HotkeyAlias value="HolyTerraHeroes"/>
+    </CButton>
+    <CButton id="PathoftheOutcast">
+        <Icon value="Assets\Icons\Dow2\icon_traits_xp2\pop_cap.dds"/>
+    </CButton>
+    <CButton id="PhaseCannon">
+        <Icon value="Assets\Icons\Dow2\icon_wargear\eliteoken_cmd.dds"/>
+    </CButton>
+    <CButton id="TauResearchTier2">
+        <Icon value="Assets\Textures\btn-upgrade-mengsk-engineeringbay-dominionweaponslevel2.dds"/>
+        <HotkeyAlias value="TauResearch"/>
+    </CButton>
+    <CButton id="TauResearchTier3">
+        <Icon value="Assets\Textures\btn-upgrade-mengsk-engineeringbay-dominionweaponslevel3.dds"/>
+        <HotkeyAlias value="TauResearch"/>
+    </CButton>
+    <CButton id="WaterCasteAlliances">
+        <Icon value="Assets\Icons\Dow2\icon_traits\reactive_armor_large.dds"/>
+        <HotkeyAlias value="LongshotCalibration"/>
+    </CButton>
+    <CButton id="TombWorldIceUpgradeSpawn">
+        <Icon value="Assets\Icons\Dow2\icon_traits_xp2\reinforce.dds"/>
+        <HotkeyAlias value="RhaeusUpgradeSpawn"/>
+    </CButton>
+    <CButton id="RetreatOgrys">
+        <Icon value="Assets\Icons\Dow2\icon_movement\retreat.dds"/>
+        <HotkeyAlias value="RhaeusUpgradeSpawn"/>
+    </CButton>
+    <CButton id="ZeratulBlink">
+        <Icon value="Icons\Necron Icons (placeholder)\necron_phase_shifter_icon.dds"/>
+    </CButton>
+    <CButton id="ZeratulBlink2">
+        <Icon value="Icons\Necron Icons (placeholder)\necron_phase_shifter_icon.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-blink-zeratul.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <TintRacially value="1"/>
+    </CButton>
+    <CButton id="TimeTwister">
+        <Icon value="Icons\Necron Icons (placeholder)\necron_stasis_field_icon.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-blink-zeratul.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <TintRacially value="1"/>
+    </CButton>
+    <CButton id="Blink2">
+        <Icon value="Icons\Necron Icons (placeholder)\necron_phase_shifter_icon.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-blink-zeratul.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <TintRacially value="1"/>
+    </CButton>
+    <CButton id="ZeratulBlinkAiur01">
+        <Icon value="Icons\Necron Icons (placeholder)\necron_phase_shifter_icon.dds"/>
+    </CButton>
+    <CButton id="ZeratulStun">
+        <Icon value="Icons\Necron Icons (placeholder)\energy_blast.dds"/>
+    </CButton>
+    <CButton id="ZurvanTentacleSlam">
+        <Icon value="Assets\Icons\Dow2\Imperium\BTNsubjugate.dds"/>
+    </CButton>
+    <CButton id="stabanHeroes">
+        <Icon value="Assets\Icons\Dow2\icon_wargear\expendable_xp_epic.dds"/>
+        <HotkeyAlias value="HolyTerraHeroes"/>
+    </CButton>
+    <CButton id="EyriePrimeHeroes">
+        <Icon value="Assets\Icons\Dow2\icon_wargear\expendable_xp_epic.dds"/>
+        <HotkeyAlias value="HolyTerraHeroes"/>
+    </CButton>
+    <CButton id="MolechHeroes">
+        <Icon value="Assets\Icons\Dow2\icon_wargear\expendable_xp_epic.dds"/>
+        <HotkeyAlias value="HolyTerraHeroes"/>
+    </CButton>
+    <CButton id="KriegHeroes">
+        <Icon value="Assets\Icons\Dow2\icon_wargear\expendable_xp_epic.dds"/>
+        <HotkeyAlias value="HolyTerraHeroes"/>
+    </CButton>
+    <CButton id="MachariaHeroes">
+        <Icon value="Assets\Icons\Dow2\icon_wargear\expendable_xp_epic.dds"/>
+        <HotkeyAlias value="HolyTerraHeroes"/>
+    </CButton>
+    <CButton id="FortressHeroes">
+        <Icon value="Assets\Icons\Dow2\icon_wargear\expendable_xp_epic.dds"/>
+        <HotkeyAlias value="HolyTerraHeroes"/>
+    </CButton>
+    <CButton id="OgrysHeroes">
+        <Icon value="Assets\Icons\Dow2\icon_wargear\expendable_xp_epic.dds"/>
+        <HotkeyAlias value="HolyTerraHeroes"/>
+    </CButton>
+    <CButton id="BellusPrimeHeroes">
+        <Icon value="Assets\Icons\Dow2\icon_wargear\expendable_xp_epic.dds"/>
+        <HotkeyAlias value="HolyTerraHeroes"/>
+    </CButton>
+    <CButton id="TarvanHeroes">
+        <Icon value="Assets\Icons\Dow2\icon_wargear\expendable_xp_epic.dds"/>
+        <HotkeyAlias value="HolyTerraHeroes"/>
+    </CButton>
+    <CButton id="DrohlHeroes">
+        <Icon value="Assets\Icons\Dow2\icon_wargear\expendable_xp_epic.dds"/>
+        <HotkeyAlias value="HolyTerraHeroes"/>
+    </CButton>
+    <CButton id="UnifyingBuzz">
+        <Icon value="Assets\Textures\btn-ability-kerrigan-fury.dds"/>
+    </CButton>
+    <CButton id="Digester">
+        <Icon value="Assets\Textures\btn-unit-zerg-nyduscreeptower.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-zerg-nyduscreeptower.dds"/>
+    </CButton>
+    <CButton id="GehennaPrimeHeroes">
+        <Icon value="Assets\Icons\Dow2\icon_wargear\expendable_xp_epic.dds"/>
+        <HotkeyAlias value="HolyTerraHeroes"/>
+    </CButton>
+    <CButton id="BuildHiveDefenders">
+        <Icon value="Assets\Textures\btn-unit-zerg-scourge.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-protoss-interceptor.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CButton>
+    <CButton id="LurkerCancelHoldFire2">
+        <Icon value="Assets\Textures\btn-ability-terran-weaponsfree.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-terran-weaponsfree.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+        <TintRacially value="1"/>
+        <HotkeySet value="LurkerHoldFire"/>
+    </CButton>
+    <CButton id="LurkerHoldFire2">
+        <Icon value="Assets\Textures\btn-ability-terran-holdfire.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-terran-holdfire.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+        <TintRacially value="1"/>
+        <HotkeySet value="LurkerHoldFire"/>
+    </CButton>
+    <CButton id="QuisToRolHeroes">
+        <Icon value="Assets\Textures\btn-ability-zerg-overlord-oversight.dds"/>
+        <HotkeyAlias value="HolyTerraHeroes"/>
+    </CButton>
+    <CButton id="VorranoxHeroes">
+        <Icon value="Assets\Textures\btn-ability-zerg-overlord-oversight.dds"/>
+        <HotkeyAlias value="HolyTerraHeroes"/>
+    </CButton>
+    <CButton id="VigilantQuadrexHeroes">
+        <Icon value="Assets\Textures\btn-ability-zerg-overlord-oversight.dds"/>
+        <HotkeyAlias value="HolyTerraHeroes"/>
+    </CButton>
+    <CButton id="MacraggeHeroes">
+        <Icon value="Assets\Icons\Dow2\icon_wargear\expendable_xp_epic.dds"/>
+        <HotkeyAlias value="HolyTerraHeroes"/>
+    </CButton>
+    <CButton id="HolyTerraHeroes">
+        <Icon value="Assets\Icons\Dow2\icon_wargear\expendable_xp_epic.dds"/>
+    </CButton>
+    <CButton id="DevlanHeroesHighlords">
+        <Icon value="Assets\Icons\Dow2\icon_wargear\expendable_xp_epic.dds"/>
+        <HotkeyAlias value="HolyTerraHeroes"/>
+    </CButton>
+    <CButton id="ImperialActions">
+        <Icon value="Assets\Icons\Dow2\Imperium\BTNfeel_no_pain.dds"/>
+    </CButton>
+    <CButton id="JudgmentofTerra">
+        <Icon value="Assets\Textures\btn-progression-mengsk-05-unquestionedauthority.dds"/>
+        <HotkeyAlias value="ImperialActions"/>
+    </CButton>
+    <CButton id="InwitHeroesLion">
+        <Icon value="Assets\Icons\Dow2\icon_wargear\expendable_xp_epic.dds"/>
+        <HotkeyAlias value="HolyTerraHeroes"/>
+    </CButton>
+    <CButton id="GhosarQuintusHeroes">
+        <Icon value="Assets\Textures\btn-ability-zerg-overlord-oversight.dds"/>
+        <HotkeyAlias value="HolyTerraHeroes"/>
+    </CButton>
+    <CButton id="StukovInfestedTerrans"/>
+    <CButton id="TheLionsFall">
+        <Icon value="Assets\Textures\btn-ability-mengsk-commandcenter-drafttroopers.dds"/>
+        <HotkeyAlias value="ImperialActions"/>
+    </CButton>
+    <CButton id="TheAvengingSonsWrath">
+        <Icon value="Assets\Icons\Dow2\icon_traits_xp2\damage_recharge.dds"/>
+        <HotkeyAlias value="ImperialActions"/>
+    </CButton>
+    <CButton id="PropagandaAgainstTheTau">
+        <Icon value="Assets\Textures\btn-ability-mengsk-blimp-propagandamode.dds"/>
+        <HotkeyAlias value="ImperialActions"/>
+    </CButton>
+    <CButton id="LongshotCalibration">
+        <Icon value="Assets\Icons\Dow2\icon_traits_xp2\ranged_def.dds"/>
+    </CButton>
+    <CButton id="PropagandaAgainstTheNecrons">
+        <Icon value="Assets\Textures\btn-ability-mengsk-blimp-propagandamode.dds"/>
+        <HotkeyAlias value="ImperialActions"/>
+    </CButton>
+    <CButton id="TauResearch">
+        <Icon value="Assets\Textures\btn-upgrade-mengsk-engineeringbay-dominionweaponslevel1.dds"/>
+        <Tooltip value="Button/Tooltip/TauResearchButton"/>
+        <AlertTooltip value="Button/Tooltip/TauResearchButton"/>
+    </CButton>
+    <CButton id="ChallengeofthePrimarchs">
+        <Icon value="Assets\Icons\Dow2\icon_traits_xp2\damage_recharge.dds"/>
+        <HotkeyAlias value="ImperialActions"/>
+    </CButton>
+    <CButton id="PurgeoftheAvengingSon">
+        <Icon value="Assets\Textures\btn-ability-mengsk-commandcenter-draftlaborers.dds"/>
+        <HotkeyAlias value="ImperialActions"/>
+    </CButton>
+    <CButton id="LionsPride">
+        <Icon value="Assets\Textures\btn-progression-mengsk-08-basicroyalguardupgradecache.dds"/>
+        <HotkeyAlias value="ImperialActions"/>
+    </CButton>
+    <CButton id="VordrastHeroes">
+        <Icon value="Assets\Textures\btn-ability-zerg-overlord-oversight.dds"/>
+        <HotkeyAlias value="HolyTerraHeroes"/>
+    </CButton>
+    <CButton id="VigilantQuadrexUpgradeSpawn">
+        <Icon value="Assets\Icons\Dow2\icon_traits_xp2\reinforce.dds"/>
+        <HotkeyAlias value="RhaeusUpgradeSpawn"/>
+    </CButton>
+    <CButton id="QuistoRolUpgradeSpawn">
+        <Icon value="Assets\Icons\Dow2\icon_traits_xp2\reinforce.dds"/>
+        <HotkeyAlias value="RhaeusUpgradeSpawn"/>
+    </CButton>
+    <CButton id="ChironHeroes">
+        <Icon value="Assets\Textures\btn-ability-zerg-overlord-oversight.dds"/>
+        <HotkeyAlias value="HolyTerraHeroes"/>
+    </CButton>
+    <CButton id="RhaeusHeroes">
+        <Icon value="Assets\Textures\btn-ability-zerg-overlord-oversight.dds"/>
+        <HotkeyAlias value="HolyTerraHeroes"/>
+    </CButton>
+    <CButton id="VordrastUpgradeSpawn">
+        <Icon value="Assets\Icons\Dow2\icon_traits_xp2\reinforce.dds"/>
+        <HotkeyAlias value="RhaeusUpgradeSpawn"/>
+    </CButton>
+    <CButton id="ChironUpgradeSpawn">
+        <Icon value="Assets\Icons\Dow2\icon_traits_xp2\reinforce.dds"/>
+        <HotkeyAlias value="RhaeusUpgradeSpawn"/>
+    </CButton>
+    <CButton id="AthonosUpgradeSpawn">
+        <Icon value="Assets\Icons\Dow2\icon_traits_xp2\reinforce.dds"/>
+        <HotkeyAlias value="RhaeusUpgradeSpawn"/>
+    </CButton>
+    <CButton id="GehennaPrimeUpgradeSpawn">
+        <Icon value="Assets\Icons\Dow2\icon_traits_xp2\reinforce.dds"/>
+        <HotkeyAlias value="RhaeusUpgradeSpawn"/>
+    </CButton>
+    <CButton id="MachariaUpgradeSpawn">
+        <Icon value="Assets\Icons\Dow2\icon_traits_xp2\reinforce.dds"/>
+        <HotkeyAlias value="RhaeusUpgradeSpawn"/>
+    </CButton>
+    <CButton id="InwitUpgradeSpawn">
+        <Icon value="Assets\Icons\Dow2\icon_traits_xp2\reinforce.dds"/>
+        <HotkeyAlias value="RhaeusUpgradeSpawn"/>
+    </CButton>
+    <CButton id="TerraUpgradeSpawn">
+        <Icon value="Assets\Icons\Dow2\icon_traits_xp2\reinforce.dds"/>
+        <HotkeyAlias value="RhaeusUpgradeSpawn"/>
+    </CButton>
+    <CButton id="DevlanUpgradeSpawn">
+        <Icon value="Assets\Icons\Dow2\icon_traits_xp2\reinforce.dds"/>
+        <HotkeyAlias value="RhaeusUpgradeSpawn"/>
+    </CButton>
+    <CButton id="GhosarQuintusUpgradeSpawn">
+        <Icon value="Assets\Icons\Dow2\icon_traits_xp2\reinforce.dds"/>
+        <HotkeyAlias value="RhaeusUpgradeSpawn"/>
+    </CButton>
+    <CButton id="OgrysUpgradeSpawn">
+        <Icon value="Assets\Icons\Dow2\icon_traits_xp2\reinforce.dds"/>
+        <HotkeyAlias value="RhaeusUpgradeSpawn"/>
+    </CButton>
+    <CButton id="EyriePrimeUpgradeSpawn">
+        <Icon value="Assets\Icons\Dow2\icon_traits_xp2\reinforce.dds"/>
+        <HotkeyAlias value="RhaeusUpgradeSpawn"/>
+    </CButton>
+    <CButton id="EstabanUpgradeSpawn">
+        <Icon value="Assets\Icons\Dow2\icon_traits_xp2\reinforce.dds"/>
+        <HotkeyAlias value="RhaeusUpgradeSpawn"/>
+    </CButton>
+    <CButton id="BetaGarmonIVUpgradeSpawn">
+        <Icon value="Assets\Icons\Dow2\icon_traits_xp2\reinforce.dds"/>
+        <HotkeyAlias value="RhaeusUpgradeSpawn"/>
+    </CButton>
+    <CButton id="FortressUpgradeSpawn">
+        <Icon value="Assets\Icons\Dow2\icon_traits_xp2\reinforce.dds"/>
+        <HotkeyAlias value="RhaeusUpgradeSpawn"/>
+    </CButton>
+    <CButton id="EspandorUpgradeSpawn">
+        <Icon value="Assets\Icons\Dow2\icon_traits_xp2\reinforce.dds"/>
+        <HotkeyAlias value="RhaeusUpgradeSpawn"/>
+    </CButton>
+    <CButton id="BellusPrimeUpgradeSpawn">
+        <Icon value="Assets\Icons\Dow2\icon_traits_xp2\reinforce.dds"/>
+        <HotkeyAlias value="RhaeusUpgradeSpawn"/>
+    </CButton>
+    <CButton id="FalShiaUpgradeSpawn">
+        <Icon value="Assets\Icons\Dow2\icon_traits_xp2\reinforce.dds"/>
+        <HotkeyAlias value="RhaeusUpgradeSpawn"/>
+    </CButton>
+    <CButton id="BorkanUpgradeSpawn">
+        <Icon value="Assets\Icons\Dow2\icon_traits_xp2\reinforce.dds"/>
+        <HotkeyAlias value="RhaeusUpgradeSpawn"/>
+    </CButton>
+    <CButton id="CantaIXUpgradeSpawn">
+        <Icon value="Assets\Icons\Dow2\icon_traits_xp2\reinforce.dds"/>
+        <HotkeyAlias value="RhaeusUpgradeSpawn"/>
+    </CButton>
+    <CButton id="MolochUpgradeSpawn">
+        <Icon value="Assets\Icons\Dow2\icon_traits_xp2\reinforce.dds"/>
+        <HotkeyAlias value="RhaeusUpgradeSpawn"/>
+    </CButton>
+    <CButton id="XylosisHeroes">
+        <Icon value="Assets\Textures\btn-ability-zerg-overlord-oversight.dds"/>
+        <HotkeyAlias value="HolyTerraHeroes"/>
+    </CButton>
+    <CButton id="VraksUpgradeSpawn">
+        <Icon value="Assets\Icons\Dow2\icon_traits_xp2\reinforce.dds"/>
+        <HotkeyAlias value="RhaeusUpgradeSpawn"/>
+    </CButton>
+    <CButton id="TigrusUpgradeSpawn">
+        <Icon value="Assets\Icons\Dow2\icon_traits_xp2\reinforce.dds"/>
+        <HotkeyAlias value="RhaeusUpgradeSpawn"/>
+    </CButton>
+    <CButton id="TauUpgradeSpawn">
+        <Icon value="Assets\Icons\Dow2\icon_traits_xp2\reinforce.dds"/>
+        <HotkeyAlias value="RhaeusUpgradeSpawn"/>
+    </CButton>
+    <CButton id="MortendarUpgradeSpawn">
+        <Icon value="Assets\Icons\Dow2\icon_traits_xp2\reinforce.dds"/>
+        <HotkeyAlias value="RhaeusUpgradeSpawn"/>
+    </CButton>
+    <CButton id="MacraggeUpgradeSpawn">
+        <Icon value="Assets\Icons\Dow2\icon_traits_xp2\reinforce.dds"/>
+        <HotkeyAlias value="RhaeusUpgradeSpawn"/>
+    </CButton>
+    <CButton id="ArdiumUpgradeSpawn">
+        <Icon value="Assets\Icons\Dow2\icon_traits_xp2\reinforce.dds"/>
+        <HotkeyAlias value="RhaeusUpgradeSpawn"/>
+    </CButton>
+    <CButton id="ThuliumUpgradeSpawn">
+        <Icon value="Assets\Icons\Dow2\icon_traits_xp2\reinforce.dds"/>
+        <HotkeyAlias value="RhaeusUpgradeSpawn"/>
+    </CButton>
+    <CButton id="TarvanUpgradeSpawn">
+        <Icon value="Assets\Icons\Dow2\icon_traits_xp2\reinforce.dds"/>
+        <HotkeyAlias value="RhaeusUpgradeSpawn"/>
+    </CButton>
+    <CButton id="RhaeusUpgradeSpawn">
+        <Icon value="Assets\Icons\Dow2\icon_traits_xp2\reinforce.dds"/>
+    </CButton>
+    <CButton id="DrohlIVUpgradeSpawn">
+        <Icon value="Assets\Icons\Dow2\icon_traits_xp2\reinforce.dds"/>
+        <HotkeyAlias value="RhaeusUpgradeSpawn"/>
+    </CButton>
+    <CButton id="ICharIVUpgradeSpawn">
+        <Icon value="Assets\Icons\Dow2\icon_traits_xp2\reinforce.dds"/>
+        <HotkeyAlias value="RhaeusUpgradeSpawn"/>
+    </CButton>
+    <CButton id="VorranoxUpgradeSpawn">
+        <Icon value="Assets\Icons\Dow2\icon_traits_xp2\reinforce.dds"/>
+        <HotkeyAlias value="RhaeusUpgradeSpawn"/>
+    </CButton>
+    <CButton id="TombWorldUpgradeSpawn">
+        <Icon value="Assets\Icons\Dow2\icon_traits_xp2\reinforce.dds"/>
+        <HotkeyAlias value="RhaeusUpgradeSpawn"/>
+    </CButton>
+    <CButton id="XylocisUpgradeSpawn">
+        <Icon value="Assets\Icons\Dow2\icon_traits_xp2\reinforce.dds"/>
+        <HotkeyAlias value="RhaeusUpgradeSpawn"/>
+    </CButton>
+    <CButton id="PraetoriaVUpgradeSpawn">
+        <Icon value="Assets\Icons\Dow2\icon_traits_xp2\reinforce.dds"/>
+        <HotkeyAlias value="RhaeusUpgradeSpawn"/>
+    </CButton>
+    <CButton id="FalShiaHeroes">
+        <Icon value="Assets\Icons\Dow2\icon_wargear\expendable_xp_epic.dds"/>
+        <HotkeyAlias value="HolyTerraHeroes"/>
+    </CButton>
+    <CButton id="SaturnHeroesH">
+        <Icon value="Assets\Icons\Dow2\icon_wargear\expendable_xp_epic.dds"/>
+        <HotkeyAlias value="HolyTerraHeroes"/>
+    </CButton>
+</Catalog>

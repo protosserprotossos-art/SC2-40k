@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CSoundtrack id="MagnusInvasionSoundtrack" parent="Ambience_Map"/>
+    <CSoundtrack id="UncrownedMonarchSoundtrack" parent="Ambience_Map"/>
+    <CSoundtrack id="ImperiumSoundtrack" parent="Ambience_Map">
+        <CueArray index="0">
+            <MasterLayer Sound="ImperiumFullSoundtrack"/>
+        </CueArray>
+    </CSoundtrack>
+    <CSoundtrack id="ImperiumSoundtrack2" parent="Ambience_Map">
+        <CueArray index="0">
+            <MasterLayer Sound="Loading40k"/>
+        </CueArray>
+    </CSoundtrack>
+    <CSoundtrack id="DarkKingSoundtrack" parent="Ambience_Map"/>
+    <CSoundtrack id="RockNRollSoundtrack" parent="Ambience_Map">
+        <CueArray index="0">
+            <MasterLayer Sound="RockNRollFullSoundtrack"/>
+        </CueArray>
+    </CSoundtrack>
+    <CSoundtrack id="Music_WarhammerIntro" parent="Ambience_Map">
+        <CueArray index="0">
+            <MasterLayer Sound="GlueMusicNovaIntro"/>
+        </CueArray>
+        <Flags index="Continuous" value="0"/>
+    </CSoundtrack>
+    <CSoundtrack id="TyranidSoundtrack" parent="Ambience_Map">
+        <CueArray index="0">
+            <MasterLayer Sound="TyranidFullSoundtrack"/>
+        </CueArray>
+    </CSoundtrack>
+    <CSoundtrack id="NecronSoundtrack" parent="Ambience_Map">
+        <CueArray index="0">
+            <MasterLayer Sound="NecronFullSoundtrack"/>
+        </CueArray>
+    </CSoundtrack>
+    <CSoundtrack id="TauSoundtrack" parent="Ambience_Map">
+        <CueArray index="0">
+            <MasterLayer Sound="TauFullSoundtrack"/>
+        </CueArray>
+    </CSoundtrack>
+</Catalog>

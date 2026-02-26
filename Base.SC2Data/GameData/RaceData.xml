@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CRace id="Prot">
+        <VictorySound value=""/>
+        <DefaultConsoleSkin value="ConsoleProtoss_Ihanrii"/>
+    </CRace>
+    <CRace id="Terr">
+        <VictorySound value=""/>
+        <DefaultConsoleSkin value="ConsoleTerran_Imperial"/>
+    </CRace>
+    <CRace id="Zerg">
+        <VictorySound value=""/>
+    </CRace>
+</Catalog>

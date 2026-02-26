@@ -1,0 +1,1616 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CAbilEffectTarget id="AetherMawAetherStorm">
+        <Cost>
+            <Charge Link="Abil/AetherMawAetherStorm"/>
+            <Cooldown Link="Abil/AetherMawAetherStorm" TimeUse="25"/>
+        </Cost>
+    </CAbilEffectTarget>
+    <CAbilEffectTarget id="AggressiveMutation">
+        <Cost index="0">
+            <Vital index="Energy" value="0"/>
+            <Cooldown TimeUse="60"/>
+        </Cost>
+    </CAbilEffectTarget>
+    <CAbilAugment id="AlarakDeadlyCharge">
+        <Cost>
+            <Cooldown TimeUse="30"/>
+        </Cost>
+    </CAbilAugment>
+    <CAbilEffectTarget id="AlarakKnockback">
+        <Cost index="0">
+            <Cooldown TimeUse="35"/>
+        </Cost>
+    </CAbilEffectTarget>
+    <CAbilEffectTarget id="FungalGrowth">
+        <Cost index="0">
+            <Cooldown TimeUse="20"/>
+        </Cost>
+    </CAbilEffectTarget>
+    <CAbilEffectTarget id="HotSBioPlasmidDischarge">
+        <TargetFilters index="0" value="-;Self,Player,Ally,Neutral,Stasis,Dead,Hidden,Invulnerable"/>
+    </CAbilEffectTarget>
+    <CAbilEffectTarget id="HybridDominatorVoidPlasmaBlast">
+        <Cost index="0">
+            <Vital index="Energy" value="0"/>
+            <Cooldown TimeUse="60"/>
+        </Cost>
+        <Range index="0" value="9"/>
+        <PrepTime index="0" value="2.25"/>
+    </CAbilEffectTarget>
+    <CAbilEffectInstant id="HybridDominatorVoidPsionicShockwave">
+        <Cost index="0">
+            <Cooldown TimeUse="2"/>
+        </Cost>
+    </CAbilEffectInstant>
+    <CAbilEffectTarget id="MindBlast">
+        <Cost index="0">
+            <Vital index="Energy" value="0"/>
+            <Cooldown TimeUse="45"/>
+        </Cost>
+        <TargetFilters index="0" value="Visible;Self,Heroic,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+    </CAbilEffectTarget>
+    <CAbilMorph id="MorphToInfestedTerran">
+        <InfoArray index="0" Unit="NeophyteHybrid"/>
+    </CAbilMorph>
+    <CAbilArmMagazine id="SelendisHangar">
+        <InfoArray index="Ammo1" Time="4">
+            <Resource index="Minerals" value="0"/>
+            <Cooldown Link="Abil/##id##"/>
+        </InfoArray>
+    </CAbilArmMagazine>
+    <CAbilEffectTarget id="Shrapstorm">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Effect index="0" value="DataOrbInit"/>
+        <Cost>
+            <Cooldown TimeUse="90"/>
+        </Cost>
+        <Range value="6"/>
+        <AINotifyEffect value="DataOrbInit"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="Shrapstorm"/>
+    </CAbilEffectTarget>
+    <CAbilAugment id="RazorLunge">
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="RazorLunge"/>
+        <Flags index="AutoCast" value="1"/>
+        <AbilCmd value="attack,Execute"/>
+        <Cost>
+            <Cooldown Link="Charge" Location="Unit" TimeUse="5"/>
+        </Cost>
+        <Effect value="RazorLunge2"/>
+        <AutoCastFilters value="Ground,Visible;Player,Ally,Neutral,Missile,Hidden,Invulnerable"/>
+        <AutoCastValidatorArray value="CasterNotHoldingPosition"/>
+        <AutoCastValidatorArray value="NoUnitKnockback"/>
+    </CAbilAugment>
+    <CAbilEffectTarget id="ArbiterMPRecall">
+        <Cost index="0">
+            <Vital index="Energy" value="35"/>
+        </Cost>
+    </CAbilEffectTarget>
+    <!--                                                                                         -->
+    <!--                                                                                         -->
+    <!-- SC 1 Unit ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <!--                                                                                         -->
+    <!--                                                                                         -->
+    <!--                                                                                         -->
+    <!-- Arbiter............................................................................... -->
+    <!--                                                                                         -->
+    <CAbilEffectTarget id="ArbiterMPStasisField">
+        <Cost index="0">
+            <Vital index="Energy" value="0"/>
+            <Cooldown TimeUse="300"/>
+        </Cost>
+        <Range index="0" value="6"/>
+        <CmdButtonArray index="Execute" Requirements="Stasis"/>
+    </CAbilEffectTarget>
+    <CAbilResearch id="ArdiumUpgradeSpawn">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DataCollection value="RhaeusUpgradeSpawn"/>
+        <InfoArray index="Research1" Time="180" Upgrade="ArdiumUpgradeSpawn">
+            <Resource index="Vespene" value="1"/>
+            <Button DefaultButtonFace="ArdiumUpgradeSpawn" Requirements="ArdiumUpgradeSpawn"/>
+        </InfoArray>
+    </CAbilResearch>
+    <CAbilEffectTarget id="Dash">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Effect index="0" value="DashLaunchMissile"/>
+        <Cost>
+            <Cooldown TimeUse="8"/>
+        </Cost>
+        <Range value="6"/>
+        <FinishTime value="0.02"/>
+        <CursorRangeMode value="Clamp"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="Dash"/>
+    </CAbilEffectTarget>
+    <CAbilEffectTarget id="Dash2">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Effect index="0" value="DashLaunchMissile2"/>
+        <Cost>
+            <Cooldown TimeUse="8"/>
+        </Cost>
+        <Range value="6"/>
+        <FinishTime value="0.02"/>
+        <CursorRangeMode value="Clamp"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="Dash2"/>
+    </CAbilEffectTarget>
+    <CAbilEffectTarget id="DebiliatingShot">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+    </CAbilEffectTarget>
+    <CAbilEffectTarget id="Drag">
+        <Cost index="0">
+            <Cooldown TimeUse="60"/>
+        </Cost>
+        <TargetFilters index="0" value="Visible;Self,Neutral,Structure,Heroic,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+    </CAbilEffectTarget>
+    <CAbilEffectTarget id="ElectroBall">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Effect index="0" value="FireballPersistent"/>
+        <Cost>
+            <Cooldown TimeUse="90"/>
+        </Cost>
+        <Range value="9"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="PlasmaBall"/>
+    </CAbilEffectTarget>
+    <CAbilEffectTarget id="FenixExecute">
+        <CmdButtonArray index="Execute" Requirements=""/>
+    </CAbilEffectTarget>
+    <CAbilEffectTarget id="Impale">
+        <Effect index="0" value="HydraliskImpalePersistent"/>
+        <Cost index="0">
+            <Cooldown TimeUse="70"/>
+        </Cost>
+        <Range index="0" value="9.5"/>
+    </CAbilEffectTarget>
+    <CAbilEffectTarget id="NovaWeaponPlasmaBlast">
+        <Cost index="0">
+            <Vital index="Energy" value="0"/>
+            <Cooldown TimeUse="30"/>
+        </Cost>
+    </CAbilEffectTarget>
+    <CAbilEffectTarget id="PlacePointDefenseDrone">
+        <Cost index="0">
+            <Vital index="Energy" value="0"/>
+            <Cooldown TimeUse="150"/>
+        </Cost>
+    </CAbilEffectTarget>
+    <CAbilEffectTarget id="PlaceSJPointDefenseDrone">
+        <Cost index="0">
+            <Vital index="Energy" value="0"/>
+            <Cooldown TimeUse="120"/>
+        </Cost>
+        <Range index="0" value="8"/>
+    </CAbilEffectTarget>
+    <CAbilEffectTarget id="PsiStrike">
+        <Cost index="0">
+            <Vital index="Energy" value="0"/>
+            <Cooldown TimeUse="30"/>
+        </Cost>
+        <Range index="0" value="6"/>
+        <PrepTime index="0" value="0.35"/>
+        <CursorRangeMode value="Clamp"/>
+        <CmdButtonArray index="Execute" Requirements=""/>
+    </CAbilEffectTarget>
+    <CAbilEffectTarget id="SOALaserAttack">
+        <Cost index="0">
+            <!--Cooldown Link="SOACaster" Location="Unit" TimeUse="60"/-->
+            <Vital index="Energy" value="0"/>
+            <Cooldown TimeUse="100"/>
+        </Cost>
+        <CmdButtonArray index="Execute" Requirements=""/>
+    </CAbilEffectTarget>
+    <CAbilEffectTarget id="SOAMothershipBlinkStrike">
+        <Cost index="0">
+            <Vital index="Energy" value="0"/>
+            <Cooldown TimeUse="5"/>
+        </Cost>
+    </CAbilEffectTarget>
+    <CAbilEffectTarget id="ShadowBlade">
+        <TargetFilters index="0" value="Ground,Visible;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+    </CAbilEffectTarget>
+    <CAbilEffectTarget id="Skillshot">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Effect index="0" value="SkillshotOffset"/>
+        <Cost>
+            <Cooldown TimeUse="5"/>
+        </Cost>
+        <Range value="10"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="Skillshot"/>
+    </CAbilEffectTarget>
+    <CAbilEffectTarget id="PinpointParalysis">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Effect index="0" value="PinpointParalysisOffset"/>
+        <Cost>
+            <Cooldown TimeUse="45"/>
+        </Cost>
+        <Range value="10"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="PinpointParalysis"/>
+    </CAbilEffectTarget>
+    <CAbilEffectTarget id="Flameshot">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Effect index="0" value="FlameshotOffset"/>
+        <Cost>
+            <Cooldown TimeUse="45"/>
+        </Cost>
+        <Range value="4"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="Flameshot"/>
+    </CAbilEffectTarget>
+    <CAbilEffectTarget id="SlivanPuke">
+        <Cost>
+            <Charge Link="Abil/SlivanPuke"/>
+            <Cooldown Link="Abil/SlivanPuke" TimeUse="150"/>
+        </Cost>
+        <Range index="0" value="10"/>
+    </CAbilEffectTarget>
+    <CAbilEffectTarget id="SmokeBomb">
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
+        <Effect index="0" value="DefilerMPDarkSwarmLM2"/>
+        <Cost>
+            <Charge>
+                <CountMax value="2"/>
+                <CountStart value="2"/>
+                <CountUse value="1"/>
+                <TimeUse value="70"/>
+            </Charge>
+        </Cost>
+        <Range value="9"/>
+        <PrepTime value="0.5"/>
+        <UninterruptibleArray index="Prep" value="1"/>
+        <UninterruptibleArray index="Cast" value="1"/>
+        <UninterruptibleArray index="Channel" value="1"/>
+        <UninterruptibleArray index="Finish" value="1"/>
+        <CursorEffect value="DefilerMPDarkSwarmSearch2"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="SmokeBomb"/>
+    </CAbilEffectTarget>
+    <CAbilEffectTarget id="RobouteMissile">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Effect index="0" value="RobouteBanelingMissileCreatePersistent"/>
+        <Flags index="RequireTargetVision" value="0"/>
+        <Cost>
+            <Cooldown TimeUse="180"/>
+        </Cost>
+        <TargetFilters value="Visible;Player,Ally,Neutral,Missile,Dead,Hidden,Invulnerable"/>
+        <Range value="7.5"/>
+        <CastIntroTime value="1.25"/>
+        <CastOutroTime value="1.25"/>
+        <ShowProgressArray index="Cast" value="1"/>
+        <ShowProgressArray index="Channel" value="1"/>
+        <ShowProgressArray index="Finish" value="1"/>
+        <CursorEffect value="RobouteBanelingMissileCreatePersistent"/>
+        <AINotifyEffect value="KaiserWormScourgeMissileLaunch"/>
+        <ProgressButtonArray index="Cast" value="DesignateTarget"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="DesignateTarget"/>
+    </CAbilEffectTarget>
+    <CAbilEffectTarget id="NovaWeaponPlasmaBlastNew">
+        <Cost index="0">
+            <Vital index="Energy" value="0"/>
+            <Cooldown TimeUse="30"/>
+        </Cost>
+    </CAbilEffectTarget>
+    <CAbilEffectInstant id="ScuttlingofJorgumandr">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DataCollection value="PropagandaAgainstTheNecrons"/>
+        <Effect index="0" value="PropagandaAgainstTheNecrons"/>
+        <Cost>
+            <Charge TimeStart="90"/>
+        </Cost>
+        <AINotifyEffect value="PropagandaAgainstTheNecrons"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="ScuttlingofJorgumandr" Requirements="ScuttlingofJormungandr"/>
+    </CAbilEffectInstant>
+    <CAbilResearch id="OrdoHereticus">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DataCollection value="RhaeusUpgradeSpawn"/>
+        <InfoArray index="Research1" Time="10" Upgrade="OrdoHereticus">
+            <Button DefaultButtonFace="OrdoHereticus" Requirements="OrdoHereticus"/>
+        </InfoArray>
+    </CAbilResearch>
+    <CAbilResearch id="OrdoXenos">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DataCollection value="RhaeusUpgradeSpawn"/>
+        <InfoArray index="Research1" Time="10" Upgrade="OrdoXenos">
+            <Button DefaultButtonFace="OrdoXenos" Requirements="OrdoXenos"/>
+        </InfoArray>
+    </CAbilResearch>
+    <CAbilEffectInstant id="SinkingOfTheKraken">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DataCollection value="PropagandaAgainstTheNecrons"/>
+        <Effect index="0" value="PropagandaAgainstTheNecrons"/>
+        <Cost>
+            <Charge TimeStart="90"/>
+        </Cost>
+        <AINotifyEffect value="PropagandaAgainstTheNecrons"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="SinkingOfTheKraken" Requirements="SinkingOfTheKraken"/>
+    </CAbilEffectInstant>
+    <CAbilResearch id="SaturnXUpgradeSpawn">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DataCollection value="RhaeusUpgradeSpawn"/>
+        <InfoArray index="Research1" Time="180" Upgrade="SaturnXUpgradeSpawn">
+            <Resource index="Vespene" value="1"/>
+            <Button DefaultButtonFace="SaturnXUpgradeSpawn" Requirements="SaturnXUpgradeSpawn"/>
+        </InfoArray>
+    </CAbilResearch>
+    <CAbilEffectTarget id="ArtanisBlinkStrikeAiur02">
+        <Cost index="0">
+            <Cooldown TimeUse="15"/>
+        </Cost>
+        <Range index="0" value="9"/>
+    </CAbilEffectTarget>
+    <CAbilAugment id="Charge">
+        <CmdButtonArray index="Execute" Requirements="HaveVoidZealotCharge"/>
+    </CAbilAugment>
+    <CAbilEffectInstant id="GuardianShield">
+        <Cost index="0">
+            <Vital index="Energy" value="0"/>
+            <Cooldown TimeUse="90"/>
+        </Cost>
+        <!--Cost index="0">
+            <Vital index="Energy" value="75"/>
+            <Cooldown Link="GuardianShield" TimeUse="30"/>
+        </Cost-->
+        <!--Flags index="AutoCast" value="1"/-->
+        <!--Flags index="AutoCastOn" value="1"/-->
+        <!--AutoCastFilters value="Visible;Neutral,Enemy"/>
+        <AutoCastValidatorArray value="VoidSentryNearbyFriendlyUnitInCombat"/-->
+        <!--CmdButtonArray index="Execute" Requirements="HaveVoidSentryGuardianShield"/-->
+        <!--CmdButtonArray index="Execute" Requirements="NotHaveVoidSentryForceFieldCampaignMarker"/-->
+        <!--CmdButtonArray index="Execute" State="Restricted"/-->
+    </CAbilEffectInstant>
+    <CAbilEffectTarget id="HotSBioStasis">
+        <PrepTime value="1.25"/>
+    </CAbilEffectTarget>
+    <CAbilEffectInstant id="DarkKing">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DataCollection value="PropagandaAgainstTheNecrons"/>
+        <Effect index="0" value="PropagandaAgainstTheNecrons"/>
+        <Cost>
+            <Charge TimeStart="90"/>
+        </Cost>
+        <AINotifyEffect value="PropagandaAgainstTheNecrons"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="DarkKing" Requirements="DarkKing"/>
+    </CAbilEffectInstant>
+    <CAbilResearch id="SaturnHUpgradeSpawn">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DataCollection value="RhaeusUpgradeSpawn"/>
+        <InfoArray index="Research1" Time="180" Upgrade="SaturnHUpgradeSpawn">
+            <Resource index="Vespene" value="1"/>
+            <Button DefaultButtonFace="SaturnHUpgradeSpawn" Requirements="SaturnHUpgradeSpawn"/>
+        </InfoArray>
+    </CAbilResearch>
+    <CAbilEffectInstant id="DrowningoftheLeviathan">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DataCollection value="PropagandaAgainstTheNecrons"/>
+        <Effect index="0" value="PropagandaAgainstTheNecrons"/>
+        <Cost>
+            <Charge TimeStart="90"/>
+        </Cost>
+        <AINotifyEffect value="PropagandaAgainstTheNecrons"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="DrowningoftheLeviathan" Requirements="DrowningoftheLeviathan"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="TacticalRedeployment">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DataCollection value="PropagandaAgainstTheNecrons"/>
+        <Effect index="0" value="PropagandaAgainstTheNecrons"/>
+        <Cost>
+            <Charge TimeStart="90"/>
+            <Cooldown TimeStart="30"/>
+        </Cost>
+        <AINotifyEffect value="PropagandaAgainstTheNecrons"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="TacticalRedeployment" Requirements="TacticalRedeployment"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="RobouteAuraDevastatingOnslaught">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Cost>
+            <Charge TimeStart="90"/>
+            <Cooldown TimeUse="900"/>
+        </Cost>
+        <CmdButtonArray index="Execute" DefaultButtonFace="DevastatingOnslaught" Requirements="RobouteAuraDevastatingOnslaught"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="RobouteAuraRelentlessAdvance">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Cost>
+            <Charge TimeStart="90"/>
+            <Cooldown TimeUse="900"/>
+        </Cost>
+        <CmdButtonArray index="Execute" DefaultButtonFace="RelentlessAdvance" Requirements="RobouteAuraFocusedBarrage2"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="RobouteAuraUnyieldingDefense">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Cost>
+            <Charge TimeStart="90"/>
+            <Cooldown TimeUse="900"/>
+        </Cost>
+        <CmdButtonArray index="Execute" DefaultButtonFace="UnyieldingDefense" Requirements="RobouteAuraUnyieldingDefense"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="RobouteAuraFocusedBarrage">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Cost>
+            <Charge TimeStart="90"/>
+            <Cooldown TimeUse="900"/>
+        </Cost>
+        <CmdButtonArray index="Execute" DefaultButtonFace="FocusedBarrage" Requirements="RobouteAuraFocusedBarrage"/>
+    </CAbilEffectInstant>
+    <CAbilEffectTarget id="SOAMothershipLineAttackV2">
+        <Cost index="0">
+            <Vital index="Energy" value="50"/>
+        </Cost>
+    </CAbilEffectTarget>
+    <CAbilEffectInstant id="StartAdvancedAIResearch">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DataCollection value="PropagandaAgainstTheNecrons2"/>
+        <Cost>
+            <Charge TimeStart="90"/>
+            <Cooldown TimeStart="30"/>
+        </Cost>
+        <CmdButtonArray index="Execute" DefaultButtonFace="StartAdvancedAIResearch" Requirements="StartAdvancedAIResearch"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="TauImperiumTemoraryWar">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DataCollection value="PropagandaAgainstTheNecrons2"/>
+        <Cost>
+            <Charge TimeStart="90"/>
+            <Cooldown TimeStart="960"/>
+        </Cost>
+        <CmdButtonArray index="Execute" DefaultButtonFace="TauImperiumTemoraryWar" Requirements="TauImperiumTemoraryWar"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="InviteHumanRefugees">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DataCollection value="PropagandaAgainstTheNecrons2"/>
+        <Cost>
+            <Charge TimeStart="90"/>
+            <Cooldown TimeStart="900"/>
+        </Cost>
+        <CmdButtonArray index="Execute" DefaultButtonFace="InviteHumanRefugees" Requirements="InviteHumanRefugees"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="PurificationProtocol">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DataCollection value="PropagandaAgainstTheNecrons"/>
+        <Effect index="0" value="PropagandaAgainstTheNecrons"/>
+        <Cost>
+            <Charge TimeStart="90"/>
+            <Cooldown TimeStart="1800"/>
+        </Cost>
+        <AINotifyEffect value="PropagandaAgainstTheNecrons"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="PurificationProtocol" Requirements="PurificationProtocol"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="NecronsAscendant">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DataCollection value="PropagandaAgainstTheNecrons"/>
+        <Effect index="0" value="PropagandaAgainstTheNecrons"/>
+        <Cost>
+            <Cooldown TimeStart="2700"/>
+        </Cost>
+        <AINotifyEffect value="PropagandaAgainstTheNecrons"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="NecronsAscendant" Requirements="NecronsAscendant"/>
+    </CAbilEffectInstant>
+    <!--CAbilBehavior id="ToxicAdrenaline">-->
+    <!--        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>-->
+    <!--        <Flags index="Toggle" value="1"/>-->
+    <!--        <Flags index="Transient" value="1"/>-->
+    <!--        <CmdButtonArray index="On" DefaultButtonFace="EnableToxicAdrenaline" Requirements="HaveHotSToxicAdrenaline"/>-->
+    <!--        <CmdButtonArray index="Off" DefaultButtonFace="DisableToxicAdrenaline"/>-->
+    <!--        <BehaviorArray value="ToxicAdrenaline"/>-->
+    <!--    </CAbilBehavior-->
+    <CAbilEffectInstant id="ToxicAdrenaline">
+        <CmdButtonArray index="Execute" Requirements=""/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="UtilizeStasisFields">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DataCollection value="PropagandaAgainstTheNecrons2"/>
+        <Cost>
+            <Charge TimeStart="90"/>
+            <Cooldown TimeStart="1800"/>
+        </Cost>
+        <CmdButtonArray index="Execute" DefaultButtonFace="UtilizeStasisFields" Requirements="UtilizeStasisFields"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="Trazyn">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DataCollection value="PropagandaAgainstTheNecrons"/>
+        <Effect index="0" value="PropagandaAgainstTheNecrons"/>
+        <Cost>
+            <Charge TimeStart="90"/>
+            <Cooldown TimeStart="10"/>
+        </Cost>
+        <AINotifyEffect value="PropagandaAgainstTheNecrons"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="GreatRelicHunterTrazynTheInfinite" Requirements="Trazyn"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="Mend">
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
+        <Effect index="0" value="DehakaHeal2"/>
+        <Flags index="Transient" value="1"/>
+        <Cost>
+            <Cooldown Link="DehakaHealDehakaHeal2DehakaHealMend" Location="Unit" TimeUse="80"/>
+        </Cost>
+        <AINotifyEffect value="DehakaHeal2"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="DehakaHeal2"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="GenestealerRisingAthonos">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Cost>
+            <Charge TimeStart="90"/>
+            <Cooldown TimeStart="30"/>
+        </Cost>
+        <CmdButtonArray index="Execute" DefaultButtonFace="GenestealerRisingAthonos" Requirements="GenestealerRisingAthonos"/>
+    </CAbilEffectInstant>
+    <CAbilEffectTarget id="GiantYetiLeap">
+        <PrepTime index="0" value="0.25"/>
+    </CAbilEffectTarget>
+    <CAbilTransport id="HutTransport">
+        <LoadCargoBehavior value="TransportDummy"/>
+        <LoadTransportEffect value="KnightPaladinRemoveBehaviourMechDisabled"/>
+        <LoadTransportBehavior value="EnableMech"/>
+        <UnloadTransportEffect value="KnightPaladinRemoveBehaviourMechenabled"/>
+        <UnloadTransportBehavior value="DisableMech"/>
+        <Range value="0.2"/>
+        <MaxCargoCount value="1"/>
+        <TotalCargoSpace value="1"/>
+        <LoadPeriod value="0.3"/>
+    </CAbilTransport>
+    <CAbilEffectTarget id="Irradiate">
+        <Cost index="0">
+            <Vital index="Energy" value="50"/>
+        </Cost>
+        <TargetFilters index="0" value="-;RawResource,HarvestableResource,Item,Dead,Hidden,Invulnerable"/>
+    </CAbilEffectTarget>
+    <CAbilEffectInstant id="MedivacSpeedBoost">
+        <Cost index="0">
+            <Cooldown TimeUse="30"/>
+        </Cost>
+    </CAbilEffectInstant>
+    <CAbilEffectTarget id="MercMedicHeal">
+        <TargetFilters index="0" value="Heroic,Visible;Self,Enemy,Air,Structure,Missile,UnderConstruction,Dead,Hidden,Invulnerable"/>
+    </CAbilEffectTarget>
+    <CAbilEffectTarget id="OdinBarrage">
+        <Cost index="0">
+            <Vital index="Energy" value="150"/>
+        </Cost>
+    </CAbilEffectTarget>
+    <CAbilEffectTarget id="PhaseCannon">
+        <Cost index="0">
+            <Cooldown TimeUse="20"/>
+        </Cost>
+    </CAbilEffectTarget>
+    <CAbilEffectInstant id="PrologueVoidArmor">
+        <Cost index="0">
+            <Cooldown TimeUse="60"/>
+        </Cost>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="NegotiateWithTheEldar">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DataCollection value="PropagandaAgainstTheNecrons"/>
+        <Effect index="0" value="PropagandaAgainstTheNecrons"/>
+        <Cost>
+            <Charge TimeStart="90"/>
+        </Cost>
+        <AINotifyEffect value="PropagandaAgainstTheNecrons"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="NegotiateWithTheEldar" Requirements="NegotiateWithTheEldar"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="InviteRobouteToTerra">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DataCollection value="PropagandaAgainstTheNecrons"/>
+        <Effect index="0" value="PropagandaAgainstTheNecrons"/>
+        <Cost>
+            <Charge TimeStart="90"/>
+        </Cost>
+        <AINotifyEffect value="PropagandaAgainstTheNecrons"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="InviteRobouteToTerra" Requirements="InviteRobouteToTerra"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="GenestealerRisingOgrys">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Cost>
+            <Charge TimeStart="90"/>
+            <Cooldown TimeStart="30"/>
+        </Cost>
+        <CmdButtonArray index="Execute" DefaultButtonFace="GenestealerRisingOgrys" Requirements="GenestealerRisingOgrys"/>
+    </CAbilEffectInstant>
+    <CAbilResearch id="RetreatAthonos">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DataCollection value="RhaeusUpgradeSpawn"/>
+        <InfoArray index="Research1" Time="180" Upgrade="RetreatAthonos">
+            <Button DefaultButtonFace="RetreatAthonos" Requirements="RetreatAthonos"/>
+        </InfoArray>
+    </CAbilResearch>
+    <CAbilResearch id="RetreatKrieg">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DataCollection value="RhaeusUpgradeSpawn"/>
+        <InfoArray index="Research1" Time="180" Upgrade="RetreatKrieg">
+            <Button DefaultButtonFace="RetreatKrieg" Requirements="RetreatKrieg"/>
+        </InfoArray>
+    </CAbilResearch>
+    <CAbilResearch id="RetreatBellusPrime">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DataCollection value="RhaeusUpgradeSpawn"/>
+        <InfoArray index="Research1" Time="180" Upgrade="RetreatBellusPrime">
+            <Button DefaultButtonFace="RetreatBellusPrime" Requirements="RetreatBellusPrime"/>
+        </InfoArray>
+    </CAbilResearch>
+    <CAbilResearch id="RetreatTigrus">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DataCollection value="RhaeusUpgradeSpawn"/>
+        <InfoArray index="Research1" Time="180" Upgrade="RetreatTigrus">
+            <Button DefaultButtonFace="RetreatTigrus" Requirements="RetreatTigrus"/>
+        </InfoArray>
+    </CAbilResearch>
+    <CAbilResearch id="RetreatMacharia">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DataCollection value="RhaeusUpgradeSpawn"/>
+        <InfoArray index="Research1" Time="180" Upgrade="RetreatMacharia">
+            <Button DefaultButtonFace="RetreatMacharia" Requirements="RetreatMacharia"/>
+        </InfoArray>
+    </CAbilResearch>
+    <CAbilResearch id="RetreatGehennaPrime">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DataCollection value="RhaeusUpgradeSpawn"/>
+        <InfoArray index="Research1" Time="180" Upgrade="RetreatGehennaPrime">
+            <Button DefaultButtonFace="RetreatGehennaPrime" Requirements="RetreatGehennaPrime"/>
+        </InfoArray>
+    </CAbilResearch>
+    <CAbilEffectTarget id="SOAChronoBeam">
+        <Cost index="0">
+            <!--Cooldown Link="SOACaster" Location="Unit" TimeUse="60"/-->
+            <Vital index="Energy" value="0"/>
+            <Cooldown TimeUse="180"/>
+        </Cost>
+        <TargetFilters value="Structure;Ally,Neutral,Enemy"/>
+        <CmdButtonArray index="Execute" Requirements=""/>
+    </CAbilEffectTarget>
+    <CAbilEffectTarget id="SOAChronoBeam2">
+        <Effect index="0" value="SOAChronoBeamSet"/>
+        <Cost>
+            <Cooldown TimeUse="20"/>
+        </Cost>
+        <TargetFilters value="Structure;Ally,Neutral,Enemy"/>
+        <Range value="500"/>
+        <Arc value="360"/>
+        <AINotifyEffect value="SOAChronoBeamSet"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="SOAChronoBeam2"/>
+    </CAbilEffectTarget>
+    <CAbilEffectTarget id="SOATimeWarp">
+        <Cost index="0">
+            <Vital index="Energy" value="0"/>
+            <!--Cooldown Link="SOACaster" Location="Unit" TimeUse="60"/-->
+            <Cooldown TimeUse="180"/>
+        </Cost>
+        <PrepTime value="0.5"/>
+        <CmdButtonArray index="Execute" Requirements=""/>
+    </CAbilEffectTarget>
+    <CAbilEffectInstant id="SabotageTheImperium">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DataCollection value="PropagandaAgainstTheNecrons2"/>
+        <Cost>
+            <Charge TimeStart="90"/>
+            <Cooldown TimeStart="300"/>
+        </Cost>
+        <CmdButtonArray index="Execute" DefaultButtonFace="SabotageTheImperium" Requirements="SabotageTheImperium"/>
+    </CAbilEffectInstant>
+    <CAbilEffectTarget id="Snipe">
+        <Cost index="0">
+            <Vital index="Energy" value="0"/>
+            <Cooldown TimeUse="45"/>
+        </Cost>
+        <PrepTime value="0.35"/>
+    </CAbilEffectTarget>
+    <CAbilEffectInstant id="TheDynasticCall">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DataCollection value="PropagandaAgainstTheNecrons"/>
+        <Effect index="0" value="PropagandaAgainstTheNecrons"/>
+        <Cost>
+            <Charge TimeStart="90"/>
+            <Cooldown TimeStart="900"/>
+        </Cost>
+        <AINotifyEffect value="PropagandaAgainstTheNecrons"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="TheDynasticCall" Requirements="TheDynasticCall"/>
+    </CAbilEffectInstant>
+    <CAbilEffectTarget id="SOASuperChrono">
+        <Cost index="0">
+            <Vital index="Energy" value="0"/>
+        </Cost>
+        <TargetFilters index="0" value="-;Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <CmdButtonArray index="Execute" Requirements=""/>
+    </CAbilEffectTarget>
+    <CAbilEffectInstant id="StealTechnology">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DataCollection value="PropagandaAgainstTheNecrons2"/>
+        <Cost>
+            <Charge TimeStart="90"/>
+            <Cooldown TimeStart="300"/>
+        </Cost>
+        <CmdButtonArray index="Execute" DefaultButtonFace="StealTechnology" Requirements="StealTechnology"/>
+    </CAbilEffectInstant>
+    <CAbilEffectTarget id="SJHyperionBlink">
+        <Cost index="0">
+            <Vital index="Energy" value="75"/>
+            <Cooldown TimeUse="30"/>
+        </Cost>
+    </CAbilEffectTarget>
+    <CAbilEffectTarget id="SJHyperionYamato">
+        <Cost index="0">
+            <Vital index="Energy" value="100"/>
+        </Cost>
+    </CAbilEffectTarget>
+    <CAbilEffectInstant id="SJPirateLightningStorm">
+        <Cost index="0">
+            <Vital index="Energy" value="125"/>
+        </Cost>
+    </CAbilEffectInstant>
+    <CAbilEffectTarget id="SJPirateYamato">
+        <Cost index="0">
+            <Vital index="Energy" value="125"/>
+        </Cost>
+    </CAbilEffectTarget>
+    <CAbilEffectInstant id="EnclaveCivilWar">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DataCollection value="PropagandaAgainstTheNecrons2"/>
+        <Effect index="0" value="StealTechnology"/>
+        <Cost>
+            <Charge TimeStart="90"/>
+            <Cooldown TimeStart="30"/>
+        </Cost>
+        <AINotifyEffect value="StealTechnology"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="EnclaveCivilWar" Requirements="EnclaveCivilWar"/>
+    </CAbilEffectInstant>
+    <CAbilBehavior id="SzarekhSwaptoMelee">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <CmdButtonArray index="On" DefaultButtonFace="SzarekhDisableRanged"/>
+        <CmdButtonArray index="Off" DefaultButtonFace="SzarekhEnableRanged"/>
+        <Flags index="Toggle" value="1"/>
+        <Flags index="Transient" value="1"/>
+        <BehaviorArray value="Rangedturnedoff"/>
+    </CAbilBehavior>
+    <CAbilBehavior id="SzarekhSwaptoRanged">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <CmdButtonArray index="On" DefaultButtonFace="SzarekhDisableRanged"/>
+        <CmdButtonArray index="Off" DefaultButtonFace="SzarekhEnableRanged"/>
+        <Flags index="Toggle" value="1"/>
+        <Flags index="Transient" value="1"/>
+        <BehaviorArray value="TurnOffRanged"/>
+    </CAbilBehavior>
+    <CAbilResearch id="TauResearchTier2">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DataCollection value="TauResearchTier1"/>
+        <InfoArray index="Research1" Time="240" Upgrade="HarmonicSurge">
+            <Resource index="Terrazine" value="1"/>
+            <Button DefaultButtonFace="HarmonicSurge" Requirements="HarmonicSurge"/>
+        </InfoArray>
+        <InfoArray index="Research2" Time="240" Upgrade="WaterCasteAlliances">
+            <Resource index="Terrazine" value="1"/>
+            <Button DefaultButtonFace="WaterCasteAlliances" Requirements="WaterCasteAlliances"/>
+        </InfoArray>
+        <InfoArray index="Research3" Time="240" Upgrade="LongshotSurge">
+            <Resource index="Terrazine" value="1"/>
+            <Button DefaultButtonFace="LongshotSurge" Requirements="LongshotSurge"/>
+        </InfoArray>
+        <InfoArray index="Research4" Time="240" Upgrade="StreamlinedMunitioning">
+            <Resource index="Terrazine" value="1"/>
+            <Button DefaultButtonFace="StreamlinedMunitioning" Requirements="StreamlinedMunitioning"/>
+        </InfoArray>
+        <InfoArray index="Research5" Time="240" Upgrade="ShapersGuard">
+            <Resource index="Terrazine" value="1"/>
+            <Button DefaultButtonFace="ShapersGuard" Requirements="ShapersGuard"/>
+        </InfoArray>
+        <InfoArray index="Research6" Time="240" Upgrade="BoundlessGuidance">
+            <Resource index="Terrazine" value="1"/>
+            <Button DefaultButtonFace="BoundlessGuidance" Requirements="BoundlessGuidance"/>
+        </InfoArray>
+        <InfoArray index="Research7" Time="240" Upgrade="EtherealAuthority">
+            <Resource index="Terrazine" value="1"/>
+            <Button DefaultButtonFace="EtherealAuthority" Requirements="EtherealAuthority"/>
+        </InfoArray>
+    </CAbilResearch>
+    <CAbilResearch id="TauResearchTier3">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DataCollection value="TauResearchTier1"/>
+        <InfoArray index="Research1" Time="300" Upgrade="HarmonicOverdrive">
+            <Resource index="Terrazine" value="1"/>
+            <Button DefaultButtonFace="HarmonicOverdrive" Requirements="HarmonicOverdrive"/>
+        </InfoArray>
+        <InfoArray index="Research2" Time="300" Upgrade="WaterCasteDominion">
+            <Resource index="Terrazine" value="1"/>
+            <Button DefaultButtonFace="WaterCasteDominion" Requirements="WaterCasteDominion"/>
+        </InfoArray>
+        <InfoArray index="Research3" Time="300" Upgrade="LongshotOverdrive">
+            <Resource index="Terrazine" value="1"/>
+            <Button DefaultButtonFace="LongshotOverdrive" Requirements="LongshotOverdrive"/>
+        </InfoArray>
+        <InfoArray index="Research4" Time="300" Upgrade="ShapersMight">
+            <Resource index="Terrazine" value="1"/>
+            <Button DefaultButtonFace="ShapersMight" Requirements="ShapersMight"/>
+        </InfoArray>
+        <InfoArray index="Research5" Time="300" Upgrade="WideReachOrdinance">
+            <Resource index="Terrazine" value="1"/>
+            <Button DefaultButtonFace="WideReachOrdinance" Requirements="WideReachOrdinance"/>
+        </InfoArray>
+        <InfoArray index="Research6" Time="300" Upgrade="VoidborneTransit">
+            <Resource index="Terrazine" value="1"/>
+            <Button DefaultButtonFace="VoidborneTransit" Requirements="VoidborneTransit"/>
+        </InfoArray>
+        <InfoArray index="Research7" Time="300" Upgrade="DirectivePrecisionAbsolute">
+            <Resource index="Terrazine" value="1"/>
+            <Button DefaultButtonFace="DirectivePrecisionAbsolute" Requirements="DirectivePrecisionAbsolute"/>
+        </InfoArray>
+    </CAbilResearch>
+    <CAbilResearch id="SilentKingUpgradeHero">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DataCollection value="RhaeusUpgradeSpawn"/>
+        <InfoArray index="Research1" Time="180" Upgrade="SilentKingUpgradeSpawn">
+            <Resource index="Vespene" value="1"/>
+            <Button DefaultButtonFace="SilentKingUpgradeHero" Requirements="SilentKingUpgradeSpawn"/>
+        </InfoArray>
+    </CAbilResearch>
+    <CAbilEffectTarget id="NullentropyCascade">
+        <Alignment value="Negative"/>
+        <EditorCategories value="Race:Terran,AbilityorEffectType:Units"/>
+        <Effect index="0" value="TitanMechMissileShot2"/>
+        <Flags index="RequireTargetVision" value="0"/>
+        <Cost>
+            <Charge>
+                <CountMax value="3"/>
+                <CountStart value="3"/>
+                <CountUse value="1"/>
+                <TimeUse value="30"/>
+            </Charge>
+            <Cooldown TimeUse="5"/>
+        </Cost>
+        <TargetFilters value="-;Self,Missile,Uncommandable,Dead,Hidden,Invulnerable"/>
+        <Range value="8"/>
+        <Arc value="360"/>
+        <AutoCastRange value="8"/>
+        <AINotifyEffect value="TitanMechMissileShot2"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="NullentropyCascade"/>
+        <AcquireAttackers value="1"/>
+    </CAbilEffectTarget>
+    <CAbilEffectInstant id="Imotekh">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DataCollection value="PropagandaAgainstTheNecrons"/>
+        <Effect index="0" value="PropagandaAgainstTheNecrons"/>
+        <Cost>
+            <Charge TimeStart="90"/>
+            <Cooldown TimeStart="10"/>
+        </Cost>
+        <AINotifyEffect value="PropagandaAgainstTheNecrons"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="RiseOfImotekhTheStormLord" Requirements="Imotekh"/>
+    </CAbilEffectInstant>
+    <CAbilResearch id="TombWorldCantaUpgradeSpawn">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DataCollection value="RhaeusUpgradeSpawn"/>
+        <InfoArray index="Research1" Time="180" Upgrade="TombWorldCantaUpgradeSpawn">
+            <Resource index="Vespene" value="1"/>
+            <Button DefaultButtonFace="TombWorldCantaUpgradeSpawn" Requirements="TombWorldCantaUpgradeSpawn"/>
+        </InfoArray>
+    </CAbilResearch>
+    <CAbilResearch id="TombWorldAthonosUpgradeSpawn">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DataCollection value="RhaeusUpgradeSpawn"/>
+        <InfoArray index="Research1" Time="180" Upgrade="TombWorldAthonosUpgradeSpawn">
+            <Resource index="Vespene" value="1"/>
+            <Button DefaultButtonFace="TombWorldAthonosUpgradeSpawn" Requirements="TombWorldAthonosUpgradeSpawn"/>
+        </InfoArray>
+    </CAbilResearch>
+    <CAbilResearch id="TombWorldFalShiaUpgradeSpawn">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DataCollection value="RhaeusUpgradeSpawn"/>
+        <InfoArray index="Research1" Time="180" Upgrade="TombWorldFalShiaUpgradeSpawn">
+            <Resource index="Vespene" value="1"/>
+            <Button DefaultButtonFace="TombWorldFalShiaUpgradeSpawn" Requirements="TombWorldFalShiaUpgradeSpawn"/>
+        </InfoArray>
+    </CAbilResearch>
+    <CAbilAugment id="TornadoMissile">
+        <Cost>
+            <Cooldown TimeUse="25"/>
+        </Cost>
+        <AutoCastFilters value="Ground,Visible;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <CmdButtonArray index="Execute" Requirements="KnightPaladinAbility"/>
+    </CAbilAugment>
+    <CAbilEffectInstant id="TrazynTimeTwister">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Effect index="0" value="TrazynTimer"/>
+        <Cost>
+            <Cooldown TimeUse="25"/>
+        </Cost>
+        <CmdButtonArray index="Execute" DefaultButtonFace="TimeTwister"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="UnifyingBuzz">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Effect index="0" value="ArtanisInspireSearch2"/>
+        <Flags index="Transient" value="1"/>
+        <Cost>
+            <Vital index="Energy" value="100"/>
+        </Cost>
+        <PrepTime value="1"/>
+        <CastIntroTime value="1"/>
+        <CastOutroTime value="1"/>
+        <FinishTime value="1"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="UnifyingBuzz" Requirements="HaveArtanisInspire"/>
+    </CAbilEffectInstant>
+    <CAbilEffectTarget id="AshWormBurrowMove">
+        <Effect index="0" value="DeepTunnelSet"/>
+    </CAbilEffectTarget>
+    <CAbilMorph id="BurrowLurkerMPDown">
+        <InfoArray index="0" RandomDelayMax="0.05">
+            <SectionArray index="Actor">
+                <DurationArray index="Duration" value="2.25"/>
+            </SectionArray>
+            <SectionArray index="Collide">
+                <DurationArray index="Delay" value="1.6"/>
+            </SectionArray>
+            <SectionArray index="Stats">
+                <DurationArray index="Delay" value="1.6"/>
+            </SectionArray>
+        </InfoArray>
+    </CAbilMorph>
+    <CAbilMorph id="BurrowLurkerMPUp">
+        <InfoArray index="0" RandomDelayMax="0.3"/>
+    </CAbilMorph>
+    <CAbilArmMagazine id="CarrierHangarVoid2">
+        <AbilSetId value="CarrierHangerVoid"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Flags index="Retarget" value="1"/>
+        <Leash value="12"/>
+        <InfoArray index="Ammo1" Time="4" CountStart="4" Manage="Recall" Unit="HiveDefender">
+            <Charge Link="CarrierInterceptor" Location="Unit"/>
+            <Cooldown Link="Abil/##id##"/>
+            <Button DefaultButtonFace="BuildHiveDefenders" Requirements="ArmInterceptorVoid2">
+                <Flags index="ToSelection" value="1"/>
+            </Button>
+            <Flags index="AutoBuild" value="1"/>
+            <Flags index="AutoBuildOn" value="1"/>
+        </InfoArray>
+        <Alert value="TrainComplete"/>
+        <EffectArray index="Death" value="InterceptorFate"/>
+        <MaxCount value="12"/>
+    </CAbilArmMagazine>
+    <CAbilEffectInstant id="DehakaHeal">
+        <Cost index="0">
+            <Vital index="Energy" value="100"/>
+            <Cooldown TimeUse="0"/>
+        </Cost>
+    </CAbilEffectInstant>
+    <CAbilEffectTarget id="DevastatingShot">
+        <Cost index="0">
+            <Cooldown TimeUse="60"/>
+        </Cost>
+        <Range index="0" value="10"/>
+        <CastIntroTime value="1"/>
+        <CastOutroTime value="1"/>
+        <ShowProgressArray index="Cast" value="1"/>
+        <ShowProgressArray index="Channel" value="1"/>
+        <ShowProgressArray index="Finish" value="1"/>
+        <ProgressButtonArray index="Prep" value="DevastatingShot"/>
+        <ProgressButtonArray index="Cast" value="DevastatingShot"/>
+        <ProgressButtonArray index="Finish" value="DevastatingShot"/>
+    </CAbilEffectTarget>
+    <CAbilEffectTarget id="HercGrapple">
+        <Cost index="0">
+            <Cooldown TimeUse="15"/>
+        </Cost>
+        <Flags index="AutoCastOn" value="0"/>
+    </CAbilEffectTarget>
+    <CAbilResearch id="ImperialActions">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <InfoArray index="Research1" Time="900" Upgrade="PropagandaAgainstTheNecrons">
+            <Charge>
+                <CountMax value="1"/>
+                <CountStart value="1"/>
+                <CountUse value="1"/>
+                <TimeStart value="900"/>
+                <TimeUse value="900"/>
+            </Charge>
+            <Cooldown TimeStart="900" TimeUse="900"/>
+            <Button DefaultButtonFace="PropagandaAgainstTheNecrons" Requirements="PropagandaAgainstTheNecrons"/>
+        </InfoArray>
+        <InfoArray index="Research2" Upgrade="PropagandaAgainstTheTau">
+            <Cooldown TimeStart="900" TimeUse="900"/>
+            <Button DefaultButtonFace="PropagandaAgainstTheTau" Requirements="PropagandaAgainstTheTau"/>
+        </InfoArray>
+    </CAbilResearch>
+    <CAbilEffectTarget id="InfestorConsumption">
+        <Cost index="0">
+            <Cooldown TimeUse="60"/>
+        </Cost>
+        <CmdButtonArray index="Execute" Requirements=""/>
+    </CAbilEffectTarget>
+    <CAbilEffectInstant id="JudgmentofTerra">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DataCollection value="PropagandaAgainstTheNecrons"/>
+        <Effect index="0" value="PropagandaAgainstTheNecrons"/>
+        <Cost>
+            <Charge TimeStart="90"/>
+            <Cooldown TimeStart="600"/>
+        </Cost>
+        <AINotifyEffect value="PropagandaAgainstTheNecrons"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="JudgmentofTerra" Requirements="JudgmentofTerra"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="HiveShipHoldFire">
+        <OrderArray index="0" Model="Assets\UI\Cursors\WayPointConfirmSwarm\WayPointConfirmSwarm.m3"/>
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
+        <Effect index="0" value="LurkerHoldFire2"/>
+        <Flags index="Transient" value="1"/>
+        <AINotifyEffect value="LurkerHoldFire2"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="LurkerHoldFire2" Requirements="LurkerNotHoldingFire2">
+            <Flags index="ShowInGlossary" value="0"/>
+            <Flags index="ToSelection" value="1"/>
+        </CmdButtonArray>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="RemoveHoldFireUnnamed">
+        <OrderArray index="0" Model="Assets\UI\Cursors\WayPointConfirmSwarm\WayPointConfirmSwarm.m3"/>
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
+        <Effect index="0" value="LurkerRemoveHoldFire2"/>
+        <Flags index="Transient" value="1"/>
+        <AINotifyEffect value="LurkerRemoveHoldFire2"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="LurkerCancelHoldFire2" Requirements="LurkerHoldingFire2">
+            <Flags index="ShowInGlossary" value="0"/>
+            <Flags index="ToSelection" value="1"/>
+        </CmdButtonArray>
+    </CAbilEffectInstant>
+    <CAbilEffectTarget id="NovaWeaponHellfireShotgunBlast">
+        <Cost index="0">
+            <Vital index="Energy" value="0"/>
+            <Cooldown TimeUse="35"/>
+        </Cost>
+        <CmdButtonArray index="Execute" Requirements=""/>
+    </CAbilEffectTarget>
+    <CAbilEffectInstant id="PropagandaAgainstTheNecrons">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Cost>
+            <Charge TimeStart="90"/>
+            <Cooldown TimeStart="900"/>
+        </Cost>
+        <CmdButtonArray index="Execute" DefaultButtonFace="PropagandaAgainstTheNecrons" Requirements="PropagandaAgainstTheNecrons2"/>
+    </CAbilEffectInstant>
+    <CAbilEffectTarget id="PsionicLift">
+        <Cost index="0">
+            <Vital index="Energy" value="75"/>
+        </Cost>
+        <CmdButtonArray index="Execute" Requirements=""/>
+    </CAbilEffectTarget>
+    <CAbilEffectTarget id="StukovInfestedTerrans">
+        <Cost index="0">
+            <Cooldown TimeUse="45"/>
+        </Cost>
+    </CAbilEffectTarget>
+    <CAbilEffectInstant id="SwarmHostSpawnLocusts">
+        <Flags index="AllowMovement" value="1"/>
+        <Flags index="AllowMovingSuppressed" value="1"/>
+        <Flags index="AllowTurningSuppressed" value="1"/>
+        <Flags index="Smart" value="1"/>
+        <Flags index="Transient" value="1"/>
+        <Cost index="0">
+            <Cooldown TimeUse="20"/>
+        </Cost>
+        <CmdButtonArray index="Execute" Requirements=""/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="TheLionsFall">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DataCollection value="PropagandaAgainstTheNecrons"/>
+        <Effect index="0" value="PropagandaAgainstTheNecrons"/>
+        <Cost>
+            <Charge TimeStart="90"/>
+            <Cooldown TimeStart="600"/>
+        </Cost>
+        <AINotifyEffect value="PropagandaAgainstTheNecrons"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="TheLionsFall" Requirements="TheLionsFall"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="TheAvengingSonsWrath">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DataCollection value="PropagandaAgainstTheNecrons"/>
+        <Effect index="0" value="PropagandaAgainstTheNecrons"/>
+        <Cost>
+            <Charge TimeStart="90"/>
+            <Cooldown TimeStart="600"/>
+        </Cost>
+        <AINotifyEffect value="PropagandaAgainstTheNecrons"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="TheAvengingSonsWrath" Requirements="TheAvengingSonsWrath"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="PropagandaAgainstTheTau">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DataCollection value="PropagandaAgainstTheNecrons"/>
+        <Effect index="0" value="PropagandaAgainstTheNecrons"/>
+        <Cost>
+            <Charge TimeStart="90"/>
+            <Cooldown TimeStart="900"/>
+        </Cost>
+        <AINotifyEffect value="PropagandaAgainstTheNecrons"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="PropagandaAgainstTheTau" Requirements="PropagandaAgainstTheTau"/>
+    </CAbilEffectInstant>
+    <CAbilEffectTarget id="PsiStorm">
+        <Cost index="0">
+            <Cooldown TimeStart="90"/>
+        </Cost>
+    </CAbilEffectTarget>
+    <CAbilEffectInstant id="Stimpack">
+        <Cost index="0">
+            <Vital index="Life" value="0"/>
+            <Cooldown TimeUse="60"/>
+        </Cost>
+        <CmdButtonArray index="Execute" Requirements=""/>
+    </CAbilEffectInstant>
+    <CAbilResearch id="TauResearchTier1">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <InfoArray index="Research1" Time="180" Upgrade="LongshotCalibration">
+            <Resource index="Terrazine" value="1"/>
+            <Button DefaultButtonFace="LongshotCalibration" Requirements="LongshotCalibration"/>
+        </InfoArray>
+        <InfoArray index="Research2" Time="180" Upgrade="HarmonicCalibration">
+            <Resource index="Terrazine" value="1"/>
+            <Button DefaultButtonFace="HarmonicCalibration" Requirements="HarmonicCalibration"/>
+        </InfoArray>
+        <InfoArray index="Research3" Time="180" Upgrade="WaterCasteConnections">
+            <Resource index="Terrazine" value="1"/>
+            <Button DefaultButtonFace="WaterCasteConnections" Requirements="WaterCasteConnections"/>
+        </InfoArray>
+        <InfoArray index="Research4" Time="180" Upgrade="FeralCharge">
+            <Resource index="Terrazine" value="1"/>
+            <Button DefaultButtonFace="FeralCharge" Requirements="FeralCharge"/>
+        </InfoArray>
+        <InfoArray index="Research5" Time="180" Upgrade="ShapersReflex">
+            <Resource index="Terrazine" value="1"/>
+            <Button DefaultButtonFace="ShapersReflex" Requirements="ShapersReflex"/>
+        </InfoArray>
+        <InfoArray index="Research6" Time="180" Upgrade="AegisoftheAdmiral">
+            <Resource index="Terrazine" value="1"/>
+            <Button DefaultButtonFace="AegisoftheAdmiral" Requirements="AegisoftheAdmiral"/>
+        </InfoArray>
+    </CAbilResearch>
+    <CAbilEffectInstant id="ChallengeofthePrimarchs">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DataCollection value="PropagandaAgainstTheNecrons"/>
+        <Effect index="0" value="PropagandaAgainstTheNecrons"/>
+        <Cost>
+            <Charge TimeStart="90"/>
+            <Cooldown TimeStart="600"/>
+        </Cost>
+        <AINotifyEffect value="PropagandaAgainstTheNecrons"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="ChallengeofthePrimarchs" Requirements="ChallengeofthePrimarchs"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="PurgeoftheAvengingSon">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DataCollection value="PropagandaAgainstTheNecrons"/>
+        <Effect index="0" value="PropagandaAgainstTheNecrons"/>
+        <Cost>
+            <Charge TimeStart="90"/>
+            <Cooldown TimeStart="600"/>
+        </Cost>
+        <AINotifyEffect value="PropagandaAgainstTheNecrons"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="PurgeoftheAvengingSon" Requirements="PurgeoftheAvengingSon"/>
+    </CAbilEffectInstant>
+    <CAbilEffectInstant id="LionsPride">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DataCollection value="PropagandaAgainstTheNecrons"/>
+        <Effect index="0" value="PropagandaAgainstTheNecrons"/>
+        <Cost>
+            <Charge TimeStart="90"/>
+            <Cooldown TimeStart="600"/>
+        </Cost>
+        <AINotifyEffect value="PropagandaAgainstTheNecrons"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="LionsPride" Requirements="LionsPride"/>
+    </CAbilEffectInstant>
+    <CAbilEffectTarget id="Val03QueenOfBladesDeepTunnel">
+        <Cost>
+            <Charge Link="Abil/Val03QueenOfBladesDeepTunnel"/>
+            <Cooldown Link="Abil/Val03QueenOfBladesDeepTunnel" TimeUse="45"/>
+        </Cost>
+        <Range index="0" value="9"/>
+    </CAbilEffectTarget>
+    <CAbilResearch id="VigilantQuadrexUpgradeSpawn">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DataCollection value="RhaeusUpgradeSpawn"/>
+        <InfoArray index="Research1" Time="180" Upgrade="VigilantQuadrexUpgradeSpawn">
+            <Resource index="Vespene" value="1"/>
+            <Button DefaultButtonFace="VigilantQuadrexUpgradeSpawn" Requirements="VigilantQuadrexUpgradeSpawn"/>
+        </InfoArray>
+    </CAbilResearch>
+    <CAbilResearch id="QuistoRolUpgradeSpawn">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DataCollection value="RhaeusUpgradeSpawn"/>
+        <InfoArray index="Research1" Time="180" Upgrade="QuistoRolUpgradeSpawn">
+            <Resource index="Vespene" value="1"/>
+            <Button DefaultButtonFace="QuistoRolUpgradeSpawn" Requirements="QuistoRolUpgradeSpawn"/>
+        </InfoArray>
+    </CAbilResearch>
+    <CAbilEffectTarget id="ViperConsumption">
+        <Cost index="0">
+            <Cooldown TimeUse="60"/>
+        </Cost>
+    </CAbilEffectTarget>
+    <CAbilEffectTarget id="VoidDarkTemplarStunningBlow">
+        <CmdButtonArray index="Execute" Requirements=""/>
+    </CAbilEffectTarget>
+    <CAbilEffectTarget id="VoidSentryBlackHole">
+        <Cost index="0">
+            <Vital index="Energy" value="100"/>
+        </Cost>
+    </CAbilEffectTarget>
+    <CAbilEffectTarget id="CtanBlackHole">
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Effect index="0" value="CtanBlackHolePersistent"/>
+        <Flags index="AllowMovement" value="1"/>
+        <Cost>
+            <Cooldown TimeUse="240"/>
+        </Cost>
+        <Range value="10"/>
+        <Arc value="360"/>
+        <CursorEffect value="CtanBlackHoleSearch"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="VoidSentryBlackHole"/>
+    </CAbilEffectTarget>
+    <CAbilEffectTarget id="VoidSentryChronoBeam">
+        <Cost index="0">
+            <Vital index="Energy" value="10"/>
+        </Cost>
+    </CAbilEffectTarget>
+    <CAbilResearch id="VordrastUpgradeSpawn">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DataCollection value="RhaeusUpgradeSpawn"/>
+        <InfoArray index="Research1" Time="180" Upgrade="VordrastUpgradeSpawn">
+            <Resource index="Vespene" value="1"/>
+            <Button DefaultButtonFace="VordrastUpgradeSpawn" Requirements="VordrastUpgradeSpawn"/>
+        </InfoArray>
+    </CAbilResearch>
+    <CAbilResearch id="ChironUpgradeSpawn">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DataCollection value="RhaeusUpgradeSpawn"/>
+        <InfoArray index="Research1" Time="180" Upgrade="ChironUpgradeSpawn">
+            <Resource index="Vespene" value="1"/>
+            <Button DefaultButtonFace="ChironUpgradeSpawn" Requirements="ChironUpgradeSpawn"/>
+        </InfoArray>
+    </CAbilResearch>
+    <CAbilResearch id="GehennaPrimeUpgradeSpawn">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DataCollection value="RhaeusUpgradeSpawn"/>
+        <InfoArray index="Research1" Time="180" Upgrade="GehennaPrimeUpgradeSpawn">
+            <Resource index="Vespene" value="1"/>
+            <Button DefaultButtonFace="GehennaPrimeUpgradeSpawn" Requirements="GehennaPrimeUpgradeSpawn"/>
+        </InfoArray>
+    </CAbilResearch>
+    <CAbilResearch id="MachariaUpgradeSpawn">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DataCollection value="RhaeusUpgradeSpawn"/>
+        <InfoArray index="Research1" Time="180" Upgrade="MachariaUpgradeSpawn">
+            <Resource index="Vespene" value="1"/>
+            <Button DefaultButtonFace="MachariaUpgradeSpawn" Requirements="MachariaUpgradeSpawn"/>
+        </InfoArray>
+    </CAbilResearch>
+    <CAbilResearch id="AthonosUpgradeSpawn">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DataCollection value="RhaeusUpgradeSpawn"/>
+        <InfoArray index="Research1" Time="180" Upgrade="AthonosUpgradeSpawn">
+            <Resource index="Vespene" value="1"/>
+            <Button DefaultButtonFace="AthonosUpgradeSpawn" Requirements="AthonosUpgradeSpawn"/>
+        </InfoArray>
+    </CAbilResearch>
+    <CAbilResearch id="InwitUpgradeSpawn">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DataCollection value="RhaeusUpgradeSpawn"/>
+        <InfoArray index="Research1" Time="180" Upgrade="InwitUpgradeSpawn">
+            <Resource index="Vespene" value="1"/>
+            <Button DefaultButtonFace="InwitUpgradeSpawn" Requirements="InwitUpgradeSpawn"/>
+        </InfoArray>
+    </CAbilResearch>
+    <CAbilResearch id="TerraUpgradeSpawn">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DataCollection value="RhaeusUpgradeSpawn"/>
+        <InfoArray index="Research1" Time="180" Upgrade="TerraUpgradeSpawn">
+            <Resource index="Vespene" value="1"/>
+            <Button DefaultButtonFace="TerraUpgradeSpawn" Requirements="HolyTerraUpgradeSpawn"/>
+        </InfoArray>
+    </CAbilResearch>
+    <CAbilResearch id="GhosarQuintusUpgradeSpawn">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DataCollection value="RhaeusUpgradeSpawn"/>
+        <InfoArray index="Research1" Time="180" Upgrade="GhosarQuintusUpgradeSpawn">
+            <Resource index="Vespene" value="1"/>
+            <Button DefaultButtonFace="GhosarQuintusUpgradeSpawn" Requirements="GhosarQuintusUpgradeSpawn"/>
+        </InfoArray>
+    </CAbilResearch>
+    <CAbilResearch id="DevlanUpgradeSpawn">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DataCollection value="RhaeusUpgradeSpawn"/>
+        <InfoArray index="Research1" Time="180" Upgrade="DevlanUpgradeSpawn">
+            <Resource index="Vespene" value="1"/>
+            <Button DefaultButtonFace="DevlanUpgradeSpawn" Requirements="DevlanUpgradeSpawn"/>
+        </InfoArray>
+    </CAbilResearch>
+    <CAbilResearch id="OgrysUpgradeSpawn2">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DataCollection value="RhaeusUpgradeSpawn"/>
+        <InfoArray index="Research1" Time="180" Upgrade="OgrysUpgradeSpawn">
+            <Resource index="Vespene" value="1"/>
+            <Button DefaultButtonFace="OgrysUpgradeSpawn" Requirements="OgrysUpgradeSpawn"/>
+        </InfoArray>
+    </CAbilResearch>
+    <CAbilResearch id="EyriePrimeUpgradeSpawn">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DataCollection value="RhaeusUpgradeSpawn"/>
+        <InfoArray index="Research1" Time="180" Upgrade="EyriePrimeUpgradeSpawn">
+            <Resource index="Vespene" value="1"/>
+            <Button DefaultButtonFace="EyriePrimeUpgradeSpawn" Requirements="EyriePrimeUpgradeSpawn"/>
+        </InfoArray>
+    </CAbilResearch>
+    <CAbilResearch id="EstabanUpgradeSpawn">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DataCollection value="RhaeusUpgradeSpawn"/>
+        <InfoArray index="Research1" Time="180" Upgrade="EstabanUpgradeSpawn">
+            <Resource index="Vespene" value="1"/>
+            <Button DefaultButtonFace="EstabanUpgradeSpawn" Requirements="EstabanUpgradeSpawn"/>
+        </InfoArray>
+    </CAbilResearch>
+    <CAbilResearch id="BetaGarmonIVUpgradeSpawn">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DataCollection value="RhaeusUpgradeSpawn"/>
+        <InfoArray index="Research1" Time="180" Upgrade="BetaGarmonIVUpgradeSpawn">
+            <Resource index="Vespene" value="1"/>
+            <Button DefaultButtonFace="BetaGarmonIVUpgradeSpawn" Requirements="BetaGarmonIVUpgradeSpawn"/>
+        </InfoArray>
+    </CAbilResearch>
+    <CAbilResearch id="MolochUpgradeSpawn">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DataCollection value="RhaeusUpgradeSpawn"/>
+        <InfoArray index="Research1" Time="180" Upgrade="MolochUpgradeSpawn">
+            <Resource index="Vespene" value="1"/>
+            <Button DefaultButtonFace="MolochUpgradeSpawn" Requirements="MolochUpgradeSpawn"/>
+        </InfoArray>
+    </CAbilResearch>
+    <CAbilResearch id="FortressUpgradeSpawn">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DataCollection value="RhaeusUpgradeSpawn"/>
+        <InfoArray index="Research1" Time="180" Upgrade="FortressUpgradeSpawn">
+            <Resource index="Vespene" value="1"/>
+            <Button DefaultButtonFace="FortressUpgradeSpawn" Requirements="FortressUpgradeSpawn"/>
+        </InfoArray>
+    </CAbilResearch>
+    <CAbilResearch id="EspandorUpgradeSpawn">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DataCollection value="RhaeusUpgradeSpawn"/>
+        <InfoArray index="Research1" Time="180" Upgrade="EspandorUpgradeSpawn">
+            <Resource index="Vespene" value="1"/>
+            <Button DefaultButtonFace="EspandorUpgradeSpawn" Requirements="EspandorUpgradeSpawn"/>
+        </InfoArray>
+    </CAbilResearch>
+    <CAbilResearch id="BellusPrimeUpgradeSpawn">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DataCollection value="RhaeusUpgradeSpawn"/>
+        <InfoArray index="Research1" Time="180" Upgrade="BellusPrimeUpgradeSpawn">
+            <Resource index="Vespene" value="1"/>
+            <Button DefaultButtonFace="BellusPrimeUpgradeSpawn" Requirements="BellusPrimeUpgradeSpawn"/>
+        </InfoArray>
+    </CAbilResearch>
+    <CAbilResearch id="TigrusUpgradeSpawn">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DataCollection value="RhaeusUpgradeSpawn"/>
+        <InfoArray index="Research1" Time="180" Upgrade="TigrusUpgradeSpawn">
+            <Resource index="Vespene" value="1"/>
+            <Button DefaultButtonFace="TigrusUpgradeSpawn" Requirements="TigrusUpgradeSpawn"/>
+        </InfoArray>
+    </CAbilResearch>
+    <CAbilResearch id="FalShiaUpgradeSpawn">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DataCollection value="RhaeusUpgradeSpawn"/>
+        <InfoArray index="Research1" Time="180" Upgrade="FalShiaUpgradeSpawn">
+            <Resource index="Vespene" value="1"/>
+            <Button DefaultButtonFace="FalShiaUpgradeSpawn" Requirements="FalShiaUpgradeSpawn"/>
+        </InfoArray>
+    </CAbilResearch>
+    <CAbilResearch id="TauUpgradeSpawn">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DataCollection value="RhaeusUpgradeSpawn"/>
+        <InfoArray index="Research1" Time="180" Upgrade="TauUpgradeSpawn">
+            <Resource index="Vespene" value="1"/>
+            <Button DefaultButtonFace="TauUpgradeSpawn" Requirements="TauUpgradeSpawn"/>
+        </InfoArray>
+    </CAbilResearch>
+    <CAbilResearch id="BorkanUpgradeSpawn">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DataCollection value="RhaeusUpgradeSpawn"/>
+        <InfoArray index="Research1" Time="180" Upgrade="BorkanUpgradeSpawn">
+            <Resource index="Vespene" value="1"/>
+            <Button DefaultButtonFace="BorkanUpgradeSpawn" Requirements="BorkanUpgradeSpawn"/>
+        </InfoArray>
+    </CAbilResearch>
+    <CAbilResearch id="CantaIXUpgradeSpawn">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DataCollection value="RhaeusUpgradeSpawn"/>
+        <InfoArray index="Research1" Time="180" Upgrade="CantaIXUpgradeSpawn">
+            <Resource index="Vespene" value="1"/>
+            <Button DefaultButtonFace="CantaIXUpgradeSpawn" Requirements="CantaIXUpgradeSpawn"/>
+        </InfoArray>
+    </CAbilResearch>
+    <CAbilResearch id="ICharIVUpgradeSpawn">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DataCollection value="RhaeusUpgradeSpawn"/>
+        <InfoArray index="Research1" Time="180" Upgrade="ICharIVUpgradeSpawn">
+            <Resource index="Vespene" value="1"/>
+            <Button DefaultButtonFace="ICharIVUpgradeSpawn" Requirements="ICharIVUpgradeSpawn"/>
+        </InfoArray>
+    </CAbilResearch>
+    <CAbilResearch id="ThuliumUpgradeSpawn">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DataCollection value="RhaeusUpgradeSpawn"/>
+        <InfoArray index="Research1" Time="180" Upgrade="ThuliumUpgradeSpawn">
+            <Resource index="Vespene" value="1"/>
+            <Button DefaultButtonFace="ThuliumUpgradeSpawn" Requirements="ThuliumUpgradeSpawn"/>
+        </InfoArray>
+    </CAbilResearch>
+    <CAbilResearch id="MortendarUpgradeSpawn">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DataCollection value="RhaeusUpgradeSpawn"/>
+        <InfoArray index="Research1" Time="180" Upgrade="MortendarUpgradeSpawn">
+            <Resource index="Vespene" value="1"/>
+            <Button DefaultButtonFace="MortendarUpgradeSpawn" Requirements="MortendarUpgradeSpawn"/>
+        </InfoArray>
+    </CAbilResearch>
+    <CAbilResearch id="MacraggeUpgradeSpawn">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DataCollection value="RhaeusUpgradeSpawn"/>
+        <InfoArray index="Research1" Time="180" Upgrade="MacraggeUpgradeSpawn">
+            <Resource index="Vespene" value="1"/>
+            <Button DefaultButtonFace="MacraggeUpgradeSpawn" Requirements="MacraggeUpgradeSpawn"/>
+        </InfoArray>
+    </CAbilResearch>
+    <CAbilResearch id="TarvanUpgradeSpawn">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DataCollection value="RhaeusUpgradeSpawn"/>
+        <InfoArray index="Research1" Time="180" Upgrade="TarvanUpgradeSpawn">
+            <Resource index="Vespene" value="1"/>
+            <Button DefaultButtonFace="TarvanUpgradeSpawn" Requirements="TarvanUpgradeSpawn"/>
+        </InfoArray>
+    </CAbilResearch>
+    <CAbilResearch id="RhaeusUpgradeSpawn">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <InfoArray index="Research1" Time="180" Upgrade="RhaeusUpgradeSpawn">
+            <Resource index="Vespene" value="1"/>
+            <Button DefaultButtonFace="RhaeusUpgradeSpawn" Requirements="RhaeusUpgradeSpawn"/>
+        </InfoArray>
+    </CAbilResearch>
+    <CAbilResearch id="PraetoriaVUpgradeSpawn">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DataCollection value="RhaeusUpgradeSpawn"/>
+        <InfoArray index="Research1" Time="180" Upgrade="PraetoriaVUpgradeSpawn">
+            <Resource index="Vespene" value="1"/>
+            <Button DefaultButtonFace="PraetoriaVUpgradeSpawn" Requirements="PraetoriaVUpgradeSpawn"/>
+        </InfoArray>
+    </CAbilResearch>
+    <CAbilResearch id="VorranoxUpgradeSpawn">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DataCollection value="RhaeusUpgradeSpawn"/>
+        <InfoArray index="Research1" Time="180" Upgrade="VorranoxUpgradeSpawn">
+            <Resource index="Vespene" value="1"/>
+            <Button DefaultButtonFace="VorranoxUpgradeSpawn" Requirements="VorranoxUpgradeSpawn"/>
+        </InfoArray>
+    </CAbilResearch>
+    <CAbilResearch id="TombWorldUpgradeSpawn">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DataCollection value="RhaeusUpgradeSpawn"/>
+        <InfoArray index="Research1" Time="180" Upgrade="TombWorldUpgradeSpawn">
+            <Resource index="Vespene" value="1"/>
+            <Button DefaultButtonFace="TombWorldUpgradeSpawn" Requirements="TombWorldUpgradeSpawn"/>
+        </InfoArray>
+    </CAbilResearch>
+    <CAbilResearch id="VraksUpgradeSpawn">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DataCollection value="RhaeusUpgradeSpawn"/>
+        <InfoArray index="Research1" Time="180" Upgrade="VraksUpgradeSpawn">
+            <Resource index="Vespene" value="1"/>
+            <Button DefaultButtonFace="VraksUpgradeSpawn" Requirements="VraksUpgradeSpawn"/>
+        </InfoArray>
+    </CAbilResearch>
+    <CAbilResearch id="XylocisUpgradeSpawn">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DataCollection value="RhaeusUpgradeSpawn"/>
+        <InfoArray index="Research1" Time="180" Upgrade="XylocisUpgradeSpawn">
+            <Resource index="Vespene" value="1"/>
+            <Button DefaultButtonFace="XylocisUpgradeSpawn" Requirements="XylocisUpgradeSpawn"/>
+        </InfoArray>
+    </CAbilResearch>
+    <CAbilResearch id="DrohlIVUpgradeSpawn">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DataCollection value="RhaeusUpgradeSpawn"/>
+        <InfoArray index="Research1" Time="180" Upgrade="DrohlIVUpgradeSpawn">
+            <Resource index="Vespene" value="1"/>
+            <Button DefaultButtonFace="DrohlIVUpgradeSpawn" Requirements="DrohlIVUpgradeSpawn"/>
+        </InfoArray>
+    </CAbilResearch>
+    <CAbilResearch id="TombWorldIceUpgradeSpawn">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DataCollection value="RhaeusUpgradeSpawn"/>
+        <InfoArray index="Research1" Time="180" Upgrade="TombWorldIceUpgradeSpawn">
+            <Resource index="Vespene" value="1"/>
+            <Button DefaultButtonFace="TombWorldIceUpgradeSpawn" Requirements="TombWorldIceUpgradeSpawn"/>
+        </InfoArray>
+    </CAbilResearch>
+    <CAbilResearch id="RetreatOgrys">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DataCollection value="RhaeusUpgradeSpawn"/>
+        <InfoArray index="Research1" Time="180" Upgrade="RetreatOgrys">
+            <Button DefaultButtonFace="RetreatOgrys" Requirements="RetreatOgrys"/>
+        </InfoArray>
+    </CAbilResearch>
+    <CAbilEffectTarget id="YagdraTunnel">
+        <Cost>
+            <Charge Link="Abil/YagdraTunnel"/>
+            <Cooldown Link="Abil/YagdraTunnel" TimeUse="10"/>
+        </Cost>
+        <Range index="0" value="30"/>
+    </CAbilEffectTarget>
+    <CAbilEffectTarget id="Blink2">
+        <AbilSetId value="Blnk"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Effect index="0" value="TrazynTimer"/>
+        <Flags index="BestUnit" value="0"/>
+        <Flags index="RequireTargetVision" value="0"/>
+        <Cost>
+            <Cooldown TimeUse="8"/>
+        </Cost>
+        <Range value="500"/>
+        <Arc value="360"/>
+        <AINotifyEffect value="ZeratulBlink2"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="ZeratulBlink2">
+            <Flags index="ToSelection" value="1"/>
+        </CmdButtonArray>
+    </CAbilEffectTarget>
+    <CAbilEffectTarget id="ZeratulBlink">
+        <Cost index="0">
+            <Cooldown TimeUse="15"/>
+        </Cost>
+    </CAbilEffectTarget>
+    <CAbilEffectTarget id="Blink3">
+        <AbilSetId value="Blnk"/>
+        <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
+        <Effect index="0" value="ZeratulBlink3"/>
+        <Flags index="BestUnit" value="0"/>
+        <Flags index="RequireTargetVision" value="0"/>
+        <Cost>
+            <Cooldown TimeUse="45"/>
+        </Cost>
+        <Range value="500"/>
+        <Arc value="360"/>
+        <AINotifyEffect value="ZeratulBlink2"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="Blink2">
+            <Flags index="ToSelection" value="1"/>
+        </CmdButtonArray>
+    </CAbilEffectTarget>
+    <CAbilEffectTarget id="ZeratulStun">
+        <Cost index="0">
+            <Charge>
+                <CountMax value="2"/>
+                <CountStart value="2"/>
+                <CountUse value="1"/>
+                <TimeUse value="30"/>
+            </Charge>
+            <Cooldown TimeUse="0"/>
+        </Cost>
+        <TargetFilters index="0" value="Visible;Self,Player,Ally,Neutral,Heroic,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+    </CAbilEffectTarget>
+    <CAbilBuild id="ZergBuild">
+        <InfoArray index="Build1" Unit="">
+            <Button DefaultButtonFace=""/>
+        </InfoArray>
+        <InfoArray index="Build2" Unit="">
+            <Button DefaultButtonFace=""/>
+        </InfoArray>
+        <InfoArray index="Build3" Unit="">
+            <Button DefaultButtonFace=""/>
+        </InfoArray>
+        <InfoArray index="Build4" Unit="">
+            <Button DefaultButtonFace=""/>
+        </InfoArray>
+        <InfoArray index="Build5" Unit="">
+            <Button DefaultButtonFace=""/>
+        </InfoArray>
+        <InfoArray index="Build11" Unit="AshWorm">
+            <Button Requirements="MawlocRequirements"/>
+        </InfoArray>
+        <InfoArray index="Build20" Time="90">
+            <Button Requirements="BileLauncherRequirements"/>
+        </InfoArray>
+        <InfoArray index="Build21" Unit="NydusCanalCreeper" Time="15">
+            <Button Requirements="CreepTowerRequirements"/>
+        </InfoArray>
+    </CAbilBuild>
+    <CAbilEffectTarget id="ZurvanTentacleSlam">
+        <Cost>
+            <Vital index="Energy" value="100"/>
+            <Charge Link="Abil/ZurvanTentacleSlam"/>
+            <Cooldown Link="Abil/ZurvanTentacleSlam" TimeUse="30"/>
+        </Cost>
+    </CAbilEffectTarget>
+    <CAbilAttack id="attack">
+        <SupportedFilters value="-;Self,Player,Ally,Neutral,Outer"/>
+    </CAbilAttack>
+</Catalog>

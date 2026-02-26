@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CLight id="AiurTempleJungle">
+        <ToDInfoArray index="0" Id="AiurTempleJungle">
+            <Param index="HDRExposure" value="0.900000"/>
+        </ToDInfoArray>
+    </CLight>
+    <CLight id="BlackopsLab_B">
+        <ToDInfoArray index="0" Id="BlackopsLab_B">
+            <Param index="HDRExposure" value="1.600000"/>
+            <DirectionalLight index="Key" Color="0.921569,0.811765,0.478431" SpecularColor="1.000000,0.647059,0.529412"/>
+        </ToDInfoArray>
+    </CLight>
+</Catalog>

@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Regions>
+    <region id="1">
+        <name value="Rhaeus Clear"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="210.9575,208.3833,250.2165,253.325"/>
+        </shape>
+    </region>
+    <region id="2">
+        <name value="Necron Activation"/>
+        <invisible/>
+        <shape type="circle">
+            <center value="32.9458,128.3957"/>
+            <radius value="1.629"/>
+        </shape>
+    </region>
+    <region id="3">
+        <name value="Tomb World"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="10.1928,107.906,55.0598,157.9057"/>
+        </shape>
+    </region>
+    <region id="4">
+        <name value="Vorranox Clear"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="188.163,211.9946,213.1628,259.9943"/>
+        </shape>
+    </region>
+    <region id="5">
+        <name value="Xylocis Clear"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="214.216,164.3022,251.4816,207.5612"/>
+        </shape>
+    </region>
+    <region id="6">
+        <name value="Praetoria V Clear"/>
+        <invisible/>
+        <shape type="circle">
+            <center value="198.8427,193.0041"/>
+            <radius value="18.0673"/>
+        </shape>
+    </region>
+    <region id="7">
+        <name value="Devlan Clear"/>
+        <invisible/>
+        <shape type="circle">
+            <center value="236.964,20.6574"/>
+            <radius value="17.5"/>
+        </shape>
+    </region>
+    <region id="8">
+        <name value="Molech Clear"/>
+        <invisible/>
+        <shape type="circle">
+            <center value="65.7724,80.722"/>
+            <radius value="14"/>
+        </shape>
+    </region>
+    <region id="9">
+        <name value="Fortress Clear"/>
+        <invisible/>
+        <shape type="circle">
+            <center value="32.1262,87.7575"/>
+            <radius value="20"/>
+        </shape>
+    </region>
+    <region id="10">
+        <name value="Eyrie Clear"/>
+        <invisible/>
+        <shape type="diamond">
+            <center value="152.468,91.6564"/>
+            <width value="32"/>
+            <height value="29"/>
+        </shape>
+    </region>
+    <region id="11">
+        <name value="Beta Garmon Clear"/>
+        <invisible/>
+        <shape type="circle">
+            <center value="85.2783,97.6081"/>
+            <radius value="16"/>
+        </shape>
+    </region>
+    <region id="12">
+        <name value="Estaban Clear"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="82.9912,140.8515,112.587,171.0935"/>
+        </shape>
+        <shape type="rect">
+            <quad value="111.8957,142.6401,128.1367,163.8762"/>
+        </shape>
+        <shape type="rect">
+            <quad value="127.2121,146.3276,145.533,154.529"/>
+        </shape>
+        <shape type="rect">
+            <quad value="68.6386,135.1545,86.4211,148.997"/>
+        </shape>
+    </region>
+    <region id="13">
+        <name value="IChar IV clear"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="113.9934,202.854,160.1203,233.7333"/>
+        </shape>
+    </region>
+    <region id="15">
+        <name value="Tarvan Clear"/>
+        <invisible/>
+        <shape type="diamond">
+            <center value="178.6193,162.5986"/>
+            <width value="35.2658"/>
+            <height value="42.136"/>
+        </shape>
+        <shape type="diamond">
+            <center value="201.6132,148.5908"/>
+            <width value="21.0222"/>
+            <height value="10.2756"/>
+        </shape>
+    </region>
+    <region id="14">
+        <name value="Drohl Clear"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="209.4438,138.8305,237.4436,161.2058"/>
+        </shape>
+    </region>
+    <region id="16">
+        <name value="Macragge Clear"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="213.0146,102.2558,254.3408,138.319"/>
+        </shape>
+    </region>
+    <region id="17">
+        <name value="Ardium Clear"/>
+        <invisible/>
+        <shape type="diamond">
+            <center value="193.3652,131.5886"/>
+            <width value="26.8413"/>
+            <height value="24.665"/>
+        </shape>
+    </region>
+    <region id="18">
+        <name value="Thulium Clear"/>
+        <invisible/>
+        <shape type="circle">
+            <center value="175.9562,111.8691"/>
+            <radius value="16"/>
+        </shape>
+    </region>
+    <region id="19">
+        <name value="Mortendar Clear"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="217.9133,76.6147,238.5297,97.728"/>
+        </shape>
+    </region>
+    <region id="20">
+        <name value="Praetroria Clear"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="187.9165,176.4912,209.8593,211.1054"/>
+        </shape>
+    </region>
+    <region id="21">
+        <name value="Canta Clear"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="118.9145,157.4162,145.9143,194.416"/>
+        </shape>
+    </region>
+    <region id="22">
+        <name value="Gehenna Prime Clear"/>
+        <invisible/>
+        <shape type="diamond">
+            <center value="133.3166,57.5466"/>
+            <width value="44"/>
+            <height value="19.8032"/>
+        </shape>
+    </region>
+    <region id="24">
+        <name value="Ogrys Clear"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="82.8071,23.3312,103.9243,67.3498"/>
+        </shape>
+    </region>
+    <region id="25">
+        <name value="Athonos Clear"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="122.3747,2.7177,170.205,34.0803"/>
+        </shape>
+    </region>
+    <region id="26">
+        <name value="Tigrus Clear"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="36.2998,200.7653,72.1215,244.627"/>
+        </shape>
+    </region>
+    <region id="27">
+        <name value="Bellus Prime Clear"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="1.1362,166.8933,35.2634,201.053"/>
+        </shape>
+    </region>
+    <region id="28">
+        <name value="Genestealer Insurrection (Ogrys)"/>
+        <shape type="circle">
+            <center value="88.65,37.0827"/>
+            <radius value="1.9082"/>
+        </shape>
+    </region>
+    <region id="29">
+        <name value="Bork&apos;an Clear"/>
+        <invisible/>
+        <shape type="circle">
+            <center value="106.805,189.093"/>
+            <radius value="17.5"/>
+        </shape>
+    </region>
+    <region id="30">
+        <name value="T&apos;au Clear"/>
+        <invisible/>
+        <shape type="circle">
+            <center value="93,235"/>
+            <radius value="23"/>
+        </shape>
+    </region>
+    <region id="31">
+        <name value="Fal&apos;Shia Clear"/>
+        <invisible/>
+        <shape type="diamond">
+            <center value="63.6972,173.29"/>
+            <width value="46.005"/>
+            <height value="29.7824"/>
+        </shape>
+    </region>
+    <region id="32">
+        <name value="Vraks Clear"/>
+        <invisible/>
+        <shape type="diamond">
+            <center value="193.6452,74.5153"/>
+            <width value="30.0925"/>
+            <height value="42.1496"/>
+        </shape>
+    </region>
+    <region id="33">
+        <name value="Inwit Clear"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="156.817,45.1362,181.0654,75.4365"/>
+        </shape>
+    </region>
+    <region id="34">
+        <name value="Tomb World (Ice)"/>
+        <shape type="circle">
+            <center value="57.9873,118.5363"/>
+            <radius value="1.909"/>
+        </shape>
+    </region>
+    <region id="35">
+        <name value="Tomb World (Athonos)"/>
+        <shape type="circle">
+            <center value="137.3425,22.4042"/>
+            <radius value="1.8032"/>
+        </shape>
+    </region>
+    <region id="36">
+        <name value="Tomb World (Fal&apos;Shia)"/>
+        <shape type="circle">
+            <center value="53.3164,165.4216"/>
+            <radius value="1.909"/>
+        </shape>
+    </region>
+    <region id="37">
+        <name value="Vigilant Quadrex Clear"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="212.417,40.724,252.4167,70.7238"/>
+        </shape>
+    </region>
+    <region id="38">
+        <name value="Quasto&apos;Rol Clear"/>
+        <shape type="rect">
+            <quad value="160.2136,217.7045,184.014,254.7045"/>
+        </shape>
+    </region>
+    <region id="39">
+        <name value="Ghosar Quintus Clear"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="175.2731,4.748,217.7004,40.7478"/>
+        </shape>
+    </region>
+    <region id="40">
+        <name value="Chiron Clear"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="43.3054,17.5,78.3054,52.5"/>
+        </shape>
+    </region>
+    <region id="41">
+        <name value="Vordrast Clear"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="2.2021,18.9096,42.4597,60.317"/>
+        </shape>
+    </region>
+    <region id="42">
+        <name value="Espandor Clear"/>
+        <invisible/>
+        <shape type="diamond">
+            <center value="16.8613,218.1186"/>
+            <width value="34.148"/>
+            <height value="18.938"/>
+        </shape>
+    </region>
+    <region id="43">
+        <name value="Tau Research Tier 1"/>
+        <shape type="circle">
+            <center value="86.351,227.0495"/>
+            <radius value="1.9082"/>
+        </shape>
+    </region>
+    <region id="44">
+        <name value="Tau Research Tier 2"/>
+        <shape type="circle">
+            <center value="89.0605,229.9218"/>
+            <radius value="1.9082"/>
+        </shape>
+    </region>
+    <region id="45">
+        <name value="Tau Research Tier 3"/>
+        <shape type="circle">
+            <center value="85.255,231.368"/>
+            <radius value="1.9082"/>
+        </shape>
+    </region>
+    <region id="46">
+        <name value="Killer Of Tomb World"/>
+        <shape type="circle">
+            <center value="10.3046,2.0895"/>
+            <radius value="1.9082"/>
+        </shape>
+    </region>
+    <region id="47">
+        <name value="Form The Enclaves"/>
+        <shape type="circle">
+            <center value="58.344,160.3884"/>
+            <radius value="1.909"/>
+        </shape>
+    </region>
+    <region id="48">
+        <name value="Tomb World (Canta)"/>
+        <shape type="circle">
+            <center value="133.3251,178.834"/>
+            <radius value="1.8032"/>
+        </shape>
+    </region>
+    <region id="49">
+        <name value="Improve Guardsman"/>
+        <shape type="circle">
+            <center value="124.9426,116.691"/>
+            <radius value="1.909"/>
+        </shape>
+    </region>
+    <region id="50">
+        <name value="Terra Clear"/>
+        <invisible/>
+        <shape type="circle">
+            <center value="120.864,118.7658"/>
+            <radius value="27.5"/>
+        </shape>
+    </region>
+    <region id="51">
+        <name value="Invite Roboute To Terra"/>
+        <shape type="circle">
+            <center value="121.6782,121.7998"/>
+            <radius value="1.909"/>
+        </shape>
+    </region>
+    <region id="52">
+        <name value="Constain Valdor Clue 1"/>
+        <shape type="circle">
+            <center value="194.8925,88.564"/>
+            <radius value="1.3544"/>
+        </shape>
+    </region>
+    <region id="53">
+        <name value="Constain Valdor Clue 2"/>
+        <shape type="circle">
+            <center value="50.4484,241.9833"/>
+            <radius value="1.3544"/>
+        </shape>
+    </region>
+    <region id="54">
+        <name value="Constain Valdor Clue 3"/>
+        <shape type="circle">
+            <center value="45.0454,50.8332"/>
+            <radius value="1.3544"/>
+        </shape>
+    </region>
+    <region id="55">
+        <name value="Constain Valdor Clue 4"/>
+        <shape type="circle">
+            <center value="211.3725,230.372"/>
+            <radius value="1.3544"/>
+        </shape>
+    </region>
+    <region id="56">
+        <name value="Constain Valdor Clue 5"/>
+        <shape type="circle">
+            <center value="219.629,12.8332"/>
+            <radius value="1.3544"/>
+        </shape>
+    </region>
+    <region id="57">
+        <name value="Constain Valdor Clue 6"/>
+        <shape type="circle">
+            <center value="14.1574,153.1745"/>
+            <radius value="1.3544"/>
+        </shape>
+    </region>
+    <region id="58">
+        <name value="Constain Valdor Clue 7"/>
+        <shape type="circle">
+            <center value="85.3398,195.558"/>
+            <radius value="1.3544"/>
+        </shape>
+    </region>
+    <region id="59">
+        <name value="Genestealer Insurrection (Athonos)"/>
+        <shape type="circle">
+            <center value="136.5012,18.0393"/>
+            <radius value="1.9082"/>
+        </shape>
+    </region>
+    <region id="60">
+        <name value="Supercharge Shock Division"/>
+        <shape type="circle">
+            <center value="38.7177,86.0253"/>
+            <radius value="1.909"/>
+        </shape>
+    </region>
+    <region id="61">
+        <name value="Construct Weapon B-24 High-Cal Lasrifle"/>
+        <shape type="circle">
+            <center value="108.6613,144.0036"/>
+            <radius value="1.909"/>
+        </shape>
+    </region>
+    <region id="62">
+        <name value="Outfit Vance Stubbs With Carapace Armor Region"/>
+        <shape type="circle">
+            <center value="115.6582,125.5512"/>
+            <radius value="1.909"/>
+        </shape>
+    </region>
+    <region id="63">
+        <name value="Standardize B-24 High Cal LasRifle Region"/>
+        <shape type="circle">
+            <center value="111.1394,124.0388"/>
+            <radius value="1.909"/>
+        </shape>
+    </region>
+    <region id="64">
+        <name value="Fortify Chiron"/>
+        <shape type="circle">
+            <center value="63.4916,34.952"/>
+            <radius value="1.909"/>
+        </shape>
+    </region>
+    <region id="65">
+        <name value="Killer Of Hero"/>
+        <shape type="circle">
+            <center value="16.8603,3.5944"/>
+            <radius value="1.9082"/>
+        </shape>
+    </region>
+    <region id="66">
+        <name value="Subvert The Population Of Tigrus"/>
+        <shape type="circle">
+            <center value="62.9836,217.472"/>
+            <radius value="1.909"/>
+        </shape>
+    </region>
+    <region id="67">
+        <name value="Primaris Marines"/>
+        <shape type="circle">
+            <center value="243.08,121.3173"/>
+            <radius value="1.909"/>
+        </shape>
+    </region>
+    <region id="68">
+        <name value="Establish Saturn"/>
+        <shape type="circle">
+            <center value="141.7878,122.086"/>
+            <radius value="1.909"/>
+        </shape>
+    </region>
+    <region id="69">
+        <name value="Hero Searcher"/>
+        <shape type="circle">
+            <center value="24.8955,4.9475"/>
+            <radius value="7.5"/>
+        </shape>
+    </region>
+    <region id="70">
+        <name value="Hero Scanner"/>
+        <invisible/>
+        <shape type="rect">
+            <quad value="0.2646,60.079,25.2644,95.079"/>
+        </shape>
+    </region>
+    <region id="71">
+        <name value="C&apos;tan Shard 1"/>
+        <shape type="circle">
+            <center value="79.6884,15.6413"/>
+            <radius value="1.3544"/>
+        </shape>
+    </region>
+    <region id="72">
+        <name value="C&apos;tan Shard 2"/>
+        <shape type="circle">
+            <center value="243.491,51.0705"/>
+            <radius value="1.3544"/>
+        </shape>
+    </region>
+    <region id="73">
+        <name value="C&apos;tan Shard 3"/>
+        <shape type="circle">
+            <center value="241.7165,197.2167"/>
+            <radius value="1.3544"/>
+        </shape>
+    </region>
+    <region id="74">
+        <name value="C&apos;tan Shard 4"/>
+        <shape type="circle">
+            <center value="183.2036,231.915"/>
+            <radius value="1.3544"/>
+        </shape>
+    </region>
+    <region id="75">
+        <name value="Dawn Blade"/>
+        <shape type="circle">
+            <center value="96.0935,154.6035"/>
+            <radius value="1.909"/>
+        </shape>
+    </region>
+    <region id="76">
+        <name value="Fallen Angels (Athonos)"/>
+        <shape type="circle">
+            <center value="143.6467,17.8388"/>
+            <radius value="1.909"/>
+        </shape>
+    </region>
+    <region id="78">
+        <name value="Fallen Angels (Ogrys)"/>
+        <shape type="circle">
+            <center value="93.3037,45.3312"/>
+            <radius value="1.909"/>
+        </shape>
+    </region>
+    <region id="79">
+        <name value="Fallen Angels (Gehenna Prime)"/>
+        <shape type="circle">
+            <center value="134.459,56.0532"/>
+            <radius value="1.909"/>
+        </shape>
+    </region>
+    <region id="80">
+        <name value="Fallen Angels (Krieg)"/>
+        <shape type="circle">
+            <center value="194.0744,67.5871"/>
+            <radius value="1.909"/>
+        </shape>
+    </region>
+    <region id="81">
+        <name value="Fallen Angels (Bellus Prime)"/>
+        <shape type="circle">
+            <center value="26.3383,177.0327"/>
+            <radius value="1.909"/>
+        </shape>
+    </region>
+    <region id="82">
+        <name value="Fallen Angels (Tigrus)"/>
+        <shape type="circle">
+            <center value="54.8627,218.6872"/>
+            <radius value="1.909"/>
+        </shape>
+    </region>
+</Regions>
