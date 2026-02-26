@@ -2,7 +2,7 @@
 // 
 // Generated Map Script
 // 
-// Name:   Warhammer 40000
+// Name:   Warhammer - 40,000
 // 
 //==================================================================================================
 include "TriggerLibs/NativeLib"
@@ -967,7 +967,6 @@ void gf_BankErrormessage ();
 void gf_SpawnerOptimization (int lp_player, trigger lp_trigger1Tyranid, trigger lp_trigger2Imperium, trigger lp_trigger3Necrons, trigger lp_trigger4Tau);
 void gf_Acceleratedeaccelerateupgrades (unit lp_spawner, int lp_player);
 void gf_HotjoinCleanupTurnintoplayer (int lp_triggeringPlayer);
-void gf_HotjoinCleanupTurnintoSpectator (int lp_triggeringPlayer);
 void gf_TransferUpgrades (int lp_initialPlayer, int lp_targettingPlayer);
 void gf_HotjoinHighlords (int lp_playerItem, int lp_switchPlayer);
 void gf_HotjoinLion (int lp_playerItem, int lp_switchPlayer);
@@ -977,6 +976,7 @@ void gf_HotjoinNecron (int lp_playerItem, int lp_switchPlayer);
 void gf_HotjoinLeviathan (int lp_playerItem, int lp_switchPlayer);
 void gf_HotjoinJorgumandr (int lp_playerItem, int lp_switchPlayer);
 void gf_HotjoinKraken (int lp_playerItem, int lp_switchPlayer);
+void gf_CleanupTurnintoSpectator (int lp_triggeringPlayer);
 void gf_TurnPlayerIntoSpectator (int lp_player);
 void gf_TurnSpectatorintoPlayer (int lp_player);
 void gf_EndingMusic (int lp_player);
@@ -1120,6 +1120,7 @@ trigger gt_DevDefeat;
 trigger gt_DevUnity;
 trigger gt_DevDevouringHunger;
 trigger gt_DevSpectator;
+trigger gt_DevgetItem;
 trigger gt_AchievementButton;
 trigger gt_SetupAchievements;
 trigger gt_ShowAchievementDialog;
@@ -1409,6 +1410,7 @@ trigger gt_SaturnHeroesXHighlords;
 trigger gt_TauHeroesTau;
 trigger gt_FalShiaHeroesTau;
 trigger gt_BorkanHeroesTau;
+trigger gt_AItakeoverforleavertemporarynormalyhandledbydefeat;
 trigger gt_RegionMoveCaller;
 trigger gt_RetreatOverwhelmedHeroHandler;
 trigger gt_RetreatHeroHandler;
@@ -1568,8 +1570,6 @@ trigger gt_GenestealerBroodmotherAura;
 // Custom Script: imports
 //--------------------------------------------------------------------------------------------------
 include "scripts/UI"
-
-
 // to utilize coding scripts properly create a function that has the same naming as the function within GUI and also has the same parameters, return type
 // In options select that it is a native function
 // GalaxyScript follows similar principles as the C programming language
@@ -1743,105 +1743,43 @@ void gf_HotjoinCleanupTurnintoplayer (int lp_triggeringPlayer) {
     PlayerModifyPropertyInt(lp_triggeringPlayer, c_playerPropVespene, c_playerPropOperSetTo, 0);
     PlayerModifyPropertyInt(lp_triggeringPlayer, c_playerPropSuppliesLimit, c_playerPropOperSetTo, 500);
     if ((lp_triggeringPlayer == gv_itemHighlord)) {
-        gv_highlordsDefeated = true;
         VisRevealerDestroy(gv_revealer[gv_itemHighlord]);
         gv_itemHighlord = gv_originalHighlordItemValue;
     }
 
     if ((lp_triggeringPlayer == gv_itemLion)) {
-        gv_lionDefeated = true;
         VisRevealerDestroy(gv_revealer[gv_itemLion]);
         gv_itemLion = gv_originalLionItemValue;
     }
 
     if ((lp_triggeringPlayer == gv_itemRoboute)) {
-        gv_robouteDefeated = true;
         VisRevealerDestroy(gv_revealer[gv_itemRoboute]);
         gv_itemRoboute = gv_originalRobouteItemValue;
     }
 
     if ((lp_triggeringPlayer == gv_itemTau)) {
-        gv_tauDefeated = true;
         VisRevealerDestroy(gv_revealer[gv_itemTau]);
         gv_itemTau = gv_originalTauItemValue;
     }
 
     if ((lp_triggeringPlayer == gv_itemNecrons)) {
-        gv_necronDefeated = true;
         VisRevealerDestroy(gv_revealer[gv_itemNecrons]);
         gv_itemNecrons = gv_originalNecronsItemValue;
     }
 
     if ((lp_triggeringPlayer == gv_itemLeviathan)) {
-        gv_leviathanDefeated = true;
         VisRevealerDestroy(gv_revealer[gv_itemLeviathan]);
         gv_itemLeviathan = gv_originalLeviathanItemValue;
     }
 
     if ((lp_triggeringPlayer == gv_itemJorgumandr)) {
-        gv_jorgumandrDefeated = true;
         VisRevealerDestroy(gv_revealer[gv_itemJorgumandr]);
         gv_itemJorgumandr = gv_originalJorgumandrItemValue;
     }
 
     if ((lp_triggeringPlayer == gv_itemKraken)) {
-        gv_krakenDefeated = true;
         VisRevealerDestroy(gv_revealer[gv_itemKraken]);
         gv_itemKraken = gv_originalKrakenItemValue;
-    }
-
-}
-
-void gf_HotjoinCleanupTurnintoSpectator (int lp_triggeringPlayer) {
-    // Automatic Variable Declarations
-    // Implementation
-    VisRevealerDestroy(gv_revealer[lp_triggeringPlayer]);
-    if ((lp_triggeringPlayer == gv_itemHighlord)) {
-        gv_itemHighlord = gv_originalHighlordItemValue;
-        gv_highlordsDefeated = true;
-        VisRevealerDestroy(gv_revealer[gv_itemHighlord]);
-    }
-
-    if ((lp_triggeringPlayer == gv_itemLion)) {
-        gv_itemLion = gv_originalLionItemValue;
-        gv_lionDefeated = true;
-        VisRevealerDestroy(gv_revealer[gv_itemLion]);
-    }
-
-    if ((lp_triggeringPlayer == gv_itemRoboute)) {
-        gv_itemRoboute = gv_originalRobouteItemValue;
-        gv_robouteDefeated = true;
-        VisRevealerDestroy(gv_revealer[gv_itemRoboute]);
-    }
-
-    if ((lp_triggeringPlayer == gv_itemTau)) {
-        gv_itemTau = gv_originalTauItemValue;
-        gv_tauDefeated = true;
-        VisRevealerDestroy(gv_revealer[gv_itemTau]);
-    }
-
-    if ((lp_triggeringPlayer == gv_itemNecrons)) {
-        gv_itemNecrons = gv_originalNecronsItemValue;
-        gv_necronDefeated = true;
-        VisRevealerDestroy(gv_revealer[gv_itemNecrons]);
-    }
-
-    if ((lp_triggeringPlayer == gv_itemLeviathan)) {
-        gv_itemLeviathan = gv_originalLeviathanItemValue;
-        gv_leviathanDefeated = true;
-        VisRevealerDestroy(gv_revealer[gv_itemLeviathan]);
-    }
-
-    if ((lp_triggeringPlayer == gv_itemJorgumandr)) {
-        gv_itemJorgumandr = gv_originalJorgumandrItemValue;
-        gv_jorgumandrDefeated = true;
-        VisRevealerDestroy(gv_revealer[gv_itemJorgumandr]);
-    }
-
-    if ((lp_triggeringPlayer == gv_itemKraken)) {
-        gv_itemKraken = gv_originalKrakenItemValue;
-        gv_krakenDefeated = true;
-        VisRevealerDestroy(gv_revealer[gv_itemKraken]);
     }
 
 }
@@ -2250,6 +2188,52 @@ void gf_HotjoinKraken (int lp_playerItem, int lp_switchPlayer) {
 
 }
 
+void gf_CleanupTurnintoSpectator (int lp_triggeringPlayer) {
+    // Automatic Variable Declarations
+    // Implementation
+    VisRevealerDestroy(gv_revealer[lp_triggeringPlayer]);
+    if ((lp_triggeringPlayer == gv_itemHighlord)) {
+        gv_itemHighlord = gv_originalHighlordItemValue;
+        VisRevealerDestroy(gv_revealer[gv_itemHighlord]);
+    }
+
+    if ((lp_triggeringPlayer == gv_itemLion)) {
+        gv_itemLion = gv_originalLionItemValue;
+        VisRevealerDestroy(gv_revealer[gv_itemLion]);
+    }
+
+    if ((lp_triggeringPlayer == gv_itemRoboute)) {
+        gv_itemRoboute = gv_originalRobouteItemValue;
+        VisRevealerDestroy(gv_revealer[gv_itemRoboute]);
+    }
+
+    if ((lp_triggeringPlayer == gv_itemTau)) {
+        gv_itemTau = gv_originalTauItemValue;
+        VisRevealerDestroy(gv_revealer[gv_itemTau]);
+    }
+
+    if ((lp_triggeringPlayer == gv_itemNecrons)) {
+        gv_itemNecrons = gv_originalNecronsItemValue;
+        VisRevealerDestroy(gv_revealer[gv_itemNecrons]);
+    }
+
+    if ((lp_triggeringPlayer == gv_itemLeviathan)) {
+        gv_itemLeviathan = gv_originalLeviathanItemValue;
+        VisRevealerDestroy(gv_revealer[gv_itemLeviathan]);
+    }
+
+    if ((lp_triggeringPlayer == gv_itemJorgumandr)) {
+        gv_itemJorgumandr = gv_originalJorgumandrItemValue;
+        VisRevealerDestroy(gv_revealer[gv_itemJorgumandr]);
+    }
+
+    if ((lp_triggeringPlayer == gv_itemKraken)) {
+        gv_itemKraken = gv_originalKrakenItemValue;
+        VisRevealerDestroy(gv_revealer[gv_itemKraken]);
+    }
+
+}
+
 void gf_TurnPlayerIntoSpectator (int lp_player) {
     // Variable Declarations
     int lv_chatdialogitem;
@@ -2259,7 +2243,7 @@ void gf_TurnPlayerIntoSpectator (int lp_player) {
     lv_chatdialogitem = c_invalidDialogControlId;
 
     // Implementation
-    gf_HotjoinCleanupTurnintoSpectator(lp_player);
+    gf_CleanupTurnintoSpectator(lp_player);
     PlayerGroupAdd(gv_spectators, lp_player);
     PlayerGroupRemove(gv_triumColation, lp_player);
     PlayerGroupRemove(gv_tyranids, lp_player);
@@ -7205,6 +7189,99 @@ void gt_DevSpectator_Init () {
 }
 
 //--------------------------------------------------------------------------------------------------
+// Trigger: Dev - getItem
+//--------------------------------------------------------------------------------------------------
+bool gt_DevgetItem_Func (bool testConds, bool runActions) {
+    // Variable Declarations
+    int lv_playerItemValueInteger;
+
+    // Automatic Variable Declarations
+    // Variable Initialization
+
+    // Conditions
+    if (testConds) {
+        if (!((gf_Developer(EventPlayer()) == true))) {
+            return false;
+        }
+    }
+
+    // Actions
+    if (!runActions) {
+        return true;
+    }
+
+    lv_playerItemValueInteger = StringToInt(StringSub(EventChatMessage(false), 10, StringLength(EventChatMessage(false))));
+    if ((lv_playerItemValueInteger == gv_itemHighlord)) {
+        UIDisplayMessage(PlayerGroupSingle(EventPlayer()), c_messageAreaSubtitle, StringExternal("Param/Value/855DB9B2"));
+        UIDisplayMessage(PlayerGroupSingle(EventPlayer()), c_messageAreaSubtitle, PlayerName(gv_itemHighlord));
+    }
+
+    if ((lv_playerItemValueInteger == gv_itemLion)) {
+        UIDisplayMessage(PlayerGroupSingle(EventPlayer()), c_messageAreaSubtitle, StringExternal("Param/Value/612263C9"));
+        UIDisplayMessage(PlayerGroupSingle(EventPlayer()), c_messageAreaSubtitle, PlayerName(gv_itemLion));
+    }
+
+    if ((lv_playerItemValueInteger == gv_itemRoboute)) {
+        UIDisplayMessage(PlayerGroupSingle(EventPlayer()), c_messageAreaSubtitle, StringExternal("Param/Value/D8B4D7EF"));
+        UIDisplayMessage(PlayerGroupSingle(EventPlayer()), c_messageAreaSubtitle, PlayerName(gv_itemRoboute));
+    }
+
+    if ((lv_playerItemValueInteger == gv_itemTau)) {
+        UIDisplayMessage(PlayerGroupSingle(EventPlayer()), c_messageAreaSubtitle, StringExternal("Param/Value/D361C39B"));
+        UIDisplayMessage(PlayerGroupSingle(EventPlayer()), c_messageAreaSubtitle, PlayerName(gv_itemTau));
+    }
+
+    if ((lv_playerItemValueInteger == gv_itemNecrons)) {
+        UIDisplayMessage(PlayerGroupSingle(EventPlayer()), c_messageAreaSubtitle, StringExternal("Param/Value/B999E8BE"));
+        UIDisplayMessage(PlayerGroupSingle(EventPlayer()), c_messageAreaSubtitle, PlayerName(gv_itemNecrons));
+    }
+
+    if ((lv_playerItemValueInteger == gv_itemLeviathan)) {
+        UIDisplayMessage(PlayerGroupSingle(EventPlayer()), c_messageAreaSubtitle, StringExternal("Param/Value/BA472E1C"));
+        UIDisplayMessage(PlayerGroupSingle(EventPlayer()), c_messageAreaSubtitle, PlayerName(gv_itemLeviathan));
+    }
+
+    if ((lv_playerItemValueInteger == gv_itemJorgumandr)) {
+        UIDisplayMessage(PlayerGroupSingle(EventPlayer()), c_messageAreaSubtitle, StringExternal("Param/Value/E8E2CEE6"));
+        UIDisplayMessage(PlayerGroupSingle(EventPlayer()), c_messageAreaSubtitle, PlayerName(gv_itemJorgumandr));
+    }
+
+    if ((lv_playerItemValueInteger == gv_itemKraken)) {
+        UIDisplayMessage(PlayerGroupSingle(EventPlayer()), c_messageAreaSubtitle, StringExternal("Param/Value/C2D68A1A"));
+        UIDisplayMessage(PlayerGroupSingle(EventPlayer()), c_messageAreaSubtitle, PlayerName(gv_itemKraken));
+    }
+
+    if ((lv_playerItemValueInteger == gv_itemWarringStates)) {
+        UIDisplayMessage(PlayerGroupSingle(EventPlayer()), c_messageAreaSubtitle, StringExternal("Param/Value/4EF94C57"));
+        UIDisplayMessage(PlayerGroupSingle(EventPlayer()), c_messageAreaSubtitle, PlayerName(gv_itemWarringStates));
+    }
+
+    if ((lv_playerItemValueInteger == gv_itemSpectator1)) {
+        UIDisplayMessage(PlayerGroupSingle(EventPlayer()), c_messageAreaSubtitle, StringExternal("Param/Value/254C6B87"));
+        UIDisplayMessage(PlayerGroupSingle(EventPlayer()), c_messageAreaSubtitle, PlayerName(gv_itemSpectator1));
+    }
+
+    if ((lv_playerItemValueInteger == gv_itemSpectator2)) {
+        UIDisplayMessage(PlayerGroupSingle(EventPlayer()), c_messageAreaSubtitle, StringExternal("Param/Value/43D49F2C"));
+        UIDisplayMessage(PlayerGroupSingle(EventPlayer()), c_messageAreaSubtitle, PlayerName(gv_itemSpectator2));
+    }
+
+    if ((lv_playerItemValueInteger == gv_itemSpectator3)) {
+        UIDisplayMessage(PlayerGroupSingle(EventPlayer()), c_messageAreaSubtitle, StringExternal("Param/Value/D11C1228"));
+        UIDisplayMessage(PlayerGroupSingle(EventPlayer()), c_messageAreaSubtitle, PlayerName(gv_itemSpectator3));
+    }
+
+    UIDisplayMessage(PlayerGroupSingle(EventPlayer()), c_messageAreaSubtitle, StringExternal("Param/Value/DA237D14"));
+    return true;
+}
+
+//--------------------------------------------------------------------------------------------------
+void gt_DevgetItem_Init () {
+    gt_DevgetItem = TriggerCreate("gt_DevgetItem_Func");
+    TriggerAddEventChatMessage(gt_DevgetItem, c_playerAny, "-getItem", false);
+}
+
+//--------------------------------------------------------------------------------------------------
 // Trigger: Achievement Button
 //--------------------------------------------------------------------------------------------------
 bool gt_AchievementButton_Func (bool testConds, bool runActions) {
@@ -8029,46 +8106,6 @@ bool gt_InitialAlliances_Func (bool testConds, bool runActions) {
     libNtve_gf_SetAllianceBetweenTwoPlayerGroups(gv_triumColation, PlayerGroupSingle(gv_itemWarringStates), libNtve_ge_AllianceSetting_Enemy);
     libNtve_gf_SetAllianceBetweenTwoPlayerGroups(PlayerGroupSingle(gv_itemWarringStates), gv_tyranids, libNtve_ge_AllianceSetting_Enemy);
     libNtve_gf_SetAllianceBetweenTwoPlayerGroups(PlayerGroupSingle(gv_itemWarringStates), gv_triumColation, libNtve_ge_AllianceSetting_Enemy);
-    if ((gv_robouteHighlordsAtWar == true)) {
-        libNtve_gf_SetAlliance(gv_itemRoboute, gv_itemHighlord, libNtve_ge_AllianceSetting_Enemy);
-    }
-
-    if ((gv_robouteLionAtWar == true)) {
-        libNtve_gf_SetAlliance(gv_itemRoboute, gv_itemLion, libNtve_ge_AllianceSetting_Enemy);
-    }
-
-    if ((gv_highlordsLionAtWar == true)) {
-        libNtve_gf_SetAlliance(gv_itemHighlord, gv_itemLion, libNtve_ge_AllianceSetting_Enemy);
-    }
-
-    if ((gv_imperiumTauAtWar == true)) {
-        libNtve_gf_SetAlliance(gv_itemHighlord, gv_itemTau, libNtve_ge_AllianceSetting_Enemy);
-        libNtve_gf_SetAlliance(gv_itemLion, gv_itemTau, libNtve_ge_AllianceSetting_Enemy);
-        libNtve_gf_SetAlliance(gv_itemRoboute, gv_itemTau, libNtve_ge_AllianceSetting_Enemy);
-    }
-
-    if ((gv_imperiumNecronsAtWar == true)) {
-        libNtve_gf_SetAlliance(gv_itemHighlord, gv_itemNecrons, libNtve_ge_AllianceSetting_Enemy);
-        libNtve_gf_SetAlliance(gv_itemLion, gv_itemNecrons, libNtve_ge_AllianceSetting_Enemy);
-        libNtve_gf_SetAlliance(gv_itemRoboute, gv_itemNecrons, libNtve_ge_AllianceSetting_Enemy);
-    }
-
-    if ((gv_tauNecronsAtWar == true)) {
-        libNtve_gf_SetAlliance(gv_itemTau, gv_itemNecrons, libNtve_ge_AllianceSetting_Enemy);
-    }
-
-    if ((gv_krakenLeviathanAtWar == true)) {
-        libNtve_gf_SetAlliance(gv_itemKraken, gv_itemLeviathan, libNtve_ge_AllianceSetting_Enemy);
-    }
-
-    if ((gv_krakenJorgumandrAtWar == true)) {
-        libNtve_gf_SetAlliance(gv_itemKraken, gv_itemJorgumandr, libNtve_ge_AllianceSetting_Enemy);
-    }
-
-    if ((gv_leviathanJorgumandrAtWar == true)) {
-        libNtve_gf_SetAlliance(gv_itemLeviathan, gv_itemJorgumandr, libNtve_ge_AllianceSetting_Enemy);
-    }
-
     return true;
 }
 
@@ -9845,24 +9882,6 @@ bool gt_PlayerleavesAllianceaspecthandler_Func (bool testConds, bool runActions)
     libNtve_gf_SetAllianceAspectForPlayerGroup(gv_tyranids, c_allianceIdVision, true);
     libNtve_gf_SetAllianceAspectForPlayerGroup(gv_triumColation, c_allianceIdSeekHelp, false);
     libNtve_gf_SetAllianceAspectForPlayerGroup(gv_tyranids, c_allianceIdSeekHelp, false);
-    if ((gv_krakenDefeated == true)) {
-    }
-
-    if ((gv_jorgumandrDefeated == true)) {
-    }
-
-    if ((gv_leviathanDefeated == true)) {
-    }
-
-    if ((gv_krakenJorgumandrAtWar == true)) {
-    }
-
-    if ((gv_krakenLeviathanAtWar == true)) {
-    }
-
-    if ((gv_leviathanJorgumandrAtWar == true)) {
-    }
-
     return true;
 }
 
@@ -24531,6 +24550,57 @@ void gt_BorkanHeroesTau_Init () {
 }
 
 //--------------------------------------------------------------------------------------------------
+// Trigger: AI takeover for leaver (temporary normaly handled by defeat)
+//--------------------------------------------------------------------------------------------------
+bool gt_AItakeoverforleavertemporarynormalyhandledbydefeat_Func (bool testConds, bool runActions) {
+    // Automatic Variable Declarations
+    // Actions
+    if (!runActions) {
+        return true;
+    }
+
+    if ((gv_highlordsDefeated == true)) {
+        gv_highlordsAIActive = true;
+    }
+
+    if ((gv_lionDefeated == true)) {
+        gv_lionAIActive = true;
+    }
+
+    if ((gv_robouteDefeated == true)) {
+        gv_robouteAIActive = true;
+    }
+
+    if ((gv_tauDefeated == true)) {
+        gv_tauAIActive = true;
+    }
+
+    if ((gv_necronDefeated == true)) {
+        gv_necronsAIActive = true;
+    }
+
+    if ((gv_leviathanDefeated == true)) {
+        gv_leviathanAIActive = true;
+    }
+
+    if ((gv_jorgumandrDefeated == true)) {
+        gv_jorgumandrAIActive = true;
+    }
+
+    if ((gv_krakenDefeated == true)) {
+        gv_krakenAIActive = true;
+    }
+
+    return true;
+}
+
+//--------------------------------------------------------------------------------------------------
+void gt_AItakeoverforleavertemporarynormalyhandledbydefeat_Init () {
+    gt_AItakeoverforleavertemporarynormalyhandledbydefeat = TriggerCreate("gt_AItakeoverforleavertemporarynormalyhandledbydefeat_Func");
+    TriggerAddEventTimePeriodic(gt_AItakeoverforleavertemporarynormalyhandledbydefeat, 15.0, c_timeGame);
+}
+
+//--------------------------------------------------------------------------------------------------
 // Trigger: Region Move Caller
 //--------------------------------------------------------------------------------------------------
 bool gt_RegionMoveCaller_Func (bool testConds, bool runActions) {
@@ -31392,6 +31462,7 @@ void InitTriggers () {
     gt_DevUnity_Init();
     gt_DevDevouringHunger_Init();
     gt_DevSpectator_Init();
+    gt_DevgetItem_Init();
     gt_AchievementButton_Init();
     gt_SetupAchievements_Init();
     gt_ShowAchievementDialog_Init();
@@ -31681,6 +31752,7 @@ void InitTriggers () {
     gt_TauHeroesTau_Init();
     gt_FalShiaHeroesTau_Init();
     gt_BorkanHeroesTau_Init();
+    gt_AItakeoverforleavertemporarynormalyhandledbydefeat_Init();
     gt_RegionMoveCaller_Init();
     gt_RetreatOverwhelmedHeroHandler_Init();
     gt_RetreatHeroHandler_Init();

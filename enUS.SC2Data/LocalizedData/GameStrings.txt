@@ -1160,6 +1160,7 @@ Param/Value/11110660=Kill Lion El'jonson
 Param/Value/1117C9B6=<s val="AB_Description"><c val="F4FA29"><c val="4CC0C6">AI Research</c> has been raised by <c val="F4FA29">1</c>, Activating yet more powerful weapons of war</c></s>
 Param/Value/11520D00=<c val="FFFFFF">Destroy Ragnarok Core and kill Dr. Weil (Any form) while playing as a Resistance faction. (You do not need to get the killing blow).</c>
 Param/Value/11AF2A20=<c val="0080FF">Uncommon:</c><c val="FFFFFF"> Killionaire</c>
+Param/Value/11CA148E=Lion
 Param/Value/11DC93DF=<s val="AB_Description"><c val="F4FA29">Loyalty between the <c val="008000">Necrons</c> and the <c val="FFFFFF">Imperiun</c> has <c val="C81E2B">decreased</c> by 
 Param/Value/12CFCF25=Press here to open the achievement menu.
 Param/Value/12E98ECC=<c val="FFFFFF">Get ten hero kills in one match while playing as any faction.</c>
@@ -1190,6 +1191,7 @@ Param/Value/211B2FBB=<s val="AB_Description"><c val="47BC29">Imperium forces hav
 Param/Value/22B98255=<c val="C0C0C0"> was killed by </c>
 Param/Value/23B2AEBC=<c val="00FF80">Common:</c> <c val="F4FA29"> Victoria Trina</c></c>
 Param/Value/24EF4A69=<s val="AB_Description"><c val="F4FA29">Tip:</c> <c val="00FF00"><c val="24B6C6">Technology</c>, increases the strength of non heroic units, increase technology by researching it at the spawner T'au</c></s>
+Param/Value/254C6B87=Spec1
 Param/Value/25C59C49=<s val="AB_Description"><c val="47BC29">Imperium forces have retreated forces from the planet of <c val="F4FA29">Gehenna Prime</c></c></s>
 Param/Value/26232BAA=The main key to playing are three types of units and structures within the map that can be grouped together into three categories Spawners, Heroes, Arbiters.<n/><n/>Spawners<n/><n/>    Role: The spawners are the backbone of the army, producing basic units (minions, soldiers, etc.) that can flood the battlefield.<n/>    Mechanics:<n/>        Unit spawning: Regularly creates basic units, providing a steady flow of disposable forces.<n/>        Gassing: Spawners can be upgraded with gas that improves the quality of units and the amount.<n/>        Gas recovery: After upgrading, the gas resource returns the resource to the player<n/><n/>Heroes<n/><n/>    Role: Heroes are the primary damage-dealers and play a critical part in key battles.<n/>    Mechanics:<n/>        Permadeath: Heroes do not respawn.<n/>        Beacon activation: Heroes can interact with specific map objectives (beacons), but only under certain conditions usually containing mineral costs and specific heroes.<n/>        High impact: As they are key units, heroes have special abilities that can turn the tide of battles.<n/><n/>Arbiters<n/><n/>    Role: Arbiters focus on utility, mainly for teleportation.<n/>    Mechanics:<n/>        Teleportation: The ability to move units around the map, giving an advantage in terms of positioning, retreat, or surprise attacks.<n/>        No respawn: Like the heroes, arbiters do not respawn. 
 Param/Value/266B3B9F=<s val="AB_Description"><c val="F4FA29">The noose tightens--enemies close in from all sides, his allies scattered, the Imperium teetering on the brink.<n/>With no reinforcements, no escape, and no certainty, Roboute Guilliman reaches deep into the core of his being.<n/>The Uncrowned Monarch awakens--not as a savior, but as a final act of defiance against the darkness.<n/>Though all hope fades, he stands unyielding, raging against the dying of the light</c></s>
@@ -1252,6 +1254,7 @@ Param/Value/40EA8769=<c val="FFFFFF">Get ten hero kills in one match while playi
 Param/Value/42173EDC=<n/>Win with all Tyranid players still alive.
 Param/Value/42A87558=<s val="AB_Description"><c val="F4FA29">Belisarius Cawl initiates the Primaris Protocols, releasing a new generation of Space Marines to the Imperium's warfronts. Taller, stronger, and forged for a dying galaxy--they march at last</c></s>
 Param/Value/435F4F57=<c val="00FF80">Common:</c><c val="FFFFFF"> <c val="F4FA29">Release the Kraken</c><n/>Achieve victory as Kraken being the only one left standing</c>
+Param/Value/43D49F2C=Spec2
 Param/Value/44991262=<s val="AB_Description"><c val="47BC29">Imperium forces have retreated from the planet of <c val="F4FA29">Macharia</c></c></s>
 Param/Value/45DA75ED=<c val="FFFFFF">Imperium:</c><c val="F4FA29"> 
 Param/Value/4631F787=<c val="00FF80">Common:</c> <c val="F4FA29"><c val="F4FA29">Crunch Time </c></c><n/>Win with all Tyranid players still alive.</c>
@@ -1276,6 +1279,7 @@ Param/Value/4BE74021=<n/>Win with all Imperium factions being alive</c>
 Param/Value/4D28EC03=<s val="AB_Description"><c val="47BC29">Imperium forces have retreated from the planet of <c val="F4FA29">Ogrys</c></c></s>
 Param/Value/4E203E02=Next unit spawn
 Param/Value/4E8F30CD=<c val="00FF80">Common:</c> <c val="F4FA29"> Victoria Trina</c></c>
+Param/Value/4EF94C57=Chaos
 Param/Value/4F26D2C3=<s val="AB_Description"><c val="F4FA29">With the dust of war finally settled and the galaxy united under a singular purpose, the Imperium stands unshaken. <n/>Under the leadership of Lion El'Jonson and the High Lords of Terra, it no longer relies on empty promises or fleeting hope, but on a steadfast commitment to strength, discipline, and eternal vigilance. <n/>This new regime is forged through the union of iron will and divine purpose, where the sword and the pen work in harmony to enforce absolute order.<n/>The Lion demands not blind worship, but unwavering obedience. <n/>His presence ensures that no rebellion rises and no heresy takes root. His cold, strategic mind guides the Imperium with unyielding resolve, keeping its enemies at bay and its dominion secure.<n/>The High Lords of Terra, unwavering in their devotion to the Emperor and the Imperial Creed, uphold the sacred faith that binds humanity together. <n/>They ensure that the Imperial Cult remains not only respected, but enforced, with every sector of the galaxy reminded of mankind's divine purpose. <n/>Their vast network of influence and bureaucratic control ensures that the Imperium operates with ruthless efficiency, maintaining order across the stars while reaffirming the Emperor's reign as humanity's guiding light.<n/>Together, the Lion and the High Lords have crafted an Imperium where no threat--internal or external--can break its resolve. <n/>Their joint leadership ensures that the Imperium thrives, not on the frail hope of salvation, but on the certainty of obedience, the unyielding power of faith, and the unrelenting force of the sword.</c></s>
 Param/Value/4F3725C5=<c val="EF9550">Player 
 Param/Value/4FFB7187=<s val="AB_Description"> 
@@ -1322,6 +1326,7 @@ Param/Value/5EB0B12C=<s val="AB_Description"><c val="F4FA29"><c val="008000">Imo
 Param/Value/5F20C177=<s val="AB_Description"><c val="47BC29">'Please, Father!' <c val="006B9F">Guilliman</c> cried, but the response was cold: 'Not a son. A tool. A product.' A grand plan lay in ruins, and the unbearable weight of it crushed him.</c></s>
 Param/Value/60194DD8=Necron
 Param/Value/607D3E3C=<s val="AB_Description"><c val="F4FA29">Magnus the Red, unable to stand against the might of his foes, retreats back into the Warp, his pride unwilling to allow his defeat to be permanent. He vanishes into the Immaterium, vowing to return when the time is right.</c></s>
+Param/Value/612263C9=Lion
 Param/Value/6149490A=<s val="AB_Description"><c val="F4FA29"><c val="4CC0C6">Technlogy</c> has been raised by <c val="F4FA29">1</c>, bolstering our forces</c></s>
 Param/Value/61BE63CB=<s val="AB_Description"><c val="F4FA29">The Tomb World of the <c val="47BC29">Necrons</c> has been activated</c></s>
 Param/Value/623B65F6=<c val="00FF80">Common:</c><c val="FFFFFF"> Peace In Our Time</c>
@@ -1369,6 +1374,7 @@ Param/Value/8078A5B8=<s val="AB_Description"><c val="F4FA29">Jorgumandr has laun
 Param/Value/80A31AE2=<c val="B90000">War</c>
 Param/Value/8450E675=<c val="B90000">War</c>
 Param/Value/854E070C=Devouring Hunger:
+Param/Value/855DB9B2=Highlord
 Param/Value/875C9139=<s val="AB_Description"> <c val="00FF00">Command Executed</c></s>
 Param/Value/878648CB=<c val="FFFFFF">Get ten hero kills in one match while playing as any faction.</c>
 Param/Value/87DA0B67=<s val="AB_Description"><c val="F4FA29">A Tomb World of the <c val="47BC29">Necrons</c> has been activated</c></s>
@@ -1486,9 +1492,11 @@ Param/Value/B77F1324=<c val="8000FF">Rare:</c><c val="FFFFFF"> Dark irony<n/>Win
 Param/Value/B8D5A952=<c val="00FF80">Common:</c><c val="FFFFFF"> <c val="F4FA29">The Emperor Protects</c>
 Param/Value/B917BB6C=<n/>Achieve the Trium Colation Victory
 Param/Value/B957FCAE=<c val="008040">Necrons:</c><c val="F4FA29"> 
+Param/Value/B999E8BE=Necrons
 Param/Value/B9B3D3A7=<c val="00FF80">Common:</c> <c val="F4FA29"><c val="F4FA29">Eternity Reclaimed </c></c>
 Param/Value/BA0FA2E2=Press here to close the achievement screen.
 Param/Value/BA2CE792=<c val="8000FF">Rare:</c><c val="FFFFFF">  <c val="F4FA29">Redacted</c> <n/>Redacted by the Inquisition</c>
+Param/Value/BA472E1C=Leviathan
 Param/Value/BB888A0E=<s val="AB_Description"> <c val="00FF00">Command Failed, Enter a correct value</c></s>
 Param/Value/BBE08ECE=<c val="FFFFFF">Fire Ragnarok's Orbital Energen Beam for the first time.</c>
 Param/Value/BC39589D=<s val="AB_Description"><c val="F4FA29">Roboute Guilliman has declared war on the Highlords Of Terra</c></s>
@@ -1508,6 +1516,7 @@ Param/Value/C2145D9D=<c val="0080FF">Uncommon:</c><c val="FFFFFF"> <c val="F4FA2
 Param/Value/C22FA69C=<s val="AB_Description"><c val="F4FA29">Loyalty between the <c val="FFFFFF">Imperiun</c> and the <c val="24B6C6">Tau</c> has <c val="47BC29">increased</c> by 
 Param/Value/C278CD49=<c val="00FF80">Common:</c> <c val="F4FA29"><c val="F4FA29">Administrative Overkill </c></c>
 Param/Value/C2C929D6=<c val="FFFFFF">Imperium:</c><c val="F4FA29"> 
+Param/Value/C2D68A1A=Kraken
 Param/Value/C2DB0F29=<c val="0080FF">Uncommon:</c><c val="FFFFFF"> Killionaire</c>
 Param/Value/C37EC03E= Exitting AI upgrade state
 Param/Value/C3B5FC57=<c val="0080FF">Uncommon:</c><c val="FFFFFF"> <c val="F4FA29">Redacted</c> <n/>Redacted by the Inquisition</c>
@@ -1538,8 +1547,10 @@ Param/Value/CECFE3E6=Jorgumandr Guide
 Param/Value/D04960A0=Win your first match.
 Param/Value/D0A3F5FD=<s val="AB_Description"> <c val="00FF00">Command Executed</c></s>
 Param/Value/D0DB69A0=<c val="FFFFFF">Destroy Ragnarok Core and kill Dr. Weil (Any form) while playing as a Resistance faction. (You do not need to get the killing blow).</c>
+Param/Value/D11C1228=Spec3
 Param/Value/D28F2E3D=<c val="00FF80">Common:</c><c val="FFFFFF"> <c val="F4FA29">Imperium/Necrons Victory</c><n/>Achieve victory with Necrons and the Imperium still existing</c>
 Param/Value/D2BF24AB=<s val="PurchasePanelSelectedPurchaseItemName"><c val="FFFF00">Achievements</c></c>
+Param/Value/D361C39B=Tau
 Param/Value/D62045D6=<c val="00FF80">Common:</c> <c val="F4FA29"> Victoria Trina</c></c>
 Param/Value/D78A5D44=Press here to open the hotjoin menu.
 Param/Value/D7965F4A=<s val="AB_Description"><c val="9E8876">The planet of <c val="7D382D">Chiron </c>has been fortified by our forces against eventual invasions</c></s></c>
@@ -1547,7 +1558,9 @@ Param/Value/D7CE664A=<c val="EF9550">Unity:</c><c val="F4FA29">
 Param/Value/D7F51709=<c val="FFFFFF">Get ten hero kills in one match while playing as any faction.</c>
 Param/Value/D8112801=<s val="AB_Description"><n/><c val="F4FA29">The galaxy has fallen--not to war, but to curation. With subtle manipulations, ancient secrets, and the quiet removal of obstacles, Trazyn the Infinite has emerged not only as the master of the Necron dynasties, but as the undisputed ruler of the stars.<n/><n/>Worlds are catalogued. Civilizations archived. History--corrected.<n/><n/>No more reckless wars. No more self-destructive empires. Under Trazyn's rule, the galaxy is finally safe--from chaos, from decay, from change itself. Every notable figure is preserved. Every culture is contained.<n/><n/>And he is very, very proud of the arrangement.<n/><n/>From Solemnace, the Infinite Archive grows ever larger--an eternal monument to what was, overseen by the one being who truly appreciates it all.<n/><n/>The galaxy endures--not in glory, but in glass.<n/></c></s>
 Param/Value/D898B141=<c val="00FF80">Common:</c><c val="FFFFFF"> <c val="F4FA29">Administrative Overkill</c><n/>Achieve victory as the Highlords Of Terra being the only one left standing</c>
+Param/Value/D8B4D7EF=Roboute
 Param/Value/D9181A5F=<c val="EF9550">Legendary:</c><c val="FFFFFF"> <c val="F4FA29">Redacted</c> <n/>Redacted by the Inquisition</c>
+Param/Value/DA237D14=<s val="AB_Description"> <c val="00FF00">Command Executed</c></s>
 Param/Value/DA703974=<s val="AB_Description"><c val="F4FA29">A C'tan shard has been acquired</c></s>
 Param/Value/DAAF0F8E=<c val="B90000">War</c>
 Param/Value/DC208CD4=By the command of the High Lords of Terra, we are tasked with eradicating a prime threat to humanity's survival. The Jorgumandr Hive Fleet has emerged from the depths of space, striking from the shadows with deadly precision. We have been ordered to hunt down and destroy one of its key assets--an instrument of its terrible, silent war. The Emperor's will is clear: we must sever the tendrils of this alien plague before it can spread further, consuming all in its path. The fate of the Imperium hangs in the balance, and failure is not an option.
@@ -1574,6 +1587,7 @@ Param/Value/E749C068=<c val="00FF80">Common:</c><c val="FFFFFF"> <c val="F4FA29"
 Param/Value/E75A588D=Press here to open the hotjoin menu.
 Param/Value/E7C80289=<s val="AB_Description"><c val="F4FA29">Loyalty between the <c val="FFFFFF">Imperiun</c> and the <c val="24B6C6">Tau</c> has <c val="C81E2B">decreased</c> by 
 Param/Value/E7EE5FF0=<c val="00FF80">Common:</c><c val="FFFFFF"> <c val="F4FA29">The Lion's Share</c><n/>Achieve victory as Lion El'Jonson being the only one left standing</c>
+Param/Value/E8E2CEE6=Jorgumandr
 Param/Value/E9DE024A=<c val="008000">Dynastic Court</c>
 Param/Value/E9DE92A2=<c val="C0C0C0"> was destroyed by </c>
 Param/Value/EA154106=<s val="AB_Description"><c val="F4FA29">As the ruler of Holy Terra within the Imperiums civil war, unity increases</c></c></s>
