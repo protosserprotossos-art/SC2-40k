@@ -17,6 +17,21 @@
         <SelectionRadius value="0.714000"/>
         <ShadowRadius value="0.714000"/>
     </CModel>
+    <CModel id="DominionKillTeamLMWeapon">
+        <ScaleMax value="0.750000,0.750000,0.750000"/>
+        <ScaleMin value="0.750000,0.750000,0.750000"/>
+    </CModel>
+    <CModelFoliage id="Dreadnoughtmk2">
+        <Model value="Assets\Units\Eviscerator_Mk._II\Eviscerator Mk. II\EvisceratorMkII.m3"/>
+        <AttachProps Id="Ref_Weapon Left"/>
+        <AttachProps Id="Ref_Weapon Right"/>
+        <ScaleMax value="1.150000,1.150000,1.150000"/>
+        <ScaleMin value="1.150000,1.150000,1.150000"/>
+        <SelectionRadius value="1.000000"/>
+    </CModelFoliage>
+    <CModel id="SisterOfBattle" parent="MarineBase">
+        <Model value="Assets\Units\Medic_with_pistol\Medic_with_pistol.m3"/>
+    </CModel>
     <CModel id="Mortarion" parent="ZerglingBase">
         <Model value="Assets\Units\Renegades\Renegades_Typhus\Renegades_Typhus.m3"/>
         <AttachProps index="0" removed="1"/>
@@ -879,6 +894,11 @@
     <CModel id="VanceStubbsPoison" parent="PersistentSpellFX">
         <Model value="Assets\Effects\Zerg\ViperConsume\ViperConsume.m3"/>
         <EditorCategories value="Race:Zerg"/>
+    </CModel>
+    <CModel id="KnightDeath" parent="VikingAssaultDeathBase">
+        <Model value="Assets\Units\Terran\VikingAssaultDeathEx1\VikingAssaultDeathEx1.m3"/>
+        <ScaleMax value="1.500000,1.500000,1.500000"/>
+        <ScaleMin value="1.500000,1.500000,1.500000"/>
     </CModel>
     <CModel id="VoidSentryBlackHole2" parent="PersistentSpellFX">
         <Model value="Assets\Effects\Protoss\Taldarim_Mothership_Black_Hole\Taldarim_Mothership_Black_Hole.m3"/>

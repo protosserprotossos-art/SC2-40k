@@ -3538,6 +3538,9 @@
         <EffectArray Reference="Unit,Skittari,LifeStart" Value="8"/>
         <EffectArray Reference="Weapon,ATALaserBattery,Range" Value="0.1"/>
         <EffectArray Reference="Weapon,ATSLaserBattery,Range" Value="0.1"/>
+        <EffectArray Reference="Unit,Knight,LifeMax" Value="43"/>
+        <EffectArray Reference="Unit,Knight,LifeStart" Value="43"/>
+        <EffectArray Reference="Effect,ZeratulVoidAiur012,Amount" Value="1.5"/>
         <MaxLevel value="20"/>
     </CUpgrade>
     <CUpgrade id="VigilantQuadrexUpgradeSpawn">

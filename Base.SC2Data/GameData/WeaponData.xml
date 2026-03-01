@@ -119,6 +119,9 @@
         <Range value="5.5"/>
         <DamagePoint value="0"/>
     </CWeaponLegacy>
+    <CWeaponLegacy id="DominionKillTeam">
+        <Period value="1.25"/>
+    </CWeaponLegacy>
     <CWeaponLegacy id="DutchConcussiveGrenade">
         <Range value="5.5"/>
         <TargetFilters value="Visible;Missile,Stasis,Dead,Hidden,Invulnerable"/>
@@ -392,7 +395,7 @@
     </CWeaponLegacy>
     <CWeaponLegacy id="KorhalSporeCannon">
         <TargetFilters value="Ground;Missile,Stasis,Dead,Hidden,Invulnerable"/>
-        <Range value="13.5"/>
+        <Range value="14"/>
     </CWeaponLegacy>
     <CWeaponLegacy id="MengskSiegeTankSieged">
         <DisplayEffect value="YagdraFireballDamage"/>
@@ -763,5 +766,17 @@
         <DamagePoint value="0.15"/>
         <Backswing value="1.333"/>
         <Effect value="ImotekhWeaponSet"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="KnightMeleeWeapon">
+        <EditorCategories value="Race:Protoss"/>
+        <Options index="Melee" value="1"/>
+        <Icon value="Assets\Textures\btn-upgrade-protoss-groundweaponslevel0.dds"/>
+        <DisplayEffect value="ZeratulVoidAiur012"/>
+        <TargetFilters value="Ground,Visible;Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <Range value="1.25"/>
+        <Period value="1.75"/>
+        <DamagePoint value="0.15"/>
+        <Backswing value="1.333"/>
+        <Effect value="SzarekhWeaponSet2"/>
     </CWeaponLegacy>
 </Catalog>

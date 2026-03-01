@@ -92,6 +92,10 @@
     <CRequirementAnd id="AndLTCountUnitAshWormQueuedOrBetter5">
         <OperandArray value="LTCountUnitAshWormQueuedOrBetter5"/>
     </CRequirementAnd>
+    <CRequirementAnd id="AndLTCountUnitBunkerQueuedOrBetter50">
+        <Tooltip value="RequirementNode/Tooltip/##id##"/>
+        <OperandArray value="LTCountUnitBunkerQueuedOrBetter50"/>
+    </CRequirementAnd>
     <CRequirementAnd id="AndLTCountUnitKorhalSporeCannonQueuedOrBetter2">
         <OperandArray value="LTCountUnitKorhalSporeCannonQueuedOrBetter2"/>
     </CRequirementAnd>
@@ -304,7 +308,6 @@
         <OperandArray value="GTCountUpgradeTauTechnlogyStacksCompleteOnly1"/>
     </CRequirementAnd>
     <CRequirementAnd id="AndNotCountUpgradeBattleshipSpawnerCompleteOnly">
-        <Tooltip value="RequirementNode/Tooltip/##id##"/>
         <OperandArray value="NotCountUpgradeBattleshipSpawnerCompleteOnly"/>
     </CRequirementAnd>
     <CRequirementAnd id="AndNotCountUpgradeChallengeofthePrimarchsCompleteOnlyCountUpgradeRobotueIdentiferCompleteOnly">
@@ -343,7 +346,6 @@
         <OperandArray value="CountUpgradeLionIdentiferCompleteOnly"/>
     </CRequirementAnd>
     <CRequirementAnd id="AndNotCountUpgradeNecronsAscendantCompleteOnly">
-        <Tooltip value="RequirementNode/Tooltip/##id##"/>
         <OperandArray value="NotCountUpgradeNecronsAscendantCompleteOnly"/>
     </CRequirementAnd>
     <CRequirementAnd id="AndNotCountUpgradeNegotiateWithTheEldarCompleteOnly">
@@ -364,7 +366,6 @@
         <OperandArray value="CountUpgradeHighlordsIdentiferCompleteOnly"/>
     </CRequirementAnd>
     <CRequirementAnd id="AndNotCountUpgradePurificationProtocolCompleteOnly">
-        <Tooltip value="RequirementNode/Tooltip/##id##"/>
         <OperandArray value="NotCountUpgradePurificationProtocolCompleteOnly"/>
     </CRequirementAnd>
     <CRequirementAnd id="AndNotCountUpgradeRobouteAuraCooldown5minutesCompleteOnly">
@@ -418,6 +419,11 @@
         <Flags index="TechTreeCheat" value="0"/>
         <Count Link="AshWorm" State="QueuedOrBetter"/>
     </CRequirementCountUnit>
+    <CRequirementCountUnit id="CountUnitBunkerQueuedOrBetter">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Tooltip value="RequirementNode/Tooltip/##id##"/>
+        <Count Link="Bunker" State="QueuedOrBetter"/>
+    </CRequirementCountUnit>
     <CRequirementCountUnit id="CountUnitImotekhTheStomlordCompleteOnly">
         <Flags index="TechTreeCheat" value="0"/>
         <Count Link="ImotekhTheStomlord" State="CompleteOnly"/>
@@ -460,7 +466,6 @@
     </CRequirementCountUpgrade>
     <CRequirementCountUpgrade id="CountUpgradeBattleshipSpawnerCompleteOnly">
         <Flags index="TechTreeCheat" value="0"/>
-        <Tooltip value="RequirementNode/Tooltip/##id##"/>
         <Count Link="BattleshipSpawner" State="CompleteOnly"/>
     </CRequirementCountUpgrade>
     <CRequirementCountUpgrade id="CountUpgradeBellusPrimeUpgradeSpawnCompleteOnly">
@@ -693,7 +698,6 @@
     </CRequirementCountUpgrade>
     <CRequirementCountUpgrade id="CountUpgradeNecronsAscendantCompleteOnly">
         <Flags index="TechTreeCheat" value="0"/>
-        <Tooltip value="RequirementNode/Tooltip/##id##"/>
         <Count Link="NecronsAscendant" State="CompleteOnly"/>
     </CRequirementCountUpgrade>
     <CRequirementCountUpgrade id="CountUpgradeNegotiateWithTheEldarCompleteOnly">
@@ -742,7 +746,6 @@
     </CRequirementCountUpgrade>
     <CRequirementCountUpgrade id="CountUpgradePurificationProtocolCompleteOnly">
         <Flags index="TechTreeCheat" value="0"/>
-        <Tooltip value="RequirementNode/Tooltip/##id##"/>
         <Count Link="PurificationProtocol" State="CompleteOnly"/>
     </CRequirementCountUpgrade>
     <CRequirementCountUpgrade id="CountUpgradeQuistoRolUpgradeSpawnQueuedOrBetter">
@@ -1045,6 +1048,11 @@
         <OperandArray index="0" value="CountUnitAshWormQueuedOrBetter"/>
         <OperandArray index="1" value="5"/>
     </CRequirementLT>
+    <CRequirementLT id="LTCountUnitBunkerQueuedOrBetter50">
+        <Tooltip value="RequirementNode/Tooltip/##id##"/>
+        <OperandArray index="0" value="CountUnitBunkerQueuedOrBetter"/>
+        <OperandArray index="1" value="50"/>
+    </CRequirementLT>
     <CRequirementLT id="LTCountUnitKorhalSporeCannonQueuedOrBetter2">
         <OperandArray index="0" value="CountUnitKorhalSporeCannonQueuedOrBetter"/>
         <OperandArray index="1" value="2"/>
@@ -1327,7 +1335,6 @@
         <OperandArray index="0" value="CountUpgradeAIResearchStartedCompleteOnly"/>
     </CRequirementNot>
     <CRequirementNot id="NotCountUpgradeBattleshipSpawnerCompleteOnly">
-        <Tooltip value="RequirementNode/Tooltip/##id##"/>
         <OperandArray index="0" value="CountUpgradeBattleshipSpawnerCompleteOnly"/>
     </CRequirementNot>
     <CRequirementNot id="NotCountUpgradeChallengeofthePrimarchsCompleteOnly">
@@ -1370,7 +1377,6 @@
         <OperandArray index="0" value="CountUpgradeMainTombWorldEstablishedCompleteOnly"/>
     </CRequirementNot>
     <CRequirementNot id="NotCountUpgradeNecronsAscendantCompleteOnly">
-        <Tooltip value="RequirementNode/Tooltip/##id##"/>
         <OperandArray index="0" value="CountUpgradeNecronsAscendantCompleteOnly"/>
     </CRequirementNot>
     <CRequirementNot id="NotCountUpgradeNegotiateWithTheEldarCompleteOnly">
@@ -1392,7 +1398,6 @@
         <OperandArray index="0" value="CountUpgradePurgeoftheAvengingSonCompleteOnly"/>
     </CRequirementNot>
     <CRequirementNot id="NotCountUpgradePurificationProtocolCompleteOnly">
-        <Tooltip value="RequirementNode/Tooltip/##id##"/>
         <OperandArray index="0" value="CountUpgradePurificationProtocolCompleteOnly"/>
     </CRequirementNot>
     <CRequirementNot id="NotCountUpgradeRetreatAthonosQueuedOrBetter">

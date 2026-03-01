@@ -84,6 +84,7 @@ Abil/Name/SilentKingUpgradeHero=(Silent King) Upgrade Hero
 Abil/Name/SinkingOfTheKraken=Sinking Of The Kraken
 Abil/Name/Skillshot=Skillshot
 Abil/Name/SmokeBomb=Smoke Bomb
+Abil/Name/SpawnChangeling=Spawn Genestealer Infiltrator
 Abil/Name/StartAdvancedAIResearch=Start Advanced AI Research
 Abil/Name/StealTechnology=Steal Technology
 Abil/Name/StukovInfestedTerrans=Neophyte Hybrids
@@ -163,6 +164,7 @@ Behavior/Name/FarsightsCommand=Farsight’s Command
 Behavior/Name/FireballTargetFind=Fireball (Target Find)
 Behavior/Name/FortifyChiron=Fortify Chiron
 Behavior/Name/FounderOfTheFarSightEnclaves=Founder Of The Far Sight Enclaves
+Behavior/Name/GenestealerInfesttation=Genestealer Infesttation
 Behavior/Name/GodEmperorDamageResistance=God Emperor (Damage Resistance)
 Behavior/Name/GoldenLionsMantle=Golden Lion’s Mantle
 Behavior/Name/HeroOfTheFarSightEnclaves=Hero Of The Far Sight Enclaves
@@ -223,6 +225,7 @@ Behavior/Tooltip/BroodmotherGenestealerAuraApply=Has a 50% chance to turn into a
 Behavior/Tooltip/CapitialShipDamageResistance=Grants 30% Damage Resistance.
 Behavior/Tooltip/ChampionOfDevlan=As the the one attributed to freeing Devlan from the Tyranid swarm, This unit has been blessed with a boon<n/><n/>+15% movement speed and 10% attack speed
 Behavior/Tooltip/ChosenOfTheGodEmperor=20% Damage
+Behavior/Tooltip/Contaminated=This structure is unable to perform any actions.
 Behavior/Tooltip/DarkKingAuraApply=Grants 20% Damage and 25% damage resistance.
 Behavior/Tooltip/DehakaHealBig2=Regenerating life.
 Behavior/Tooltip/DehakaHealSmall2=Regenerating life.
@@ -423,6 +426,7 @@ Button/Name/SinkingOfTheKraken=Sinking Of The Kraken
 Button/Name/SisterMedicSeraphinaVossAura=Sister Medic Seraphina Voss Aura
 Button/Name/Skillshot=Skillshot
 Button/Name/SmokeBomb=Smoke Bomb
+Button/Name/SpawnChangeling=Spawn Genestealer Infiltrator
 Button/Name/StartAdvancedAIResearch=Start Advanced AI Research
 Button/Name/StealTechnology=Steal Technology
 Button/Name/StreamlinedMunitioning=Streamlined Munitioning
@@ -526,6 +530,7 @@ Button/Tooltip/ChironUpgradeSpawn=<c val="F4FA29">Upgrade this spawns increasing
 Button/Tooltip/ConstantinValdor=Constantin Valdor, the unflinching First Captain of the Adeptus Custodes, was forever changed during the Siege of Terra. Wielding the Apollonian Spear, he slew countless Daemons, each death binding their true names and forbidden knowledge to his mind. The spear's power, meant to be a weapon of destruction, instead began to warp his consciousness, granting him a deep and dangerous understanding of the Warp.<n/><n/>Trapped in the Warp for over ten thousand years, Valdor's mind became a battlefield between the wisdom of the Daemons and his unyielding loyalty to the Emperor. The knowledge absorbed by the Apollonian Spear, along with the whispers of the Warp, gnawed at him, pushing him toward madness. Isolated in the immaterium, Valdor wandered in a realm of timeless confusion, struggling to maintain his sanity.<n/><n/>Yet, through it all, his purpose never wavered. The Emperor's light remained in his heart, a guiding flame in the darkness. After millennia in the Warp, Valdor's return is a blessing--a being of incredible power and knowledge.
 Button/Tooltip/ConstantinValdorability1=<c val="B9B9B9">Increases movement speed by <c val="F4FA29">40%</c> for <c val="F4FA29">3</c> seconds</c>
 Button/Tooltip/ConstantinValdordeprecated=Heavy assault infantry.<n/><n/><c val="#ColorAttackInfo">Can attack ground units.</c>
+Button/Tooltip/Contaminate=<c val="9E8876">The target structure will be unable to perform any actions for <c val="F4FA29"><d ref="Behavior,Contaminated,Duration"/> </c>seconds.</c>
 Button/Tooltip/DarkArchonConfusion=<c val="B9B9B9">Forces enemy units in the target area to attack each other for <c val="4CC0C6"><d ref="Behavior,DarkArchonConfusion,Duration"/> </c>seconds.<n/><n/><c val="#ColorAttackInfo">Heroic units are immune.</c></c>
 Button/Tooltip/DarkKing=<c val="B9B9B9">The Emperor shall return. Through sacred rite and supreme sacrifice, the High Lords of Terra prepare to achieve the impossible. One hundred thousand psykers are to be offered in glorious martyrdom, fueling the Ritual of Reclamation. With unwavering faith and the divine mandate of Mankind, we shall tear open the veil and summon the Master of Humanity to walk among us once more. His light will banish the shadows, His voice will command the stars. This is not false hope--it is our destiny, our salvation.<n/><n/><c val="C81E2B">Commences <c val="80131C">THE RETURN OF THE EMPEROR</c></c><n/><n/><c val="47BC29">Will grant access to the <c val="C81E2B">Dark King</c>, </c>
 Button/Tooltip/DarkKingAura=<c val="B9B9B9">Grants nearby units <c val="F4FA29">25%</c> damage resistance and <c val="F4FA29">20%</c> damage.</c>
@@ -628,6 +633,7 @@ Button/Tooltip/KerriganEpilogue03Heal=<c val="B9B9B9">Heals <c val="4CC0C6">Cele
 Button/Tooltip/KerriganEpilogue03QuantumRay=<c val="B9B9B9"><c val="4CC0C6">Celestine, The Living Saint</c> charges up and fires a beam of energy at a target enemy unit for <c val="F4FA29"><d ref="Effect,KerriganEpilogue03QuantumRayDamage,Amount*Effect,KerriganEpilogue03QuantumRayDamageCP,PeriodCount"/> </c>damage.</c>
 Button/Tooltip/KerriganEpilogueDamageAura=<c val="B9B9B9">Nearby friendly units in a <c val="F4FA29">12</c> area radius gain <c val="F4FA29">25%</c> increased attack speed and <c val="F4FA29">25%</c> increased movement speed.</c>
 Button/Tooltip/KerriganGhostLabUnarmed=A formidable wielder of the Warp, the Primaris Psyker is a disciplined and focused individual whose mind is finely tuned to the ethereal currents of psychic energy. Trained to harness the raw, unpredictable power of the Warp, these psykers serve as invaluable assets on the battlefield, guiding their comrades with clairvoyant foresight, protective wards, and devastating psychic attacks.<n/><n/>Equipped with the arcane tools of the Scholastica Psykana and marked by the sigils of their order, Primaris Psykers can weave powerful psychic storms that devastate their enemies or protect their allies from the dark forces of the Warp. Their minds, hardened against the dangers of uncontrolled psychic power, are a unique blend of mysticism and military precision, able to strike fear into the hearts of even the most seasoned warriors.
+Button/Tooltip/Knight=Durable support unit. Can switch into Fighter Mode to attack air units.<n/><n/><c val="#ColorAttackInfo">Can attack ground units.</c>
 Button/Tooltip/KriegHeroes=<c val="F4FA29">Upgrade this spawn unlocking new heroes</c><n/><c val="F4FA29">Level 1: <n/>Level 2: <c val="4CC0C6">Tank Commander</c><n/>Level 3: <n/>Level 4: <c val="4CC0C6">Anton Gebbet</c><n/>Level 5: </c>
 Button/Tooltip/LionElJonsson=Front-line infantry. Can use Grapple.<n/><n/><c val="#ColorAttackInfo">Can attack ground units.</c>
 Button/Tooltip/LionsPride=<c val="B9B9B9">Roboute Guilliman's vision of the Imperium is a betrayal of all we once stood for. His actions, fueled by ambition and the Emperor's flawed will, have led him to oppose the true path of unity and strength. No longer will the Lion stand idly by as his brother leads the Imperium into ruin. The time has come to challenge Guilliman and his treacherous cause. This is no longer a battle for power--this is a war to preserve the true legacy of the Primarchs, and to restore the Imperium to its rightful path.<n/><n/><c val="C81E2B">Declares <c val="80131C">WAR</c> on <c val="006B9F">Roboute Guilliman</c></c><n/><n/><c val="47BC29">Raises unity by <c val="F4FA29">2</c>, Recipient gains <c val="F4FA29">1</c> unity</c></c>
@@ -674,6 +680,7 @@ Button/Tooltip/OgrysUpgradeSpawn=<c val="F4FA29">Upgrade this spawns increasing 
 Button/Tooltip/OrdoHereticus=<c val="F4FA29">Embrace the path of the Ordo Hereticus, relentless hunters of the heretic and the impure.<n/><n/>Unlocks<c val="4CC0C6"> Inquistior Greyfax</c></c>
 Button/Tooltip/OrdoXenos=<c val="F4FA29">Follow the path of the Ordo Xenos, vigilant defenders against the alien, the xenos, and the abominable.<n/><n/>Unlocks<c val="4CC0C6"> Inquistior Eisenhorn</c></c>
 Button/Tooltip/Overlord=The Hivemind's ever present vision and will.
+Button/Tooltip/ParasiticInvasion=<c val="9E8876">Effect varies depending on the target.<n/><n/>If targeting a unit, it takes control of the target unit. Necron units cannot be controlled.<n/><n/>If targeting a spawner, it applies <c val="F4FA29">Genestealer Infestation</c> to the target, stacking up to <c val="F4FA29">3</c> times. The first stack has no effect. The second stack grants permanent vision over the target spawner and its surrounding area. The third stack summons a small army and removes the permanent vision effect granted by the second stack.</c>
 Button/Tooltip/PathoftheOutcast=<c val="B9B9B9">So long as <c val="4CC0C6">Commander Farsight</c> is alive, increases supply by <c val="F4FA29">10</c></c>
 Button/Tooltip/PhaseCannon=<c val="B9B9B9">Phases in a <c val="4CC0C6">Photon Cannon </c>that lasts for <c val="F4FA29"><d ref="Behavior,PhaseCannonTimedLife,Duration"/> </c>seconds before leaving the battlefield.</c>
 Button/Tooltip/PinpointParalysis=<c val="B9B9B9">Fire at the targeted Point, any <c val="EF9550">heroes</c> hit will be stunned for <c val="F4FA29">1.5 </c>seconds and take <c val="F4FA29">100 </c>damage.</c>
@@ -742,10 +749,12 @@ Button/Tooltip/SilentKingUpgradeHero=<c val="F4FA29">Level 1: <c val="4CC0C6">Mi
 Button/Tooltip/SingleRecall=<c val="B9B9B9">Recalls friendly units in the target area to the <c val="4CC0C6">Arbiter</c>.</c>
 Button/Tooltip/SinkingOfTheKraken=<c val="B9B9B9">The Kraken has long been a symbol of relentless pursuit, its tentacles stretching across the galaxy in search of prey. But now, its reach exceeds its grasp. The great swarm that once flowed in perfect harmony has become a tangle of contradictions, weakened by Kraken's reckless expansion and chaotic assault on the Imperium. The Hive Mind demands unity and focus--Kraken's thirst for dominance has become a threat to the Devourer's greater plan. It must be dragged beneath the waves before it drags the swarm into ruin.<n/><n/><c val="C81E2B"><c val="80131C">WAR</c> is declared on <c val="252525">Hive Fleet Kraken</c></c><n/><n/><c val="47BC29">Increases Devouring Hunger permanently by <c val="F4FA29">1</c> for both recipients. Gain <c val="F4FA29">2</c> Devouring Hunger stacks</c></c>
 Button/Tooltip/SisterMedicSeraphinaVossAura=<c val="B9B9B9">Heals nearby units for <c val="F4FA29">2</c> life per second</c>
+Button/Tooltip/SisterOfBattle=Support trooper. Heals nearby biological units.
 Button/Tooltip/SlivanPuke=<c val="9E8876">Vomits acid onto the ground that deals <c val="F4FA29">5 </c>damage per second and slows units in the area.</c>
 Button/Tooltip/SmokeBomb=<c val="B9B9B9">All units under the smoke bomb take <c val="F4FA29">50% </c>reduced damage from ranged attacks and have reduced range by <c val="F4FA29">2 </c>for <c val="F4FA29"><d ref="Effect,DefilerMPDarkSwarmCreatePersistent,PeriodCount*Effect,DefilerMPDarkSwarmCreatePersistent,PeriodicPeriodArray[0]"/> </c>seconds.</c>
 Button/Tooltip/SniperBotSnipe=<c val="B9B9B9">Snipes an enemy unit, dealing <c val="F4FA29">125</c> damage.</c>
 Button/Tooltip/SpaceMarineTerminator=General-purpose infantry.<n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c>
+Button/Tooltip/SpawnChangeling=<c val="9E8876">Creates a <c val="7D382D">Genestealer Infiltrator</c>.<c val="7D382D"> Genestealer Infiltrator </c>cannot attack and die after <d time="150"/>. When a<c val="7D382D"> Genestealer Infiltrator </c>first encounters an enemy unit, it will match that unit's color and change into a <c val="7D382D">Kroot Warrior</c>,  <c val="7D382D">Space Marine</c>, or <c val="7D382D">Ripper</c>, depending on the enemy race.</c>
 Button/Tooltip/SpawningPool=Chriron is a world of unparalleled beauty, famed across the sector for its lush forests, continent-sized lakes, and breathtaking landscapes. The planet's verdant expanses and pristine wilderness have earned it a reputation as one of the most stunning worlds within the Imperium. Despite its natural wealth, Chriron is sparsely populated, with only a few million inhabitants, most of whom are dedicated to the production of rejuvenating elixirs, luxurious furs, and rare narcotics sourced from the planet's unique flora and fauna.<n/><n/>Chriron was once a prosperous world, with a thriving economy based on its rich natural resources and the expertise of its people in producing some of the most coveted goods across the galaxy. It was also the homeworld of Confessor Dolan Chirosius and Jan van Yastobaal, figures of significant renown within the Imperium. The planet's tranquility, however, was shattered when it was invaded by the Tyranid fleet Jorgumandr.<n/>
 Button/Tooltip/Spire=Vordrast was once a prosperous world of the Imperium, its fertile plains and towering cities a testament to humanity's might. However, it has since been consumed by the relentless invasion of the Tyranid swarms, and now, the planet is little more than a shell of its former self. The once-thriving cities lie in ruins, their structures now overrun with Tyranid bio-constructs, while the air itself is thick with spores and the buzzing of alien horrors.<n/><n/>Vordrast's vast, rolling landscapes, once filled with vibrant forests and cultivated fields, have been transformed into a twisted expanse of writhing biomass. The planet's oceans and rivers have been tainted, feeding the insatiable hunger of the Tyranid swarm as they drain the world of its resources. Where once proud Imperial monuments stood, there are now only grotesque, living spires of Tyranid flesh.<n/><n/>The few survivors that remain have either fled to the far reaches of the planet or are locked in desperate, futile struggles to stave off the encroaching tide of the Hive Mind.
 Button/Tooltip/Starport=Inwit is the capital world of the Inwit Cluster in the Segmentum Tempestus, and serves as a major sector fleet base for the Navis Imperialis. The planet is crucial for the Imperium, being a key assembly point for Astra Militarum regiments and vital to the defense of the surrounding systems.<n/><n/>Inwit is most famous as the homeworld of Rogal Dorn, the Primarch of the Imperial Fists Legion. Dorn spent much of his early life among the ice-tribes of Inwit before being rediscovered by the Emperor during the Great Crusade in 835.M31. Raised in the harsh environment, Dorn was deeply shaped by his adoptive grandfather, a chieftain who mentored him in the ways of leadership and survival.
@@ -1077,8 +1086,11 @@ Effect/Name/SnowStomSearch=Snow Stom Search
 Effect/Name/SnowStomTarget=Snow Stom Target
 Effect/Name/SpaceMarineBerserkerBaseDamage=Space Marine Berserker Base Damage
 Effect/Name/SzarekhWeaponSearch=Szarekh Weapon (Search)
+Effect/Name/SzarekhWeaponSearch2=Szarekh Weapon (Search)
 Effect/Name/SzarekhWeaponSearchDamage=Szarekh Weapon (Search Damage)
+Effect/Name/SzarekhWeaponSearchDamage2=Szarekh Weapon (Search Damage)
 Effect/Name/SzarekhWeaponSet=Szarekh Weapon (Set)
+Effect/Name/SzarekhWeaponSet2=Szarekh Weapon (Set)
 Effect/Name/TervigonDamage=Tervigon Damage
 Effect/Name/TitanMechMissileDamage2=Titan Mech Missile (Damage)
 Effect/Name/TitanMechMissileLM2=Titan Mech Missile (Launch Missile)
@@ -1100,6 +1112,7 @@ Effect/Name/ZealotPsiBladesCleaveSet22=Zealot Psi Blades (Cleave Set)
 Effect/Name/ZealotPsiBladesCleaveSet23=Zealot Psi Blades (Cleave Set)
 Effect/Name/ZeratulBlink2=Trazyn Blink (Teleport)
 Effect/Name/ZeratulBlink3=Blink (Teleport)
+Effect/Name/ZeratulVoidAiur012=Knight
 Effect/Name/ZeratulVoidAiur013=Zeratul Void Aiur01
 LoadingScreen/Subtitle=Made By Protosser
 LoadingScreen/TextBody=The Cadian Gate has fallen, and the Imperium of Man is reeling from the loss of its crucial bulwark against the forces of Chaos. Terra, the Emperor's throneworld, is plagued by the escalating chaos of the invasion, further destabilized by the collapse of centralized authority. With the Primarchs either dormant or lost, there is no singular force to unite the Imperium, leaving fragmented leadership and a growing tide of rebellion in its wake.<n/><n/>To make matters worse, a Tyranid swarm has been detected, encroaching upon the galaxy from all directions. And now, whispers speak of a lone Necron ship, its silhouette cutting across the stars, its true purpose veiled in shadow. Its intentions remain a mystery.<n/><n/>Is this the final, apocalyptic chapter for the Imperium of Man?<n/><n/><n/><n/><n/><n/><n/><n/><n/><s val="SmallText">This is a fan creation and is not endorsed, sponsored, or affiliated with Games Workshop or its affiliates. All characters, names, and related indicia are trademarks of Games Workshop and are used without permission. This work is created for non-commercial purposes only.</s>
@@ -1675,6 +1688,7 @@ Unit/Name/Blightbringer=Tyrannofex
 Unit/Name/Blimp=The Gaze Of The Imperium
 Unit/Name/BroodLord=Tervigon (Flying)
 Unit/Name/CarrionNest=Quisto'Rol
+Unit/Name/Changeling=Genestealer infiltrator
 Unit/Name/ChironFortify=Chiron Fortify
 Unit/Name/ColossusPurifier=Quadracore Beamframe
 Unit/Name/ConstantinValdor=Constantin Valdor
@@ -1691,6 +1705,8 @@ Unit/Name/DefilerMP=Malanthrope
 Unit/Name/DehakaMirrorImage=Carnifex
 Unit/Name/Destroyer=Destroyer
 Unit/Name/Devourer=Tyranid Sky Harbinger
+Unit/Name/DreadnaughtMk2=Knight
+Unit/Name/Dreadnought2=Viking
 Unit/Name/Drone=Tyranid Builder
 Unit/Name/EngineeringBay=Tarvan
 Unit/Name/EstablishSaturn=Establish Saturn
@@ -1730,6 +1746,7 @@ Unit/Name/InfestationPit=Vorranox
 Unit/Name/InfestedAbomination=Broodlord
 Unit/Name/InfestedCivilian=Acolyte Hybrids
 Unit/Name/InfestedDominionHousing3=Bellus Prime
+Unit/Name/InfestedExploder=Genestealer Bomber
 Unit/Name/InfestedStukov=Ghyrson Starn
 Unit/Name/Infestor=Genestealer Broodmother
 Unit/Name/InfestorTerran=Neophyte Hybrid
@@ -1812,6 +1829,7 @@ Unit/Name/ShadowScrambler=Fortress
 Unit/Name/SiegeBreaker=Tank Commander
 Unit/Name/SiegeBreakerSieged=Tank Commander
 Unit/Name/SiegeTank=Basilisk
+Unit/Name/SisterOfBattle=Sister Of Battle
 Unit/Name/SkillshotMissile=Skillshot Missile
 Unit/Name/Skittari=Skittari
 Unit/Name/SpaceMarineTerminator=Space Marine Terminator
@@ -2042,6 +2060,7 @@ Weapon/Name/InfestedGuassRifle=Infested Gauss Rifle (Real)
 Weapon/Name/InquistiorGreyfaxWeapon=Inquistior Greyfax Weapon
 Weapon/Name/InquistiorGreyfaxWeapon2=Inquistior Greyfax Weapon
 Weapon/Name/KelmorianMinerGaussRifle2=Gauss Rifle 2
+Weapon/Name/KnightMeleeWeapon=Knight Melee Weapon
 Weapon/Name/LurkerMP=Lurker Spineies
 Weapon/Name/MasterWarpBlade2=Master Warp Blade
 Weapon/Name/MengskFirebat2=Firestorm Flamethrower

@@ -16,6 +16,12 @@
     <CActorModel id="AlarakDeadlyChargeImpact">
         <On Terms="ActorCreation" Send="SetTintColor 36,182,198"/>
     </CActorModel>
+    <CActorUnit id="Bunker">
+        <Scale value="0.550000"/>
+    </CActorUnit>
+    <CActorSplat id="BunkerSplat">
+        <Model value=""/>
+    </CActorSplat>
     <CActorUnit id="Corruptor">
         <UnitBorderNormalColor value="185,185,185"/>
         <UnitBorderSubgroupColor value="255,255,255"/>
@@ -149,6 +155,59 @@
             <Image value="Assets\Textures\Wireframe-Zerg-InfestedMarine.dds"/>
         </Wireframe>
         <WireframeShieldColor value="255,0,128,0"/>
+    </CActorUnit>
+    <CActorUnit id="SisterOfBattle" parent="GenericUnitStandard" unitName="SisterOfBattle">
+        <Aliases value="_UnitSmall"/>
+        <Macros value="UnloadDropAnim"/>
+        <Macros value="TerrainSquibAnimations"/>
+        <Macros value="SnowVisualUnitMacro"/>
+        <On Terms="Abil.heal.SourceChannelStart" Send="$Spell PlayForever"/>
+        <On Terms="Abil.heal.SourceChannelStop" Send="AnimClear Spell"/>
+        <On Terms="Behavior.KillSquad.On" Send="ModelSwap MedicKillSquad"/>
+        <On Terms="UnitDeathCustomize; ValidateUnit IsKillSquad" Send="DeathCustomize Variation2"/>
+        <On Terms="UnitDeathCustomize; CanApplyActionPhysics RagdollBasic" Send="DeathCustomize RagdollBasic"/>
+        <On Terms="UnitDeathCustomize; CanApplyActionPhysics RagdollSiegeTank" Send="DeathCustomize RagdollSiegeTank"/>
+        <On Terms="UnitDeathCustomize; CanApplyActionPhysics RagdollUltraUnburrow" Send="DeathCustomize RagdollUltraUnburrow"/>
+        <On Terms="UnitDeathCustomize; ValidateUnit HaveVoidShade" Send="DeathCustomize Shadow"/>
+        <On Terms="UnitDeathCustomize; ValidateUnit HaveTerrazineShadow" Send="DeathCustomize Shadow"/>
+        <On Terms="ActorCreation" Send="SetTintColor 91,91,91"/>
+        <ModelFlags index="OutlineEmitter" value="1"/>
+        <BuildModel value="Medic"/>
+        <DeathArray index="Normal" ModelLink="MedicDeath" SoundLink="Medic_Explode"/>
+        <DeathArray index="Blast" ModelLink="MedicDeath"/>
+        <DeathCustoms ModelLink="MedicKillSquadDeath" SoundLink="SisterOfBattle_Death" Name="Variation2"/>
+        <DeathCustoms ModelLink="MedicDeathRagdoll" Name="RagdollBasic"/>
+        <DeathCustoms ModelLink="MedicDeathRagdoll" Name="RagdollSiegeTank"/>
+        <DeathCustoms ModelLink="MedicDeathRagdoll" Name="RagdollUltraUnburrow"/>
+        <DeathCustoms>
+            <ModelLink value="DeathVoidShadowSmall"/>
+            <SoundLink value="ShadowUnit_DeathFX"/>
+            <VoiceLink value="ShadowUnit_DeathVox"/>
+            <Name value="Shadow"/>
+        </DeathCustoms>
+        <PlacementModel value="Medic"/>
+        <PortraitModel value="MedicPortrait"/>
+        <TerrainSquibs>
+            <MovementDistance value="0.150000,0.150000"/>
+            <IdlePeriod value="0.100000,0.250000"/>
+            <RangeUp value="0.400000"/>
+            <RangeDown value="0.400000"/>
+            <AttachQuery Methods="AMFilterCenter"/>
+            <Visuals TerrainPhysicsMaterial="Water" ActorModel="TerrainSquibHarnessContinuous" ModelLink="WaterRippleMedium"/>
+        </TerrainSquibs>
+        <WalkAnimMoveSpeed value="2.25"/>
+        <BarOffset value="20"/>
+        <BarWidth value="36"/>
+        <GroupIcon>
+            <Image value="Assets\Textures\Wireframe-Terran-medic.dds"/>
+        </GroupIcon>
+        <HeroIcon value="Assets\Textures\BTN-Unit-Terran-Medic.dds"/>
+        <LifeArmorIcon value="Assets\Textures\btn-upgrade-terran-infantryarmorlevel0.dds"/>
+        <SoundArray index="Ready" value="Medic_Ready"/>
+        <UnitIcon value="Assets\Textures\BTN-Unit-Terran-Medic.dds"/>
+        <Wireframe>
+            <Image value="Assets\Textures\Wireframe-Terran-medic.dds"/>
+        </Wireframe>
     </CActorUnit>
     <CActorUnit id="Mortarion" parent="GenericBurrowerStandard" unitName="Mortarion">
         <Aliases value="_UnitSmall"/>
@@ -3930,6 +3989,85 @@
             <Image index="0" value="Assets\Units\Dreadnought\wireframe-units-dominion-dreadnought_spectre-wire.dds"/>
         </Wireframe>
     </CActorUnit>
+    <CActorUnit id="Dreadnought2" parent="GenericUnitBase" unitName="Knight">
+        <Aliases value="_UnitMedium"/>
+        <Macros value="UnloadDropAnim"/>
+        <Macros value="TerrainSquibAnimations"/>
+        <Macros value="PhysicsDeathsSwarmGround"/>
+        <Macros value="PhysicsDeathsVoidGround"/>
+        <On Terms="AbilMorph.*.Finish; MorphTo VikingAssault" Send="Create"/>
+        <On Terms="AbilMorph.*.Finish; MorphTo VikingAssault" Target="FlyerHelperSplat" Send="Destroy"/>
+        <On Terms="AbilMorph.*.Start; MorphFrom VikingAssault" Send="Destroy"/>
+        <On Terms="Abil.attack.ReadyStart" Send="AnimGroupApply Ready"/>
+        <On Terms="WeaponStart.*.AttackStart; WeaponTargetElevation GE 20.000000" Send="AnimBracketStart Attack Attack,Superior"/>
+        <On Terms="WeaponStart.*.AttackStart; WeaponTargetElevation LE -20.000000" Send="AnimBracketStart Attack Attack,Inferior"/>
+        <On Terms="UnitPortrait.*.Configure" Target="::PortraitGameSelf" Send="AnimClear Visor 0.000000"/>
+        <On Terms="UnitHeightUpdate.*.Land" Send="Create Viking_Land"/>
+        <On Terms="WeaponStart.TwinGatlingCannon.AttackStart" Send="AnimPlay Attack Spell,A,Start 0 -1.000000 -1.000000 -1.000000 AsDuration"/>
+        <On Terms="WeaponStart.TwinGatlingCannon.AttackStart" Send="AnimBracketStart Attack {} Spell,B,01 Spell,B,02"/>
+        <On Terms="WeaponStop.TwinGatlingCannon.AttackStop" Send="AnimPlay Spell A,End"/>
+        <On Terms="WeaponStop.TwinGatlingCannon.AttackStop" Send="AnimBracketStop Attack"/>
+        <On Terms="WeaponStop.TwinGatlingCannon.AttackStop" Send="AnimBracketStop Spell"/>
+        <On Terms="WeaponStart" Send="AnimBracketStart Attack {} Attack"/>
+        <On Terms="WeaponStop" Send="AnimBracketStop Attack"/>
+        <On Terms="Abil.attack.ReadyStop" Send="AnimGroupRemove Ready"/>
+        <Model value="Dreadnoughtmk2"/>
+        <ModelFlags index="OutlineEmitter" value="1"/>
+        <BuildModel value="Dreadnought"/>
+        <DeathArray index="Normal" ModelLink="KnightDeath" SoundLink="Viking_Explode"/>
+        <DeathArray index="Blast" AnimProps="Death,Blast" ModelLink="KnightDeath"/>
+        <DeathCustoms ModelLink="VikingAssaultDeathRagdoll" Name="RagdollBasic">
+            <BodySquibs Name="Basic" Model="TerranSquibDeathRagdoll"/>
+        </DeathCustoms>
+        <DeathCustoms Name="RagdollSiegeTank" InheritsFrom="RagdollBasic"/>
+        <DeathCustoms Name="RagdollNuke" InheritsFrom="RagdollBasic">
+            <BodySquibs Name="Fire"/>
+        </DeathCustoms>
+        <DeathCustoms Name="RagdollFire" InheritsFrom="RagdollBasic">
+            <BodySquibs Name="Fire"/>
+        </DeathCustoms>
+        <DeathCustoms Name="RagdollAcid" InheritsFrom="RagdollBasic">
+            <BodySquibs Name="Acid"/>
+        </DeathCustoms>
+        <DeathCustoms Name="RagdollBaneling" InheritsFrom="RagdollBasic">
+            <BodySquibs Name="Acid"/>
+        </DeathCustoms>
+        <DeathCustoms Name="RagdollUltraUnburrow" InheritsFrom="RagdollBasic"/>
+        <DeathCustoms Name="RagdollOverkillDPRH" InheritsFrom="RagdollBasic"/>
+        <DeathCustoms Name="RagdollOverkillDOI" InheritsFrom="RagdollBasic"/>
+        <DeathCustoms Name="RagdollMidair" InheritsFrom="RagdollBasic"/>
+        <PlacementModel value="Dreadnought"/>
+        <PortraitModel value="VikingFighterPortrait"/>
+        <TerrainSquibs>
+            <MovementDistance value="0.150000,0.150000"/>
+            <IdlePeriod value="0.100000,0.250000"/>
+            <RangeUp value="1.000000"/>
+            <RangeDown value="1.000000"/>
+            <AttachQuery Methods="AMFilterCenter"/>
+            <Visuals TerrainPhysicsMaterial="Water" ActorModel="TerrainSquibHarnessContinuous" ModelLink="WaterRippleLarge"/>
+        </TerrainSquibs>
+        <WalkAnimMoveSpeed value="2.5468"/>
+        <AbilSoundArray AbilCmd="FighterMode,Execute" Sound="Viking_FighterModeVO"/>
+        <BarOffset value="70"/>
+        <BarWidth value="70"/>
+        <GroupIcon>
+            <Image value="Assets\Units\Dreadnought\wireframe-units-dominion-dreadnought_spectre-wire.dds"/>
+        </GroupIcon>
+        <HeroIcon value="Assets\Textures\btn-unit-terran-vikingassault.dds"/>
+        <HighlightTooltip value="Unit/Name/Dreadnought2"/>
+        <LifeArmorIcon value="Assets\Textures\btn-upgrade-terran-shipplatinglevel0.dds"/>
+        <SoundArray index="Ready" value="Viking_Ready"/>
+        <SoundArray index="Help" value="Dreadnaught_Help"/>
+        <SoundArray index="What" value="Dreadnaught_What"/>
+        <SoundArray index="Yes" value="Dreadnaught_Yes"/>
+        <SoundArray index="Attack" value="Dreadnaught_Attack"/>
+        <SoundArray index="Pissed" value="Dreadnaught_Pissed"/>
+        <UnitFlags index="StandAnimBirthVariation" value="0"/>
+        <UnitIcon value="Assets\Units\Dreadnought\btn-units-dominion-dreadnought-spectre-icon.dds"/>
+        <Wireframe>
+            <Image value="Assets\Units\Dreadnought\wireframe-units-dominion-dreadnought_spectre-wire.dds"/>
+        </Wireframe>
+    </CActorUnit>
     <CActorAction id="VikingAssaultAttack">
         <LaunchAttachQuery Methods="AMPatternMarauder" Fallback="Right"/>
     </CActorAction>
@@ -4679,6 +4817,11 @@
             <Image value="Assets\Textures\Wireframe-Protoss-Zeratul-Shield03.dds"/>
         </WireframeShield>
     </CActorUnit>
+    <CActorAction id="ZeratulVoidAiur01Attack2" parent="GenericAttack" effectAttack="ZeratulVoidAiur012">
+        <LaunchAssets Sound="Zeratul_AttackLaunch3"/>
+        <ImpactMap index="None" Sound="Zeratul_AttackImpact3"/>
+        <ShieldFlashType value="Header"/>
+    </CActorAction>
     <CActorAction id="ZeratulVoidAiur01Attack3" parent="GenericAttack" effectAttack="ZeratulVoidAiur013">
         <LaunchAssets Sound="Zeratul_AttackLaunch"/>
         <ImpactMap index="None" Sound="Zeratul_AttackImpact"/>

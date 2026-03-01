@@ -100,6 +100,7 @@
         <Icon value="Assets\Icons\Dow2\icon_abilities\attack\tyr_burrow_strike.dds"/>
         <HotkeyAlias value="ImperialActions"/>
     </CButton>
+    <CButton id="SpawnChangeling"/>
     <CButton id="TacticalRedeployment">
         <Icon value="Assets\Icons\Dow2\Eldar\BTNsynergy.dds"/>
         <HotkeyAlias value="ImperialActions"/>

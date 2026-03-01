@@ -6,6 +6,9 @@
     <CRequirement id="DawnBlade">
         <NodeArray index="Show" Link="CountUpgradeVampireSwordFarsightLifeLeechCompleteOnly"/>
     </CRequirement>
+    <CRequirement id="BunkerRequirements">
+        <NodeArray index="Use" Link="AndLTCountUnitBunkerQueuedOrBetter50"/>
+    </CRequirement>
     <CRequirement id="ScuttlingofJormungandr">
         <NodeArray index="Show" Link="AndNotCountUpgradeScuttlingofJormungandrCompleteOnly"/>
     </CRequirement>

@@ -129,6 +129,14 @@
         <EditorCategories value=""/>
         <EffectArray value="DataOrbDMG"/>
     </CEffectSet>
+    <CEffectDamage id="DominionKillTeamDamage">
+        <AttributeBonus index="Armored" value="6"/>
+        <Amount value="17"/>
+    </CEffectDamage>
+    <CEffectSet id="DominionKillTeamSet">
+        <EffectArray index="0" value="DominionKillTeamDamage"/>
+        <EffectArray index="1" removed="1"/>
+    </CEffectSet>
     <CEffectDamage id="FortressDefenses">
         <Amount value="75"/>
     </CEffectDamage>
@@ -968,6 +976,12 @@
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Powerup"/>
         <AreaArray Radius="0.75" Effect="BanebladeWeaponSearchDamage"/>
     </CEffectEnumArea>
+    <CEffectEnumArea id="SzarekhWeaponSearch2">
+        <EditorCategories value=""/>
+        <ExcludeArray Value="Target"/>
+        <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Powerup"/>
+        <AreaArray Radius="1.25" Effect="SzarekhWeaponSearchDamage2"/>
+    </CEffectEnumArea>
     <CEffectDamage id="SzarekhWeaponSearchDamage">
         <EditorCategories value=""/>
         <Amount value="75"/>
@@ -985,6 +999,10 @@
         <EditorCategories value=""/>
         <Amount value="90"/>
     </CEffectDamage>
+    <CEffectDamage id="SzarekhWeaponSearchDamage2">
+        <EditorCategories value=""/>
+        <Amount value="30"/>
+    </CEffectDamage>
     <CEffectSet id="SzarekhWeaponSet">
         <EditorCategories value=""/>
         <EffectArray value="SzarekhWeaponSearch"/>
@@ -999,6 +1017,11 @@
         <EditorCategories value=""/>
         <EffectArray value="HybridDominatorWeaponSearch"/>
         <EffectArray value="HybridDominatorVoidDamage"/>
+    </CEffectSet>
+    <CEffectSet id="SzarekhWeaponSet2">
+        <EditorCategories value=""/>
+        <EffectArray value="SzarekhWeaponSearch2"/>
+        <EffectArray value="ZeratulVoidAiur012"/>
     </CEffectSet>
     <CEffectDamage id="ThermalLancesFireBeamDamage">
         <Amount value="15"/>
@@ -2069,7 +2092,7 @@
     </CEffectLaunchMissile>
     <CEffectDamage id="KelmorianDevastationTurretDamage" parent="DU_WEAP_MISSILE">
         <EditorCategories value="Race:Terran"/>
-        <Amount value="145"/>
+        <Amount value="135"/>
         <AttributeBonus index="Heroic" value="-20"/>
     </CEffectDamage>
     <!--    <CEffectLaunchMissile id="HammerSecurityLMOne">-->
@@ -2409,6 +2432,13 @@
         <AttributeBonus index="Heroic" value="30"/>
         <Amount value="215"/>
         <KindSplash value="Splash"/>
+    </CEffectDamage>
+    <CEffectDamage id="ZeratulVoidAiur012" parent="DU_WEAP">
+        <EditorCategories value="Race:Protoss"/>
+        <AttributeBonus index="Structure" value="30"/>
+        <KindSplash value="Splash"/>
+        <Amount value="60"/>
+        <Death value="Eviscerate"/>
     </CEffectDamage>
     <CEffectDamage id="ZeratulVoidAiur013" parent="DU_WEAP">
         <EditorCategories value="Race:Protoss"/>

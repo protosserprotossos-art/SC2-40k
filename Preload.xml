@@ -451,6 +451,7 @@
 <Actor id="TruckFlatbed"/>
 <Behavior id="ColonyInfestation"/>
 <Behavior id="InfestedProtossBiomass"/>
+<Behavior id="QueenClassicParasite"/>
 <Behavior id="VoidShade"/>
 <Behavior id="ArtanisStasisField"/>
 <Behavior id="SOASuperChrono"/>
@@ -482,6 +483,7 @@
 <Behavior id="AcceleratedDevelopment"/>
 <Behavior id="UncommandableSuper"/>
 <Behavior id="GoldenLionsMantle"/>
+<Behavior id="GenestealerInfesttation"/>
 <Light id="CLight"/>
 <Model id="ZeratulVoidAiur01"/>
 <Model id="NecronWarrior"/>
@@ -571,6 +573,7 @@
 <Unit id="Queen"/>
 <Unit id="CreepTumorBurrowed"/>
 <Unit id="LurkerMP"/>
+<Unit id="Ravager"/>
 <Unit id="Tempest"/>
 <Unit id="Adept"/>
 <Unit id="Viper"/>
@@ -583,6 +586,7 @@
 <Unit id="Urun"/>
 <Unit id="Selendis"/>
 <Unit id="Omegalisk"/>
+<Unit id="InfestedAbomination"/>
 <Unit id="HunterKiller"/>
 <Unit id="NukeSiloNova"/>
 <Unit id="Odin"/>
@@ -652,6 +656,7 @@
 <Unit id="StalkerPurifier"/>
 <Unit id="ZeratulVoidAiur01"/>
 <Unit id="HybridDominatorVoid"/>
+<Unit id="InfestedExploder"/>
 <Unit id="Blightbringer"/>
 <Unit id="WarpConduitShakuras01"/>
 <Unit id="ShadowScrambler"/>
@@ -663,6 +668,7 @@
 <Unit id="MannedTurret"/>
 <Unit id="NovaMothership"/>
 <Unit id="Dawnblade"/>
+<Unit id="SisterOfBattle"/>
 <Unit id="InquisitorGreyfax"/>
 <Unit id="TheFallenAngels"/>
 <Unit id="CtanShard"/>
@@ -713,6 +719,7 @@
 <Unit id="Zealothero"/>
 <Unit id="TrazynTheInfinite"/>
 <Unit id="ImotekhTheStomlord"/>
+<Unit id="Knight"/>
 <Upgrade id="HarmonicSurge"/>
 <Upgrade id="LongshotSurge"/>
 <Upgrade id="StreamlinedMunitioning"/>

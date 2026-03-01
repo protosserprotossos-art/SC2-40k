@@ -455,6 +455,62 @@
         <Category value="Spell"/>
         <Mode value="3DWorld"/>
     </CSound>
+    <CSound id="SisterOfBattle_Attack" parent="TerranAck">
+        <AssetArray File="Assets\Sounds\Unit (Sound Files)\Imperium\battle_sister\attack\5000890.mp3" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\Unit (Sound Files)\Imperium\battle_sister\attack\5000891b.mp3" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\Unit (Sound Files)\Imperium\battle_sister\attack\5000892b.mp3" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\Unit (Sound Files)\Imperium\battle_sister\attack\5000893b.mp3" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\Unit (Sound Files)\Imperium\battle_sister\attack\5000894.mp3" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\Unit (Sound Files)\Imperium\battle_sister\attack\5000922.mp3" FacialGroup=""/>
+        <Volume value="2.000000,2.000000"/>
+    </CSound>
+    <CSound id="SisterOfBattle_Help" parent="TerranAck">
+        <AssetArray File="Assets\Sounds\Unit (Sound Files)\Imperium\battle_sister\under_fire\5000944.mp3" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\Unit (Sound Files)\Imperium\battle_sister\under_fire\5000946.mp3" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\Unit (Sound Files)\Imperium\battle_sister\under_fire\5000947.mp3" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\Unit (Sound Files)\Imperium\battle_sister\under_fire\5000948.mp3" FacialGroup=""/>
+        <Volume value="2.000000,2.000000"/>
+    </CSound>
+    <CSound id="SisterOfBattle_Pissed" parent="TerranAck">
+        <AssetArray File="Assets\Sounds\Unit (Sound Files)\Imperium\battle_sister\morale_resotred\5000918b.mp3" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\Unit (Sound Files)\Imperium\battle_sister\morale_resotred\5000919b.mp3" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\Unit (Sound Files)\Imperium\battle_sister\morale_resotred\5000920.mp3" FacialGroup=""/>
+        <Volume value="2.000000,2.000000"/>
+    </CSound>
+    <CSound id="SisterOfBattle_What" parent="TerranAck">
+        <AssetArray File="Assets\Sounds\Unit (Sound Files)\Imperium\battle_sister\selection\5000931b.mp3" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\Unit (Sound Files)\Imperium\battle_sister\selection\5000932.mp3" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\Unit (Sound Files)\Imperium\battle_sister\selection\5000933b.mp3" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\Unit (Sound Files)\Imperium\battle_sister\selection\5000934b.mp3" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\Unit (Sound Files)\Imperium\battle_sister\selection\5000935.mp3" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\Unit (Sound Files)\Imperium\battle_sister\selection\5000936.mp3" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\Unit (Sound Files)\Imperium\battle_sister\selection\5000937b.mp3" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\Unit (Sound Files)\Imperium\battle_sister\selection\5000938.mp3" FacialGroup=""/>
+        <Volume value="2.000000,2.000000"/>
+    </CSound>
+    <CSound id="SisterOfBattle_Yes" parent="TerranAck">
+        <AssetArray File="Assets\Sounds\Unit (Sound Files)\Imperium\battle_sister\move\5000923b.mp3" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\Unit (Sound Files)\Imperium\battle_sister\move\5000924b.mp3" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\Unit (Sound Files)\Imperium\battle_sister\move\5000925.mp3" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\Unit (Sound Files)\Imperium\battle_sister\move\5000926.mp3" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\Unit (Sound Files)\Imperium\battle_sister\move\5000927.mp3" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\Unit (Sound Files)\Imperium\battle_sister\move\5000928b.mp3" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\Unit (Sound Files)\Imperium\battle_sister\move\5000929b.mp3" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\Unit (Sound Files)\Imperium\battle_sister\move\5000930.mp3" FacialGroup=""/>
+        <Volume value="2.000000,2.000000"/>
+    </CSound>
+    <CSound id="SisterOfBattle_Death" parent="TerranAck">
+        <AssetArray File="Assets\Sounds\Unit (Sound Files)\Imperium\battle_sister\die\5001245.mp3" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\Unit (Sound Files)\Imperium\battle_sister\die\5001246.mp3" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\Unit (Sound Files)\Imperium\battle_sister\die\5001247.mp3" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\Unit (Sound Files)\Imperium\battle_sister\die\5001248.mp3" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\Unit (Sound Files)\Imperium\battle_sister\die\5001249.mp3" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\Unit (Sound Files)\Imperium\battle_sister\die\5001250.mp3" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\Unit (Sound Files)\Imperium\battle_sister\die\5001251.mp3" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\Unit (Sound Files)\Imperium\battle_sister\die\5001252.mp3" FacialGroup=""/>
+        <Category value="Death"/>
+        <Volume value="2.000000,2.000000"/>
+    </CSound>
     <CSound id="Titan_Birth" parent="TerranAck">
         <AssetArray File="Assets\Sounds\Event sounds\Titan Awakens.mp3" FacialGroup=""/>
         <Volume value="6.000000,6.000000"/>
@@ -1888,7 +1944,31 @@
         <Pitch value="-2.000000,5.000000"/>
         <Volume value="-3.000000,-3.000000"/>
     </CSound>
+    <CSound id="Zeratul_AttackImpact3" parent="Combat">
+        <EditorCategories value="Race:Protoss"/>
+        <AssetArray File="Assets\Sounds\Protoss\SharedEffects\Attacks\Protoss_AttackImpactMediumSlice0.wav"/>
+        <AssetArray File="Assets\Sounds\Protoss\SharedEffects\Attacks\Protoss_AttackImpactMediumSlice1.wav"/>
+        <AssetArray File="Assets\Sounds\Protoss\SharedEffects\Attacks\Protoss_AttackImpactMediumSlice2.wav"/>
+        <AssetArray File="Assets\Sounds\Protoss\SharedEffects\Attacks\Protoss_AttackImpactMediumSlice3.wav"/>
+        <DupeDestroyCount value="4"/>
+        <Pitch value="-2.000000,5.000000"/>
+        <Volume value="-3.000000,-3.000000"/>
+    </CSound>
     <CSound id="Zeratul_AttackLaunch2" parent="Combat">
+        <EditorCategories value="Race:Protoss"/>
+        <AssetArray File="Assets\Sounds\Artanis_PsiBladeAttackLaunch01.wav" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\Artanis_PsiBladeAttackLaunch02.wav" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\Artanis_PsiBladeAttackLaunch04.wav" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\Artanis_PsiBladeAttackLaunch07.wav" FacialGroup=""/>
+        <AssetArray File="Assets\Sounds\Artanis_PsiBladeAttackLaunch09.wav" FacialGroup=""/>
+        <Flags index="VariationFallback" value="0"/>
+        <DupeDestroyCount value="5"/>
+        <DupeMaximumMethod value="Replace"/>
+        <DupePrioritization value="Oldest"/>
+        <Pitch value="-3.000000,-1.000000"/>
+        <Volume value="-4.000000,-4.000000"/>
+    </CSound>
+    <CSound id="Zeratul_AttackLaunch3" parent="Combat">
         <EditorCategories value="Race:Protoss"/>
         <AssetArray File="Assets\Sounds\Artanis_PsiBladeAttackLaunch01.wav" FacialGroup=""/>
         <AssetArray File="Assets\Sounds\Artanis_PsiBladeAttackLaunch02.wav" FacialGroup=""/>

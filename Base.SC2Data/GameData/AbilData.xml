@@ -22,6 +22,17 @@
             <Cooldown TimeUse="35"/>
         </Cost>
     </CAbilEffectTarget>
+    <CAbilTransport id="BunkerTransport">
+        <TotalCargoSpace value="2"/>
+    </CAbilTransport>
+    <CAbilEffectTarget id="Contaminate">
+        <Cost index="0">
+            <Vital index="Energy" value="0"/>
+            <Cooldown Link="Abil/Contaminate" TimeUse="240"/>
+        </Cost>
+        <TargetFilters index="0" value="Structure,Visible;Player,Ally,Neutral,Heroic,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <CmdButtonArray index="Execute" Requirements="JorgumandrIdentifer"/>
+    </CAbilEffectTarget>
     <CAbilEffectTarget id="FungalGrowth">
         <Cost index="0">
             <Cooldown TimeUse="20"/>
@@ -53,6 +64,13 @@
     <CAbilMorph id="MorphToInfestedTerran">
         <InfoArray index="0" Unit="NeophyteHybrid"/>
     </CAbilMorph>
+    <CAbilEffectTarget id="ParasiticInvasion">
+        <Cost>
+            <Charge Link="Abil/ParasiticInvasion"/>
+            <Cooldown Link="Abil/ParasiticInvasion" TimeUse="60"/>
+        </Cost>
+        <TargetFilters index="0" value="Visible;Self,Player,Ally,Neutral,Heroic,RawResource,HarvestableResource,Missile,Item,Dead,Hidden,Invulnerable"/>
+    </CAbilEffectTarget>
     <CAbilArmMagazine id="SelendisHangar">
         <InfoArray index="Ammo1" Time="4">
             <Resource index="Minerals" value="0"/>
@@ -385,6 +403,12 @@
         <AINotifyEffect value="PropagandaAgainstTheNecrons"/>
         <CmdButtonArray index="Execute" DefaultButtonFace="DrowningoftheLeviathan" Requirements="DrowningoftheLeviathan"/>
     </CAbilEffectInstant>
+    <CAbilEffectInstant id="SpawnChangeling">
+        <Cost index="0">
+            <Vital index="Energy" value="0"/>
+            <Cooldown TimeUse="60"/>
+        </Cost>
+    </CAbilEffectInstant>
     <CAbilEffectInstant id="TacticalRedeployment">
         <EditorCategories value="AbilityorEffectType:Units"/>
         <DataCollection value="PropagandaAgainstTheNecrons"/>
@@ -481,6 +505,11 @@
         <AINotifyEffect value="PropagandaAgainstTheNecrons"/>
         <CmdButtonArray index="Execute" DefaultButtonFace="NecronsAscendant" Requirements="NecronsAscendant"/>
     </CAbilEffectInstant>
+    <CAbilBuild id="TerranBuild">
+        <InfoArray index="Build7" Time="30">
+            <Button Requirements="BunkerRequirements"/>
+        </InfoArray>
+    </CAbilBuild>
     <!--CAbilBehavior id="ToxicAdrenaline">-->
     <!--        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>-->
     <!--        <Flags index="Toggle" value="1"/>-->

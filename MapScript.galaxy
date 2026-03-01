@@ -1562,6 +1562,7 @@ trigger gt_TombWorldFalShia;
 trigger gt_CreateTombWorldCanta;
 trigger gt_TombWorldCanta;
 trigger gt_Activationstart;
+trigger gt_RemoveParasticInvasionFromBuildings;
 trigger gt_CtanBlink;
 trigger gt_TrazynBlink;
 trigger gt_GenestealerBroodmotherAura;
@@ -5832,7 +5833,7 @@ void gf_AiResearchlesser (int lp_index, int lp_player, int lp_upgradestodo, unit
         gv_researchIndexInteger[lp_player] = (gv_researchIndexInteger[lp_player] + 1);
     }
     else if ((gv_researchIndexInteger[lp_player] == lp_index) && (UnitGetOwner(lp_spawner) == lp_player) && (TechTreeUpgradeCount(UnitGetOwner(lp_spawner), lp_upgrade, c_techCountCompleteOnly) < lp_upgradestodo)) {
-        UnitIssueOrder(lp_spawner, Order(lp_ability), c_orderQueueAddToEnd);
+        UnitIssueOrder(lp_spawner, Order(lp_ability), c_orderQueueReplace);
     }
 }
 
@@ -5849,7 +5850,7 @@ void gf_AiResearchlesserTauTechnology (int lp_index, int lp_player, int lp_upgra
         gv_researchIndexIntegerTauTechnlogy = (gv_researchIndexIntegerTauTechnlogy + 1);
     }
     else if ((gv_researchIndexIntegerTauTechnlogy == lp_index) && (UnitGetOwner(lp_spawner) == lp_player) && (TechTreeUpgradeCount(UnitGetOwner(lp_spawner), lp_upgrade, c_techCountCompleteOnly) < lp_upgradestodo)) {
-        UnitIssueOrder(lp_spawner, Order(lp_ability), c_orderQueueAddToEnd);
+        UnitIssueOrder(lp_spawner, Order(lp_ability), c_orderQueueReplace);
     }
 }
 
@@ -12510,8 +12511,9 @@ bool gt_EstabanImperium_Func (bool testConds, bool runActions) {
     gf_Createunit(1, "Goliath", lv_spawner, lv_point);
     gf_Createunit(1, "Skittari", lv_spawner, lv_point);
     if ((TechTreeUpgradeCount(UnitGetOwner(lv_spawner), lv_research, c_techCountCompleteOnly) >= 4)) {
+        gf_Createunit(1, "Knight", lv_spawner, lv_point);
         gf_Createunit(1, "Goliath", lv_spawner, lv_point);
-        gf_Createunit(2, "VikingAssault", lv_spawner, lv_point);
+        gf_Createunit(1, "VikingAssault", lv_spawner, lv_point);
     }
 
     if ((TechTreeUpgradeCount(UnitGetOwner(lv_spawner), lv_research, c_techCountCompleteOnly) >= 3)) {
@@ -13288,7 +13290,7 @@ bool gt_TerraImperium_Func (bool testConds, bool runActions) {
     gf_Createunit(3, "Separatist", lv_spawner, lv_point);
     if ((TechTreeUpgradeCount(UnitGetOwner(lv_spawner), lv_research, c_techCountCompleteOnly) >= 8)) {
         gf_CreateunitBattleCruiser(1, lv_spawner, lv_point);
-        gf_CreateunitWraith(1, lv_spawner, lv_point);
+        gf_Createunit(1, "Knight", lv_spawner, lv_point);
     }
 
     if ((TechTreeUpgradeCount(UnitGetOwner(lv_spawner), lv_research, c_techCountCompleteOnly) >= 7)) {
@@ -14607,9 +14609,10 @@ bool gt_GehennaPrimeImperium_Func (bool testConds, bool runActions) {
     Wait(0.25, c_timeGame);
     gf_AISpawnerResearchTauChaos(lv_spawner, lv_point, "AIresearch");
     if ((TechTreeUpgradeCount(UnitGetOwner(lv_spawner), lv_research, c_techCountCompleteOnly) >= 4)) {
+        gf_Createunit(1, "Knight", lv_spawner, lv_point);
         gf_Createunit(1, "Marine", lv_spawner, lv_point);
         gf_CreateunitMeleeAlternatives(1, lv_spawner, lv_point);
-        gf_Createunit(2, "Separatist", lv_spawner, lv_point);
+        gf_Createunit(1, "Separatist", lv_spawner, lv_point);
     }
 
     if ((TechTreeUpgradeCount(UnitGetOwner(lv_spawner), lv_research, c_techCountCompleteOnly) >= 3)) {
@@ -15529,8 +15532,9 @@ bool gt_ThuliumImperium_Func (bool testConds, bool runActions) {
     gf_Createunit(1, "Marine", lv_spawner, lv_point);
     gf_Createunit(3, "Separatist", lv_spawner, lv_point);
     if ((TechTreeUpgradeCount(UnitGetOwner(lv_spawner), lv_research, c_techCountCompleteOnly) >= 4)) {
+        gf_Createunit(1, "Knight", lv_spawner, lv_point);
         gf_Createunit(2, "Marine", lv_spawner, lv_point);
-        gf_Createunit(2, "Separatist", lv_spawner, lv_point);
+        gf_Createunit(1, "Separatist", lv_spawner, lv_point);
     }
 
     if ((TechTreeUpgradeCount(UnitGetOwner(lv_spawner), lv_research, c_techCountCompleteOnly) >= 3)) {
@@ -17238,8 +17242,8 @@ bool gt_TarvanImperium_Func (bool testConds, bool runActions) {
 
     if ((TechTreeUpgradeCount(UnitGetOwner(lv_spawner), lv_research, c_techCountCompleteOnly) >= 4)) {
         gf_CreateunitBattleCruiser(1, lv_spawner, lv_point);
-        gf_CreateunitWraith(1, lv_spawner, lv_point);
         gf_Createunit(1, "Skittari", lv_spawner, lv_point);
+        gf_Createunit(1, "Knight", lv_spawner, lv_point);
     }
 
     if ((TechTreeUpgradeCount(UnitGetOwner(lv_spawner), lv_research, c_techCountCompleteOnly) >= 3)) {
@@ -27875,6 +27879,7 @@ bool gt_AIResearchCollapseRevolt_Func (bool testConds, bool runActions) {
     gv_technlogyStackstau -= 1;
     libNtve_gf_SetUpgradeLevelForPlayer(gv_itemTau, "TauTechnlogyStacks", gv_technlogyStackstau);
     TriggerExecute(gt_UIUpdate, true, false);
+    gf_ImmortalCheckGlobal(gv_itemTau);
     return true;
 }
 
@@ -31349,6 +31354,63 @@ void gt_Activationstart_Init () {
 }
 
 //--------------------------------------------------------------------------------------------------
+// Trigger: Remove Parastic Invasion From Buildings
+//--------------------------------------------------------------------------------------------------
+bool gt_RemoveParasticInvasionFromBuildings_Func (bool testConds, bool runActions) {
+    // Variable Declarations
+    unit lv_initializeTriggeringtargetunit;
+
+    // Automatic Variable Declarations
+    unitgroup autoE9B44663_g;
+    int autoE9B44663_u;
+    unit autoE9B44663_var;
+
+    // Variable Initialization
+    lv_initializeTriggeringtargetunit = EventUnit();
+
+    // Actions
+    if (!runActions) {
+        return true;
+    }
+
+    if (((UnitTypeTestAttribute(UnitGetType(EventUnit()), c_unitAttributeStructure) == true) || (UnitGetOwner(EventUnit()) == gv_itemNecrons))) {
+        UnitBehaviorRemove(EventUnit(), "ParasiticInvasion", 1);
+        RegionSetCenter(RegionFromId(70), UnitGetPosition(EventUnit()));
+        autoE9B44663_g = UnitGroup(null, c_playerAny, RegionFromId(70), UnitFilter(0, (1 << (c_targetFilterSummoned - 32)), (1 << c_targetFilterMissile), (1 << (c_targetFilterDead - 32)) | (1 << (c_targetFilterHidden - 32))), 0);
+        autoE9B44663_u = UnitGroupCount(autoE9B44663_g, c_unitCountAll);
+        for (;; autoE9B44663_u -= 1) {
+            autoE9B44663_var = UnitGroupUnitFromEnd(autoE9B44663_g, autoE9B44663_u);
+            if (autoE9B44663_var == null) { break; }
+            UnitKill(autoE9B44663_var);
+        }
+    }
+
+    if ((UnitHasBehavior2(EventUnit(), "SpawnerArmorAndHP") == true)) {
+        UnitBehaviorAdd(EventUnit(), "GenestealerInfesttation", UnitFromId(60074446), 1);
+        if ((UnitBehaviorCount(EventUnit(), "GenestealerInfesttation") == 2)) {
+            UnitBehaviorAdd(EventUnit(), "QueenClassicParasite", UnitFromId(60074446), 1);
+        }
+
+    }
+
+    if ((UnitBehaviorCount(EventUnit(), "GenestealerInfesttation") == 3)) {
+        UnitBehaviorRemove(EventUnit(), "QueenClassicParasite", 1);
+        UnitBehaviorRemove(EventUnit(), "GenestealerInfesttation", 3);
+        gf_Createunit(10, "InfestedExploder", UnitFromId(60074446), UnitGetPosition(EventUnit()));
+        gf_Createunit(10, "InfestorTerran", UnitFromId(60074446), UnitGetPosition(EventUnit()));
+        gf_Createunit(15, "InfestedCivilian", UnitFromId(60074446), UnitGetPosition(EventUnit()));
+    }
+
+    return true;
+}
+
+//--------------------------------------------------------------------------------------------------
+void gt_RemoveParasticInvasionFromBuildings_Init () {
+    gt_RemoveParasticInvasionFromBuildings = TriggerCreate("gt_RemoveParasticInvasionFromBuildings_Func");
+    TriggerAddEventUnitBehaviorChange(gt_RemoveParasticInvasionFromBuildings, null, "ParasiticInvasion", c_unitBehaviorChangeCreate);
+}
+
+//--------------------------------------------------------------------------------------------------
 // Trigger: C'tan Blink
 //--------------------------------------------------------------------------------------------------
 bool gt_CtanBlink_Func (bool testConds, bool runActions) {
@@ -31904,6 +31966,7 @@ void InitTriggers () {
     gt_CreateTombWorldCanta_Init();
     gt_TombWorldCanta_Init();
     gt_Activationstart_Init();
+    gt_RemoveParasticInvasionFromBuildings_Init();
     gt_CtanBlink_Init();
     gt_TrazynBlink_Init();
     gt_GenestealerBroodmotherAura_Init();

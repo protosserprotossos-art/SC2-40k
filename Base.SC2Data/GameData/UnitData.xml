@@ -140,14 +140,38 @@
         <CardLayouts index="0">
             <LayoutButtons index="5" Face="YagdraTunnel" AbilCmd="YagdraTunnel,Execute"/>
         </CardLayouts>
-        <Radius value="1.5"/>
-        <SeparationRadius value="1.5"/>
+        <Radius value="1.0625"/>
+        <SeparationRadius value="1.0625"/>
         <PlacementFootprint value="Footprint1x1Creep"/>
     </CUnit>
     <CUnit id="Assimilator">
         <FlagArray index="Turnable" value="1"/>
         <BehaviorArray index="0" removed="1"/>
         <BehaviorArray index="1" removed="1"/>
+    </CUnit>
+    <CUnit id="Changeling">
+        <AbilArray Link="ParasiticInvasion"/>
+        <CardLayouts index="0">
+            <LayoutButtons Face="ParasiticInvasion" Type="AbilCmd" AbilCmd="ParasiticInvasion,Execute" Row="2" Column="1"/>
+        </CardLayouts>
+    </CUnit>
+    <CUnit id="ChangelingMarine">
+        <AbilArray Link="ParasiticInvasion"/>
+        <CardLayouts index="0">
+            <LayoutButtons Face="ParasiticInvasion" Type="AbilCmd" AbilCmd="ParasiticInvasion,Execute" Row="2" Column="0"/>
+        </CardLayouts>
+    </CUnit>
+    <CUnit id="ChangelingZealot">
+        <AbilArray Link="ParasiticInvasion"/>
+        <CardLayouts index="0">
+            <LayoutButtons Face="ParasiticInvasion" Type="AbilCmd" AbilCmd="ParasiticInvasion,Execute" Row="2" Column="0"/>
+        </CardLayouts>
+    </CUnit>
+    <CUnit id="ChangelingZergling">
+        <AbilArray Link="ParasiticInvasion"/>
+        <CardLayouts index="0">
+            <LayoutButtons Face="ParasiticInvasion" Type="AbilCmd" AbilCmd="ParasiticInvasion,Execute" Row="2" Column="0"/>
+        </CardLayouts>
     </CUnit>
     <CUnit id="Corruptor">
         <FlagArray index="Hero" value="1"/>
@@ -265,6 +289,76 @@
         <CardLayouts index="1" removed="1"/>
         <SubgroupPriority value="155"/>
         <AlliedPushPriority value="28"/>
+    </CUnit>
+    <CUnit id="InfestedExploder">
+        <LifeStart value="90"/>
+        <LifeMax value="90"/>
+    </CUnit>
+    <CUnit id="LarvalQueen">
+        <Attributes index="Summoned" value="1"/>
+    </CUnit>
+    <CUnit id="SisterOfBattle">
+        <DeathRevealRadius value="3"/>
+        <Race value="Terr"/>
+        <Mob value="Campaign"/>
+        <FlagArray index="UseLineOfSight" value="1"/>
+        <FlagArray index="AlwaysThreatens" value="1"/>
+        <FlagArray index="AISupport" value="1"/>
+        <FlagArray index="ArmySelect" value="1"/>
+        <PlaneArray index="Ground" value="1"/>
+        <Collide index="Ground" value="1"/>
+        <Collide index="ForceField" value="1"/>
+        <Collide index="Locust" value="1"/>
+        <Collide index="Small" value="1"/>
+        <Attributes index="Light" value="1"/>
+        <Attributes index="Biological" value="1"/>
+        <LifeStart value="175"/>
+        <LifeMax value="175"/>
+        <LifeArmor value="2"/>
+        <LifeArmorName value="Unit/LifeArmorName/TerranInfantryArmor"/>
+        <Speed value="2.25"/>
+        <Acceleration value="1000"/>
+        <LateralAcceleration value="46.0625"/>
+        <Sight value="10"/>
+        <Food value="-2"/>
+        <CostCategory value="Army"/>
+        <CostResource index="Minerals" value="75"/>
+        <CostResource index="Vespene" value="50"/>
+        <RepairTime value="25"/>
+        <AttackTargetPriority value="20"/>
+        <DamageDealtXP value="1"/>
+        <DamageTakenXP value="1"/>
+        <KillXP value="15"/>
+        <AbilArray Link="stop"/>
+        <AbilArray Link="move"/>
+        <AbilArray Link="attack"/>
+        <WeaponArray Link="DominionKillTeam"/>
+        <CardLayouts>
+            <LayoutButtons Face="Move" Type="AbilCmd" AbilCmd="move,Move" Row="0" Column="0"/>
+            <LayoutButtons Face="Stop" Type="AbilCmd" AbilCmd="stop,Stop" Row="0" Column="1"/>
+            <LayoutButtons Face="MoveHoldPosition" Type="AbilCmd" AbilCmd="move,HoldPos" Row="0" Column="2"/>
+            <LayoutButtons Face="Attack" Type="AbilCmd" AbilCmd="attack,Execute" Row="0" Column="4"/>
+            <LayoutButtons Face="AcquireMove" Type="AbilCmd" AbilCmd="move,AcquireMove" Row="0" Column="4"/>
+            <LayoutButtons Face="MovePatrol" Type="AbilCmd" AbilCmd="move,Patrol" Row="0" Column="3"/>
+            <LayoutButtons Face="Flare" Type="AbilCmd" AbilCmd="Flare,255" Row="2" Column="1"/>
+        </CardLayouts>
+        <Radius value="0.375"/>
+        <SeparationRadius value="0.375"/>
+        <InnerRadius value="0.375"/>
+        <CargoSize value="1"/>
+        <ScoreMake value="125"/>
+        <ScoreKill value="250"/>
+        <SubgroupPriority value="4"/>
+        <MinimapRadius value="0.375"/>
+        <EditorCategories value="ObjectType:Unit,ObjectFamily:Campaign"/>
+        <GlossaryCategory value="Unit/Category/TerranUnits"/>
+        <GlossaryPriority value="30"/>
+        <HotkeyCategory value="Unit/Category/TerranStory"/>
+        <Fidget>
+            <ChanceArray index="Anim" value="33"/>
+            <ChanceArray index="Idle" value="33"/>
+            <ChanceArray index="Turn" value="33"/>
+        </Fidget>
     </CUnit>
     <CUnit id="Mortarion">
         <DeathRevealRadius value="3"/>
@@ -449,7 +543,7 @@
         </CardLayouts>
         <Radius value="0.375"/>
         <SeparationRadius value="0.375"/>
-        <CargoSize value="1"/>
+        <CargoSize value="8"/>
         <ScoreMake value="25"/>
         <ScoreKill value="25"/>
         <ScoreResult value="BuildOrder"/>
@@ -586,6 +680,7 @@
         </CardLayouts>
         <SubgroupPriority value="155"/>
         <AlliedPushPriority value="28"/>
+        <CargoSize value="8"/>
     </CUnit>
     <CUnit id="RobouteBanelingMissile" parent="MISSILE">
         <Race value="Zerg"/>
@@ -967,7 +1062,7 @@
             <LayoutButtons Face="FocusedBarrage" Type="AbilCmd" AbilCmd="RobouteAuraFocusedBarrage,Execute" Row="2" Column="2"/>
             <LayoutButtons Face="RelentlessAdvance" Type="AbilCmd" AbilCmd="RobouteAuraRelentlessAdvance,Execute" Row="2" Column="3"/>
         </CardLayouts>
-        <CargoSize value="1"/>
+        <CargoSize value="8"/>
         <ScoreMake value="50"/>
         <ScoreKill value="100"/>
         <SubgroupPriority value="155"/>
@@ -1228,6 +1323,7 @@
         </CardLayouts>
         <SubgroupPriority value="146"/>
         <AlliedPushPriority value="26"/>
+        <CargoSize value="8"/>
     </CUnit>
     <CUnit id="Urun">
         <FlagArray index="Hero" value="1"/>
@@ -1327,7 +1423,7 @@
         <Radius value="0.375"/>
         <SeparationRadius value="0.375"/>
         <InnerRadius value="0.375"/>
-        <CargoSize value="1"/>
+        <CargoSize value="8"/>
         <ScoreMake value="50"/>
         <ScoreKill value="50"/>
         <ScoreResult value="BuildOrder"/>
@@ -1496,11 +1592,13 @@
         <PlacementFootprint value=""/>
         <LifeStart value="1500"/>
         <LifeMax value="1500"/>
-        <LifeArmor value="2"/>
         <Sight value="9"/>
         <CostResource index="Minerals" value="0"/>
         <Attributes index="Mechanical" value="0"/>
         <BehaviorArray index="1" removed="1"/>
+        <Radius value="0.6875"/>
+        <SeparationRadius value="0.6875"/>
+        <MinimapRadius value="0.6875"/>
     </CUnit>
     <CUnit id="BanelingNest">
         <Food value="15"/>
@@ -1898,6 +1996,8 @@
         <AbilArray index="4" Link="SinkingOfTheKraken"/>
         <AbilArray Link="ScuttlingofJorgumandr"/>
         <AbilArray Link="DrowningoftheLeviathan"/>
+        <AbilArray Link="Contaminate"/>
+        <AbilArray Link="SpawnChangeling"/>
         <CardLayouts index="0">
             <LayoutButtons index="6" Face="TyranidActions" Type="Submenu" AbilCmd="" Requirements="LeviathanIdentifer" SubmenuCardId="0002"/>
             <LayoutButtons index="7">
@@ -1916,8 +2016,8 @@
                 <SubmenuCardId value="0004"/>
                 <Column value="0"/>
             </LayoutButtons>
-            <LayoutButtons index="9" removed="1"/>
-            <LayoutButtons index="10" removed="1"/>
+            <LayoutButtons index="9" Face="Contaminate" AbilCmd="Contaminate,Execute" Column="1"/>
+            <LayoutButtons index="10" Face="SpawnChangeling" AbilCmd="SpawnChangeling,Execute" Column="2"/>
             <LayoutButtons index="11" removed="1"/>
             <LayoutButtons index="12" removed="1"/>
             <RowText index="0" removed="1"/>
@@ -2061,6 +2161,11 @@
         <Speed value="2.5"/>
         <BehaviorArray Link="MeleeUnitDamageResistance"/>
         <AlliedPushPriority value="10"/>
+        <AbilArray Link="TerranBuild"/>
+        <CardLayouts index="0">
+            <LayoutButtons index="5" Face="JuggernautPlating" AbilCmd="255,255" Requirements="UseJuggernautPlatingFirebat" Column="1"/>
+            <LayoutButtons index="6" Face="Bunker" Type="AbilCmd" AbilCmd="TerranBuild,Build7" Requirements="" Column="0"/>
+        </CardLayouts>
     </CUnit>
     <CUnit id="FlayedOne2">
         <DeathRevealRadius value="3"/>
@@ -2204,7 +2309,13 @@
         <AlliedPushPriority value="27"/>
     </CUnit>
     <CUnit id="Bunker">
-        <Footprint value=""/>
+        <Footprint value="Footprint1x1Contour"/>
+        <LifeArmor value="2"/>
+        <CostResource index="Minerals" value="0"/>
+        <Radius value="0.5"/>
+        <SeparationRadius value="0.5"/>
+        <CargoSize value="8"/>
+        <PlacementFootprint value="Footprint1x1"/>
     </CUnit>
     <CUnit id="CarrionNest">
         <AbilArray Link="que5"/>
@@ -2445,6 +2556,7 @@
         </CardLayouts>
         <SubgroupPriority value="142"/>
         <AlliedPushPriority value="24"/>
+        <CargoSize value="8"/>
     </CUnit>
     <CUnit id="VikingAssault">
         <LifeStart value="300"/>
@@ -2459,6 +2571,74 @@
         <WeaponArray index="0" Link="DreadnaughtBaseWeapon"/>
         <WeaponArray Link="TwinGatlingCannon"/>
         <AlliedPushPriority value="7"/>
+    </CUnit>
+    <CUnit id="Knight">
+        <Name value="Unit/Name/DreadnaughtMk2"/>
+        <DeathRevealRadius value="3"/>
+        <Race value="Terr"/>
+        <Mob value="Multiplayer"/>
+        <FlagArray index="PreventDestroy" value="1"/>
+        <FlagArray index="UseLineOfSight" value="1"/>
+        <FlagArray index="AIThreatGround" value="1"/>
+        <FlagArray index="AIThreatAir" value="1"/>
+        <FlagArray index="ArmySelect" value="1"/>
+        <PlaneArray index="Ground" value="1"/>
+        <Collide index="Ground" value="1"/>
+        <Collide index="ForceField" value="1"/>
+        <Collide index="Locust" value="1"/>
+        <Collide index="Small" value="1"/>
+        <Attributes index="Armored" value="1"/>
+        <Attributes index="Mechanical" value="1"/>
+        <LifeStart value="850"/>
+        <LifeMax value="850"/>
+        <LifeArmor value="3"/>
+        <LifeArmorName value="Unit/LifeArmorName/TerranShipPlating"/>
+        <Speed value="2.6015"/>
+        <Acceleration value="1000"/>
+        <StationaryTurningRate value="999.8437"/>
+        <Sight value="10"/>
+        <Food value="-6"/>
+        <CostCategory value="Army"/>
+        <RepairTime value="41.6667"/>
+        <AttackTargetPriority value="20"/>
+        <DamageDealtXP value="1"/>
+        <DamageTakenXP value="1"/>
+        <AbilArray Link="stop"/>
+        <AbilArray Link="attack"/>
+        <AbilArray Link="move"/>
+        <WeaponArray Link="KnightMeleeWeapon"/>
+        <CardLayouts>
+            <LayoutButtons Face="Move" Type="AbilCmd" AbilCmd="move,Move" Row="0" Column="0"/>
+            <LayoutButtons Face="MovePatrol" Type="AbilCmd" AbilCmd="move,Patrol" Row="0" Column="3"/>
+            <LayoutButtons Face="MoveHoldPosition" Type="AbilCmd" AbilCmd="move,HoldPos" Row="0" Column="2"/>
+            <LayoutButtons Face="Stop" Type="AbilCmd" AbilCmd="stop,Stop" Row="0" Column="1"/>
+            <LayoutButtons Face="Attack" Type="AbilCmd" AbilCmd="attack,Execute" Row="0" Column="4"/>
+            <LayoutButtons Face="FighterMode" Type="AbilCmd" AbilCmd="FighterMode,Execute" Row="2" Column="0"/>
+            <LayoutButtons Face="AresClassWeaponsSystemviking" Type="Passive" Requirements="PhobusClassWeaponSystemsResearched" Row="2" Column="3"/>
+            <LayoutButtons Face="RipwaveMissiles" Type="Passive" Requirements="HALORocketsResearched" Row="2" Column="2"/>
+        </CardLayouts>
+        <Radius value="0.75"/>
+        <SeparationRadius value="0.75"/>
+        <InnerRadius value="0.375"/>
+        <CargoSize value="2"/>
+        <ScoreKill value="225"/>
+        <SubgroupPriority value="12"/>
+        <MinimapRadius value="0.75"/>
+        <EditorCategories value="ObjectType:Unit,ObjectFamily:Melee"/>
+        <TacticalAIThink value="AIThinkVikingAssault"/>
+        <LeaderAlias value="VikingFighter"/>
+        <HotkeyAlias value="VikingFighter"/>
+        <TechAliasArray value="Alias_Viking"/>
+        <GlossaryCategory value="Unit/Category/TerranUnits"/>
+        <GlossaryPriority value="155"/>
+        <GlossaryAlias value="VikingFighter"/>
+        <HotkeyCategory value="Unit/Category/TerranUnits"/>
+        <Fidget>
+            <ChanceArray index="Anim" value="15"/>
+            <ChanceArray index="Idle" value="55"/>
+            <ChanceArray index="Turn" value="30"/>
+        </Fidget>
+        <AlliedPushPriority value="14"/>
     </CUnit>
     <CUnit id="VindicatorAssasin">
         <DeathRevealRadius value="3"/>
@@ -2518,7 +2698,7 @@
         <Radius value="0.375"/>
         <SeparationRadius value="0.375"/>
         <InnerRadius value="0.375"/>
-        <CargoSize value="2"/>
+        <CargoSize value="8"/>
         <ScoreMake value="300"/>
         <ScoreKill value="300"/>
         <ScoreResult value="BuildOrder"/>
@@ -2608,6 +2788,7 @@
         <AbilArray Link="stop"/>
         <AbilArray Link="attack"/>
         <AbilArray Link="move"/>
+        <AbilArray Link="TerranBuild"/>
         <WeaponArray Link="MengskFirebat2"/>
         <CardLayouts>
             <LayoutButtons Face="Move" Type="AbilCmd" AbilCmd="move,Move" Row="0" Column="0"/>
@@ -2615,6 +2796,7 @@
             <LayoutButtons Face="MoveHoldPosition" Type="AbilCmd" AbilCmd="move,HoldPos" Row="0" Column="2"/>
             <LayoutButtons Face="Attack" Type="AbilCmd" AbilCmd="attack,Execute" Row="0" Column="4"/>
             <LayoutButtons Face="MovePatrol" Type="AbilCmd" AbilCmd="move,Patrol" Row="0" Column="3"/>
+            <LayoutButtons Face="Bunker" Type="AbilCmd" AbilCmd="TerranBuild,Build7" Row="2" Column="0"/>
         </CardLayouts>
         <Radius value="0.375"/>
         <SeparationRadius value="0.375"/>
@@ -2672,6 +2854,7 @@
         <AbilArray Link="stop"/>
         <AbilArray Link="attack"/>
         <AbilArray Link="move"/>
+        <AbilArray Link="TerranBuild"/>
         <WeaponArray Link="HailstormLauncher"/>
         <WeaponArray Link="Separatist"/>
         <WeaponArray Link="B2HighCalLMG"/>
@@ -2681,6 +2864,7 @@
             <LayoutButtons Face="MoveHoldPosition" Type="AbilCmd" AbilCmd="move,HoldPos" Row="0" Column="2"/>
             <LayoutButtons Face="Attack" Type="AbilCmd" AbilCmd="attack,Execute" Row="0" Column="4"/>
             <LayoutButtons Face="MovePatrol" Type="AbilCmd" AbilCmd="move,Patrol" Row="0" Column="3"/>
+            <LayoutButtons Face="Bunker" Type="AbilCmd" AbilCmd="TerranBuild,Build7" Row="2" Column="0"/>
         </CardLayouts>
         <Radius value="0.375"/>
         <SeparationRadius value="0.375"/>
@@ -2875,6 +3059,7 @@
         <AbilArray Link="stop"/>
         <AbilArray Link="attack"/>
         <AbilArray Link="move"/>
+        <AbilArray Link="TerranBuild"/>
         <BehaviorArray Link="MeleeUnitDamageResistance"/>
         <WeaponArray Link="SpaceMarineBerserker"/>
         <CardLayouts>
@@ -2883,6 +3068,7 @@
             <LayoutButtons Face="MoveHoldPosition" Type="AbilCmd" AbilCmd="move,HoldPos" Row="0" Column="2"/>
             <LayoutButtons Face="Attack" Type="AbilCmd" AbilCmd="attack,Execute" Row="0" Column="4"/>
             <LayoutButtons Face="MovePatrol" Type="AbilCmd" AbilCmd="move,Patrol" Row="0" Column="3"/>
+            <LayoutButtons Face="Bunker" Type="AbilCmd" AbilCmd="TerranBuild,Build7" Row="2" Column="0"/>
         </CardLayouts>
         <Radius value="0.4375"/>
         <SeparationRadius value="0.4375"/>
@@ -2993,6 +3179,7 @@
             </LayoutButtons>
             <LayoutButtons index="8" Face="SisterMedicSeraphinaVossAura" AbilCmd="" Requirements="" Row="2" Column="1"/>
         </CardLayouts>
+        <CargoSize value="8"/>
     </CUnit>
     <CUnit id="Raven">
         <FlagArray index="Hero" value="1"/>
@@ -3652,7 +3839,7 @@
         </CardLayouts>
         <Radius value="0.6875"/>
         <InnerRadius value="0.5"/>
-        <CargoSize value="2"/>
+        <CargoSize value="8"/>
         <ScoreMake value="250"/>
         <ScoreKill value="250"/>
         <ScoreResult value="BuildOrder"/>
@@ -3838,6 +4025,7 @@
         <FlagArray index="Hero" value="1"/>
         <FlagArray index="ArmySelect" value="0"/>
         <DeathTime value="0"/>
+        <CargoSize value="8"/>
         <!--Height value="1"/-->
     </CUnit>
     <CUnit id="KerriganGhostLabUnarmed">
@@ -3871,6 +4059,7 @@
         <MinimapRadius value="1"/>
         <AlliedPushPriority value="26"/>
         <AttackTargetPriority value="19"/>
+        <CargoSize value="8"/>
     </CUnit>
     <CUnit id="KorhalPalaceTurret">
         <BehaviorArray index="0" removed="1"/>
@@ -3961,14 +4150,14 @@
         <CostResource index="Minerals" value="0"/>
         <KillXP value="0"/>
         <CardLayouts index="0">
-            <LayoutButtons index="5" removed="1"/>
+            <LayoutButtons index="5" Face="Bunker" AbilCmd="TerranBuild,Build7"/>
             <LayoutButtons index="6" removed="1"/>
             <LayoutButtons index="7" removed="1"/>
             <LayoutButtons index="8" removed="1"/>
             <LayoutButtons index="9" removed="1"/>
         </CardLayouts>
         <Speed value="2.6992"/>
-        <AbilArray index="3" removed="1"/>
+        <AbilArray index="3" Link="TerranBuild"/>
         <AbilArray index="4" removed="1"/>
         <AbilArray index="5" removed="1"/>
         <Radius value="0.4375"/>
@@ -4006,6 +4195,7 @@
             <LayoutButtons index="5" Face="BuildPointDefenseDrone" Type="AbilCmd" AbilCmd="PlaceSJPointDefenseDrone,Execute" Requirements=""/>
             <LayoutButtons index="6" Face="Flameshot" Type="AbilCmd" AbilCmd="Flameshot,Execute" Requirements=""/>
         </CardLayouts>
+        <CargoSize value="8"/>
     </CUnit>
     <!-- Setting merc compound and merc units back to liberty settings -->
     <CUnit id="MercCompound">
@@ -4083,6 +4273,9 @@
         <BehaviorArray index="2" removed="1"/>
         <BehaviorArray index="3" removed="1"/>
         <BehaviorArray index="4" removed="1"/>
+        <Radius value="0.6875"/>
+        <SeparationRadius value="0.6875"/>
+        <MinimapRadius value="0.6875"/>
     </CUnit>
     <CUnit id="Mutalisk">
         <LifeStart value="200"/>
@@ -4957,11 +5150,11 @@
         <CostResource index="Minerals" value="0"/>
         <KillXP value="0"/>
         <CardLayouts index="0">
-            <LayoutButtons index="5" removed="1"/>
+            <LayoutButtons index="5" Face="Bunker" AbilCmd="TerranBuild,Build7"/>
         </CardLayouts>
         <Speed value="2.6992"/>
         <Food value="-1.5"/>
-        <AbilArray index="3" removed="1"/>
+        <AbilArray index="3" Link="TerranBuild"/>
         <BehaviorArray Link="EnableWeapon2"/>
         <WeaponArray Link="B2HighCalLMG"/>
         <AlliedPushPriority value="4"/>
@@ -4998,6 +5191,7 @@
         <AbilArray Link="stop"/>
         <AbilArray Link="attack"/>
         <AbilArray Link="move"/>
+        <AbilArray Link="TerranBuild"/>
         <WeaponArray Link="B2HighCalLMG"/>
         <CardLayouts>
             <LayoutButtons Face="Move" Type="AbilCmd" AbilCmd="move,Move" Row="0" Column="0"/>
@@ -5005,6 +5199,7 @@
             <LayoutButtons Face="MoveHoldPosition" Type="AbilCmd" AbilCmd="move,HoldPos" Row="0" Column="2"/>
             <LayoutButtons Face="Attack" Type="AbilCmd" AbilCmd="attack,Execute" Row="0" Column="4"/>
             <LayoutButtons Face="MovePatrol" Type="AbilCmd" AbilCmd="move,Patrol" Row="0" Column="3"/>
+            <LayoutButtons Face="Bunker" Type="AbilCmd" AbilCmd="TerranBuild,Build7" Row="2" Column="0"/>
         </CardLayouts>
         <Radius value="0.375"/>
         <SeparationRadius value="0.375"/>
@@ -5564,12 +5759,15 @@
     </CUnit>
     <CUnit id="MannedTurret">
         <WeaponArray index="0" Link="GrenadeLauncher"/>
-        <LifeStart value="1750"/>
-        <LifeMax value="1750"/>
+        <LifeStart value="1500"/>
+        <LifeMax value="1500"/>
         <LifeArmor value="2"/>
         <CostResource index="Minerals" value="0"/>
         <Attributes index="Mechanical" value="0"/>
         <BehaviorArray index="1" removed="1"/>
+        <Radius value="0.6875"/>
+        <SeparationRadius value="0.6875"/>
+        <MinimapRadius value="0.6875"/>
     </CUnit>
     <CUnit id="MengskSiegeTankSieged">
         <WeaponArray index="0" Link="ArcliteShockCannon"/>
@@ -6069,6 +6267,7 @@
         <SubgroupPriority value="142"/>
         <FlagArray index="Hero" value="1"/>
         <FlagArray index="ArmySelect" value="0"/>
+        <CargoSize value="8"/>
     </CUnit>
     <CUnit id="WarHound">
         <FlagArray index="Hero" value="1"/>
@@ -6114,6 +6313,7 @@
         </CardLayouts>
         <SubgroupPriority value="140"/>
         <AlliedPushPriority value="25"/>
+        <CargoSize value="8"/>
     </CUnit>
     <CUnit id="Azrael">
         <DeathRevealRadius value="3"/>

@@ -1,17 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <BankList>
-    <Bank Name="WarhammerBank" Player="1"/>
     <Bank Name="WarhammerBank" Player="2"/>
-    <Bank Name="WarhammerBank" Player="3"/>
-    <Bank Name="WarhammerBank" Player="4"/>
-    <Bank Name="WarhammerBank" Player="5"/>
-    <Bank Name="WarhammerBank" Player="6"/>
-    <Bank Name="WarhammerBank" Player="7"/>
-    <Bank Name="WarhammerBank" Player="8"/>
-    <Bank Name="WarhammerBank" Player="9"/>
-    <Bank Name="WarhammerBank" Player="10"/>
-    <Bank Name="WarhammerBank" Player="11"/>
-    <Bank Name="WarhammerBank" Player="12"/>
     <Bank Name="ZDebugProgress" Player="1"/>
     <Bank Name="TCampaign" Player="1"/>
     <Bank Name="PStoryTransition" Player="1"/>

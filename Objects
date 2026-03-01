@@ -4809,7 +4809,7 @@
     <ObjectDoodad Id="1311211499" Variation="2" Position="159.0175,151.3176,-0.0007" Rotation="5.696" Scale="0.8725,0.8725,0.8725" Type="Shadow_Asteroids">
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
-    <ObjectDoodad Id="276899806" Variation="5" Position="101.5,16.5,9.994" Rotation="6.0844" Scale="1,1,1" Type="UnbuildableRocks" TintColor="211,145,135">
+    <ObjectDoodad Id="276899806" Variation="5" Position="101.5,16.5,9.9897" Rotation="6.0844" Scale="1,1,1" Type="UnbuildableRocks" TintColor="211,145,135">
         <Flag Index="HeightOffset" Value="1"/>
         <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
@@ -5086,10 +5086,6 @@
     <ObjectDoodad Id="1150015476" Variation="1" Position="150.4162,125.7062,-12.008" Rotation="5.3862" Scale="0.9726,0.9726,0.9726" Type="AsteroidsSky">
         <Flag Index="HeightOffset" Value="1"/>
         <Flag Index="HeightAbsolute" Value="1"/>
-    </ObjectDoodad>
-    <ObjectDoodad Id="2865741" Position="128.712,176.7202,7.9978" Rotation="4.221" Scale="1,1,1" Type="HavenDoodadsCrates">
-        <Flag Index="HeightAbsolute" Value="1"/>
-        <Flag Index="ForcePlacement" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="1392342818" Position="172.4064,183.6994,12.02" Rotation="3.316" Scale="1.006,1.006,1.006" Type="PortZionCrane">
         <Flag Index="HeightAbsolute" Value="1"/>
@@ -7606,9 +7602,6 @@
     <ObjectDoodad Id="1221849009" Variation="5" Position="27.3847,85.2004,9.9978" Rotation="4.6511" Scale="1,1,0.7998" Type="SnowRefinery_Terran_WireConduits">
         <Flag Index="HeightAbsolute" Value="1"/>
         <Flag Index="ForcePlacement" Value="1"/>
-    </ObjectDoodad>
-    <ObjectDoodad Id="1467557918" Position="129.5,178.5,7.9978" Rotation="5.3308" Scale="1,1,1" Type="HavenDoodadsCrates">
-        <Flag Index="HeightAbsolute" Value="1"/>
     </ObjectDoodad>
     <ObjectDoodad Id="891739453" Position="116.2446,116.881,7.9992" Rotation="3.8837" Scale="0.3498,2.25,0.3498" Type="DecalSpace_Baked">
         <Flag Index="HeightOffset" Value="1"/>
@@ -12390,7 +12383,7 @@
     <ObjectUnit Id="1808624653" Position="72.01,32.9997,0" Rotation="5.1733" Scale="1,1,1" UnitType="SpineCrawler" Player="7">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
-    <ObjectUnit Id="1411924250" Position="205.5673,24.7373,0" Rotation="2.65" Scale="1,1,1" UnitType="Hydralisk" Player="6">
+    <ObjectUnit Id="1411924250" Position="205.5136,24.6767,0" Rotation="2.65" Scale="1,1,1" UnitType="Hydralisk" Player="6">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
     <ObjectUnit Id="2134905396" Position="63.3486,156.3818,0" Rotation="6.1452" Scale="1,1,1" UnitType="KhaydarinMonolith" Player="4">
@@ -12437,7 +12430,7 @@
     <ObjectUnit Id="250129012" Position="219.9992,184.0302,0" Rotation="5.3745" Scale="1,1,1" UnitType="SpineCrawler" Player="8">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
-    <ObjectUnit Id="534289416" Position="116.467,121.126,0" Rotation="5.3791" Scale="1,1,1" UnitType="Goliath" Player="1">
+    <ObjectUnit Id="534289416" Position="116.3771,121.1257,0" Rotation="5.3791" Scale="1,1,1" UnitType="Goliath" Player="1">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
     <ObjectUnit Id="1107052335" Position="98,224,0" Rotation="3.7507" Scale="1,1,1" UnitType="PhotonCannon" Player="4">
@@ -12532,6 +12525,9 @@
     </ObjectUnit>
     <ObjectUnit Id="1293053495" Position="229.3056,129.573,0" Rotation="5.786" Scale="1,1,1" UnitType="AutoTurret" Player="3">
         <Flag Index="ForcePlacement" Value="1"/>
+    </ObjectUnit>
+    <ObjectUnit Id="1583567016" Position="98.566,8.3793,0" Rotation="5.7497" Scale="1,1,1" UnitType="Ravager">
+        <Flag Index="UnitHidden" Value="1"/>
     </ObjectUnit>
     <ObjectUnit Id="1526697574" Position="222.7207,151.7666,0" Rotation="2.2346" Scale="1,1,1" UnitType="MannedTurret" Player="3">
         <Flag Index="ForcePlacement" Value="1"/>
@@ -13164,7 +13160,7 @@
     <ObjectUnit Id="1471978200" Position="198,144,0" Rotation="2.514" Scale="1,1,1" UnitType="AutoTurret" Player="3">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
-    <ObjectUnit Id="62256262" Position="122.87,117.2314,0" Rotation="5.379" Scale="1,1,1" UnitType="Goliath" Player="1">
+    <ObjectUnit Id="62256262" Position="123.0971,116.835,0" Rotation="5.379" Scale="1,1,1" UnitType="Goliath" Player="1">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
     <ObjectUnit Id="1426049845" Position="210.8774,249.5761,0" Rotation="6.2792" Scale="1,1,1" UnitType="SporeCrawler" Player="8">
@@ -13694,6 +13690,9 @@
     </ObjectUnit>
     <ObjectUnit Id="674518364" Position="144.5017,165.6923,0" Rotation="5.5585" Scale="1,1,1" UnitType="AutoTurret" Player="3">
         <Flag Index="ForcePlacement" Value="1"/>
+    </ObjectUnit>
+    <ObjectUnit Id="1274841539" Position="96.7998,9.41,0" Rotation="0.5351" Scale="1,1,1" UnitType="InfestedAbomination">
+        <Flag Index="UnitHidden" Value="1"/>
     </ObjectUnit>
     <ObjectUnit Id="1063397024" Position="158.961,211.7941,0" Rotation="0.368" Scale="1,1,1" UnitType="MannedTurret" Player="3">
         <Flag Index="ForcePlacement" Value="1"/>
@@ -14614,6 +14613,9 @@
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
     <ObjectUnit Id="1161561138" Position="66.9326,36.5737,0" Rotation="2.3012" Scale="1,1,1" UnitType="InfestorTerran" Player="7"/>
+    <ObjectUnit Id="1140933983" Position="166.4995,57.1335,0" Rotation="2.3906" Scale="1,1,1" UnitType="Knight" Player="2">
+        <Flag Index="ForcePlacement" Value="1"/>
+    </ObjectUnit>
     <ObjectUnit Id="777882743" Position="243.8537,185.891,0" Rotation="4.2055" Scale="1,1,1" UnitType="SporeCrawler" Player="8">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
@@ -15779,6 +15781,10 @@
     <ObjectUnit Id="553131058" Position="29.564,173.2097,0" Rotation="1.6232" Scale="1,1,1" UnitType="MannedTurret" Player="2">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
+    <ObjectUnit Id="2089392348" Position="97.7343,10.949,0" Rotation="2.5598" Scale="1,1,1" UnitType="Knight">
+        <Flag Index="UnitHidden" Value="1"/>
+        <Flag Index="ForcePlacement" Value="1"/>
+    </ObjectUnit>
     <ObjectUnit Id="1770173929" Position="173,51,0" Rotation="2.029" Scale="1,1,1" UnitType="MissileTurret" Player="2">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
@@ -15950,6 +15956,7 @@
     <ObjectUnit Id="349684744" Position="219.231,227.2375,0" Rotation="5.506" Scale="1,1,1" UnitType="Hydralisk" Player="8">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
+    <ObjectUnit Id="255653919" Position="123.6503,120.4663,0" Rotation="5.6467" Scale="1,1,1" UnitType="SisterOfBattle" Player="1"/>
     <ObjectUnit Id="430147257" Position="144.1174,103.9804,0" Rotation="0.21" Scale="1,1,1" UnitType="MannedTurret" Player="1">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
@@ -15990,6 +15997,7 @@
     <ObjectUnit Id="592899541" Position="161.1406,84.2761,0" Rotation="4.1066" Scale="1,1,1" UnitType="MissileTurret" Player="1">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
+    <ObjectUnit Id="1009971945" Position="120.8317,123.3098,0" Rotation="5.5227" Scale="1,1,1" UnitType="SisterOfBattle" Player="1"/>
     <ObjectUnit Id="960824676" Position="120.6845,117.3447,0" Rotation="5.4243" Scale="1,1,1" UnitType="Separatist" Player="1">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
@@ -16156,7 +16164,7 @@
     <ObjectUnit Id="1402319920" Position="229,167,0" Rotation="0.4091" Scale="1,1,1" UnitType="PrimalSunkenColony" Player="8">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
-    <ObjectUnit Id="269960341" Position="121.7377,116.1303,0" Rotation="5.379" Scale="1,1,1" UnitType="Goliath" Player="1">
+    <ObjectUnit Id="269960341" Position="121.92,115.7006,0" Rotation="5.379" Scale="1,1,1" UnitType="Goliath" Player="1">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
     <ObjectUnit Id="198804927" Position="168,157,0" Rotation="2.514" Scale="1,1,1" UnitType="AutoTurret" Player="3">

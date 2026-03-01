@@ -7,6 +7,17 @@
             <VitalMaxArray index="Life" value="350"/>
         </Modification>
     </CBehaviorBuff>
+    <CBehaviorBuff id="ChangelingDisable">
+        <Modification>
+            <ModifyFlags index="DisableAbils" value="0"/>
+        </Modification>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="Contaminated">
+        <Modification>
+            <ModifyFlags index="DisableWeapons" value="1"/>
+            <StateFlags index="SuppressAttack" value="1"/>
+        </Modification>
+    </CBehaviorBuff>
     <CBehaviorBuff id="DisablingCloud">
         <Modification MoveSpeedMultiplier="0.75"/>
     </CBehaviorBuff>
@@ -17,6 +28,11 @@
         <DamageResponse ModifyFraction="0.9">
             <Chance value="1"/>
         </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="GenestealerInfesttation">
+        <InfoIcon value="Assets\Icons\Dow1\i_genestealer3.TGA"/>
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <MaxStackCount value="3"/>
     </CBehaviorBuff>
     <CBehaviorBuff id="RazorLungeDamageReady">
         <InfoFlags index="Hidden" value="1"/>
