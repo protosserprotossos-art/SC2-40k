@@ -456,6 +456,7 @@
 <Behavior id="ArtanisStasisField"/>
 <Behavior id="SOASuperChrono"/>
 <Behavior id="AegisofTerra"/>
+<Behavior id="GenestealerInfesttation"/>
 <Behavior id="ChampionOfDevlan"/>
 <Behavior id="Avenger"/>
 <Behavior id="Durability"/>
@@ -483,7 +484,6 @@
 <Behavior id="AcceleratedDevelopment"/>
 <Behavior id="UncommandableSuper"/>
 <Behavior id="GoldenLionsMantle"/>
-<Behavior id="GenestealerInfesttation"/>
 <Light id="CLight"/>
 <Model id="ZeratulVoidAiur01"/>
 <Model id="NecronWarrior"/>
@@ -688,6 +688,7 @@
 <Unit id="GreaterGood"/>
 <Unit id="ScavengeNecronTechnology"/>
 <Unit id="GenestealerInsurrection"/>
+<Unit id="Knight"/>
 <Unit id="VindicatorAssasin"/>
 <Unit id="GuardsmanRocketVariant"/>
 <Unit id="Skittari"/>
@@ -719,7 +720,6 @@
 <Unit id="Zealothero"/>
 <Unit id="TrazynTheInfinite"/>
 <Unit id="ImotekhTheStomlord"/>
-<Unit id="Knight"/>
 <Upgrade id="HarmonicSurge"/>
 <Upgrade id="LongshotSurge"/>
 <Upgrade id="StreamlinedMunitioning"/>

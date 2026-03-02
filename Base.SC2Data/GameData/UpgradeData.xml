@@ -3541,6 +3541,9 @@
         <EffectArray Reference="Unit,Knight,LifeMax" Value="43"/>
         <EffectArray Reference="Unit,Knight,LifeStart" Value="43"/>
         <EffectArray Reference="Effect,ZeratulVoidAiur012,Amount" Value="1.5"/>
+        <EffectArray Reference="Unit,Bunker,LifeMax" Value="20"/>
+        <EffectArray Reference="Unit,Bunker,LifeStart" Value="20"/>
+        <EffectArray Operation="Subtract" Reference="Abil,TerranBuild,InfoArray[Build7].Time" Value="1.000000"/>
         <MaxLevel value="20"/>
     </CUpgrade>
     <CUpgrade id="VigilantQuadrexUpgradeSpawn">

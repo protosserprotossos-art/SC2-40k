@@ -408,6 +408,7 @@
             <Vital index="Energy" value="0"/>
             <Cooldown TimeUse="60"/>
         </Cost>
+        <CmdButtonArray index="Execute" Requirements="JorgumandrIdentifer"/>
     </CAbilEffectInstant>
     <CAbilEffectInstant id="TacticalRedeployment">
         <EditorCategories value="AbilityorEffectType:Units"/>
@@ -506,7 +507,7 @@
         <CmdButtonArray index="Execute" DefaultButtonFace="NecronsAscendant" Requirements="NecronsAscendant"/>
     </CAbilEffectInstant>
     <CAbilBuild id="TerranBuild">
-        <InfoArray index="Build7" Time="30">
+        <InfoArray index="Build7" Time="24">
             <Button Requirements="BunkerRequirements"/>
         </InfoArray>
     </CAbilBuild>

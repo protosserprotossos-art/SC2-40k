@@ -125,8 +125,8 @@
         <EditorCategories value="ObjectType:Projectile,ObjectFamily:Melee"/>
     </CUnit>
     <CUnit id="AshWorm">
-        <LifeStart value="3000"/>
-        <LifeMax value="3000"/>
+        <LifeStart value="2500"/>
+        <LifeMax value="2500"/>
         <LifeArmor value="0"/>
         <LifeRegenRate value="0"/>
         <Sight value="10"/>
@@ -1550,7 +1550,6 @@
         <FlagArray index="Invulnerable" value="1"/>
         <PushPriority value="11"/>
         <Attributes index="Hover" value="1"/>
-        <Attributes index="Heroic" value="1"/>
         <LifeStart value="1550"/>
         <LifeMax value="1550"/>
         <LifeArmor value="5"/>
@@ -2166,6 +2165,7 @@
             <LayoutButtons index="5" Face="JuggernautPlating" AbilCmd="255,255" Requirements="UseJuggernautPlatingFirebat" Column="1"/>
             <LayoutButtons index="6" Face="Bunker" Type="AbilCmd" AbilCmd="TerranBuild,Build7" Requirements="" Column="0"/>
         </CardLayouts>
+        <CargoSize value="1"/>
     </CUnit>
     <CUnit id="FlayedOne2">
         <DeathRevealRadius value="3"/>
@@ -2958,6 +2958,7 @@
         <AbilArray Link="stop"/>
         <AbilArray Link="attack"/>
         <AbilArray Link="move"/>
+        <AbilArray Link="TerranBuild"/>
         <WeaponArray Link="C10CanisterRifle"/>
         <CardLayouts>
             <LayoutButtons Face="Move" Type="AbilCmd" AbilCmd="move,Move" Row="0" Column="0"/>
@@ -2965,11 +2966,12 @@
             <LayoutButtons Face="MoveHoldPosition" Type="AbilCmd" AbilCmd="move,HoldPos" Row="0" Column="2"/>
             <LayoutButtons Face="MovePatrol" Type="AbilCmd" AbilCmd="move,Patrol" Row="0" Column="3"/>
             <LayoutButtons Face="Attack" Type="AbilCmd" AbilCmd="attack,Execute" Row="0" Column="4"/>
+            <LayoutButtons Face="Bunker" Type="AbilCmd" AbilCmd="TerranBuild,Build7" Row="2" Column="0"/>
         </CardLayouts>
         <Radius value="0.375"/>
         <SeparationRadius value="0.375"/>
         <InnerRadius value="0.375"/>
-        <CargoSize value="2"/>
+        <CargoSize value="1"/>
         <ScoreMake value="300"/>
         <ScoreKill value="300"/>
         <ScoreResult value="BuildOrder"/>
@@ -4720,7 +4722,7 @@
         <Attributes index="Heroic" value="1"/>
         <LifeStart value="3000"/>
         <LifeMax value="3000"/>
-        <LifeArmor value="12"/>
+        <LifeArmor value="11"/>
         <LifeRegenDelay value="5"/>
         <LifeRegenRate value="20"/>
         <SpeedMultiplierCreep value="1.2"/>

@@ -5054,7 +5054,7 @@ void gf_DefenseSpawnbasicground (unit lp_attackingUnit, int lp_playerTeam, point
         libNtve_gf_CreateUnitsWithDefaultFacing(1, "SpineCrawler", c_unitCreateIgnorePlacement, 0, lp_point);
         libNtve_gf_RescueUnit(UnitLastCreated(), UnitGetOwner(lp_attackingUnit), true);
     }
-    else if ((lp_playerTeam == gv_itemTau)) {
+    else if (((lp_playerTeam == gv_itemTau) || (lp_playerTeam == 15))) {
         libNtve_gf_CreateUnitsWithDefaultFacing(1, "PhotonCannon", c_unitCreateIgnorePlacement, 0, lp_point);
         libNtve_gf_RescueUnit(UnitLastCreated(), UnitGetOwner(lp_attackingUnit), true);
     }
@@ -5076,7 +5076,7 @@ void gf_DefenseSpawnbasicair (unit lp_attackingUnit, int lp_playerTeam, point lp
         libNtve_gf_CreateUnitsWithDefaultFacing(1, "SporeCrawler", c_unitCreateIgnorePlacement, 0, lp_point);
         libNtve_gf_RescueUnit(UnitLastCreated(), UnitGetOwner(lp_attackingUnit), true);
     }
-    else if ((lp_playerTeam == gv_itemTau)) {
+    else if (((lp_playerTeam == gv_itemTau) || (lp_playerTeam == 15))) {
     }
     else if ((lp_playerTeam == gv_itemNecrons)) {
     }
@@ -5094,7 +5094,7 @@ void gf_DefenseSpawnheavy (unit lp_attackingUnit, int lp_playerTeam, point lp_po
         libNtve_gf_CreateUnitsWithDefaultFacing(1, "PrimalSunkenColony", c_unitCreateIgnorePlacement, 0, lp_point);
         libNtve_gf_RescueUnit(UnitLastCreated(), UnitGetOwner(lp_attackingUnit), true);
     }
-    else if ((lp_playerTeam == gv_itemTau)) {
+    else if (((lp_playerTeam == gv_itemTau) || (lp_playerTeam == 15))) {
         libNtve_gf_CreateUnitsWithDefaultFacing(1, "KhaydarinMonolith", c_unitCreateIgnorePlacement, 0, lp_point);
         libNtve_gf_RescueUnit(UnitLastCreated(), UnitGetOwner(lp_attackingUnit), true);
     }
@@ -28503,7 +28503,7 @@ bool gt_EnclaveCivilWar_Func (bool testConds, bool runActions) {
         gv_enclaveCivilWarActivated = true;
         libNtve_gf_SetUpgradeLevelForPlayer(EventPlayer(), "TauEnclaveCivilWar", 1);
         gf_SpawnTau(UnitFromId(172819595), 3, false);
-        libNtve_gf_RescueUnit(UnitFromId(1508605938), 10, true);
+        libNtve_gf_RescueUnit(UnitFromId(1508605938), 15, true);
         UIDisplayMessage(PlayerGroupAll(), c_messageAreaSubtitle, StringExternal("Param/Value/8AE0D1B5"));
     }
 

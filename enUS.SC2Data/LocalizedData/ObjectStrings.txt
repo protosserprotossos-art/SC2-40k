@@ -1325,7 +1325,6 @@ Unit/EditorSuffix/OutfitVanceStubbsWithCarapaceArmor=(Beacon)
 Unit/EditorSuffix/PhoenixPurifier=- Purifier
 Unit/EditorSuffix/PlaceholderSpawner=- Small
 Unit/EditorSuffix/PrimarisMarines=(Beacon)
-Unit/EditorSuffix/RaynorLab=(Marine, Lab)
 Unit/EditorSuffix/RobouteGuilliman=(Ascendant)
 Unit/EditorSuffix/ScavengeNecronTechnology=(Nova)
 Unit/EditorSuffix/SentryPurifier=- Purifier
